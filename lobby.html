@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en" data-theme="aurora">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#071421">
+  <meta name="color-scheme" content="dark">
+  <meta name="description" content="Ferret Frenzy multiplayer lobby">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
+  <link rel="stylesheet" href="css/lobby.css">
+  <title>Ferret Frenzy — Lobby</title>
+</head>
+<body>
+  <div class="aurora-bg" aria-hidden="true">
+    <div class="aurora-ribbon aurora-ribbon-a"></div>
+    <div class="aurora-ribbon aurora-ribbon-b"></div>
+    <div class="aurora-ribbon aurora-ribbon-c"></div>
+    <div class="starfield"></div>
+  </div>
+
+  <main class="lobby-shell" id="lobbyApp">
+    <header class="top-console">
+      <a class="mini-brand" href="lobby.html" aria-label="Ferret Frenzy lobby home">
+        <img src="assets/images/frenzy_logo.png" alt="">
+        <span><strong>FERRET FRENZY</strong><small>LOBBY</small></span>
+      </a>
+
+      <div class="top-status" id="connectionChip" data-state="checking" aria-live="polite">
+        <span class="status-light" aria-hidden="true"></span>
+        <span id="connectionText">CHECKING BURROWS</span>
+      </div>
+
+      <nav class="top-actions" aria-label="Lobby controls">
+        <button class="console-button install-button" id="installButton" type="button">
+          <span class="button-icon" aria-hidden="true">⇩</span><span id="installText">DOWNLOAD APP</span>
+        </button>
+        <button class="console-button" id="refreshButton" type="button" title="Refresh public games">
+          <span class="button-icon refresh-glyph" aria-hidden="true">↻</span><span>REFRESH</span>
+        </button>
+        <button class="console-button" id="musicButton" type="button" aria-pressed="true" title="Toggle lobby music">
+          <span class="button-icon" aria-hidden="true">♫</span><span>MUSIC</span>
+        </button>
+      </nav>
+    </header>
+
+    <section class="viewport-frame" aria-label="Ferret Frenzy lobby viewport">
+      <div class="frame-bolt bolt-a"></div><div class="frame-bolt bolt-b"></div>
+      <div class="frame-bolt bolt-c"></div><div class="frame-bolt bolt-d"></div>
+
+      <div class="lobby-viewport">
+        <section class="identity-deck" aria-label="Player profile">
+          <div class="identity-copy">
+            <span class="micro-label">PLAYER</span>
+            <label class="name-entry">
+              <span class="ferret-badge" aria-hidden="true">🐾</span>
+              <input id="displayName" maxlength="24" autocomplete="nickname" spellcheck="false" aria-label="Player name" placeholder="Ferret">
+            </label>
+          </div>
+          <p>No account required. Your guest name stays on this device.</p>
+        </section>
+
+        <div class="lobby-grid">
+          <section class="menu-bay" aria-label="Online game menu">
+            <div class="logo-stage">
+              <div class="logo-halo" aria-hidden="true"></div>
+              <img class="frenzy-logo" src="assets/images/frenzy_logo.png" alt="Ferret Frenzy">
+            </div>
+
+            <div class="online-menu" aria-label="Lobby choices">
+              <article class="menu-panel host-panel">
+                <div class="menu-heading">
+                  <span class="menu-symbol" aria-hidden="true">✦</span>
+                  <span><small>HOST</small><strong>CREATE GAME</strong></span>
+                </div>
+                <div class="menu-controls host-controls">
+                  <button class="among-button primary" id="createPrivateButton" type="button"><span>PRIVATE</span><small>FRIENDS + CODE</small></button>
+                  <button class="among-button" id="createPublicButton" type="button"><span>PUBLIC</span><small>LIST THIS BURROW</small></button>
+                </div>
+              </article>
+
+              <article class="menu-panel public-panel">
+                <div class="menu-heading">
+                  <span class="menu-symbol" aria-hidden="true">◉</span>
+                  <span><small>PUBLIC</small><strong>FIND GAME</strong></span>
+                </div>
+                <div class="public-count-block">
+                  <strong id="publicGameCount">0</strong>
+                  <span>OPEN BURROWS</span>
+                </div>
+              </article>
+
+              <article class="menu-panel private-panel">
+                <div class="menu-heading">
+                  <span class="menu-symbol" aria-hidden="true">⌁</span>
+                  <span><small>PRIVATE</small><strong>ENTER CODE</strong></span>
+                </div>
+                <form class="friend-code-form" id="codeForm">
+                  <input id="friendCode" name="roomCode" inputmode="numeric" pattern="[0-9]{6}" maxlength="6" autocomplete="one-time-code" placeholder="000000" aria-label="Six-digit friend code">
+                  <button class="code-arrow" type="submit" aria-label="Join room">➜</button>
+                </form>
+              </article>
+            </div>
+
+            <div class="host-options" aria-label="Host options">
+              <label><span>PLAYERS</span>
+                <select id="targetPlayers" aria-label="Target player count">
+                  <option value="4">4</option><option value="5">5</option><option value="6" selected>6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option>
+                </select>
+              </label>
+              <label class="switch-line"><input id="allowBots" type="checkbox" checked><span>ALLOW ROLE BOTS</span></label>
+              <label class="switch-line"><input id="autoFillBots" type="checkbox"><span>AUTO-FILL BOTS</span></label>
+            </div>
+          </section>
+
+          <section class="browser-bay" aria-label="Public games">
+            <header class="browser-header">
+              <div>
+                <span class="micro-label">PUBLIC BURROWS</span>
+                <h1>Games being played</h1>
+              </div>
+              <div class="live-key"><span></span> LIVE</div>
+            </header>
+
+            <div class="room-list" id="gamesList" aria-live="polite" aria-busy="true">
+              <div class="empty-state loading-state"><div class="spinner" aria-hidden="true"></div><strong>Scanning for open burrows…</strong></div>
+            </div>
+
+            <footer class="browser-footer">
+              <span id="lastUpdated">NOT YET UPDATED</span>
+              <span>SELECT A BURROW TO JOIN</span>
+            </footer>
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <footer class="status-rail">
+      <span id="railStatus">CONNECTING TO FERRET FRENZY</span>
+      <span class="rail-center">NORTHERN LIGHTS NETWORK</span>
+      <span>MINNOW CASE STATUS: UNSOLVED</span>
+    </footer>
+
+    <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+    <div class="busy-mask" id="busyMask" hidden>
+      <div class="busy-card"><div class="spinner" aria-hidden="true"></div><strong id="busyText">Opening burrow…</strong></div>
+    </div>
+  </main>
+
+  <audio id="lobbyMusic" src="assets/audio/ferret_dancing.mp3" preload="auto" loop playsinline></audio>
+  <script src="js/lobby.js" defer></script>
+</body>
+</html>
