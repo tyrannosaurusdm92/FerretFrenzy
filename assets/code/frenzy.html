@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en" data-theme="aurora">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#071321">
+<link rel="manifest" href="../../manifest.webmanifest">
+<link rel="apple-touch-icon" href="../images/apple-touch-icon.png">
+<title>Ferret Frenzy — Game</title>
+<link rel="stylesheet" href="../../css/frenzy-shell.css">
+<link rel="stylesheet" href="../../css/dice.css">
+<link rel="stylesheet" href="../../css/frenzy-game.css">
+</head>
+<body>
+<main class="game-page" id="ferretFrenzyShell" data-game-state="playing" data-phase="loading">
+<header class="game-toolbar"><div class="game-tools" role="toolbar" aria-label="Ferret Frenzy menus">
+<div class="brand-tool" aria-label="Ferret Frenzy"><img class="shell-logo" src="../images/frenzy_logo.png" alt=""><span class="brand-copy"><strong>FERRET FRENZY</strong><small id="networkStatus">Connecting to burrow…</small></span></div>
+<button class="game-tool" data-tool="controls" aria-pressed="false"><span class="tool-icon">⌨</span><span class="tool-label">Controls</span></button>
+<button class="game-tool" data-tool="accessibility" aria-pressed="false"><span class="tool-icon">♿</span><span class="tool-label">Accessibility</span></button>
+<button class="game-tool" data-tool="settings" aria-pressed="false"><span class="tool-icon">⚙</span><span class="tool-label">Settings</span></button>
+<button class="game-tool" data-tool="chat" aria-pressed="false"><span class="tool-icon">🐾</span><span class="tool-label" id="chatToolLabel">Discussion</span></button>
+</div></header>
+<div class="panels">
+<section class="panel discussion-panel" data-panel="chat" style="width:min(920px,calc(100vw - 24px))">
+ <div class="panel-head"><span>🐾</span><strong id="discussionTitle">Morning Business</strong><span class="panel-actions"><button data-pin="chat" aria-label="Pin discussion">⌖</button><button data-close="chat" aria-label="Close discussion">×</button></span></div>
+ <div class="panel-body discussion-body">
+  <div class="discussion-note" id="discussionPhaseNote">Discussion becomes available after Hour 12.</div>
+  <div class="discussion-messages" id="discussionMessages" role="log" aria-live="polite"></div>
+  <form id="discussionForm" class="discussion-compose"><input id="discussionInput" maxlength="500" placeholder="Share your claim with everyone" autocomplete="off"><button class="panel-btn" type="submit">Send</button></form>
+  <section class="paw-vote" id="pawVote" hidden>
+   <div class="vote-head"><div><h3>Paw Point Vote</h3><p>Select exactly one player. Votes lock simultaneously.</p></div><span id="voteProgress">Waiting…</span></div>
+   <div class="vote-candidates" id="voteCandidates" role="radiogroup" aria-label="Choose one player"></div>
+   <div class="vote-actions"><button class="panel-btn secondary" id="clearVoteButton" type="button">Clear choice</button><button class="panel-btn" id="lockVoteButton" type="button" disabled>Lock Paw Point</button></div>
+   <div class="readout" id="voteStatus">Choose Player 1, Player 2, Player 3, etc., then lock your vote.</div>
+  </section>
+  <button class="panel-btn vote-open-host" id="openVotingButton" type="button" hidden>Open Paw Point Voting</button>
+ </div>
+</section>
+<section class="panel" data-panel="game"><div class="panel-head"><span>☰</span><strong>Ferret Frenzy Menu</strong><span class="panel-actions"><button data-pin="game" aria-label="Pin menu">⌖</button><button data-close="game" aria-label="Close menu">×</button></span></div><div class="panel-body">
+ <div class="section"><h3>Burrow Clock</h3><div class="grid cols-2"><button class="panel-btn" data-start-game>Start Game</button><button class="panel-btn secondary" data-reset-game>Reset Timer</button></div><div class="readout">Twelve Burrow Hours, 60 seconds each. After Hour 12, Morning Business opens.</div></div>
+ <div class="section"><h3>Menus</h3><div class="grid cols-2"><button class="menu-item" data-open-panel="controls">Controls</button><button class="menu-item" data-open-panel="chat">Discussion / Vote</button><button class="menu-item" data-open-panel="accessibility">Accessibility</button><button class="menu-item" data-open-panel="settings">Settings</button></div></div>
+ <div class="section"><h3>Private Controls</h3><div class="grid cols-2"><button class="menu-item" data-open-panel="resultLock">/3/ Confirm Result</button><button class="menu-item" data-open-panel="privateInfo">/4/ Private Info</button><button class="menu-item" data-open-panel="notebook">Y Notebook</button></div></div>
+</div></section>
+<section class="panel" data-panel="controls"><div class="panel-head"><span>⌨</span><strong>Ferret Frenzy Controls</strong><span class="panel-actions"><button data-pin="controls" aria-label="Pin controls">⌖</button><button data-close="controls" aria-label="Close controls">×</button></span></div><div class="panel-body">
+ <div class="section"><h3>Dice</h3><div class="readout"><strong>/1/</strong> selects d6 action/chance. <strong>/2/</strong> selects d12 wake-hour. Online rolls are server-authoritative and private.</div></div>
+ <div class="section"><h3>Joystick</h3><div class="readout">Normal movement navigates. A deliberate flick rolls the selected die.</div></div>
+ <div class="section"><h3>Number buttons</h3><div class="readout"><strong>/3/</strong> confirms/locks the latest result. <strong>/4/</strong> opens role, wake schedule, Treat States, co-wakers, and confirmed facts.</div></div>
+ <div class="section"><h3>Action buttons</h3><div class="readout"><strong>A</strong> confirm/select · <strong>B</strong> back/cancel · <strong>X</strong> role action · <strong>Y</strong> private notebook · <strong>Z/R</strong> reserved.</div></div>
+</div></section>
+<section class="panel" data-panel="accessibility"><div class="panel-head"><span>♿</span><strong>Accessibility</strong><span class="panel-actions"><button data-pin="accessibility" aria-label="Pin accessibility">⌖</button><button data-close="accessibility" aria-label="Close accessibility">×</button></span></div><div class="panel-body"><div class="section"><h3>Controls</h3><label class="range-row"><span>Joystick</span><input id="joySize" type="range" min="84" max="190" value="142"><output>142 px</output></label><label class="range-row"><span>Opacity</span><input id="joyOpacity" type="range" min="45" max="100" value="90"><output>90%</output></label></div><div class="section"><h3>Motion</h3><label class="check"><input id="reduceAurora" type="checkbox"> Stop northern-lights background motion</label></div></div></section>
+<section class="panel" data-panel="settings"><div class="panel-head"><span>⚙</span><strong>Settings</strong><span class="panel-actions"><button data-pin="settings" aria-label="Pin settings">⌖</button><button data-close="settings" aria-label="Close settings">×</button></span></div><div class="panel-body"><div class="section"><h3>Audio</h3><label class="range-row"><span>Volume</span><input id="diceVolume" type="range" min="0" max="100" value="45"><output>45%</output></label><div class="readout">Dice rolls use dice-roll.mp3. Night uses ferret.mp3. Morning Business uses ferret_sound.mp3. Lobby and Paw Point voting use ferret_dancing.mp3.</div></div><div class="section"><h3>Display</h3><div class="grid cols-2"><button class="panel-btn" id="fullscreenButton">Fullscreen</button><button class="panel-btn secondary" id="rollButton">Roll selected die</button></div></div></div></section>
+<section class="panel" data-panel="resultLock"><div class="panel-head"><span>3</span><strong>Result Confirm / Lock</strong><span class="panel-actions"><button data-pin="resultLock" aria-label="Pin Result Confirm / Lock">⌖</button><button data-close="resultLock" aria-label="Close Result Confirm / Lock">×</button></span></div><div class="panel-body"><div class="section"><h3>Latest Private Roll</h3><div class="readout" id="latestPrivateRoll">No roll yet.</div><button class="panel-btn" data-confirm-result>Confirm latest result</button></div></div></section>
+<section class="panel" data-panel="privateInfo"><div class="panel-head"><span>4</span><strong>Private Information</strong><span class="panel-actions"><button data-pin="privateInfo" aria-label="Pin Private Information">⌖</button><button data-close="privateInfo" aria-label="Close Private Information">×</button></span></div><div class="panel-body"><div class="section"><h3>Your confirmed private facts</h3><div class="private-grid"><div class="private-card"><strong>Role</strong><span id="privateRole">—</span></div><div class="private-card"><strong>Wake schedule</strong><ul id="privateWakeSchedule"><li>—</li></ul></div><div class="private-card"><strong>Treat States</strong><ul id="privateTreatStates"><li>—</li></ul></div><div class="private-card"><strong>Co-wakers</strong><ul id="privateCoWakers"><li>—</li></ul></div><div class="private-card" style="grid-column:1/-1"><strong>Confirmed facts</strong><ul id="privateFacts"><li>—</li></ul></div></div></div></div></section>
+<section class="panel" data-panel="notebook"><div class="panel-head"><span>Y</span><strong>Private Notebook</strong><span class="panel-actions"><button data-pin="notebook" aria-label="Pin Private Notebook">⌖</button><button data-close="notebook" aria-label="Close Private Notebook">×</button></span></div><div class="panel-body"><div class="section"><h3>Private reminders</h3><textarea aria-label="Private notebook" class="notebook-area" id="notebookText" placeholder="Private notes for this room stay on this device."></textarea><div class="readout">This notebook contains your own notes. Confirmed facts remain separate.</div></div></div></section>
+<section class="panel" data-panel="roleAction"><div class="panel-head"><span>X</span><strong id="roleActionTitle">Role Action</strong><span class="panel-actions"><button data-close="roleAction" aria-label="Close role action">×</button></span></div><div class="panel-body"><div class="section"><h3 id="roleActionPrompt">No role action is waiting.</h3><div class="role-targets" id="roleActionTargets"></div><div class="grid cols-2"><button class="panel-btn secondary" id="roleActionPass" type="button">Pass</button><button class="panel-btn" id="roleActionConfirm" type="button" disabled>Confirm action</button></div><div class="readout" id="roleActionStatus">Role actions use only information your client is allowed to see.</div></div></div></section>
+</div>
+<section class="stage-wrap">
+<div class="viewer-screen" id="viewerScreen" tabindex="0" aria-label="Ferret Frenzy private game viewport">
+ <div class="viewer-backdrop" aria-hidden="true"></div>
+ <img class="game-scene" id="gameScene" src="../images/Aurora-lit ferret treats bookshelf-1.png" alt="Aurora-lit ferret shelf with the Minnow Treats present">
+ <div id="diceRoller" aria-label="3D dice landing area"></div>
+ <div class="game-hud" id="gameHud"><button class="hud-btn" id="menuButton">MENU</button><div class="hud-title"><strong>FERRET FRENZY</strong><small id="behaviorHud">D6 SELECTED · STORM GALAXY GOLD</small></div>
+  <div class="hud-treat" id="treatHud"><img src="../images/minnow treats.png" alt=""><span id="treatHudText">TREATS PRESENT</span></div>
+  <div class="hud-control-strip" id="hudControlStrip" aria-label="Sound and private controls"><span class="hud-toggle-group"><button class="hud-icon-btn" data-sound-level="0" title="Mute">🔇</button><button class="hud-icon-btn" data-sound-level="0.45" title="Low sound">🔉</button><button class="hud-icon-btn" data-sound-level="1" title="Full sound">🔊</button></span><span class="hud-toggle-group"><button class="hud-icon-btn" id="privateInfoQuick" title="Private information">🔒</button><button class="hud-icon-btn" id="notebookQuick" title="Private notebook">📝</button></span><span class="hud-toggle-group"><button class="hud-icon-btn" id="controlsOnButton" title="Show controls">🕹️</button><button class="hud-icon-btn" id="controlsOffButton" title="Hide controls">🔐</button></span></div>
+  <button class="start-game-btn" data-start-game id="startGameButton" type="button">START GAME</button><div class="game-timer" id="gameTimer"><span class="timer-hour" id="timerHour">HOUR 1 / 12</span><span class="timer-count" id="timerCountdown">01:00</span><span class="timer-state" id="timerState">READY · PRESS START GAME</span></div><button class="hud-btn" id="pauseButton" aria-label="Pause">Ⅱ</button>
+ </div>
+ <div class="roll-result" id="rollResult" role="status" aria-live="polite">D6 selected · flick joystick to roll</div><span id="dieChip" hidden>d6</span>
+ <div class="control-layer" id="controlLayer"><div class="joystick" id="rollJoystick" role="application" aria-label="Navigation and dice-roll joystick"><div class="joy-base"></div><div class="joy-handle" id="rollJoyHandle"></div><div class="joy-label">NAV / FLICK</div></div><div class="actions" aria-label="Action controls"><button class="action" data-key="Y" aria-label="Y — Private notebook"><span>Y</span><small>NOTEBOOK</small></button><button class="action" data-key="R" aria-label="R — Reserved"><span>R</span><small>RESERVED</small></button><button class="action" data-key="B" aria-label="B — Back or cancel"><span>B</span><small>BACK</small></button><button class="action" data-key="X" aria-label="X — Context-sensitive role action" aria-disabled="true"><span>X</span><small>ROLE ACTION</small></button><button class="action" data-key="Z" aria-label="Z — Reserved"><span>Z</span><small>RESERVED</small></button><button class="action" data-key="A" aria-label="A — Confirm or select"><span>A</span><small>CONFIRM</small></button></div></div>
+ <div class="paused-mask"><div class="pause-card"><strong>Paused</strong><span>The game clock and controls are paused.</span></div></div>
+</div>
+<div class="number-rail" id="numberRail" aria-label="Dice and system selection"><button class="num-btn selected" data-die="d6" data-system="1" aria-pressed="true">1<small>D6</small></button><button class="num-btn" data-die="d12" data-system="2" aria-pressed="false">2<small>D12</small></button><button class="num-btn" data-system="3" aria-pressed="false">3<small>CONFIRM</small></button><button class="num-btn" data-system="4" aria-pressed="false">4<small>PRIVATE</small></button><span class="selector-note">1 = d6 · 2 = d12 · 3 = confirm · 4 = private info · joystick = navigate / deliberate flick rolls</span></div>
+</section>
+</main>
+<div class="sleep-lock" id="sleepLock" hidden aria-label="Night Lock: this ferret is sleeping"><img src="../images/frenzy_logo.png" alt="Ferret Frenzy"></div>
+<script src="../../js/backend-config.js"></script>
+<script src="../../js/audio-manager.js"></script>
+<script src="../../js/pwa-register.js"></script>
+<script src="../../js/dice.js"></script>
+<script src="../../js/frenzy-game.js"></script>
+<script src="../../js/frenzy-shell.js"></script>
+<script src="../../js/minnow-hitbox.js"></script>
+<script type="module" src="../../js/frenzy-network.js"></script>
+<script type="module" src="../../js/bot-game-bootstrap.js"></script>
+</body></html>

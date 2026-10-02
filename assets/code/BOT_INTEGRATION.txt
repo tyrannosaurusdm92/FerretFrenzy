@@ -1,0 +1,10 @@
+Ferret Frenzy smart role-bot integration
+
+- js/ferret-frenzy-bot-core.js is the uploaded merged bot engine.
+- One role module + one 250-line response library is installed for each of the eight roles.
+- js/assign-role.js reserves an unused role-controller slot when possible. Single-copy special roles are not duplicated by reservations; Bandit and Business may repeat according to the dossier.
+- js/bot-manager.js creates anonymous bot guests for empty seats when the host presses Start Game.
+- The backend still deals the actual hidden starting cards. After that deal, the manager loads the role bot matching each bot's authoritative startingRole.
+- js/bot-game-bootstrap.js resumes the role bots in assets/code/frenzy.html after the lobby navigates into the match.
+
+This avoids leaking or overriding hidden roles while still using the new role-specific bot behavior and 250 responses per role.
