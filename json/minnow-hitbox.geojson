@@ -1,0 +1,49 @@
+{
+  "type": "FeatureCollection",
+  "name": "Ferret Frenzy Minnow Treats Locked Hitbox",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "minnow-treats-hitbox",
+      "properties": {
+        "game": "Ferret Frenzy",
+        "asset": "assets/images/Aurora-lit ferret treats bookshelf-1.png",
+        "coordinate_space": "image-pixels",
+        "image_width": 1672,
+        "image_height": 941,
+        "purpose": "Bandit Raider clickable theft target",
+        "locked": true,
+        "runtime": "js/minnow-hitbox.js",
+        "interaction": "Raider-only theft hotspot during the Raider wake hour; switches local scene to post-theft.",
+        "source": "User-approved polygon"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              726.51,
+              258.23
+            ],
+            [
+              916.57,
+              257.2
+            ],
+            [
+              904.8,
+              454
+            ],
+            [
+              736.84,
+              451.39
+            ],
+            [
+              726.51,
+              258.23
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

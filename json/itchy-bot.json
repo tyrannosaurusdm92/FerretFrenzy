@@ -1,0 +1,3135 @@
+{
+  "schemaVersion": "1.0",
+  "game": "Ferret Frenzy",
+  "role": "ITCHY",
+  "roleName": "Itchy",
+  "coat": "Cinnamon",
+  "responseCount": 250,
+  "responses": [
+    {
+      "category": "partial_clue",
+      "requires": [
+        "clueA",
+        "clueB"
+      ],
+      "text": "From my side, my partial clue named {{clueA}} and {{clueB}}; exactly one was the Raider, but I was not told which. That is where I am starting.",
+      "id": "itchy-001",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "partial_clue"
+      ]
+    },
+    {
+      "category": "partial_clue",
+      "requires": [
+        "clueA",
+        "clueB"
+      ],
+      "text": "For the timeline, Ears Up gave me a two-ferret clue: {{clueA}} / {{clueB}}. One is the Raider, one is the decoy. That is evidence, not a verdict.",
+      "id": "itchy-002",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "partial_clue"
+      ]
+    },
+    {
+      "category": "partial_clue",
+      "requires": [
+        "clueA",
+        "clueB"
+      ],
+      "text": "What I can confirm is my partial clue named {{clueA}} and {{clueB}}; exactly one was the Raider, but I was not told which. That could be true without proving allegiance.",
+      "id": "itchy-003",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "partial_clue"
+      ]
+    },
+    {
+      "category": "partial_clue",
+      "requires": [
+        "clueA",
+        "clueB"
+      ],
+      "text": "My read right now is Ears Up gave me a two-ferret clue: {{clueA}} / {{clueB}}. One is the Raider, one is the decoy. I am keeping the difference between starting role and current card in mind.",
+      "id": "itchy-004",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "partial_clue"
+      ]
+    },
+    {
+      "category": "partial_clue",
+      "requires": [
+        "clueA",
+        "clueB"
+      ],
+      "text": "I keep coming back to my partial clue named {{clueA}} and {{clueB}}; exactly one was the Raider, but I was not told which. That does not settle the whole round.",
+      "id": "itchy-005",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "partial_clue"
+      ]
+    },
+    {
+      "category": "partial_clue",
+      "requires": [
+        "clueA",
+        "clueB"
+      ],
+      "text": "The piece I trust most is Ears Up gave me a two-ferret clue: {{clueA}} / {{clueB}}. One is the Raider, one is the decoy. A swap could still change what the cards mean.",
+      "id": "itchy-006",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "partial_clue"
+      ]
+    },
+    {
+      "category": "partial_clue",
+      "requires": [
+        "clueA",
+        "clueB"
+      ],
+      "text": "Before we Paw Point, my partial clue named {{clueA}} and {{clueB}}; exactly one was the Raider, but I was not told which. I am comparing who was awake before and after the treats vanished.",
+      "id": "itchy-007",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "partial_clue"
+      ]
+    },
+    {
+      "category": "partial_clue",
+      "requires": [
+        "clueA",
+        "clueB"
+      ],
+      "text": "I am comparing notes and Ears Up gave me a two-ferret clue: {{clueA}} / {{clueB}}. One is the Raider, one is the decoy. I would rather be precise than loud.",
+      "id": "itchy-008",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "partial_clue"
+      ]
+    },
+    {
+      "category": "partial_clue",
+      "requires": [
+        "clueA",
+        "clueB"
+      ],
+      "text": "One thing I do not want to lose is my partial clue named {{clueA}} and {{clueB}}; exactly one was the Raider, but I was not told which. I am keeping my Paw Point open for now.",
+      "id": "itchy-009",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "partial_clue"
+      ]
+    },
+    {
+      "category": "partial_clue",
+      "requires": [
+        "clueA",
+        "clueB"
+      ],
+      "text": "The useful detail for me is Ears Up gave me a two-ferret clue: {{clueA}} / {{clueB}}. One is the Raider, one is the decoy. I want the sequence to make sense first.",
+      "id": "itchy-010",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "partial_clue"
+      ]
+    },
+    {
+      "category": "partial_clue",
+      "requires": [
+        "clueA",
+        "clueB"
+      ],
+      "text": "I am sticking to the facts: my partial clue named {{clueA}} and {{clueB}}; exactly one was the Raider, but I was not told which. The app-confirmed pieces come first.",
+      "id": "itchy-011",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "partial_clue"
+      ]
+    },
+    {
+      "category": "partial_clue",
+      "requires": [
+        "clueA",
+        "clueB"
+      ],
+      "text": "The night makes more sense if Ears Up gave me a two-ferret clue: {{clueA}} / {{clueB}}. One is the Raider, one is the decoy. I am leaving room for card movement.",
+      "id": "itchy-012",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "partial_clue"
+      ]
+    },
+    {
+      "category": "partial_clue",
+      "requires": [
+        "clueA",
+        "clueB"
+      ],
+      "text": "I want to separate fact from guess: my partial clue named {{clueA}} and {{clueB}}; exactly one was the Raider, but I was not told which. I am checking it against the treat state.",
+      "id": "itchy-013",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "partial_clue"
+      ]
+    },
+    {
+      "category": "partial_clue",
+      "requires": [
+        "clueA",
+        "clueB"
+      ],
+      "text": "My private notes say Ears Up gave me a two-ferret clue: {{clueA}} / {{clueB}}. One is the Raider, one is the decoy. I need the wake windows to line up.",
+      "id": "itchy-014",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "partial_clue"
+      ]
+    },
+    {
+      "category": "partial_clue",
+      "requires": [
+        "clueA",
+        "clueB"
+      ],
+      "text": "I am not treating this as proof, but my partial clue named {{clueA}} and {{clueB}}; exactly one was the Raider, but I was not told which. I am still weighing the same evidence.",
+      "id": "itchy-015",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "partial_clue"
+      ]
+    },
+    {
+      "category": "partial_clue",
+      "requires": [
+        "clueA",
+        "clueB"
+      ],
+      "text": "For Morning Business, Ears Up gave me a two-ferret clue: {{clueA}} / {{clueB}}. One is the Raider, one is the decoy. The timing still matters more than vibes.",
+      "id": "itchy-016",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "partial_clue"
+      ]
+    },
+    {
+      "category": "partial_clue",
+      "requires": [
+        "clueA",
+        "clueB"
+      ],
+      "text": "The clue I am weighing is my partial clue named {{clueA}} and {{clueB}}; exactly one was the Raider, but I was not told which. I am not treating a role claim as verified.",
+      "id": "itchy-017",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "partial_clue"
+      ]
+    },
+    {
+      "category": "partial_clue",
+      "requires": [
+        "clueA",
+        "clueB"
+      ],
+      "text": "I am watching the order of events: Ears Up gave me a two-ferret clue: {{clueA}} / {{clueB}}. One is the Raider, one is the decoy. I am not adding facts I did not actually receive.",
+      "id": "itchy-018",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "partial_clue"
+      ]
+    },
+    {
+      "category": "partial_clue",
+      "requires": [
+        "clueA",
+        "clueB"
+      ],
+      "text": "The safest thing I can say is my partial clue named {{clueA}} and {{clueB}}; exactly one was the Raider, but I was not told which. I want to hear how that fits everyone else.",
+      "id": "itchy-019",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "partial_clue"
+      ]
+    },
+    {
+      "category": "partial_clue",
+      "requires": [
+        "clueA",
+        "clueB"
+      ],
+      "text": "My current timeline says Ears Up gave me a two-ferret clue: {{clueA}} / {{clueB}}. One is the Raider, one is the decoy. I want another claim against that timeline.",
+      "id": "itchy-020",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "partial_clue"
+      ]
+    },
+    {
+      "category": "partial_clue",
+      "requires": [
+        "clueA",
+        "clueB"
+      ],
+      "text": "I am cross-checking claims: my partial clue named {{clueA}} and {{clueB}}; exactly one was the Raider, but I was not told which. I am watching for contradictions, not just confidence.",
+      "id": "itchy-021",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "partial_clue"
+      ]
+    },
+    {
+      "category": "partial_clue",
+      "requires": [
+        "clueA",
+        "clueB"
+      ],
+      "text": "The strongest detail I have is Ears Up gave me a two-ferret clue: {{clueA}} / {{clueB}}. One is the Raider, one is the decoy. I want a timeline that survives the swap possibilities.",
+      "id": "itchy-022",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "partial_clue"
+      ]
+    },
+    {
+      "category": "partial_clue",
+      "requires": [
+        "clueA",
+        "clueB"
+      ],
+      "text": "I am keeping this narrow: my partial clue named {{clueA}} and {{clueB}}; exactly one was the Raider, but I was not told which. I am not calling that automatic guilt.",
+      "id": "itchy-023",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "partial_clue"
+      ]
+    },
+    {
+      "category": "partial_clue",
+      "requires": [
+        "clueA",
+        "clueB"
+      ],
+      "text": "I do not want to overstate it: Ears Up gave me a two-ferret clue: {{clueA}} / {{clueB}}. One is the Raider, one is the decoy. The Raider is still the primary target.",
+      "id": "itchy-024",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "partial_clue"
+      ]
+    },
+    {
+      "category": "partial_clue",
+      "requires": [
+        "clueA",
+        "clueB"
+      ],
+      "text": "Here is the part I can actually use: my partial clue named {{clueA}} and {{clueB}}; exactly one was the Raider, but I was not told which. That is the part I can defend if challenged.",
+      "id": "itchy-025",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "partial_clue"
+      ]
+    },
+    {
+      "category": "timing_clue",
+      "requires": [
+        "range"
+      ],
+      "text": "From my side, my fallback clue puts the Raider in {{range}}; it does not identify a player. That is where I am starting.",
+      "id": "itchy-026",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "timing_clue"
+      ]
+    },
+    {
+      "category": "timing_clue",
+      "requires": [
+        "range"
+      ],
+      "text": "For the timeline, I did not get a two-name clue; I got the timing range {{range}} for the Raider. That is evidence, not a verdict.",
+      "id": "itchy-027",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "timing_clue"
+      ]
+    },
+    {
+      "category": "timing_clue",
+      "requires": [
+        "range"
+      ],
+      "text": "What I can confirm is my fallback clue puts the Raider in {{range}}; it does not identify a player. That could be true without proving allegiance.",
+      "id": "itchy-028",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "timing_clue"
+      ]
+    },
+    {
+      "category": "timing_clue",
+      "requires": [
+        "range"
+      ],
+      "text": "My read right now is I did not get a two-name clue; I got the timing range {{range}} for the Raider. I am keeping the difference between starting role and current card in mind.",
+      "id": "itchy-029",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "timing_clue"
+      ]
+    },
+    {
+      "category": "timing_clue",
+      "requires": [
+        "range"
+      ],
+      "text": "I keep coming back to my fallback clue puts the Raider in {{range}}; it does not identify a player. That does not settle the whole round.",
+      "id": "itchy-030",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "timing_clue"
+      ]
+    },
+    {
+      "category": "timing_clue",
+      "requires": [
+        "range"
+      ],
+      "text": "The piece I trust most is I did not get a two-name clue; I got the timing range {{range}} for the Raider. A swap could still change what the cards mean.",
+      "id": "itchy-031",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "timing_clue"
+      ]
+    },
+    {
+      "category": "timing_clue",
+      "requires": [
+        "range"
+      ],
+      "text": "Before we Paw Point, my fallback clue puts the Raider in {{range}}; it does not identify a player. I am comparing who was awake before and after the treats vanished.",
+      "id": "itchy-032",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "timing_clue"
+      ]
+    },
+    {
+      "category": "timing_clue",
+      "requires": [
+        "range"
+      ],
+      "text": "I am comparing notes and I did not get a two-name clue; I got the timing range {{range}} for the Raider. I would rather be precise than loud.",
+      "id": "itchy-033",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "timing_clue"
+      ]
+    },
+    {
+      "category": "timing_clue",
+      "requires": [
+        "range"
+      ],
+      "text": "One thing I do not want to lose is my fallback clue puts the Raider in {{range}}; it does not identify a player. I am keeping my Paw Point open for now.",
+      "id": "itchy-034",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "timing_clue"
+      ]
+    },
+    {
+      "category": "timing_clue",
+      "requires": [
+        "range"
+      ],
+      "text": "The useful detail for me is I did not get a two-name clue; I got the timing range {{range}} for the Raider. I want the sequence to make sense first.",
+      "id": "itchy-035",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "timing_clue"
+      ]
+    },
+    {
+      "category": "timing_clue",
+      "requires": [
+        "range"
+      ],
+      "text": "I am sticking to the facts: my fallback clue puts the Raider in {{range}}; it does not identify a player. The app-confirmed pieces come first.",
+      "id": "itchy-036",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "timing_clue"
+      ]
+    },
+    {
+      "category": "timing_clue",
+      "requires": [
+        "range"
+      ],
+      "text": "The night makes more sense if I did not get a two-name clue; I got the timing range {{range}} for the Raider. I am leaving room for card movement.",
+      "id": "itchy-037",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "timing_clue"
+      ]
+    },
+    {
+      "category": "timing_clue",
+      "requires": [
+        "range"
+      ],
+      "text": "I want to separate fact from guess: my fallback clue puts the Raider in {{range}}; it does not identify a player. I am checking it against the treat state.",
+      "id": "itchy-038",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "timing_clue"
+      ]
+    },
+    {
+      "category": "timing_clue",
+      "requires": [
+        "range"
+      ],
+      "text": "My private notes say I did not get a two-name clue; I got the timing range {{range}} for the Raider. I need the wake windows to line up.",
+      "id": "itchy-039",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "timing_clue"
+      ]
+    },
+    {
+      "category": "timing_clue",
+      "requires": [
+        "range"
+      ],
+      "text": "I am not treating this as proof, but my fallback clue puts the Raider in {{range}}; it does not identify a player. I am still weighing the same evidence.",
+      "id": "itchy-040",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "timing_clue"
+      ]
+    },
+    {
+      "category": "timing_clue",
+      "requires": [
+        "range"
+      ],
+      "text": "For Morning Business, I did not get a two-name clue; I got the timing range {{range}} for the Raider. The timing still matters more than vibes.",
+      "id": "itchy-041",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "timing_clue"
+      ]
+    },
+    {
+      "category": "timing_clue",
+      "requires": [
+        "range"
+      ],
+      "text": "The clue I am weighing is my fallback clue puts the Raider in {{range}}; it does not identify a player. I am not treating a role claim as verified.",
+      "id": "itchy-042",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "timing_clue"
+      ]
+    },
+    {
+      "category": "timing_clue",
+      "requires": [
+        "range"
+      ],
+      "text": "I am watching the order of events: I did not get a two-name clue; I got the timing range {{range}} for the Raider. I am not adding facts I did not actually receive.",
+      "id": "itchy-043",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "timing_clue"
+      ]
+    },
+    {
+      "category": "timing_clue",
+      "requires": [
+        "range"
+      ],
+      "text": "The safest thing I can say is my fallback clue puts the Raider in {{range}}; it does not identify a player. I want to hear how that fits everyone else.",
+      "id": "itchy-044",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "timing_clue"
+      ]
+    },
+    {
+      "category": "timing_clue",
+      "requires": [
+        "range"
+      ],
+      "text": "My current timeline says I did not get a two-name clue; I got the timing range {{range}} for the Raider. I want another claim against that timeline.",
+      "id": "itchy-045",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "timing_clue"
+      ]
+    },
+    {
+      "category": "timing_clue",
+      "requires": [
+        "range"
+      ],
+      "text": "I am cross-checking claims: my fallback clue puts the Raider in {{range}}; it does not identify a player. I am watching for contradictions, not just confidence.",
+      "id": "itchy-046",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "timing_clue"
+      ]
+    },
+    {
+      "category": "timing_clue",
+      "requires": [
+        "range"
+      ],
+      "text": "The strongest detail I have is I did not get a two-name clue; I got the timing range {{range}} for the Raider. I want a timeline that survives the swap possibilities.",
+      "id": "itchy-047",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "timing_clue"
+      ]
+    },
+    {
+      "category": "timing_clue",
+      "requires": [
+        "range"
+      ],
+      "text": "I am keeping this narrow: my fallback clue puts the Raider in {{range}}; it does not identify a player. I am not calling that automatic guilt.",
+      "id": "itchy-048",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "timing_clue"
+      ]
+    },
+    {
+      "category": "timing_clue",
+      "requires": [
+        "range"
+      ],
+      "text": "I do not want to overstate it: I did not get a two-name clue; I got the timing range {{range}} for the Raider. The Raider is still the primary target.",
+      "id": "itchy-049",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "timing_clue"
+      ]
+    },
+    {
+      "category": "timing_clue",
+      "requires": [
+        "range"
+      ],
+      "text": "Here is the part I can actually use: my fallback clue puts the Raider in {{range}}; it does not identify a player. That is the part I can defend if challenged.",
+      "id": "itchy-050",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "timing_clue"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "From my side, I woke at Hour {{hour}}; the treats were {{treatState}}, and {{cowakers}} was my co-waker read. That is where I am starting.",
+      "id": "itchy-051",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "For the timeline, Hour {{hour}} is my anchor: treats {{treatState}}, with {{cowakers}} in that wake window. That is evidence, not a verdict.",
+      "id": "itchy-052",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "What I can confirm is I woke at Hour {{hour}}; the treats were {{treatState}}, and {{cowakers}} was my co-waker read. That could be true without proving allegiance.",
+      "id": "itchy-053",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "My read right now is Hour {{hour}} is my anchor: treats {{treatState}}, with {{cowakers}} in that wake window. I am keeping the difference between starting role and current card in mind.",
+      "id": "itchy-054",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "I keep coming back to I woke at Hour {{hour}}; the treats were {{treatState}}, and {{cowakers}} was my co-waker read. That does not settle the whole round.",
+      "id": "itchy-055",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "The piece I trust most is Hour {{hour}} is my anchor: treats {{treatState}}, with {{cowakers}} in that wake window. A swap could still change what the cards mean.",
+      "id": "itchy-056",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "Before we Paw Point, I woke at Hour {{hour}}; the treats were {{treatState}}, and {{cowakers}} was my co-waker read. I am comparing who was awake before and after the treats vanished.",
+      "id": "itchy-057",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "I am comparing notes and Hour {{hour}} is my anchor: treats {{treatState}}, with {{cowakers}} in that wake window. I would rather be precise than loud.",
+      "id": "itchy-058",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "One thing I do not want to lose is I woke at Hour {{hour}}; the treats were {{treatState}}, and {{cowakers}} was my co-waker read. I am keeping my Paw Point open for now.",
+      "id": "itchy-059",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "The useful detail for me is Hour {{hour}} is my anchor: treats {{treatState}}, with {{cowakers}} in that wake window. I want the sequence to make sense first.",
+      "id": "itchy-060",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "I am sticking to the facts: I woke at Hour {{hour}}; the treats were {{treatState}}, and {{cowakers}} was my co-waker read. The app-confirmed pieces come first.",
+      "id": "itchy-061",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "The night makes more sense if Hour {{hour}} is my anchor: treats {{treatState}}, with {{cowakers}} in that wake window. I am leaving room for card movement.",
+      "id": "itchy-062",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "I want to separate fact from guess: I woke at Hour {{hour}}; the treats were {{treatState}}, and {{cowakers}} was my co-waker read. I am checking it against the treat state.",
+      "id": "itchy-063",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "My private notes say Hour {{hour}} is my anchor: treats {{treatState}}, with {{cowakers}} in that wake window. I need the wake windows to line up.",
+      "id": "itchy-064",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "I am not treating this as proof, but I woke at Hour {{hour}}; the treats were {{treatState}}, and {{cowakers}} was my co-waker read. I am still weighing the same evidence.",
+      "id": "itchy-065",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "For Morning Business, Hour {{hour}} is my anchor: treats {{treatState}}, with {{cowakers}} in that wake window. The timing still matters more than vibes.",
+      "id": "itchy-066",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "The clue I am weighing is I woke at Hour {{hour}}; the treats were {{treatState}}, and {{cowakers}} was my co-waker read. I am not treating a role claim as verified.",
+      "id": "itchy-067",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "I am watching the order of events: Hour {{hour}} is my anchor: treats {{treatState}}, with {{cowakers}} in that wake window. I am not adding facts I did not actually receive.",
+      "id": "itchy-068",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "The safest thing I can say is I woke at Hour {{hour}}; the treats were {{treatState}}, and {{cowakers}} was my co-waker read. I want to hear how that fits everyone else.",
+      "id": "itchy-069",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "My current timeline says Hour {{hour}} is my anchor: treats {{treatState}}, with {{cowakers}} in that wake window. I want another claim against that timeline.",
+      "id": "itchy-070",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "I am cross-checking claims: I woke at Hour {{hour}}; the treats were {{treatState}}, and {{cowakers}} was my co-waker read. I am watching for contradictions, not just confidence.",
+      "id": "itchy-071",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "The strongest detail I have is Hour {{hour}} is my anchor: treats {{treatState}}, with {{cowakers}} in that wake window. I want a timeline that survives the swap possibilities.",
+      "id": "itchy-072",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "I am keeping this narrow: I woke at Hour {{hour}}; the treats were {{treatState}}, and {{cowakers}} was my co-waker read. I am not calling that automatic guilt.",
+      "id": "itchy-073",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "I do not want to overstate it: Hour {{hour}} is my anchor: treats {{treatState}}, with {{cowakers}} in that wake window. The Raider is still the primary target.",
+      "id": "itchy-074",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "Here is the part I can actually use: I woke at Hour {{hour}}; the treats were {{treatState}}, and {{cowakers}} was my co-waker read. That is the part I can defend if challenged.",
+      "id": "itchy-075",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "observation"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "From my side, {{target}}, which hour are you claiming, and were the Minnow Treats present or missing? That is where I am starting.",
+      "id": "itchy-076",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "For the timeline, I want {{target}} to pin down who else was awake in that window. That is evidence, not a verdict.",
+      "id": "itchy-077",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "What I can confirm is {{target}}, which hour are you claiming, and were the Minnow Treats present or missing? That could be true without proving allegiance.",
+      "id": "itchy-078",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "My read right now is I want {{target}} to pin down who else was awake in that window. I am keeping the difference between starting role and current card in mind.",
+      "id": "itchy-079",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "I keep coming back to {{target}}, which hour are you claiming, and were the Minnow Treats present or missing? That does not settle the whole round.",
+      "id": "itchy-080",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "The piece I trust most is I want {{target}} to pin down who else was awake in that window. A swap could still change what the cards mean.",
+      "id": "itchy-081",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "Before we Paw Point, {{target}}, which hour are you claiming, and were the Minnow Treats present or missing? I am comparing who was awake before and after the treats vanished.",
+      "id": "itchy-082",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "I am comparing notes and I want {{target}} to pin down who else was awake in that window. I would rather be precise than loud.",
+      "id": "itchy-083",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "One thing I do not want to lose is {{target}}, which hour are you claiming, and were the Minnow Treats present or missing? I am keeping my Paw Point open for now.",
+      "id": "itchy-084",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "The useful detail for me is I want {{target}} to pin down who else was awake in that window. I want the sequence to make sense first.",
+      "id": "itchy-085",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "I am sticking to the facts: {{target}}, which hour are you claiming, and were the Minnow Treats present or missing? The app-confirmed pieces come first.",
+      "id": "itchy-086",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "The night makes more sense if I want {{target}} to pin down who else was awake in that window. I am leaving room for card movement.",
+      "id": "itchy-087",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "I want to separate fact from guess: {{target}}, which hour are you claiming, and were the Minnow Treats present or missing? I am checking it against the treat state.",
+      "id": "itchy-088",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "My private notes say I want {{target}} to pin down who else was awake in that window. I need the wake windows to line up.",
+      "id": "itchy-089",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "I am not treating this as proof, but {{target}}, which hour are you claiming, and were the Minnow Treats present or missing? I am still weighing the same evidence.",
+      "id": "itchy-090",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "For Morning Business, I want {{target}} to pin down who else was awake in that window. The timing still matters more than vibes.",
+      "id": "itchy-091",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "The clue I am weighing is {{target}}, which hour are you claiming, and were the Minnow Treats present or missing? I am not treating a role claim as verified.",
+      "id": "itchy-092",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "I am watching the order of events: I want {{target}} to pin down who else was awake in that window. I am not adding facts I did not actually receive.",
+      "id": "itchy-093",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "The safest thing I can say is {{target}}, which hour are you claiming, and were the Minnow Treats present or missing? I want to hear how that fits everyone else.",
+      "id": "itchy-094",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "My current timeline says I want {{target}} to pin down who else was awake in that window. I want another claim against that timeline.",
+      "id": "itchy-095",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "I am cross-checking claims: {{target}}, which hour are you claiming, and were the Minnow Treats present or missing? I am watching for contradictions, not just confidence.",
+      "id": "itchy-096",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "The strongest detail I have is I want {{target}} to pin down who else was awake in that window. I want a timeline that survives the swap possibilities.",
+      "id": "itchy-097",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "I am keeping this narrow: {{target}}, which hour are you claiming, and were the Minnow Treats present or missing? I am not calling that automatic guilt.",
+      "id": "itchy-098",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "I do not want to overstate it: I want {{target}} to pin down who else was awake in that window. The Raider is still the primary target.",
+      "id": "itchy-099",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "Here is the part I can actually use: {{target}}, which hour are you claiming, and were the Minnow Treats present or missing? That is the part I can defend if challenged.",
+      "id": "itchy-100",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "question"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "From my side, the change from PRESENT to MISSING has to fit the Burrow Clock, not just somebody's role claim. That is where I am starting.",
+      "id": "itchy-101",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "For the timeline, I am lining up claimed wake hours around when the Minnow Treats disappeared. That is evidence, not a verdict.",
+      "id": "itchy-102",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "What I can confirm is the change from PRESENT to MISSING has to fit the Burrow Clock, not just somebody's role claim. That could be true without proving allegiance.",
+      "id": "itchy-103",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "My read right now is I am lining up claimed wake hours around when the Minnow Treats disappeared. I am keeping the difference between starting role and current card in mind.",
+      "id": "itchy-104",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "I keep coming back to the change from PRESENT to MISSING has to fit the Burrow Clock, not just somebody's role claim. That does not settle the whole round.",
+      "id": "itchy-105",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "The piece I trust most is I am lining up claimed wake hours around when the Minnow Treats disappeared. A swap could still change what the cards mean.",
+      "id": "itchy-106",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "Before we Paw Point, the change from PRESENT to MISSING has to fit the Burrow Clock, not just somebody's role claim. I am comparing who was awake before and after the treats vanished.",
+      "id": "itchy-107",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "I am comparing notes and I am lining up claimed wake hours around when the Minnow Treats disappeared. I would rather be precise than loud.",
+      "id": "itchy-108",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "One thing I do not want to lose is the change from PRESENT to MISSING has to fit the Burrow Clock, not just somebody's role claim. I am keeping my Paw Point open for now.",
+      "id": "itchy-109",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "The useful detail for me is I am lining up claimed wake hours around when the Minnow Treats disappeared. I want the sequence to make sense first.",
+      "id": "itchy-110",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "I am sticking to the facts: the change from PRESENT to MISSING has to fit the Burrow Clock, not just somebody's role claim. The app-confirmed pieces come first.",
+      "id": "itchy-111",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "The night makes more sense if I am lining up claimed wake hours around when the Minnow Treats disappeared. I am leaving room for card movement.",
+      "id": "itchy-112",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "I want to separate fact from guess: the change from PRESENT to MISSING has to fit the Burrow Clock, not just somebody's role claim. I am checking it against the treat state.",
+      "id": "itchy-113",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "My private notes say I am lining up claimed wake hours around when the Minnow Treats disappeared. I need the wake windows to line up.",
+      "id": "itchy-114",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "I am not treating this as proof, but the change from PRESENT to MISSING has to fit the Burrow Clock, not just somebody's role claim. I am still weighing the same evidence.",
+      "id": "itchy-115",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "For Morning Business, I am lining up claimed wake hours around when the Minnow Treats disappeared. The timing still matters more than vibes.",
+      "id": "itchy-116",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "The clue I am weighing is the change from PRESENT to MISSING has to fit the Burrow Clock, not just somebody's role claim. I am not treating a role claim as verified.",
+      "id": "itchy-117",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "I am watching the order of events: I am lining up claimed wake hours around when the Minnow Treats disappeared. I am not adding facts I did not actually receive.",
+      "id": "itchy-118",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "The safest thing I can say is the change from PRESENT to MISSING has to fit the Burrow Clock, not just somebody's role claim. I want to hear how that fits everyone else.",
+      "id": "itchy-119",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "My current timeline says I am lining up claimed wake hours around when the Minnow Treats disappeared. I want another claim against that timeline.",
+      "id": "itchy-120",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "I am cross-checking claims: the change from PRESENT to MISSING has to fit the Burrow Clock, not just somebody's role claim. I am watching for contradictions, not just confidence.",
+      "id": "itchy-121",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "The strongest detail I have is I am lining up claimed wake hours around when the Minnow Treats disappeared. I want a timeline that survives the swap possibilities.",
+      "id": "itchy-122",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "I am keeping this narrow: the change from PRESENT to MISSING has to fit the Burrow Clock, not just somebody's role claim. I am not calling that automatic guilt.",
+      "id": "itchy-123",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "I do not want to overstate it: I am lining up claimed wake hours around when the Minnow Treats disappeared. The Raider is still the primary target.",
+      "id": "itchy-124",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "Here is the part I can actually use: the change from PRESENT to MISSING has to fit the Burrow Clock, not just somebody's role claim. That is the part I can defend if challenged.",
+      "id": "itchy-125",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "timeline"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "From my side, {{target}} sits highest on my current timing suspicion, but I am still checking the evidence. That is where I am starting.",
+      "id": "itchy-126",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "For the timeline, I am watching {{target}} because their place in the wake timeline needs a better explanation. That is evidence, not a verdict.",
+      "id": "itchy-127",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "What I can confirm is {{target}} sits highest on my current timing suspicion, but I am still checking the evidence. That could be true without proving allegiance.",
+      "id": "itchy-128",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "My read right now is I am watching {{target}} because their place in the wake timeline needs a better explanation. I am keeping the difference between starting role and current card in mind.",
+      "id": "itchy-129",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "I keep coming back to {{target}} sits highest on my current timing suspicion, but I am still checking the evidence. That does not settle the whole round.",
+      "id": "itchy-130",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "The piece I trust most is I am watching {{target}} because their place in the wake timeline needs a better explanation. A swap could still change what the cards mean.",
+      "id": "itchy-131",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "Before we Paw Point, {{target}} sits highest on my current timing suspicion, but I am still checking the evidence. I am comparing who was awake before and after the treats vanished.",
+      "id": "itchy-132",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "I am comparing notes and I am watching {{target}} because their place in the wake timeline needs a better explanation. I would rather be precise than loud.",
+      "id": "itchy-133",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "One thing I do not want to lose is {{target}} sits highest on my current timing suspicion, but I am still checking the evidence. I am keeping my Paw Point open for now.",
+      "id": "itchy-134",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "The useful detail for me is I am watching {{target}} because their place in the wake timeline needs a better explanation. I want the sequence to make sense first.",
+      "id": "itchy-135",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "I am sticking to the facts: {{target}} sits highest on my current timing suspicion, but I am still checking the evidence. The app-confirmed pieces come first.",
+      "id": "itchy-136",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "The night makes more sense if I am watching {{target}} because their place in the wake timeline needs a better explanation. I am leaving room for card movement.",
+      "id": "itchy-137",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "I want to separate fact from guess: {{target}} sits highest on my current timing suspicion, but I am still checking the evidence. I am checking it against the treat state.",
+      "id": "itchy-138",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "My private notes say I am watching {{target}} because their place in the wake timeline needs a better explanation. I need the wake windows to line up.",
+      "id": "itchy-139",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "I am not treating this as proof, but {{target}} sits highest on my current timing suspicion, but I am still checking the evidence. I am still weighing the same evidence.",
+      "id": "itchy-140",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "For Morning Business, I am watching {{target}} because their place in the wake timeline needs a better explanation. The timing still matters more than vibes.",
+      "id": "itchy-141",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "The clue I am weighing is {{target}} sits highest on my current timing suspicion, but I am still checking the evidence. I am not treating a role claim as verified.",
+      "id": "itchy-142",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "I am watching the order of events: I am watching {{target}} because their place in the wake timeline needs a better explanation. I am not adding facts I did not actually receive.",
+      "id": "itchy-143",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "The safest thing I can say is {{target}} sits highest on my current timing suspicion, but I am still checking the evidence. I want to hear how that fits everyone else.",
+      "id": "itchy-144",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "My current timeline says I am watching {{target}} because their place in the wake timeline needs a better explanation. I want another claim against that timeline.",
+      "id": "itchy-145",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "I am cross-checking claims: {{target}} sits highest on my current timing suspicion, but I am still checking the evidence. I am watching for contradictions, not just confidence.",
+      "id": "itchy-146",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "The strongest detail I have is I am watching {{target}} because their place in the wake timeline needs a better explanation. I want a timeline that survives the swap possibilities.",
+      "id": "itchy-147",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "I am keeping this narrow: {{target}} sits highest on my current timing suspicion, but I am still checking the evidence. I am not calling that automatic guilt.",
+      "id": "itchy-148",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "I do not want to overstate it: I am watching {{target}} because their place in the wake timeline needs a better explanation. The Raider is still the primary target.",
+      "id": "itchy-149",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "Here is the part I can actually use: {{target}} sits highest on my current timing suspicion, but I am still checking the evidence. That is the part I can defend if challenged.",
+      "id": "itchy-150",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "From my side, my claim is about what my own screen showed me; I am not claiming knowledge outside that. That is where I am starting.",
+      "id": "itchy-151",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "For the timeline, if my card moved later, that does not rewrite what I personally observed when I woke. That is evidence, not a verdict.",
+      "id": "itchy-152",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "What I can confirm is my claim is about what my own screen showed me; I am not claiming knowledge outside that. That could be true without proving allegiance.",
+      "id": "itchy-153",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "My read right now is if my card moved later, that does not rewrite what I personally observed when I woke. I am keeping the difference between starting role and current card in mind.",
+      "id": "itchy-154",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "I keep coming back to my claim is about what my own screen showed me; I am not claiming knowledge outside that. That does not settle the whole round.",
+      "id": "itchy-155",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "The piece I trust most is if my card moved later, that does not rewrite what I personally observed when I woke. A swap could still change what the cards mean.",
+      "id": "itchy-156",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "Before we Paw Point, my claim is about what my own screen showed me; I am not claiming knowledge outside that. I am comparing who was awake before and after the treats vanished.",
+      "id": "itchy-157",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "I am comparing notes and if my card moved later, that does not rewrite what I personally observed when I woke. I would rather be precise than loud.",
+      "id": "itchy-158",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "One thing I do not want to lose is my claim is about what my own screen showed me; I am not claiming knowledge outside that. I am keeping my Paw Point open for now.",
+      "id": "itchy-159",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "The useful detail for me is if my card moved later, that does not rewrite what I personally observed when I woke. I want the sequence to make sense first.",
+      "id": "itchy-160",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "I am sticking to the facts: my claim is about what my own screen showed me; I am not claiming knowledge outside that. The app-confirmed pieces come first.",
+      "id": "itchy-161",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "The night makes more sense if if my card moved later, that does not rewrite what I personally observed when I woke. I am leaving room for card movement.",
+      "id": "itchy-162",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "I want to separate fact from guess: my claim is about what my own screen showed me; I am not claiming knowledge outside that. I am checking it against the treat state.",
+      "id": "itchy-163",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "My private notes say if my card moved later, that does not rewrite what I personally observed when I woke. I need the wake windows to line up.",
+      "id": "itchy-164",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "I am not treating this as proof, but my claim is about what my own screen showed me; I am not claiming knowledge outside that. I am still weighing the same evidence.",
+      "id": "itchy-165",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "For Morning Business, if my card moved later, that does not rewrite what I personally observed when I woke. The timing still matters more than vibes.",
+      "id": "itchy-166",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "The clue I am weighing is my claim is about what my own screen showed me; I am not claiming knowledge outside that. I am not treating a role claim as verified.",
+      "id": "itchy-167",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "I am watching the order of events: if my card moved later, that does not rewrite what I personally observed when I woke. I am not adding facts I did not actually receive.",
+      "id": "itchy-168",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "The safest thing I can say is my claim is about what my own screen showed me; I am not claiming knowledge outside that. I want to hear how that fits everyone else.",
+      "id": "itchy-169",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "My current timeline says if my card moved later, that does not rewrite what I personally observed when I woke. I want another claim against that timeline.",
+      "id": "itchy-170",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "I am cross-checking claims: my claim is about what my own screen showed me; I am not claiming knowledge outside that. I am watching for contradictions, not just confidence.",
+      "id": "itchy-171",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "The strongest detail I have is if my card moved later, that does not rewrite what I personally observed when I woke. I want a timeline that survives the swap possibilities.",
+      "id": "itchy-172",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "I am keeping this narrow: my claim is about what my own screen showed me; I am not claiming knowledge outside that. I am not calling that automatic guilt.",
+      "id": "itchy-173",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "I do not want to overstate it: if my card moved later, that does not rewrite what I personally observed when I woke. The Raider is still the primary target.",
+      "id": "itchy-174",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "Here is the part I can actually use: my claim is about what my own screen showed me; I am not claiming knowledge outside that. That is the part I can defend if challenged.",
+      "id": "itchy-175",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "defense"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "From my side, if nothing stronger appears, {{target}} is where my Paw Point is leaning. That is where I am starting.",
+      "id": "itchy-176",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "For the timeline, I am not locking yet, but {{target}} is my current vote pressure. That is evidence, not a verdict.",
+      "id": "itchy-177",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "What I can confirm is if nothing stronger appears, {{target}} is where my Paw Point is leaning. That could be true without proving allegiance.",
+      "id": "itchy-178",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "My read right now is I am not locking yet, but {{target}} is my current vote pressure. I am keeping the difference between starting role and current card in mind.",
+      "id": "itchy-179",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "I keep coming back to if nothing stronger appears, {{target}} is where my Paw Point is leaning. That does not settle the whole round.",
+      "id": "itchy-180",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "The piece I trust most is I am not locking yet, but {{target}} is my current vote pressure. A swap could still change what the cards mean.",
+      "id": "itchy-181",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "Before we Paw Point, if nothing stronger appears, {{target}} is where my Paw Point is leaning. I am comparing who was awake before and after the treats vanished.",
+      "id": "itchy-182",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "I am comparing notes and I am not locking yet, but {{target}} is my current vote pressure. I would rather be precise than loud.",
+      "id": "itchy-183",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "One thing I do not want to lose is if nothing stronger appears, {{target}} is where my Paw Point is leaning. I am keeping my Paw Point open for now.",
+      "id": "itchy-184",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "The useful detail for me is I am not locking yet, but {{target}} is my current vote pressure. I want the sequence to make sense first.",
+      "id": "itchy-185",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "I am sticking to the facts: if nothing stronger appears, {{target}} is where my Paw Point is leaning. The app-confirmed pieces come first.",
+      "id": "itchy-186",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "The night makes more sense if I am not locking yet, but {{target}} is my current vote pressure. I am leaving room for card movement.",
+      "id": "itchy-187",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "I want to separate fact from guess: if nothing stronger appears, {{target}} is where my Paw Point is leaning. I am checking it against the treat state.",
+      "id": "itchy-188",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "My private notes say I am not locking yet, but {{target}} is my current vote pressure. I need the wake windows to line up.",
+      "id": "itchy-189",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "I am not treating this as proof, but if nothing stronger appears, {{target}} is where my Paw Point is leaning. I am still weighing the same evidence.",
+      "id": "itchy-190",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "For Morning Business, I am not locking yet, but {{target}} is my current vote pressure. The timing still matters more than vibes.",
+      "id": "itchy-191",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "The clue I am weighing is if nothing stronger appears, {{target}} is where my Paw Point is leaning. I am not treating a role claim as verified.",
+      "id": "itchy-192",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "I am watching the order of events: I am not locking yet, but {{target}} is my current vote pressure. I am not adding facts I did not actually receive.",
+      "id": "itchy-193",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "The safest thing I can say is if nothing stronger appears, {{target}} is where my Paw Point is leaning. I want to hear how that fits everyone else.",
+      "id": "itchy-194",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "My current timeline says I am not locking yet, but {{target}} is my current vote pressure. I want another claim against that timeline.",
+      "id": "itchy-195",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "I am cross-checking claims: if nothing stronger appears, {{target}} is where my Paw Point is leaning. I am watching for contradictions, not just confidence.",
+      "id": "itchy-196",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "The strongest detail I have is I am not locking yet, but {{target}} is my current vote pressure. I want a timeline that survives the swap possibilities.",
+      "id": "itchy-197",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "I am keeping this narrow: if nothing stronger appears, {{target}} is where my Paw Point is leaning. I am not calling that automatic guilt.",
+      "id": "itchy-198",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "I do not want to overstate it: I am not locking yet, but {{target}} is my current vote pressure. The Raider is still the primary target.",
+      "id": "itchy-199",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "Here is the part I can actually use: if nothing stronger appears, {{target}} is where my Paw Point is leaning. That is the part I can defend if challenged.",
+      "id": "itchy-200",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "vote"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "From my side, there are still multiple legal stories because cards and allegiances can move differently. That is where I am starting.",
+      "id": "itchy-201",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "For the timeline, I can narrow the timeline without pretending I know every current card. That is evidence, not a verdict.",
+      "id": "itchy-202",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "What I can confirm is there are still multiple legal stories because cards and allegiances can move differently. That could be true without proving allegiance.",
+      "id": "itchy-203",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "My read right now is I can narrow the timeline without pretending I know every current card. I am keeping the difference between starting role and current card in mind.",
+      "id": "itchy-204",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "I keep coming back to there are still multiple legal stories because cards and allegiances can move differently. That does not settle the whole round.",
+      "id": "itchy-205",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "The piece I trust most is I can narrow the timeline without pretending I know every current card. A swap could still change what the cards mean.",
+      "id": "itchy-206",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "Before we Paw Point, there are still multiple legal stories because cards and allegiances can move differently. I am comparing who was awake before and after the treats vanished.",
+      "id": "itchy-207",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "I am comparing notes and I can narrow the timeline without pretending I know every current card. I would rather be precise than loud.",
+      "id": "itchy-208",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "One thing I do not want to lose is there are still multiple legal stories because cards and allegiances can move differently. I am keeping my Paw Point open for now.",
+      "id": "itchy-209",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "The useful detail for me is I can narrow the timeline without pretending I know every current card. I want the sequence to make sense first.",
+      "id": "itchy-210",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "I am sticking to the facts: there are still multiple legal stories because cards and allegiances can move differently. The app-confirmed pieces come first.",
+      "id": "itchy-211",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "The night makes more sense if I can narrow the timeline without pretending I know every current card. I am leaving room for card movement.",
+      "id": "itchy-212",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "I want to separate fact from guess: there are still multiple legal stories because cards and allegiances can move differently. I am checking it against the treat state.",
+      "id": "itchy-213",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "My private notes say I can narrow the timeline without pretending I know every current card. I need the wake windows to line up.",
+      "id": "itchy-214",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "I am not treating this as proof, but there are still multiple legal stories because cards and allegiances can move differently. I am still weighing the same evidence.",
+      "id": "itchy-215",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "For Morning Business, I can narrow the timeline without pretending I know every current card. The timing still matters more than vibes.",
+      "id": "itchy-216",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "The clue I am weighing is there are still multiple legal stories because cards and allegiances can move differently. I am not treating a role claim as verified.",
+      "id": "itchy-217",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "I am watching the order of events: I can narrow the timeline without pretending I know every current card. I am not adding facts I did not actually receive.",
+      "id": "itchy-218",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "The safest thing I can say is there are still multiple legal stories because cards and allegiances can move differently. I want to hear how that fits everyone else.",
+      "id": "itchy-219",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "My current timeline says I can narrow the timeline without pretending I know every current card. I want another claim against that timeline.",
+      "id": "itchy-220",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "I am cross-checking claims: there are still multiple legal stories because cards and allegiances can move differently. I am watching for contradictions, not just confidence.",
+      "id": "itchy-221",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "The strongest detail I have is I can narrow the timeline without pretending I know every current card. I want a timeline that survives the swap possibilities.",
+      "id": "itchy-222",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "I am keeping this narrow: there are still multiple legal stories because cards and allegiances can move differently. I am not calling that automatic guilt.",
+      "id": "itchy-223",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "I do not want to overstate it: I can narrow the timeline without pretending I know every current card. The Raider is still the primary target.",
+      "id": "itchy-224",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "Here is the part I can actually use: there are still multiple legal stories because cards and allegiances can move differently. That is the part I can defend if challenged.",
+      "id": "itchy-225",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "no_clue",
+      "requires": [],
+      "text": "From my side, my Itchy check did not give me a special partial clue this round; I only have normal wake evidence. That is where I am starting.",
+      "id": "itchy-226",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "no_clue"
+      ]
+    },
+    {
+      "category": "no_clue",
+      "requires": [],
+      "text": "For the timeline, I have no extra Itchy clue to add, so I am sticking to Treat State and co-wakers. That is evidence, not a verdict.",
+      "id": "itchy-227",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "no_clue"
+      ]
+    },
+    {
+      "category": "no_clue",
+      "requires": [],
+      "text": "What I can confirm is my Itchy check did not give me a special partial clue this round; I only have normal wake evidence. That could be true without proving allegiance.",
+      "id": "itchy-228",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "no_clue"
+      ]
+    },
+    {
+      "category": "no_clue",
+      "requires": [],
+      "text": "My read right now is I have no extra Itchy clue to add, so I am sticking to Treat State and co-wakers. I am keeping the difference between starting role and current card in mind.",
+      "id": "itchy-229",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "no_clue"
+      ]
+    },
+    {
+      "category": "no_clue",
+      "requires": [],
+      "text": "I keep coming back to my Itchy check did not give me a special partial clue this round; I only have normal wake evidence. That does not settle the whole round.",
+      "id": "itchy-230",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "no_clue"
+      ]
+    },
+    {
+      "category": "no_clue",
+      "requires": [],
+      "text": "The piece I trust most is I have no extra Itchy clue to add, so I am sticking to Treat State and co-wakers. A swap could still change what the cards mean.",
+      "id": "itchy-231",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "no_clue"
+      ]
+    },
+    {
+      "category": "no_clue",
+      "requires": [],
+      "text": "Before we Paw Point, my Itchy check did not give me a special partial clue this round; I only have normal wake evidence. I am comparing who was awake before and after the treats vanished.",
+      "id": "itchy-232",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "no_clue"
+      ]
+    },
+    {
+      "category": "no_clue",
+      "requires": [],
+      "text": "I am comparing notes and I have no extra Itchy clue to add, so I am sticking to Treat State and co-wakers. I would rather be precise than loud.",
+      "id": "itchy-233",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "no_clue"
+      ]
+    },
+    {
+      "category": "no_clue",
+      "requires": [],
+      "text": "One thing I do not want to lose is my Itchy check did not give me a special partial clue this round; I only have normal wake evidence. I am keeping my Paw Point open for now.",
+      "id": "itchy-234",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "no_clue"
+      ]
+    },
+    {
+      "category": "no_clue",
+      "requires": [],
+      "text": "The useful detail for me is I have no extra Itchy clue to add, so I am sticking to Treat State and co-wakers. I want the sequence to make sense first.",
+      "id": "itchy-235",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "no_clue"
+      ]
+    },
+    {
+      "category": "no_clue",
+      "requires": [],
+      "text": "I am sticking to the facts: my Itchy check did not give me a special partial clue this round; I only have normal wake evidence. The app-confirmed pieces come first.",
+      "id": "itchy-236",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "no_clue"
+      ]
+    },
+    {
+      "category": "no_clue",
+      "requires": [],
+      "text": "The night makes more sense if I have no extra Itchy clue to add, so I am sticking to Treat State and co-wakers. I am leaving room for card movement.",
+      "id": "itchy-237",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "no_clue"
+      ]
+    },
+    {
+      "category": "no_clue",
+      "requires": [],
+      "text": "I want to separate fact from guess: my Itchy check did not give me a special partial clue this round; I only have normal wake evidence. I am checking it against the treat state.",
+      "id": "itchy-238",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "no_clue"
+      ]
+    },
+    {
+      "category": "no_clue",
+      "requires": [],
+      "text": "My private notes say I have no extra Itchy clue to add, so I am sticking to Treat State and co-wakers. I need the wake windows to line up.",
+      "id": "itchy-239",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "no_clue"
+      ]
+    },
+    {
+      "category": "no_clue",
+      "requires": [],
+      "text": "I am not treating this as proof, but my Itchy check did not give me a special partial clue this round; I only have normal wake evidence. I am still weighing the same evidence.",
+      "id": "itchy-240",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "no_clue"
+      ]
+    },
+    {
+      "category": "no_clue",
+      "requires": [],
+      "text": "For Morning Business, I have no extra Itchy clue to add, so I am sticking to Treat State and co-wakers. The timing still matters more than vibes.",
+      "id": "itchy-241",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "no_clue"
+      ]
+    },
+    {
+      "category": "no_clue",
+      "requires": [],
+      "text": "The clue I am weighing is my Itchy check did not give me a special partial clue this round; I only have normal wake evidence. I am not treating a role claim as verified.",
+      "id": "itchy-242",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "no_clue"
+      ]
+    },
+    {
+      "category": "no_clue",
+      "requires": [],
+      "text": "I am watching the order of events: I have no extra Itchy clue to add, so I am sticking to Treat State and co-wakers. I am not adding facts I did not actually receive.",
+      "id": "itchy-243",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "no_clue"
+      ]
+    },
+    {
+      "category": "no_clue",
+      "requires": [],
+      "text": "The safest thing I can say is my Itchy check did not give me a special partial clue this round; I only have normal wake evidence. I want to hear how that fits everyone else.",
+      "id": "itchy-244",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "no_clue"
+      ]
+    },
+    {
+      "category": "no_clue",
+      "requires": [],
+      "text": "My current timeline says I have no extra Itchy clue to add, so I am sticking to Treat State and co-wakers. I want another claim against that timeline.",
+      "id": "itchy-245",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "no_clue"
+      ]
+    },
+    {
+      "category": "no_clue",
+      "requires": [],
+      "text": "I am cross-checking claims: my Itchy check did not give me a special partial clue this round; I only have normal wake evidence. I am watching for contradictions, not just confidence.",
+      "id": "itchy-246",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "no_clue"
+      ]
+    },
+    {
+      "category": "no_clue",
+      "requires": [],
+      "text": "The strongest detail I have is I have no extra Itchy clue to add, so I am sticking to Treat State and co-wakers. I want a timeline that survives the swap possibilities.",
+      "id": "itchy-247",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "no_clue"
+      ]
+    },
+    {
+      "category": "no_clue",
+      "requires": [],
+      "text": "I am keeping this narrow: my Itchy check did not give me a special partial clue this round; I only have normal wake evidence. I am not calling that automatic guilt.",
+      "id": "itchy-248",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "no_clue"
+      ]
+    },
+    {
+      "category": "no_clue",
+      "requires": [],
+      "text": "I do not want to overstate it: I have no extra Itchy clue to add, so I am sticking to Treat State and co-wakers. The Raider is still the primary target.",
+      "id": "itchy-249",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "no_clue"
+      ]
+    },
+    {
+      "category": "no_clue",
+      "requires": [],
+      "text": "Here is the part I can actually use: my Itchy check did not give me a special partial clue this round; I only have normal wake evidence. That is the part I can defend if challenged.",
+      "id": "itchy-250",
+      "tags": [
+        "ferret-frenzy",
+        "itchy",
+        "no_clue"
+      ]
+    }
+  ]
+}

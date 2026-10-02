@@ -1,0 +1,3010 @@
+{
+  "schemaVersion": "1.0",
+  "game": "Ferret Frenzy",
+  "role": "BANDIT",
+  "roleName": "Bandit",
+  "coat": "Sable / Black Sable",
+  "responseCount": 250,
+  "responses": [
+    {
+      "category": "cover",
+      "requires": [],
+      "text": "From my side, I am giving you the wake evidence I think matters and I am not treating coordination as proof by itself. That is where I am starting.",
+      "id": "bandit-001",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "cover"
+      ]
+    },
+    {
+      "category": "cover",
+      "requires": [],
+      "text": "For the timeline, I am more interested in a consistent treat timeline than in dramatic role claims. That is evidence, not a verdict.",
+      "id": "bandit-002",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "cover"
+      ]
+    },
+    {
+      "category": "cover",
+      "requires": [],
+      "text": "What I can confirm is I am giving you the wake evidence I think matters and I am not treating coordination as proof by itself. That could be true without proving allegiance.",
+      "id": "bandit-003",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "cover"
+      ]
+    },
+    {
+      "category": "cover",
+      "requires": [],
+      "text": "My read right now is I am more interested in a consistent treat timeline than in dramatic role claims. I am keeping the difference between starting role and current card in mind.",
+      "id": "bandit-004",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "cover"
+      ]
+    },
+    {
+      "category": "cover",
+      "requires": [],
+      "text": "I keep coming back to I am giving you the wake evidence I think matters and I am not treating coordination as proof by itself. That does not settle the whole round.",
+      "id": "bandit-005",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "cover"
+      ]
+    },
+    {
+      "category": "cover",
+      "requires": [],
+      "text": "The piece I trust most is I am more interested in a consistent treat timeline than in dramatic role claims. A swap could still change what the cards mean.",
+      "id": "bandit-006",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "cover"
+      ]
+    },
+    {
+      "category": "cover",
+      "requires": [],
+      "text": "Before we Paw Point, I am giving you the wake evidence I think matters and I am not treating coordination as proof by itself. I am comparing who was awake before and after the treats vanished.",
+      "id": "bandit-007",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "cover"
+      ]
+    },
+    {
+      "category": "cover",
+      "requires": [],
+      "text": "I am comparing notes and I am more interested in a consistent treat timeline than in dramatic role claims. I would rather be precise than loud.",
+      "id": "bandit-008",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "cover"
+      ]
+    },
+    {
+      "category": "cover",
+      "requires": [],
+      "text": "One thing I do not want to lose is I am giving you the wake evidence I think matters and I am not treating coordination as proof by itself. I am keeping my Paw Point open for now.",
+      "id": "bandit-009",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "cover"
+      ]
+    },
+    {
+      "category": "cover",
+      "requires": [],
+      "text": "The useful detail for me is I am more interested in a consistent treat timeline than in dramatic role claims. I want the sequence to make sense first.",
+      "id": "bandit-010",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "cover"
+      ]
+    },
+    {
+      "category": "cover",
+      "requires": [],
+      "text": "I am sticking to the facts: I am giving you the wake evidence I think matters and I am not treating coordination as proof by itself. The app-confirmed pieces come first.",
+      "id": "bandit-011",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "cover"
+      ]
+    },
+    {
+      "category": "cover",
+      "requires": [],
+      "text": "The night makes more sense if I am more interested in a consistent treat timeline than in dramatic role claims. I am leaving room for card movement.",
+      "id": "bandit-012",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "cover"
+      ]
+    },
+    {
+      "category": "cover",
+      "requires": [],
+      "text": "I want to separate fact from guess: I am giving you the wake evidence I think matters and I am not treating coordination as proof by itself. I am checking it against the treat state.",
+      "id": "bandit-013",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "cover"
+      ]
+    },
+    {
+      "category": "cover",
+      "requires": [],
+      "text": "My private notes say I am more interested in a consistent treat timeline than in dramatic role claims. I need the wake windows to line up.",
+      "id": "bandit-014",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "cover"
+      ]
+    },
+    {
+      "category": "cover",
+      "requires": [],
+      "text": "I am not treating this as proof, but I am giving you the wake evidence I think matters and I am not treating coordination as proof by itself. I am still weighing the same evidence.",
+      "id": "bandit-015",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "cover"
+      ]
+    },
+    {
+      "category": "cover",
+      "requires": [],
+      "text": "For Morning Business, I am more interested in a consistent treat timeline than in dramatic role claims. The timing still matters more than vibes.",
+      "id": "bandit-016",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "cover"
+      ]
+    },
+    {
+      "category": "cover",
+      "requires": [],
+      "text": "The clue I am weighing is I am giving you the wake evidence I think matters and I am not treating coordination as proof by itself. I am not treating a role claim as verified.",
+      "id": "bandit-017",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "cover"
+      ]
+    },
+    {
+      "category": "cover",
+      "requires": [],
+      "text": "I am watching the order of events: I am more interested in a consistent treat timeline than in dramatic role claims. I am not adding facts I did not actually receive.",
+      "id": "bandit-018",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "cover"
+      ]
+    },
+    {
+      "category": "cover",
+      "requires": [],
+      "text": "The safest thing I can say is I am giving you the wake evidence I think matters and I am not treating coordination as proof by itself. I want to hear how that fits everyone else.",
+      "id": "bandit-019",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "cover"
+      ]
+    },
+    {
+      "category": "cover",
+      "requires": [],
+      "text": "My current timeline says I am more interested in a consistent treat timeline than in dramatic role claims. I want another claim against that timeline.",
+      "id": "bandit-020",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "cover"
+      ]
+    },
+    {
+      "category": "cover",
+      "requires": [],
+      "text": "I am cross-checking claims: I am giving you the wake evidence I think matters and I am not treating coordination as proof by itself. I am watching for contradictions, not just confidence.",
+      "id": "bandit-021",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "cover"
+      ]
+    },
+    {
+      "category": "cover",
+      "requires": [],
+      "text": "The strongest detail I have is I am more interested in a consistent treat timeline than in dramatic role claims. I want a timeline that survives the swap possibilities.",
+      "id": "bandit-022",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "cover"
+      ]
+    },
+    {
+      "category": "cover",
+      "requires": [],
+      "text": "I am keeping this narrow: I am giving you the wake evidence I think matters and I am not treating coordination as proof by itself. I am not calling that automatic guilt.",
+      "id": "bandit-023",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "cover"
+      ]
+    },
+    {
+      "category": "cover",
+      "requires": [],
+      "text": "I do not want to overstate it: I am more interested in a consistent treat timeline than in dramatic role claims. The Raider is still the primary target.",
+      "id": "bandit-024",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "cover"
+      ]
+    },
+    {
+      "category": "cover",
+      "requires": [],
+      "text": "Here is the part I can actually use: I am giving you the wake evidence I think matters and I am not treating coordination as proof by itself. That is the part I can defend if challenged.",
+      "id": "bandit-025",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "cover"
+      ]
+    },
+    {
+      "category": "raider_pressure",
+      "requires": [],
+      "text": "From my side, the round is about catching the actual Raider, so a suspicious accomplice is not enough by itself. That is where I am starting.",
+      "id": "bandit-026",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "raider_pressure"
+      ]
+    },
+    {
+      "category": "raider_pressure",
+      "requires": [],
+      "text": "For the timeline, even if somebody looks Bandit-aligned, we still need the player who actually took the Minnow Treats. That is evidence, not a verdict.",
+      "id": "bandit-027",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "raider_pressure"
+      ]
+    },
+    {
+      "category": "raider_pressure",
+      "requires": [],
+      "text": "What I can confirm is the round is about catching the actual Raider, so a suspicious accomplice is not enough by itself. That could be true without proving allegiance.",
+      "id": "bandit-028",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "raider_pressure"
+      ]
+    },
+    {
+      "category": "raider_pressure",
+      "requires": [],
+      "text": "My read right now is even if somebody looks Bandit-aligned, we still need the player who actually took the Minnow Treats. I am keeping the difference between starting role and current card in mind.",
+      "id": "bandit-029",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "raider_pressure"
+      ]
+    },
+    {
+      "category": "raider_pressure",
+      "requires": [],
+      "text": "I keep coming back to the round is about catching the actual Raider, so a suspicious accomplice is not enough by itself. That does not settle the whole round.",
+      "id": "bandit-030",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "raider_pressure"
+      ]
+    },
+    {
+      "category": "raider_pressure",
+      "requires": [],
+      "text": "The piece I trust most is even if somebody looks Bandit-aligned, we still need the player who actually took the Minnow Treats. A swap could still change what the cards mean.",
+      "id": "bandit-031",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "raider_pressure"
+      ]
+    },
+    {
+      "category": "raider_pressure",
+      "requires": [],
+      "text": "Before we Paw Point, the round is about catching the actual Raider, so a suspicious accomplice is not enough by itself. I am comparing who was awake before and after the treats vanished.",
+      "id": "bandit-032",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "raider_pressure"
+      ]
+    },
+    {
+      "category": "raider_pressure",
+      "requires": [],
+      "text": "I am comparing notes and even if somebody looks Bandit-aligned, we still need the player who actually took the Minnow Treats. I would rather be precise than loud.",
+      "id": "bandit-033",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "raider_pressure"
+      ]
+    },
+    {
+      "category": "raider_pressure",
+      "requires": [],
+      "text": "One thing I do not want to lose is the round is about catching the actual Raider, so a suspicious accomplice is not enough by itself. I am keeping my Paw Point open for now.",
+      "id": "bandit-034",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "raider_pressure"
+      ]
+    },
+    {
+      "category": "raider_pressure",
+      "requires": [],
+      "text": "The useful detail for me is even if somebody looks Bandit-aligned, we still need the player who actually took the Minnow Treats. I want the sequence to make sense first.",
+      "id": "bandit-035",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "raider_pressure"
+      ]
+    },
+    {
+      "category": "raider_pressure",
+      "requires": [],
+      "text": "I am sticking to the facts: the round is about catching the actual Raider, so a suspicious accomplice is not enough by itself. The app-confirmed pieces come first.",
+      "id": "bandit-036",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "raider_pressure"
+      ]
+    },
+    {
+      "category": "raider_pressure",
+      "requires": [],
+      "text": "The night makes more sense if even if somebody looks Bandit-aligned, we still need the player who actually took the Minnow Treats. I am leaving room for card movement.",
+      "id": "bandit-037",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "raider_pressure"
+      ]
+    },
+    {
+      "category": "raider_pressure",
+      "requires": [],
+      "text": "I want to separate fact from guess: the round is about catching the actual Raider, so a suspicious accomplice is not enough by itself. I am checking it against the treat state.",
+      "id": "bandit-038",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "raider_pressure"
+      ]
+    },
+    {
+      "category": "raider_pressure",
+      "requires": [],
+      "text": "My private notes say even if somebody looks Bandit-aligned, we still need the player who actually took the Minnow Treats. I need the wake windows to line up.",
+      "id": "bandit-039",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "raider_pressure"
+      ]
+    },
+    {
+      "category": "raider_pressure",
+      "requires": [],
+      "text": "I am not treating this as proof, but the round is about catching the actual Raider, so a suspicious accomplice is not enough by itself. I am still weighing the same evidence.",
+      "id": "bandit-040",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "raider_pressure"
+      ]
+    },
+    {
+      "category": "raider_pressure",
+      "requires": [],
+      "text": "For Morning Business, even if somebody looks Bandit-aligned, we still need the player who actually took the Minnow Treats. The timing still matters more than vibes.",
+      "id": "bandit-041",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "raider_pressure"
+      ]
+    },
+    {
+      "category": "raider_pressure",
+      "requires": [],
+      "text": "The clue I am weighing is the round is about catching the actual Raider, so a suspicious accomplice is not enough by itself. I am not treating a role claim as verified.",
+      "id": "bandit-042",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "raider_pressure"
+      ]
+    },
+    {
+      "category": "raider_pressure",
+      "requires": [],
+      "text": "I am watching the order of events: even if somebody looks Bandit-aligned, we still need the player who actually took the Minnow Treats. I am not adding facts I did not actually receive.",
+      "id": "bandit-043",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "raider_pressure"
+      ]
+    },
+    {
+      "category": "raider_pressure",
+      "requires": [],
+      "text": "The safest thing I can say is the round is about catching the actual Raider, so a suspicious accomplice is not enough by itself. I want to hear how that fits everyone else.",
+      "id": "bandit-044",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "raider_pressure"
+      ]
+    },
+    {
+      "category": "raider_pressure",
+      "requires": [],
+      "text": "My current timeline says even if somebody looks Bandit-aligned, we still need the player who actually took the Minnow Treats. I want another claim against that timeline.",
+      "id": "bandit-045",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "raider_pressure"
+      ]
+    },
+    {
+      "category": "raider_pressure",
+      "requires": [],
+      "text": "I am cross-checking claims: the round is about catching the actual Raider, so a suspicious accomplice is not enough by itself. I am watching for contradictions, not just confidence.",
+      "id": "bandit-046",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "raider_pressure"
+      ]
+    },
+    {
+      "category": "raider_pressure",
+      "requires": [],
+      "text": "The strongest detail I have is even if somebody looks Bandit-aligned, we still need the player who actually took the Minnow Treats. I want a timeline that survives the swap possibilities.",
+      "id": "bandit-047",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "raider_pressure"
+      ]
+    },
+    {
+      "category": "raider_pressure",
+      "requires": [],
+      "text": "I am keeping this narrow: the round is about catching the actual Raider, so a suspicious accomplice is not enough by itself. I am not calling that automatic guilt.",
+      "id": "bandit-048",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "raider_pressure"
+      ]
+    },
+    {
+      "category": "raider_pressure",
+      "requires": [],
+      "text": "I do not want to overstate it: even if somebody looks Bandit-aligned, we still need the player who actually took the Minnow Treats. The Raider is still the primary target.",
+      "id": "bandit-049",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "raider_pressure"
+      ]
+    },
+    {
+      "category": "raider_pressure",
+      "requires": [],
+      "text": "Here is the part I can actually use: the round is about catching the actual Raider, so a suspicious accomplice is not enough by itself. That is the part I can defend if challenged.",
+      "id": "bandit-050",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "raider_pressure"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "From my side, I woke at Hour {{hour}}; the treats were {{treatState}}, and {{cowakers}} was my co-waker read. That is where I am starting.",
+      "id": "bandit-051",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "For the timeline, Hour {{hour}} is my anchor: treats {{treatState}}, with {{cowakers}} in that wake window. That is evidence, not a verdict.",
+      "id": "bandit-052",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "What I can confirm is I woke at Hour {{hour}}; the treats were {{treatState}}, and {{cowakers}} was my co-waker read. That could be true without proving allegiance.",
+      "id": "bandit-053",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "My read right now is Hour {{hour}} is my anchor: treats {{treatState}}, with {{cowakers}} in that wake window. I am keeping the difference between starting role and current card in mind.",
+      "id": "bandit-054",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "I keep coming back to I woke at Hour {{hour}}; the treats were {{treatState}}, and {{cowakers}} was my co-waker read. That does not settle the whole round.",
+      "id": "bandit-055",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "The piece I trust most is Hour {{hour}} is my anchor: treats {{treatState}}, with {{cowakers}} in that wake window. A swap could still change what the cards mean.",
+      "id": "bandit-056",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "Before we Paw Point, I woke at Hour {{hour}}; the treats were {{treatState}}, and {{cowakers}} was my co-waker read. I am comparing who was awake before and after the treats vanished.",
+      "id": "bandit-057",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "I am comparing notes and Hour {{hour}} is my anchor: treats {{treatState}}, with {{cowakers}} in that wake window. I would rather be precise than loud.",
+      "id": "bandit-058",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "One thing I do not want to lose is I woke at Hour {{hour}}; the treats were {{treatState}}, and {{cowakers}} was my co-waker read. I am keeping my Paw Point open for now.",
+      "id": "bandit-059",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "The useful detail for me is Hour {{hour}} is my anchor: treats {{treatState}}, with {{cowakers}} in that wake window. I want the sequence to make sense first.",
+      "id": "bandit-060",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "I am sticking to the facts: I woke at Hour {{hour}}; the treats were {{treatState}}, and {{cowakers}} was my co-waker read. The app-confirmed pieces come first.",
+      "id": "bandit-061",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "The night makes more sense if Hour {{hour}} is my anchor: treats {{treatState}}, with {{cowakers}} in that wake window. I am leaving room for card movement.",
+      "id": "bandit-062",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "I want to separate fact from guess: I woke at Hour {{hour}}; the treats were {{treatState}}, and {{cowakers}} was my co-waker read. I am checking it against the treat state.",
+      "id": "bandit-063",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "My private notes say Hour {{hour}} is my anchor: treats {{treatState}}, with {{cowakers}} in that wake window. I need the wake windows to line up.",
+      "id": "bandit-064",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "I am not treating this as proof, but I woke at Hour {{hour}}; the treats were {{treatState}}, and {{cowakers}} was my co-waker read. I am still weighing the same evidence.",
+      "id": "bandit-065",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "For Morning Business, Hour {{hour}} is my anchor: treats {{treatState}}, with {{cowakers}} in that wake window. The timing still matters more than vibes.",
+      "id": "bandit-066",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "The clue I am weighing is I woke at Hour {{hour}}; the treats were {{treatState}}, and {{cowakers}} was my co-waker read. I am not treating a role claim as verified.",
+      "id": "bandit-067",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "I am watching the order of events: Hour {{hour}} is my anchor: treats {{treatState}}, with {{cowakers}} in that wake window. I am not adding facts I did not actually receive.",
+      "id": "bandit-068",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "The safest thing I can say is I woke at Hour {{hour}}; the treats were {{treatState}}, and {{cowakers}} was my co-waker read. I want to hear how that fits everyone else.",
+      "id": "bandit-069",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "My current timeline says Hour {{hour}} is my anchor: treats {{treatState}}, with {{cowakers}} in that wake window. I want another claim against that timeline.",
+      "id": "bandit-070",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "I am cross-checking claims: I woke at Hour {{hour}}; the treats were {{treatState}}, and {{cowakers}} was my co-waker read. I am watching for contradictions, not just confidence.",
+      "id": "bandit-071",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "The strongest detail I have is Hour {{hour}} is my anchor: treats {{treatState}}, with {{cowakers}} in that wake window. I want a timeline that survives the swap possibilities.",
+      "id": "bandit-072",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "I am keeping this narrow: I woke at Hour {{hour}}; the treats were {{treatState}}, and {{cowakers}} was my co-waker read. I am not calling that automatic guilt.",
+      "id": "bandit-073",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "I do not want to overstate it: Hour {{hour}} is my anchor: treats {{treatState}}, with {{cowakers}} in that wake window. The Raider is still the primary target.",
+      "id": "bandit-074",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "Here is the part I can actually use: I woke at Hour {{hour}}; the treats were {{treatState}}, and {{cowakers}} was my co-waker read. That is the part I can defend if challenged.",
+      "id": "bandit-075",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "observation"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "From my side, {{target}}, which hour are you claiming, and were the Minnow Treats present or missing? That is where I am starting.",
+      "id": "bandit-076",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "For the timeline, I want {{target}} to pin down who else was awake in that window. That is evidence, not a verdict.",
+      "id": "bandit-077",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "What I can confirm is {{target}}, which hour are you claiming, and were the Minnow Treats present or missing? That could be true without proving allegiance.",
+      "id": "bandit-078",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "My read right now is I want {{target}} to pin down who else was awake in that window. I am keeping the difference between starting role and current card in mind.",
+      "id": "bandit-079",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "I keep coming back to {{target}}, which hour are you claiming, and were the Minnow Treats present or missing? That does not settle the whole round.",
+      "id": "bandit-080",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "The piece I trust most is I want {{target}} to pin down who else was awake in that window. A swap could still change what the cards mean.",
+      "id": "bandit-081",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "Before we Paw Point, {{target}}, which hour are you claiming, and were the Minnow Treats present or missing? I am comparing who was awake before and after the treats vanished.",
+      "id": "bandit-082",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "I am comparing notes and I want {{target}} to pin down who else was awake in that window. I would rather be precise than loud.",
+      "id": "bandit-083",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "One thing I do not want to lose is {{target}}, which hour are you claiming, and were the Minnow Treats present or missing? I am keeping my Paw Point open for now.",
+      "id": "bandit-084",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "The useful detail for me is I want {{target}} to pin down who else was awake in that window. I want the sequence to make sense first.",
+      "id": "bandit-085",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "I am sticking to the facts: {{target}}, which hour are you claiming, and were the Minnow Treats present or missing? The app-confirmed pieces come first.",
+      "id": "bandit-086",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "The night makes more sense if I want {{target}} to pin down who else was awake in that window. I am leaving room for card movement.",
+      "id": "bandit-087",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "I want to separate fact from guess: {{target}}, which hour are you claiming, and were the Minnow Treats present or missing? I am checking it against the treat state.",
+      "id": "bandit-088",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "My private notes say I want {{target}} to pin down who else was awake in that window. I need the wake windows to line up.",
+      "id": "bandit-089",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "I am not treating this as proof, but {{target}}, which hour are you claiming, and were the Minnow Treats present or missing? I am still weighing the same evidence.",
+      "id": "bandit-090",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "For Morning Business, I want {{target}} to pin down who else was awake in that window. The timing still matters more than vibes.",
+      "id": "bandit-091",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "The clue I am weighing is {{target}}, which hour are you claiming, and were the Minnow Treats present or missing? I am not treating a role claim as verified.",
+      "id": "bandit-092",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "I am watching the order of events: I want {{target}} to pin down who else was awake in that window. I am not adding facts I did not actually receive.",
+      "id": "bandit-093",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "The safest thing I can say is {{target}}, which hour are you claiming, and were the Minnow Treats present or missing? I want to hear how that fits everyone else.",
+      "id": "bandit-094",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "My current timeline says I want {{target}} to pin down who else was awake in that window. I want another claim against that timeline.",
+      "id": "bandit-095",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "I am cross-checking claims: {{target}}, which hour are you claiming, and were the Minnow Treats present or missing? I am watching for contradictions, not just confidence.",
+      "id": "bandit-096",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "The strongest detail I have is I want {{target}} to pin down who else was awake in that window. I want a timeline that survives the swap possibilities.",
+      "id": "bandit-097",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "I am keeping this narrow: {{target}}, which hour are you claiming, and were the Minnow Treats present or missing? I am not calling that automatic guilt.",
+      "id": "bandit-098",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "I do not want to overstate it: I want {{target}} to pin down who else was awake in that window. The Raider is still the primary target.",
+      "id": "bandit-099",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "Here is the part I can actually use: {{target}}, which hour are you claiming, and were the Minnow Treats present or missing? That is the part I can defend if challenged.",
+      "id": "bandit-100",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "question"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "From my side, the change from PRESENT to MISSING has to fit the Burrow Clock, not just somebody's role claim. That is where I am starting.",
+      "id": "bandit-101",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "For the timeline, I am lining up claimed wake hours around when the Minnow Treats disappeared. That is evidence, not a verdict.",
+      "id": "bandit-102",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "What I can confirm is the change from PRESENT to MISSING has to fit the Burrow Clock, not just somebody's role claim. That could be true without proving allegiance.",
+      "id": "bandit-103",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "My read right now is I am lining up claimed wake hours around when the Minnow Treats disappeared. I am keeping the difference between starting role and current card in mind.",
+      "id": "bandit-104",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "I keep coming back to the change from PRESENT to MISSING has to fit the Burrow Clock, not just somebody's role claim. That does not settle the whole round.",
+      "id": "bandit-105",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "The piece I trust most is I am lining up claimed wake hours around when the Minnow Treats disappeared. A swap could still change what the cards mean.",
+      "id": "bandit-106",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "Before we Paw Point, the change from PRESENT to MISSING has to fit the Burrow Clock, not just somebody's role claim. I am comparing who was awake before and after the treats vanished.",
+      "id": "bandit-107",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "I am comparing notes and I am lining up claimed wake hours around when the Minnow Treats disappeared. I would rather be precise than loud.",
+      "id": "bandit-108",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "One thing I do not want to lose is the change from PRESENT to MISSING has to fit the Burrow Clock, not just somebody's role claim. I am keeping my Paw Point open for now.",
+      "id": "bandit-109",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "The useful detail for me is I am lining up claimed wake hours around when the Minnow Treats disappeared. I want the sequence to make sense first.",
+      "id": "bandit-110",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "I am sticking to the facts: the change from PRESENT to MISSING has to fit the Burrow Clock, not just somebody's role claim. The app-confirmed pieces come first.",
+      "id": "bandit-111",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "The night makes more sense if I am lining up claimed wake hours around when the Minnow Treats disappeared. I am leaving room for card movement.",
+      "id": "bandit-112",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "I want to separate fact from guess: the change from PRESENT to MISSING has to fit the Burrow Clock, not just somebody's role claim. I am checking it against the treat state.",
+      "id": "bandit-113",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "My private notes say I am lining up claimed wake hours around when the Minnow Treats disappeared. I need the wake windows to line up.",
+      "id": "bandit-114",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "I am not treating this as proof, but the change from PRESENT to MISSING has to fit the Burrow Clock, not just somebody's role claim. I am still weighing the same evidence.",
+      "id": "bandit-115",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "For Morning Business, I am lining up claimed wake hours around when the Minnow Treats disappeared. The timing still matters more than vibes.",
+      "id": "bandit-116",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "The clue I am weighing is the change from PRESENT to MISSING has to fit the Burrow Clock, not just somebody's role claim. I am not treating a role claim as verified.",
+      "id": "bandit-117",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "I am watching the order of events: I am lining up claimed wake hours around when the Minnow Treats disappeared. I am not adding facts I did not actually receive.",
+      "id": "bandit-118",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "The safest thing I can say is the change from PRESENT to MISSING has to fit the Burrow Clock, not just somebody's role claim. I want to hear how that fits everyone else.",
+      "id": "bandit-119",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "My current timeline says I am lining up claimed wake hours around when the Minnow Treats disappeared. I want another claim against that timeline.",
+      "id": "bandit-120",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "I am cross-checking claims: the change from PRESENT to MISSING has to fit the Burrow Clock, not just somebody's role claim. I am watching for contradictions, not just confidence.",
+      "id": "bandit-121",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "The strongest detail I have is I am lining up claimed wake hours around when the Minnow Treats disappeared. I want a timeline that survives the swap possibilities.",
+      "id": "bandit-122",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "I am keeping this narrow: the change from PRESENT to MISSING has to fit the Burrow Clock, not just somebody's role claim. I am not calling that automatic guilt.",
+      "id": "bandit-123",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "I do not want to overstate it: I am lining up claimed wake hours around when the Minnow Treats disappeared. The Raider is still the primary target.",
+      "id": "bandit-124",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "Here is the part I can actually use: the change from PRESENT to MISSING has to fit the Burrow Clock, not just somebody's role claim. That is the part I can defend if challenged.",
+      "id": "bandit-125",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "timeline"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "From my side, {{target}} sits highest on my current timing suspicion, but I am still checking the evidence. That is where I am starting.",
+      "id": "bandit-126",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "For the timeline, I am watching {{target}} because their place in the wake timeline needs a better explanation. That is evidence, not a verdict.",
+      "id": "bandit-127",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "What I can confirm is {{target}} sits highest on my current timing suspicion, but I am still checking the evidence. That could be true without proving allegiance.",
+      "id": "bandit-128",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "My read right now is I am watching {{target}} because their place in the wake timeline needs a better explanation. I am keeping the difference between starting role and current card in mind.",
+      "id": "bandit-129",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "I keep coming back to {{target}} sits highest on my current timing suspicion, but I am still checking the evidence. That does not settle the whole round.",
+      "id": "bandit-130",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "The piece I trust most is I am watching {{target}} because their place in the wake timeline needs a better explanation. A swap could still change what the cards mean.",
+      "id": "bandit-131",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "Before we Paw Point, {{target}} sits highest on my current timing suspicion, but I am still checking the evidence. I am comparing who was awake before and after the treats vanished.",
+      "id": "bandit-132",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "I am comparing notes and I am watching {{target}} because their place in the wake timeline needs a better explanation. I would rather be precise than loud.",
+      "id": "bandit-133",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "One thing I do not want to lose is {{target}} sits highest on my current timing suspicion, but I am still checking the evidence. I am keeping my Paw Point open for now.",
+      "id": "bandit-134",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "The useful detail for me is I am watching {{target}} because their place in the wake timeline needs a better explanation. I want the sequence to make sense first.",
+      "id": "bandit-135",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "I am sticking to the facts: {{target}} sits highest on my current timing suspicion, but I am still checking the evidence. The app-confirmed pieces come first.",
+      "id": "bandit-136",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "The night makes more sense if I am watching {{target}} because their place in the wake timeline needs a better explanation. I am leaving room for card movement.",
+      "id": "bandit-137",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "I want to separate fact from guess: {{target}} sits highest on my current timing suspicion, but I am still checking the evidence. I am checking it against the treat state.",
+      "id": "bandit-138",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "My private notes say I am watching {{target}} because their place in the wake timeline needs a better explanation. I need the wake windows to line up.",
+      "id": "bandit-139",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "I am not treating this as proof, but {{target}} sits highest on my current timing suspicion, but I am still checking the evidence. I am still weighing the same evidence.",
+      "id": "bandit-140",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "For Morning Business, I am watching {{target}} because their place in the wake timeline needs a better explanation. The timing still matters more than vibes.",
+      "id": "bandit-141",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "The clue I am weighing is {{target}} sits highest on my current timing suspicion, but I am still checking the evidence. I am not treating a role claim as verified.",
+      "id": "bandit-142",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "I am watching the order of events: I am watching {{target}} because their place in the wake timeline needs a better explanation. I am not adding facts I did not actually receive.",
+      "id": "bandit-143",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "The safest thing I can say is {{target}} sits highest on my current timing suspicion, but I am still checking the evidence. I want to hear how that fits everyone else.",
+      "id": "bandit-144",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "My current timeline says I am watching {{target}} because their place in the wake timeline needs a better explanation. I want another claim against that timeline.",
+      "id": "bandit-145",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "I am cross-checking claims: {{target}} sits highest on my current timing suspicion, but I am still checking the evidence. I am watching for contradictions, not just confidence.",
+      "id": "bandit-146",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "The strongest detail I have is I am watching {{target}} because their place in the wake timeline needs a better explanation. I want a timeline that survives the swap possibilities.",
+      "id": "bandit-147",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "I am keeping this narrow: {{target}} sits highest on my current timing suspicion, but I am still checking the evidence. I am not calling that automatic guilt.",
+      "id": "bandit-148",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "I do not want to overstate it: I am watching {{target}} because their place in the wake timeline needs a better explanation. The Raider is still the primary target.",
+      "id": "bandit-149",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "Here is the part I can actually use: {{target}} sits highest on my current timing suspicion, but I am still checking the evidence. That is the part I can defend if challenged.",
+      "id": "bandit-150",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "From my side, my claim is about what my own screen showed me; I am not claiming knowledge outside that. That is where I am starting.",
+      "id": "bandit-151",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "For the timeline, if my card moved later, that does not rewrite what I personally observed when I woke. That is evidence, not a verdict.",
+      "id": "bandit-152",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "What I can confirm is my claim is about what my own screen showed me; I am not claiming knowledge outside that. That could be true without proving allegiance.",
+      "id": "bandit-153",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "My read right now is if my card moved later, that does not rewrite what I personally observed when I woke. I am keeping the difference between starting role and current card in mind.",
+      "id": "bandit-154",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "I keep coming back to my claim is about what my own screen showed me; I am not claiming knowledge outside that. That does not settle the whole round.",
+      "id": "bandit-155",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "The piece I trust most is if my card moved later, that does not rewrite what I personally observed when I woke. A swap could still change what the cards mean.",
+      "id": "bandit-156",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "Before we Paw Point, my claim is about what my own screen showed me; I am not claiming knowledge outside that. I am comparing who was awake before and after the treats vanished.",
+      "id": "bandit-157",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "I am comparing notes and if my card moved later, that does not rewrite what I personally observed when I woke. I would rather be precise than loud.",
+      "id": "bandit-158",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "One thing I do not want to lose is my claim is about what my own screen showed me; I am not claiming knowledge outside that. I am keeping my Paw Point open for now.",
+      "id": "bandit-159",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "The useful detail for me is if my card moved later, that does not rewrite what I personally observed when I woke. I want the sequence to make sense first.",
+      "id": "bandit-160",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "I am sticking to the facts: my claim is about what my own screen showed me; I am not claiming knowledge outside that. The app-confirmed pieces come first.",
+      "id": "bandit-161",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "The night makes more sense if if my card moved later, that does not rewrite what I personally observed when I woke. I am leaving room for card movement.",
+      "id": "bandit-162",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "I want to separate fact from guess: my claim is about what my own screen showed me; I am not claiming knowledge outside that. I am checking it against the treat state.",
+      "id": "bandit-163",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "My private notes say if my card moved later, that does not rewrite what I personally observed when I woke. I need the wake windows to line up.",
+      "id": "bandit-164",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "I am not treating this as proof, but my claim is about what my own screen showed me; I am not claiming knowledge outside that. I am still weighing the same evidence.",
+      "id": "bandit-165",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "For Morning Business, if my card moved later, that does not rewrite what I personally observed when I woke. The timing still matters more than vibes.",
+      "id": "bandit-166",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "The clue I am weighing is my claim is about what my own screen showed me; I am not claiming knowledge outside that. I am not treating a role claim as verified.",
+      "id": "bandit-167",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "I am watching the order of events: if my card moved later, that does not rewrite what I personally observed when I woke. I am not adding facts I did not actually receive.",
+      "id": "bandit-168",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "The safest thing I can say is my claim is about what my own screen showed me; I am not claiming knowledge outside that. I want to hear how that fits everyone else.",
+      "id": "bandit-169",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "My current timeline says if my card moved later, that does not rewrite what I personally observed when I woke. I want another claim against that timeline.",
+      "id": "bandit-170",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "I am cross-checking claims: my claim is about what my own screen showed me; I am not claiming knowledge outside that. I am watching for contradictions, not just confidence.",
+      "id": "bandit-171",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "The strongest detail I have is if my card moved later, that does not rewrite what I personally observed when I woke. I want a timeline that survives the swap possibilities.",
+      "id": "bandit-172",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "I am keeping this narrow: my claim is about what my own screen showed me; I am not claiming knowledge outside that. I am not calling that automatic guilt.",
+      "id": "bandit-173",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "I do not want to overstate it: if my card moved later, that does not rewrite what I personally observed when I woke. The Raider is still the primary target.",
+      "id": "bandit-174",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "Here is the part I can actually use: my claim is about what my own screen showed me; I am not claiming knowledge outside that. That is the part I can defend if challenged.",
+      "id": "bandit-175",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "defense"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "From my side, if nothing stronger appears, {{target}} is where my Paw Point is leaning. That is where I am starting.",
+      "id": "bandit-176",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "For the timeline, I am not locking yet, but {{target}} is my current vote pressure. That is evidence, not a verdict.",
+      "id": "bandit-177",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "What I can confirm is if nothing stronger appears, {{target}} is where my Paw Point is leaning. That could be true without proving allegiance.",
+      "id": "bandit-178",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "My read right now is I am not locking yet, but {{target}} is my current vote pressure. I am keeping the difference between starting role and current card in mind.",
+      "id": "bandit-179",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "I keep coming back to if nothing stronger appears, {{target}} is where my Paw Point is leaning. That does not settle the whole round.",
+      "id": "bandit-180",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "The piece I trust most is I am not locking yet, but {{target}} is my current vote pressure. A swap could still change what the cards mean.",
+      "id": "bandit-181",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "Before we Paw Point, if nothing stronger appears, {{target}} is where my Paw Point is leaning. I am comparing who was awake before and after the treats vanished.",
+      "id": "bandit-182",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "I am comparing notes and I am not locking yet, but {{target}} is my current vote pressure. I would rather be precise than loud.",
+      "id": "bandit-183",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "One thing I do not want to lose is if nothing stronger appears, {{target}} is where my Paw Point is leaning. I am keeping my Paw Point open for now.",
+      "id": "bandit-184",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "The useful detail for me is I am not locking yet, but {{target}} is my current vote pressure. I want the sequence to make sense first.",
+      "id": "bandit-185",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "I am sticking to the facts: if nothing stronger appears, {{target}} is where my Paw Point is leaning. The app-confirmed pieces come first.",
+      "id": "bandit-186",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "The night makes more sense if I am not locking yet, but {{target}} is my current vote pressure. I am leaving room for card movement.",
+      "id": "bandit-187",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "I want to separate fact from guess: if nothing stronger appears, {{target}} is where my Paw Point is leaning. I am checking it against the treat state.",
+      "id": "bandit-188",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "My private notes say I am not locking yet, but {{target}} is my current vote pressure. I need the wake windows to line up.",
+      "id": "bandit-189",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "I am not treating this as proof, but if nothing stronger appears, {{target}} is where my Paw Point is leaning. I am still weighing the same evidence.",
+      "id": "bandit-190",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "For Morning Business, I am not locking yet, but {{target}} is my current vote pressure. The timing still matters more than vibes.",
+      "id": "bandit-191",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "The clue I am weighing is if nothing stronger appears, {{target}} is where my Paw Point is leaning. I am not treating a role claim as verified.",
+      "id": "bandit-192",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "I am watching the order of events: I am not locking yet, but {{target}} is my current vote pressure. I am not adding facts I did not actually receive.",
+      "id": "bandit-193",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "The safest thing I can say is if nothing stronger appears, {{target}} is where my Paw Point is leaning. I want to hear how that fits everyone else.",
+      "id": "bandit-194",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "My current timeline says I am not locking yet, but {{target}} is my current vote pressure. I want another claim against that timeline.",
+      "id": "bandit-195",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "I am cross-checking claims: if nothing stronger appears, {{target}} is where my Paw Point is leaning. I am watching for contradictions, not just confidence.",
+      "id": "bandit-196",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "The strongest detail I have is I am not locking yet, but {{target}} is my current vote pressure. I want a timeline that survives the swap possibilities.",
+      "id": "bandit-197",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "I am keeping this narrow: if nothing stronger appears, {{target}} is where my Paw Point is leaning. I am not calling that automatic guilt.",
+      "id": "bandit-198",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "I do not want to overstate it: I am not locking yet, but {{target}} is my current vote pressure. The Raider is still the primary target.",
+      "id": "bandit-199",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "Here is the part I can actually use: if nothing stronger appears, {{target}} is where my Paw Point is leaning. That is the part I can defend if challenged.",
+      "id": "bandit-200",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "vote"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "From my side, that claim changes the order I am testing, especially around the treat-state switch. That is where I am starting.",
+      "id": "bandit-201",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "For the timeline, I heard that; I am checking whether it agrees with my private wake evidence. That is evidence, not a verdict.",
+      "id": "bandit-202",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "What I can confirm is that claim changes the order I am testing, especially around the treat-state switch. That could be true without proving allegiance.",
+      "id": "bandit-203",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "My read right now is I heard that; I am checking whether it agrees with my private wake evidence. I am keeping the difference between starting role and current card in mind.",
+      "id": "bandit-204",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "I keep coming back to that claim changes the order I am testing, especially around the treat-state switch. That does not settle the whole round.",
+      "id": "bandit-205",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "The piece I trust most is I heard that; I am checking whether it agrees with my private wake evidence. A swap could still change what the cards mean.",
+      "id": "bandit-206",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "Before we Paw Point, that claim changes the order I am testing, especially around the treat-state switch. I am comparing who was awake before and after the treats vanished.",
+      "id": "bandit-207",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "I am comparing notes and I heard that; I am checking whether it agrees with my private wake evidence. I would rather be precise than loud.",
+      "id": "bandit-208",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "One thing I do not want to lose is that claim changes the order I am testing, especially around the treat-state switch. I am keeping my Paw Point open for now.",
+      "id": "bandit-209",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "The useful detail for me is I heard that; I am checking whether it agrees with my private wake evidence. I want the sequence to make sense first.",
+      "id": "bandit-210",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "I am sticking to the facts: that claim changes the order I am testing, especially around the treat-state switch. The app-confirmed pieces come first.",
+      "id": "bandit-211",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "The night makes more sense if I heard that; I am checking whether it agrees with my private wake evidence. I am leaving room for card movement.",
+      "id": "bandit-212",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "I want to separate fact from guess: that claim changes the order I am testing, especially around the treat-state switch. I am checking it against the treat state.",
+      "id": "bandit-213",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "My private notes say I heard that; I am checking whether it agrees with my private wake evidence. I need the wake windows to line up.",
+      "id": "bandit-214",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "I am not treating this as proof, but that claim changes the order I am testing, especially around the treat-state switch. I am still weighing the same evidence.",
+      "id": "bandit-215",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "For Morning Business, I heard that; I am checking whether it agrees with my private wake evidence. The timing still matters more than vibes.",
+      "id": "bandit-216",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "The clue I am weighing is that claim changes the order I am testing, especially around the treat-state switch. I am not treating a role claim as verified.",
+      "id": "bandit-217",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "I am watching the order of events: I heard that; I am checking whether it agrees with my private wake evidence. I am not adding facts I did not actually receive.",
+      "id": "bandit-218",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "The safest thing I can say is that claim changes the order I am testing, especially around the treat-state switch. I want to hear how that fits everyone else.",
+      "id": "bandit-219",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "My current timeline says I heard that; I am checking whether it agrees with my private wake evidence. I want another claim against that timeline.",
+      "id": "bandit-220",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "I am cross-checking claims: that claim changes the order I am testing, especially around the treat-state switch. I am watching for contradictions, not just confidence.",
+      "id": "bandit-221",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "The strongest detail I have is I heard that; I am checking whether it agrees with my private wake evidence. I want a timeline that survives the swap possibilities.",
+      "id": "bandit-222",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "I am keeping this narrow: that claim changes the order I am testing, especially around the treat-state switch. I am not calling that automatic guilt.",
+      "id": "bandit-223",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "I do not want to overstate it: I heard that; I am checking whether it agrees with my private wake evidence. The Raider is still the primary target.",
+      "id": "bandit-224",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "Here is the part I can actually use: that claim changes the order I am testing, especially around the treat-state switch. That is the part I can defend if challenged.",
+      "id": "bandit-225",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "reaction"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "From my side, there are still multiple legal stories because cards and allegiances can move differently. That is where I am starting.",
+      "id": "bandit-226",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "For the timeline, I can narrow the timeline without pretending I know every current card. That is evidence, not a verdict.",
+      "id": "bandit-227",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "What I can confirm is there are still multiple legal stories because cards and allegiances can move differently. That could be true without proving allegiance.",
+      "id": "bandit-228",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "My read right now is I can narrow the timeline without pretending I know every current card. I am keeping the difference between starting role and current card in mind.",
+      "id": "bandit-229",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "I keep coming back to there are still multiple legal stories because cards and allegiances can move differently. That does not settle the whole round.",
+      "id": "bandit-230",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "The piece I trust most is I can narrow the timeline without pretending I know every current card. A swap could still change what the cards mean.",
+      "id": "bandit-231",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "Before we Paw Point, there are still multiple legal stories because cards and allegiances can move differently. I am comparing who was awake before and after the treats vanished.",
+      "id": "bandit-232",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "I am comparing notes and I can narrow the timeline without pretending I know every current card. I would rather be precise than loud.",
+      "id": "bandit-233",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "One thing I do not want to lose is there are still multiple legal stories because cards and allegiances can move differently. I am keeping my Paw Point open for now.",
+      "id": "bandit-234",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "The useful detail for me is I can narrow the timeline without pretending I know every current card. I want the sequence to make sense first.",
+      "id": "bandit-235",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "I am sticking to the facts: there are still multiple legal stories because cards and allegiances can move differently. The app-confirmed pieces come first.",
+      "id": "bandit-236",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "The night makes more sense if I can narrow the timeline without pretending I know every current card. I am leaving room for card movement.",
+      "id": "bandit-237",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "I want to separate fact from guess: there are still multiple legal stories because cards and allegiances can move differently. I am checking it against the treat state.",
+      "id": "bandit-238",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "My private notes say I can narrow the timeline without pretending I know every current card. I need the wake windows to line up.",
+      "id": "bandit-239",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "I am not treating this as proof, but there are still multiple legal stories because cards and allegiances can move differently. I am still weighing the same evidence.",
+      "id": "bandit-240",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "For Morning Business, I can narrow the timeline without pretending I know every current card. The timing still matters more than vibes.",
+      "id": "bandit-241",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "The clue I am weighing is there are still multiple legal stories because cards and allegiances can move differently. I am not treating a role claim as verified.",
+      "id": "bandit-242",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "I am watching the order of events: I can narrow the timeline without pretending I know every current card. I am not adding facts I did not actually receive.",
+      "id": "bandit-243",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "The safest thing I can say is there are still multiple legal stories because cards and allegiances can move differently. I want to hear how that fits everyone else.",
+      "id": "bandit-244",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "My current timeline says I can narrow the timeline without pretending I know every current card. I want another claim against that timeline.",
+      "id": "bandit-245",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "I am cross-checking claims: there are still multiple legal stories because cards and allegiances can move differently. I am watching for contradictions, not just confidence.",
+      "id": "bandit-246",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "The strongest detail I have is I can narrow the timeline without pretending I know every current card. I want a timeline that survives the swap possibilities.",
+      "id": "bandit-247",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "I am keeping this narrow: there are still multiple legal stories because cards and allegiances can move differently. I am not calling that automatic guilt.",
+      "id": "bandit-248",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "I do not want to overstate it: I can narrow the timeline without pretending I know every current card. The Raider is still the primary target.",
+      "id": "bandit-249",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "Here is the part I can actually use: there are still multiple legal stories because cards and allegiances can move differently. That is the part I can defend if challenged.",
+      "id": "bandit-250",
+      "tags": [
+        "ferret-frenzy",
+        "bandit",
+        "uncertainty"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+export function tallyVotes(votes){const m=new Map();for(const v of votes){if(!v?.targetId)continue;m.set(v.targetId,(m.get(v.targetId)||0)+1)}return Object.fromEntries(m)}
+export function topTargets(votes,{protectedIds=[]}={}){const tally=tallyVotes(votes);for(const id of protectedIds)delete tally[id];const vals=Object.values(tally);if(!vals.length)return [];const max=Math.max(...vals);return Object.entries(tally).filter(([,n])=>n===max).map(([id])=>id)}
+export function simultaneousLock(drafts,eligibleIds){return Object.entries(drafts).filter(([actor,target])=>eligibleIds.includes(actor)&&eligibleIds.includes(target)).map(([actorId,targetId])=>({actorId,targetId,lockedAt:Date.now()}))}

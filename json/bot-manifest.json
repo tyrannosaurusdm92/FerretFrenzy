@@ -1,0 +1,43 @@
+{
+  "engine": "Ferret Frenzy merged role bots",
+  "core": "js/ferret-frenzy-bot-core.js",
+  "manager": "js/bot-manager.js",
+  "assignment": "js/assign-role.js",
+  "bootstrap": "js/bot-game-bootstrap.js",
+  "roles": {
+    "BANDIT": {
+      "script": "js/bandit-bot.js",
+      "responses": "json/bandit-bot.json"
+    },
+    "DOOKER": {
+      "script": "js/dooker-bot.js",
+      "responses": "json/dooker-bot.json"
+    },
+    "ITCHY": {
+      "script": "js/itchy-bot.js",
+      "responses": "json/itchy-bot.json"
+    },
+    "TROUBLE": {
+      "script": "js/trouble-bot.js",
+      "responses": "json/trouble-bot.json"
+    },
+    "BUSINESS": {
+      "script": "js/business-bot.js",
+      "responses": "json/business-bot.json"
+    },
+    "SNUGGLER": {
+      "script": "js/snuggler-bot.js",
+      "responses": "json/snuggler-bot.json"
+    },
+    "HUNTER": {
+      "script": "js/hunter-bot.js",
+      "responses": "json/hunter-bot.json"
+    },
+    "GUARDIAN": {
+      "script": "js/guardian-bot.js",
+      "responses": "json/guardian-bot.json"
+    }
+  },
+  "responsesPerRole": 250,
+  "behavior": "Smart bots join as anonymous guest clients, receive the normal backend hidden deal, then load the matching role bot after startingRole is known."
+}

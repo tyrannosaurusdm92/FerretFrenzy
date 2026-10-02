@@ -1,0 +1,2 @@
+/* Small reusable component states */
+[hidden]{display:none!important}.empty{text-align:center}.error{color:#ff9eaa!important}.success{color:#b8ff9b!important}.pulse{animation:pulse .6s ease}@keyframes pulse{50%{transform:scale(1.02)}}

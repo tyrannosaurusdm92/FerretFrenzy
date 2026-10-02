@@ -1,0 +1,64 @@
+{
+  "reusableMechanics": [
+    {
+      "id": "atomic_swap",
+      "inspiration": "UNO Mobile Swap on 7",
+      "use": "Swap selected state keys between exactly two players atomically."
+    },
+    {
+      "id": "rotate_state",
+      "inspiration": "UNO Mobile Swap on 0",
+      "use": "Rotate selected player-owned state around ordered players."
+    },
+    {
+      "id": "effect_stack",
+      "inspiration": "UNO Mobile stacking",
+      "use": "Accumulate compatible effects and resolve total against one target."
+    },
+    {
+      "id": "forced_action",
+      "inspiration": "UNO Mobile Force",
+      "use": "Auto-resolve a single legal action when the rules require it."
+    },
+    {
+      "id": "challenge_hook",
+      "inspiration": "UNO challenge flow",
+      "use": "Validate a hidden rule condition and branch penalties/results without exposing private data."
+    },
+    {
+      "id": "invite_code",
+      "inspiration": "Discord-clone invite flows",
+      "use": "Create/regenerate room codes; join by code; validate existing membership."
+    },
+    {
+      "id": "room_member_collection",
+      "inspiration": "Discord-clone server/member model",
+      "use": "Room contains players with host/member role, presence, ready state, and join order."
+    },
+    {
+      "id": "room_broadcast",
+      "inspiration": "Discord-clone WebSocket rooms",
+      "use": "Broadcast room events only to connected members and recover with a snapshot."
+    },
+    {
+      "id": "presence",
+      "inspiration": "Discord-clone presence",
+      "use": "online/offline/reconnecting states without accounts."
+    },
+    {
+      "id": "host_migration",
+      "inspiration": "multiplayer room resilience",
+      "use": "Oldest remaining player becomes host when host leaves."
+    },
+    {
+      "id": "public_private_toggle",
+      "inspiration": "Among Us lobby flow",
+      "use": "Rooms begin private or can be toggled public; public browser lists joinable rooms."
+    },
+    {
+      "id": "streamer_code_privacy",
+      "inspiration": "Among Us streamer mode",
+      "use": "Backend/UI can optionally mask room code until tapped/copied."
+    }
+  ]
+}

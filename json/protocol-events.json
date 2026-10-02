@@ -1,0 +1,37 @@
+{
+  "clientToServer": [
+    "room.create",
+    "room.join",
+    "room.leave",
+    "room.ready",
+    "room.visibility",
+    "room.regenerateCode",
+    "room.kick",
+    "room.chat",
+    "room.start",
+    "presence.heartbeat"
+  ],
+  "serverToClient": [
+    "room.snapshot",
+    "room.updated",
+    "member.joined",
+    "member.left",
+    "member.ready",
+    "member.kicked",
+    "host.changed",
+    "visibility.changed",
+    "code.changed",
+    "chat.message",
+    "game.starting",
+    "presence.update",
+    "error"
+  ],
+  "principles": [
+    "room-scoped broadcasts",
+    "revision numbers",
+    "idempotent action IDs",
+    "server-authoritative membership",
+    "private payload filtering",
+    "reconnect snapshot before delta events"
+  ]
+}

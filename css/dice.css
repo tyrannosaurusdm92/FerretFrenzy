@@ -1,0 +1,6 @@
+/* Ferret Frenzy dice viewport — Storm Galaxy Gold only */
+#diceRoller{position:absolute;z-index:8;inset:0;overflow:hidden;pointer-events:none}
+#diceRoller canvas{display:block;width:100%!important;height:100%!important;pointer-events:none}
+.roll-result{position:absolute;z-index:25;left:50%;top:62px;transform:translateX(-50%);min-width:170px;max-width:min(72%,440px);padding:8px 12px;border:1px solid rgba(168,144,54,.70);border-radius:999px;background:rgba(7,9,29,.76);color:#FFE69B;text-align:center;font-weight:1000;font-size:12px;letter-spacing:.04em;box-shadow:0 6px 22px rgba(0,0,0,.24),0 0 18px rgba(167,184,255,.08);backdrop-filter:blur(5px)}
+.roll-result[data-state="rolling"]{border-color:#a7b8ff;color:#fff0ad}
+.roll-result[data-state="locked"]{border-color:#ffd86e;box-shadow:0 0 0 2px rgba(255,216,110,.08),0 6px 22px rgba(0,0,0,.24)}

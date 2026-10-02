@@ -1,0 +1,14 @@
+{
+  "provider": "Google Apps Script Web App",
+  "endpoint": "https://script.google.com/macros/s/AKfycbyAShO3c_FLVqp-fisabNx_DMuLD0UYMPygU22_jQfpLjIs796fgsJPo3viZq5FGeYd1A/exec",
+  "protocol": "action/data JSON POST",
+  "pollAction": "events.poll",
+  "chatActions": [
+    "chat.send",
+    "chat.list"
+  ],
+  "voteActions": [
+    "vote.begin",
+    "vote.cast"
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "images": {
+    "assets/images/frenzy_logo.png": [
+      "lobby brand",
+      "lobby hero",
+      "game toolbar"
+    ],
+    "assets/images/minnow treats.png": [
+      "lobby hero prop",
+      "game Treat State HUD"
+    ],
+    "assets/images/Aurora-lit ferret treats bookshelf-1.png": [
+      "PREP/NIGHT pre-theft scene",
+      "source image for locked Minnow Treats GeoJSON hotspot"
+    ],
+    "assets/images/Minnow Treats crime scene-2.png": [
+      "Raider local scene immediately after clicking the Minnow Treats",
+      "later awake Night windows whose private Treat State is already MISSING",
+      "Morning Business",
+      "Paw Point voting",
+      "Results"
+    ]
+  },
+  "audio": {
+    "assets/audio/dice-roll.mp3": [
+      "every d6/d12 animation"
+    ],
+    "assets/audio/ferret_dancing.mp3": [
+      "lobby loop",
+      "Paw Point voting loop"
+    ],
+    "assets/audio/ferret.mp3": [
+      "PREP/NIGHT ferret ambience"
+    ],
+    "assets/audio/ferret_sound.mp3": [
+      "Morning Business discussion ambience"
+    ]
+  },
+  "backend": "https://script.google.com/macros/s/AKfycbyAShO3c_FLVqp-fisabNx_DMuLD0UYMPygU22_jQfpLjIs796fgsJPo3viZq5FGeYd1A/exec",
+  "chatModel": "one shared Morning Business discussion; no channels",
+  "voteModel": "one simultaneous Paw Point vote; player buttons labeled by seat number",
+  "viewport": {
+    "sourceAspect": "1672:941",
+    "fit": "contain",
+    "phaseScenes": {
+      "PREP/NIGHT": "assets/images/Aurora-lit ferret treats bookshelf-1.png",
+      "MORNING/VOTE/RESULTS": "assets/images/Minnow Treats crime scene-2.png",
+      "NIGHT_AFTER_THEFT": "assets/images/Minnow Treats crime scene-2.png"
+    }
+  },
+  "bots": {
+    "manifest": "json/bot-manifest.json",
+    "assignment": "js/assign-role.js",
+    "responsesPerRole": 250
+  },
+  "minnowHitbox": {
+    "geojson": "json/minnow-hitbox.geojson",
+    "runtime": "js/minnow-hitbox.js",
+    "coordinateSpace": "1672x941 image pixels",
+    "interaction": "Armed only for starting BANDIT with isRaider=true during the Raider wake hour.",
+    "afterClick": "Switches local viewport to the post-theft crime-scene image; existing tested backend remains authoritative for game state."
+  }
+}

@@ -1,0 +1,3110 @@
+{
+  "schemaVersion": "1.0",
+  "game": "Ferret Frenzy",
+  "role": "DOOKER",
+  "roleName": "Dooker",
+  "coat": "Silver Mitt",
+  "responseCount": 250,
+  "responses": [
+    {
+      "category": "glimpse_bandit",
+      "requires": [
+        "glimpseTarget"
+      ],
+      "text": "From my side, my Glimpse on {{glimpseTarget}} came back BANDIT-ALIGNED at that moment. That is where I am starting.",
+      "id": "dooker-001",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "glimpse_bandit"
+      ]
+    },
+    {
+      "category": "glimpse_bandit",
+      "requires": [
+        "glimpseTarget"
+      ],
+      "text": "For the timeline, I used my one Glimpse on {{glimpseTarget}}; the result was BANDIT-ALIGNED, not an exact role. That is evidence, not a verdict.",
+      "id": "dooker-002",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "glimpse_bandit"
+      ]
+    },
+    {
+      "category": "glimpse_bandit",
+      "requires": [
+        "glimpseTarget"
+      ],
+      "text": "What I can confirm is my Glimpse on {{glimpseTarget}} came back BANDIT-ALIGNED at that moment. That could be true without proving allegiance.",
+      "id": "dooker-003",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "glimpse_bandit"
+      ]
+    },
+    {
+      "category": "glimpse_bandit",
+      "requires": [
+        "glimpseTarget"
+      ],
+      "text": "My read right now is I used my one Glimpse on {{glimpseTarget}}; the result was BANDIT-ALIGNED, not an exact role. I am keeping the difference between starting role and current card in mind.",
+      "id": "dooker-004",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "glimpse_bandit"
+      ]
+    },
+    {
+      "category": "glimpse_bandit",
+      "requires": [
+        "glimpseTarget"
+      ],
+      "text": "I keep coming back to my Glimpse on {{glimpseTarget}} came back BANDIT-ALIGNED at that moment. That does not settle the whole round.",
+      "id": "dooker-005",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "glimpse_bandit"
+      ]
+    },
+    {
+      "category": "glimpse_bandit",
+      "requires": [
+        "glimpseTarget"
+      ],
+      "text": "The piece I trust most is I used my one Glimpse on {{glimpseTarget}}; the result was BANDIT-ALIGNED, not an exact role. A swap could still change what the cards mean.",
+      "id": "dooker-006",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "glimpse_bandit"
+      ]
+    },
+    {
+      "category": "glimpse_bandit",
+      "requires": [
+        "glimpseTarget"
+      ],
+      "text": "Before we Paw Point, my Glimpse on {{glimpseTarget}} came back BANDIT-ALIGNED at that moment. I am comparing who was awake before and after the treats vanished.",
+      "id": "dooker-007",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "glimpse_bandit"
+      ]
+    },
+    {
+      "category": "glimpse_bandit",
+      "requires": [
+        "glimpseTarget"
+      ],
+      "text": "I am comparing notes and I used my one Glimpse on {{glimpseTarget}}; the result was BANDIT-ALIGNED, not an exact role. I would rather be precise than loud.",
+      "id": "dooker-008",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "glimpse_bandit"
+      ]
+    },
+    {
+      "category": "glimpse_bandit",
+      "requires": [
+        "glimpseTarget"
+      ],
+      "text": "One thing I do not want to lose is my Glimpse on {{glimpseTarget}} came back BANDIT-ALIGNED at that moment. I am keeping my Paw Point open for now.",
+      "id": "dooker-009",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "glimpse_bandit"
+      ]
+    },
+    {
+      "category": "glimpse_bandit",
+      "requires": [
+        "glimpseTarget"
+      ],
+      "text": "The useful detail for me is I used my one Glimpse on {{glimpseTarget}}; the result was BANDIT-ALIGNED, not an exact role. I want the sequence to make sense first.",
+      "id": "dooker-010",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "glimpse_bandit"
+      ]
+    },
+    {
+      "category": "glimpse_bandit",
+      "requires": [
+        "glimpseTarget"
+      ],
+      "text": "I am sticking to the facts: my Glimpse on {{glimpseTarget}} came back BANDIT-ALIGNED at that moment. The app-confirmed pieces come first.",
+      "id": "dooker-011",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "glimpse_bandit"
+      ]
+    },
+    {
+      "category": "glimpse_bandit",
+      "requires": [
+        "glimpseTarget"
+      ],
+      "text": "The night makes more sense if I used my one Glimpse on {{glimpseTarget}}; the result was BANDIT-ALIGNED, not an exact role. I am leaving room for card movement.",
+      "id": "dooker-012",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "glimpse_bandit"
+      ]
+    },
+    {
+      "category": "glimpse_bandit",
+      "requires": [
+        "glimpseTarget"
+      ],
+      "text": "I want to separate fact from guess: my Glimpse on {{glimpseTarget}} came back BANDIT-ALIGNED at that moment. I am checking it against the treat state.",
+      "id": "dooker-013",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "glimpse_bandit"
+      ]
+    },
+    {
+      "category": "glimpse_bandit",
+      "requires": [
+        "glimpseTarget"
+      ],
+      "text": "My private notes say I used my one Glimpse on {{glimpseTarget}}; the result was BANDIT-ALIGNED, not an exact role. I need the wake windows to line up.",
+      "id": "dooker-014",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "glimpse_bandit"
+      ]
+    },
+    {
+      "category": "glimpse_bandit",
+      "requires": [
+        "glimpseTarget"
+      ],
+      "text": "I am not treating this as proof, but my Glimpse on {{glimpseTarget}} came back BANDIT-ALIGNED at that moment. I am still weighing the same evidence.",
+      "id": "dooker-015",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "glimpse_bandit"
+      ]
+    },
+    {
+      "category": "glimpse_bandit",
+      "requires": [
+        "glimpseTarget"
+      ],
+      "text": "For Morning Business, I used my one Glimpse on {{glimpseTarget}}; the result was BANDIT-ALIGNED, not an exact role. The timing still matters more than vibes.",
+      "id": "dooker-016",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "glimpse_bandit"
+      ]
+    },
+    {
+      "category": "glimpse_bandit",
+      "requires": [
+        "glimpseTarget"
+      ],
+      "text": "The clue I am weighing is my Glimpse on {{glimpseTarget}} came back BANDIT-ALIGNED at that moment. I am not treating a role claim as verified.",
+      "id": "dooker-017",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "glimpse_bandit"
+      ]
+    },
+    {
+      "category": "glimpse_bandit",
+      "requires": [
+        "glimpseTarget"
+      ],
+      "text": "I am watching the order of events: I used my one Glimpse on {{glimpseTarget}}; the result was BANDIT-ALIGNED, not an exact role. I am not adding facts I did not actually receive.",
+      "id": "dooker-018",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "glimpse_bandit"
+      ]
+    },
+    {
+      "category": "glimpse_bandit",
+      "requires": [
+        "glimpseTarget"
+      ],
+      "text": "The safest thing I can say is my Glimpse on {{glimpseTarget}} came back BANDIT-ALIGNED at that moment. I want to hear how that fits everyone else.",
+      "id": "dooker-019",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "glimpse_bandit"
+      ]
+    },
+    {
+      "category": "glimpse_bandit",
+      "requires": [
+        "glimpseTarget"
+      ],
+      "text": "My current timeline says I used my one Glimpse on {{glimpseTarget}}; the result was BANDIT-ALIGNED, not an exact role. I want another claim against that timeline.",
+      "id": "dooker-020",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "glimpse_bandit"
+      ]
+    },
+    {
+      "category": "glimpse_bandit",
+      "requires": [
+        "glimpseTarget"
+      ],
+      "text": "I am cross-checking claims: my Glimpse on {{glimpseTarget}} came back BANDIT-ALIGNED at that moment. I am watching for contradictions, not just confidence.",
+      "id": "dooker-021",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "glimpse_bandit"
+      ]
+    },
+    {
+      "category": "glimpse_bandit",
+      "requires": [
+        "glimpseTarget"
+      ],
+      "text": "The strongest detail I have is I used my one Glimpse on {{glimpseTarget}}; the result was BANDIT-ALIGNED, not an exact role. I want a timeline that survives the swap possibilities.",
+      "id": "dooker-022",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "glimpse_bandit"
+      ]
+    },
+    {
+      "category": "glimpse_bandit",
+      "requires": [
+        "glimpseTarget"
+      ],
+      "text": "I am keeping this narrow: my Glimpse on {{glimpseTarget}} came back BANDIT-ALIGNED at that moment. I am not calling that automatic guilt.",
+      "id": "dooker-023",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "glimpse_bandit"
+      ]
+    },
+    {
+      "category": "glimpse_bandit",
+      "requires": [
+        "glimpseTarget"
+      ],
+      "text": "I do not want to overstate it: I used my one Glimpse on {{glimpseTarget}}; the result was BANDIT-ALIGNED, not an exact role. The Raider is still the primary target.",
+      "id": "dooker-024",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "glimpse_bandit"
+      ]
+    },
+    {
+      "category": "glimpse_bandit",
+      "requires": [
+        "glimpseTarget"
+      ],
+      "text": "Here is the part I can actually use: my Glimpse on {{glimpseTarget}} came back BANDIT-ALIGNED at that moment. That is the part I can defend if challenged.",
+      "id": "dooker-025",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "glimpse_bandit"
+      ]
+    },
+    {
+      "category": "glimpse_clean",
+      "requires": [
+        "glimpseTarget"
+      ],
+      "text": "From my side, my Glimpse on {{glimpseTarget}} came back NOT BANDIT-ALIGNED at that moment. That is where I am starting.",
+      "id": "dooker-026",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "glimpse_clean"
+      ]
+    },
+    {
+      "category": "glimpse_clean",
+      "requires": [
+        "glimpseTarget"
+      ],
+      "text": "For the timeline, I checked {{glimpseTarget}} with Glimpse; it was NOT BANDIT-ALIGNED then, which is not the same as proving the whole round. That is evidence, not a verdict.",
+      "id": "dooker-027",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "glimpse_clean"
+      ]
+    },
+    {
+      "category": "glimpse_clean",
+      "requires": [
+        "glimpseTarget"
+      ],
+      "text": "What I can confirm is my Glimpse on {{glimpseTarget}} came back NOT BANDIT-ALIGNED at that moment. That could be true without proving allegiance.",
+      "id": "dooker-028",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "glimpse_clean"
+      ]
+    },
+    {
+      "category": "glimpse_clean",
+      "requires": [
+        "glimpseTarget"
+      ],
+      "text": "My read right now is I checked {{glimpseTarget}} with Glimpse; it was NOT BANDIT-ALIGNED then, which is not the same as proving the whole round. I am keeping the difference between starting role and current card in mind.",
+      "id": "dooker-029",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "glimpse_clean"
+      ]
+    },
+    {
+      "category": "glimpse_clean",
+      "requires": [
+        "glimpseTarget"
+      ],
+      "text": "I keep coming back to my Glimpse on {{glimpseTarget}} came back NOT BANDIT-ALIGNED at that moment. That does not settle the whole round.",
+      "id": "dooker-030",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "glimpse_clean"
+      ]
+    },
+    {
+      "category": "glimpse_clean",
+      "requires": [
+        "glimpseTarget"
+      ],
+      "text": "The piece I trust most is I checked {{glimpseTarget}} with Glimpse; it was NOT BANDIT-ALIGNED then, which is not the same as proving the whole round. A swap could still change what the cards mean.",
+      "id": "dooker-031",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "glimpse_clean"
+      ]
+    },
+    {
+      "category": "glimpse_clean",
+      "requires": [
+        "glimpseTarget"
+      ],
+      "text": "Before we Paw Point, my Glimpse on {{glimpseTarget}} came back NOT BANDIT-ALIGNED at that moment. I am comparing who was awake before and after the treats vanished.",
+      "id": "dooker-032",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "glimpse_clean"
+      ]
+    },
+    {
+      "category": "glimpse_clean",
+      "requires": [
+        "glimpseTarget"
+      ],
+      "text": "I am comparing notes and I checked {{glimpseTarget}} with Glimpse; it was NOT BANDIT-ALIGNED then, which is not the same as proving the whole round. I would rather be precise than loud.",
+      "id": "dooker-033",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "glimpse_clean"
+      ]
+    },
+    {
+      "category": "glimpse_clean",
+      "requires": [
+        "glimpseTarget"
+      ],
+      "text": "One thing I do not want to lose is my Glimpse on {{glimpseTarget}} came back NOT BANDIT-ALIGNED at that moment. I am keeping my Paw Point open for now.",
+      "id": "dooker-034",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "glimpse_clean"
+      ]
+    },
+    {
+      "category": "glimpse_clean",
+      "requires": [
+        "glimpseTarget"
+      ],
+      "text": "The useful detail for me is I checked {{glimpseTarget}} with Glimpse; it was NOT BANDIT-ALIGNED then, which is not the same as proving the whole round. I want the sequence to make sense first.",
+      "id": "dooker-035",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "glimpse_clean"
+      ]
+    },
+    {
+      "category": "glimpse_clean",
+      "requires": [
+        "glimpseTarget"
+      ],
+      "text": "I am sticking to the facts: my Glimpse on {{glimpseTarget}} came back NOT BANDIT-ALIGNED at that moment. The app-confirmed pieces come first.",
+      "id": "dooker-036",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "glimpse_clean"
+      ]
+    },
+    {
+      "category": "glimpse_clean",
+      "requires": [
+        "glimpseTarget"
+      ],
+      "text": "The night makes more sense if I checked {{glimpseTarget}} with Glimpse; it was NOT BANDIT-ALIGNED then, which is not the same as proving the whole round. I am leaving room for card movement.",
+      "id": "dooker-037",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "glimpse_clean"
+      ]
+    },
+    {
+      "category": "glimpse_clean",
+      "requires": [
+        "glimpseTarget"
+      ],
+      "text": "I want to separate fact from guess: my Glimpse on {{glimpseTarget}} came back NOT BANDIT-ALIGNED at that moment. I am checking it against the treat state.",
+      "id": "dooker-038",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "glimpse_clean"
+      ]
+    },
+    {
+      "category": "glimpse_clean",
+      "requires": [
+        "glimpseTarget"
+      ],
+      "text": "My private notes say I checked {{glimpseTarget}} with Glimpse; it was NOT BANDIT-ALIGNED then, which is not the same as proving the whole round. I need the wake windows to line up.",
+      "id": "dooker-039",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "glimpse_clean"
+      ]
+    },
+    {
+      "category": "glimpse_clean",
+      "requires": [
+        "glimpseTarget"
+      ],
+      "text": "I am not treating this as proof, but my Glimpse on {{glimpseTarget}} came back NOT BANDIT-ALIGNED at that moment. I am still weighing the same evidence.",
+      "id": "dooker-040",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "glimpse_clean"
+      ]
+    },
+    {
+      "category": "glimpse_clean",
+      "requires": [
+        "glimpseTarget"
+      ],
+      "text": "For Morning Business, I checked {{glimpseTarget}} with Glimpse; it was NOT BANDIT-ALIGNED then, which is not the same as proving the whole round. The timing still matters more than vibes.",
+      "id": "dooker-041",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "glimpse_clean"
+      ]
+    },
+    {
+      "category": "glimpse_clean",
+      "requires": [
+        "glimpseTarget"
+      ],
+      "text": "The clue I am weighing is my Glimpse on {{glimpseTarget}} came back NOT BANDIT-ALIGNED at that moment. I am not treating a role claim as verified.",
+      "id": "dooker-042",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "glimpse_clean"
+      ]
+    },
+    {
+      "category": "glimpse_clean",
+      "requires": [
+        "glimpseTarget"
+      ],
+      "text": "I am watching the order of events: I checked {{glimpseTarget}} with Glimpse; it was NOT BANDIT-ALIGNED then, which is not the same as proving the whole round. I am not adding facts I did not actually receive.",
+      "id": "dooker-043",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "glimpse_clean"
+      ]
+    },
+    {
+      "category": "glimpse_clean",
+      "requires": [
+        "glimpseTarget"
+      ],
+      "text": "The safest thing I can say is my Glimpse on {{glimpseTarget}} came back NOT BANDIT-ALIGNED at that moment. I want to hear how that fits everyone else.",
+      "id": "dooker-044",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "glimpse_clean"
+      ]
+    },
+    {
+      "category": "glimpse_clean",
+      "requires": [
+        "glimpseTarget"
+      ],
+      "text": "My current timeline says I checked {{glimpseTarget}} with Glimpse; it was NOT BANDIT-ALIGNED then, which is not the same as proving the whole round. I want another claim against that timeline.",
+      "id": "dooker-045",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "glimpse_clean"
+      ]
+    },
+    {
+      "category": "glimpse_clean",
+      "requires": [
+        "glimpseTarget"
+      ],
+      "text": "I am cross-checking claims: my Glimpse on {{glimpseTarget}} came back NOT BANDIT-ALIGNED at that moment. I am watching for contradictions, not just confidence.",
+      "id": "dooker-046",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "glimpse_clean"
+      ]
+    },
+    {
+      "category": "glimpse_clean",
+      "requires": [
+        "glimpseTarget"
+      ],
+      "text": "The strongest detail I have is I checked {{glimpseTarget}} with Glimpse; it was NOT BANDIT-ALIGNED then, which is not the same as proving the whole round. I want a timeline that survives the swap possibilities.",
+      "id": "dooker-047",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "glimpse_clean"
+      ]
+    },
+    {
+      "category": "glimpse_clean",
+      "requires": [
+        "glimpseTarget"
+      ],
+      "text": "I am keeping this narrow: my Glimpse on {{glimpseTarget}} came back NOT BANDIT-ALIGNED at that moment. I am not calling that automatic guilt.",
+      "id": "dooker-048",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "glimpse_clean"
+      ]
+    },
+    {
+      "category": "glimpse_clean",
+      "requires": [
+        "glimpseTarget"
+      ],
+      "text": "I do not want to overstate it: I checked {{glimpseTarget}} with Glimpse; it was NOT BANDIT-ALIGNED then, which is not the same as proving the whole round. The Raider is still the primary target.",
+      "id": "dooker-049",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "glimpse_clean"
+      ]
+    },
+    {
+      "category": "glimpse_clean",
+      "requires": [
+        "glimpseTarget"
+      ],
+      "text": "Here is the part I can actually use: my Glimpse on {{glimpseTarget}} came back NOT BANDIT-ALIGNED at that moment. That is the part I can defend if challenged.",
+      "id": "dooker-050",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "glimpse_clean"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "From my side, I woke at Hour {{hour}}; the treats were {{treatState}}, and {{cowakers}} was my co-waker read. That is where I am starting.",
+      "id": "dooker-051",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "For the timeline, Hour {{hour}} is my anchor: treats {{treatState}}, with {{cowakers}} in that wake window. That is evidence, not a verdict.",
+      "id": "dooker-052",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "What I can confirm is I woke at Hour {{hour}}; the treats were {{treatState}}, and {{cowakers}} was my co-waker read. That could be true without proving allegiance.",
+      "id": "dooker-053",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "My read right now is Hour {{hour}} is my anchor: treats {{treatState}}, with {{cowakers}} in that wake window. I am keeping the difference between starting role and current card in mind.",
+      "id": "dooker-054",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "I keep coming back to I woke at Hour {{hour}}; the treats were {{treatState}}, and {{cowakers}} was my co-waker read. That does not settle the whole round.",
+      "id": "dooker-055",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "The piece I trust most is Hour {{hour}} is my anchor: treats {{treatState}}, with {{cowakers}} in that wake window. A swap could still change what the cards mean.",
+      "id": "dooker-056",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "Before we Paw Point, I woke at Hour {{hour}}; the treats were {{treatState}}, and {{cowakers}} was my co-waker read. I am comparing who was awake before and after the treats vanished.",
+      "id": "dooker-057",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "I am comparing notes and Hour {{hour}} is my anchor: treats {{treatState}}, with {{cowakers}} in that wake window. I would rather be precise than loud.",
+      "id": "dooker-058",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "One thing I do not want to lose is I woke at Hour {{hour}}; the treats were {{treatState}}, and {{cowakers}} was my co-waker read. I am keeping my Paw Point open for now.",
+      "id": "dooker-059",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "The useful detail for me is Hour {{hour}} is my anchor: treats {{treatState}}, with {{cowakers}} in that wake window. I want the sequence to make sense first.",
+      "id": "dooker-060",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "I am sticking to the facts: I woke at Hour {{hour}}; the treats were {{treatState}}, and {{cowakers}} was my co-waker read. The app-confirmed pieces come first.",
+      "id": "dooker-061",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "The night makes more sense if Hour {{hour}} is my anchor: treats {{treatState}}, with {{cowakers}} in that wake window. I am leaving room for card movement.",
+      "id": "dooker-062",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "I want to separate fact from guess: I woke at Hour {{hour}}; the treats were {{treatState}}, and {{cowakers}} was my co-waker read. I am checking it against the treat state.",
+      "id": "dooker-063",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "My private notes say Hour {{hour}} is my anchor: treats {{treatState}}, with {{cowakers}} in that wake window. I need the wake windows to line up.",
+      "id": "dooker-064",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "I am not treating this as proof, but I woke at Hour {{hour}}; the treats were {{treatState}}, and {{cowakers}} was my co-waker read. I am still weighing the same evidence.",
+      "id": "dooker-065",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "For Morning Business, Hour {{hour}} is my anchor: treats {{treatState}}, with {{cowakers}} in that wake window. The timing still matters more than vibes.",
+      "id": "dooker-066",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "The clue I am weighing is I woke at Hour {{hour}}; the treats were {{treatState}}, and {{cowakers}} was my co-waker read. I am not treating a role claim as verified.",
+      "id": "dooker-067",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "I am watching the order of events: Hour {{hour}} is my anchor: treats {{treatState}}, with {{cowakers}} in that wake window. I am not adding facts I did not actually receive.",
+      "id": "dooker-068",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "The safest thing I can say is I woke at Hour {{hour}}; the treats were {{treatState}}, and {{cowakers}} was my co-waker read. I want to hear how that fits everyone else.",
+      "id": "dooker-069",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "My current timeline says Hour {{hour}} is my anchor: treats {{treatState}}, with {{cowakers}} in that wake window. I want another claim against that timeline.",
+      "id": "dooker-070",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "I am cross-checking claims: I woke at Hour {{hour}}; the treats were {{treatState}}, and {{cowakers}} was my co-waker read. I am watching for contradictions, not just confidence.",
+      "id": "dooker-071",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "The strongest detail I have is Hour {{hour}} is my anchor: treats {{treatState}}, with {{cowakers}} in that wake window. I want a timeline that survives the swap possibilities.",
+      "id": "dooker-072",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "I am keeping this narrow: I woke at Hour {{hour}}; the treats were {{treatState}}, and {{cowakers}} was my co-waker read. I am not calling that automatic guilt.",
+      "id": "dooker-073",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "I do not want to overstate it: Hour {{hour}} is my anchor: treats {{treatState}}, with {{cowakers}} in that wake window. The Raider is still the primary target.",
+      "id": "dooker-074",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "Here is the part I can actually use: I woke at Hour {{hour}}; the treats were {{treatState}}, and {{cowakers}} was my co-waker read. That is the part I can defend if challenged.",
+      "id": "dooker-075",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "observation"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "From my side, {{target}}, which hour are you claiming, and were the Minnow Treats present or missing? That is where I am starting.",
+      "id": "dooker-076",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "For the timeline, I want {{target}} to pin down who else was awake in that window. That is evidence, not a verdict.",
+      "id": "dooker-077",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "What I can confirm is {{target}}, which hour are you claiming, and were the Minnow Treats present or missing? That could be true without proving allegiance.",
+      "id": "dooker-078",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "My read right now is I want {{target}} to pin down who else was awake in that window. I am keeping the difference between starting role and current card in mind.",
+      "id": "dooker-079",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "I keep coming back to {{target}}, which hour are you claiming, and were the Minnow Treats present or missing? That does not settle the whole round.",
+      "id": "dooker-080",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "The piece I trust most is I want {{target}} to pin down who else was awake in that window. A swap could still change what the cards mean.",
+      "id": "dooker-081",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "Before we Paw Point, {{target}}, which hour are you claiming, and were the Minnow Treats present or missing? I am comparing who was awake before and after the treats vanished.",
+      "id": "dooker-082",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "I am comparing notes and I want {{target}} to pin down who else was awake in that window. I would rather be precise than loud.",
+      "id": "dooker-083",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "One thing I do not want to lose is {{target}}, which hour are you claiming, and were the Minnow Treats present or missing? I am keeping my Paw Point open for now.",
+      "id": "dooker-084",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "The useful detail for me is I want {{target}} to pin down who else was awake in that window. I want the sequence to make sense first.",
+      "id": "dooker-085",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "I am sticking to the facts: {{target}}, which hour are you claiming, and were the Minnow Treats present or missing? The app-confirmed pieces come first.",
+      "id": "dooker-086",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "The night makes more sense if I want {{target}} to pin down who else was awake in that window. I am leaving room for card movement.",
+      "id": "dooker-087",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "I want to separate fact from guess: {{target}}, which hour are you claiming, and were the Minnow Treats present or missing? I am checking it against the treat state.",
+      "id": "dooker-088",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "My private notes say I want {{target}} to pin down who else was awake in that window. I need the wake windows to line up.",
+      "id": "dooker-089",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "I am not treating this as proof, but {{target}}, which hour are you claiming, and were the Minnow Treats present or missing? I am still weighing the same evidence.",
+      "id": "dooker-090",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "For Morning Business, I want {{target}} to pin down who else was awake in that window. The timing still matters more than vibes.",
+      "id": "dooker-091",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "The clue I am weighing is {{target}}, which hour are you claiming, and were the Minnow Treats present or missing? I am not treating a role claim as verified.",
+      "id": "dooker-092",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "I am watching the order of events: I want {{target}} to pin down who else was awake in that window. I am not adding facts I did not actually receive.",
+      "id": "dooker-093",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "The safest thing I can say is {{target}}, which hour are you claiming, and were the Minnow Treats present or missing? I want to hear how that fits everyone else.",
+      "id": "dooker-094",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "My current timeline says I want {{target}} to pin down who else was awake in that window. I want another claim against that timeline.",
+      "id": "dooker-095",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "I am cross-checking claims: {{target}}, which hour are you claiming, and were the Minnow Treats present or missing? I am watching for contradictions, not just confidence.",
+      "id": "dooker-096",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "The strongest detail I have is I want {{target}} to pin down who else was awake in that window. I want a timeline that survives the swap possibilities.",
+      "id": "dooker-097",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "I am keeping this narrow: {{target}}, which hour are you claiming, and were the Minnow Treats present or missing? I am not calling that automatic guilt.",
+      "id": "dooker-098",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "I do not want to overstate it: I want {{target}} to pin down who else was awake in that window. The Raider is still the primary target.",
+      "id": "dooker-099",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "Here is the part I can actually use: {{target}}, which hour are you claiming, and were the Minnow Treats present or missing? That is the part I can defend if challenged.",
+      "id": "dooker-100",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "question"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "From my side, the change from PRESENT to MISSING has to fit the Burrow Clock, not just somebody's role claim. That is where I am starting.",
+      "id": "dooker-101",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "For the timeline, I am lining up claimed wake hours around when the Minnow Treats disappeared. That is evidence, not a verdict.",
+      "id": "dooker-102",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "What I can confirm is the change from PRESENT to MISSING has to fit the Burrow Clock, not just somebody's role claim. That could be true without proving allegiance.",
+      "id": "dooker-103",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "My read right now is I am lining up claimed wake hours around when the Minnow Treats disappeared. I am keeping the difference between starting role and current card in mind.",
+      "id": "dooker-104",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "I keep coming back to the change from PRESENT to MISSING has to fit the Burrow Clock, not just somebody's role claim. That does not settle the whole round.",
+      "id": "dooker-105",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "The piece I trust most is I am lining up claimed wake hours around when the Minnow Treats disappeared. A swap could still change what the cards mean.",
+      "id": "dooker-106",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "Before we Paw Point, the change from PRESENT to MISSING has to fit the Burrow Clock, not just somebody's role claim. I am comparing who was awake before and after the treats vanished.",
+      "id": "dooker-107",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "I am comparing notes and I am lining up claimed wake hours around when the Minnow Treats disappeared. I would rather be precise than loud.",
+      "id": "dooker-108",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "One thing I do not want to lose is the change from PRESENT to MISSING has to fit the Burrow Clock, not just somebody's role claim. I am keeping my Paw Point open for now.",
+      "id": "dooker-109",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "The useful detail for me is I am lining up claimed wake hours around when the Minnow Treats disappeared. I want the sequence to make sense first.",
+      "id": "dooker-110",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "I am sticking to the facts: the change from PRESENT to MISSING has to fit the Burrow Clock, not just somebody's role claim. The app-confirmed pieces come first.",
+      "id": "dooker-111",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "The night makes more sense if I am lining up claimed wake hours around when the Minnow Treats disappeared. I am leaving room for card movement.",
+      "id": "dooker-112",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "I want to separate fact from guess: the change from PRESENT to MISSING has to fit the Burrow Clock, not just somebody's role claim. I am checking it against the treat state.",
+      "id": "dooker-113",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "My private notes say I am lining up claimed wake hours around when the Minnow Treats disappeared. I need the wake windows to line up.",
+      "id": "dooker-114",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "I am not treating this as proof, but the change from PRESENT to MISSING has to fit the Burrow Clock, not just somebody's role claim. I am still weighing the same evidence.",
+      "id": "dooker-115",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "For Morning Business, I am lining up claimed wake hours around when the Minnow Treats disappeared. The timing still matters more than vibes.",
+      "id": "dooker-116",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "The clue I am weighing is the change from PRESENT to MISSING has to fit the Burrow Clock, not just somebody's role claim. I am not treating a role claim as verified.",
+      "id": "dooker-117",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "I am watching the order of events: I am lining up claimed wake hours around when the Minnow Treats disappeared. I am not adding facts I did not actually receive.",
+      "id": "dooker-118",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "The safest thing I can say is the change from PRESENT to MISSING has to fit the Burrow Clock, not just somebody's role claim. I want to hear how that fits everyone else.",
+      "id": "dooker-119",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "My current timeline says I am lining up claimed wake hours around when the Minnow Treats disappeared. I want another claim against that timeline.",
+      "id": "dooker-120",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "I am cross-checking claims: the change from PRESENT to MISSING has to fit the Burrow Clock, not just somebody's role claim. I am watching for contradictions, not just confidence.",
+      "id": "dooker-121",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "The strongest detail I have is I am lining up claimed wake hours around when the Minnow Treats disappeared. I want a timeline that survives the swap possibilities.",
+      "id": "dooker-122",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "I am keeping this narrow: the change from PRESENT to MISSING has to fit the Burrow Clock, not just somebody's role claim. I am not calling that automatic guilt.",
+      "id": "dooker-123",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "I do not want to overstate it: I am lining up claimed wake hours around when the Minnow Treats disappeared. The Raider is still the primary target.",
+      "id": "dooker-124",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "Here is the part I can actually use: the change from PRESENT to MISSING has to fit the Burrow Clock, not just somebody's role claim. That is the part I can defend if challenged.",
+      "id": "dooker-125",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "timeline"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "From my side, {{target}} sits highest on my current timing suspicion, but I am still checking the evidence. That is where I am starting.",
+      "id": "dooker-126",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "For the timeline, I am watching {{target}} because their place in the wake timeline needs a better explanation. That is evidence, not a verdict.",
+      "id": "dooker-127",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "What I can confirm is {{target}} sits highest on my current timing suspicion, but I am still checking the evidence. That could be true without proving allegiance.",
+      "id": "dooker-128",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "My read right now is I am watching {{target}} because their place in the wake timeline needs a better explanation. I am keeping the difference between starting role and current card in mind.",
+      "id": "dooker-129",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "I keep coming back to {{target}} sits highest on my current timing suspicion, but I am still checking the evidence. That does not settle the whole round.",
+      "id": "dooker-130",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "The piece I trust most is I am watching {{target}} because their place in the wake timeline needs a better explanation. A swap could still change what the cards mean.",
+      "id": "dooker-131",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "Before we Paw Point, {{target}} sits highest on my current timing suspicion, but I am still checking the evidence. I am comparing who was awake before and after the treats vanished.",
+      "id": "dooker-132",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "I am comparing notes and I am watching {{target}} because their place in the wake timeline needs a better explanation. I would rather be precise than loud.",
+      "id": "dooker-133",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "One thing I do not want to lose is {{target}} sits highest on my current timing suspicion, but I am still checking the evidence. I am keeping my Paw Point open for now.",
+      "id": "dooker-134",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "The useful detail for me is I am watching {{target}} because their place in the wake timeline needs a better explanation. I want the sequence to make sense first.",
+      "id": "dooker-135",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "I am sticking to the facts: {{target}} sits highest on my current timing suspicion, but I am still checking the evidence. The app-confirmed pieces come first.",
+      "id": "dooker-136",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "The night makes more sense if I am watching {{target}} because their place in the wake timeline needs a better explanation. I am leaving room for card movement.",
+      "id": "dooker-137",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "I want to separate fact from guess: {{target}} sits highest on my current timing suspicion, but I am still checking the evidence. I am checking it against the treat state.",
+      "id": "dooker-138",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "My private notes say I am watching {{target}} because their place in the wake timeline needs a better explanation. I need the wake windows to line up.",
+      "id": "dooker-139",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "I am not treating this as proof, but {{target}} sits highest on my current timing suspicion, but I am still checking the evidence. I am still weighing the same evidence.",
+      "id": "dooker-140",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "For Morning Business, I am watching {{target}} because their place in the wake timeline needs a better explanation. The timing still matters more than vibes.",
+      "id": "dooker-141",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "The clue I am weighing is {{target}} sits highest on my current timing suspicion, but I am still checking the evidence. I am not treating a role claim as verified.",
+      "id": "dooker-142",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "I am watching the order of events: I am watching {{target}} because their place in the wake timeline needs a better explanation. I am not adding facts I did not actually receive.",
+      "id": "dooker-143",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "The safest thing I can say is {{target}} sits highest on my current timing suspicion, but I am still checking the evidence. I want to hear how that fits everyone else.",
+      "id": "dooker-144",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "My current timeline says I am watching {{target}} because their place in the wake timeline needs a better explanation. I want another claim against that timeline.",
+      "id": "dooker-145",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "I am cross-checking claims: {{target}} sits highest on my current timing suspicion, but I am still checking the evidence. I am watching for contradictions, not just confidence.",
+      "id": "dooker-146",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "The strongest detail I have is I am watching {{target}} because their place in the wake timeline needs a better explanation. I want a timeline that survives the swap possibilities.",
+      "id": "dooker-147",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "I am keeping this narrow: {{target}} sits highest on my current timing suspicion, but I am still checking the evidence. I am not calling that automatic guilt.",
+      "id": "dooker-148",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "I do not want to overstate it: I am watching {{target}} because their place in the wake timeline needs a better explanation. The Raider is still the primary target.",
+      "id": "dooker-149",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "Here is the part I can actually use: {{target}} sits highest on my current timing suspicion, but I am still checking the evidence. That is the part I can defend if challenged.",
+      "id": "dooker-150",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "From my side, my claim is about what my own screen showed me; I am not claiming knowledge outside that. That is where I am starting.",
+      "id": "dooker-151",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "For the timeline, if my card moved later, that does not rewrite what I personally observed when I woke. That is evidence, not a verdict.",
+      "id": "dooker-152",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "What I can confirm is my claim is about what my own screen showed me; I am not claiming knowledge outside that. That could be true without proving allegiance.",
+      "id": "dooker-153",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "My read right now is if my card moved later, that does not rewrite what I personally observed when I woke. I am keeping the difference between starting role and current card in mind.",
+      "id": "dooker-154",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "I keep coming back to my claim is about what my own screen showed me; I am not claiming knowledge outside that. That does not settle the whole round.",
+      "id": "dooker-155",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "The piece I trust most is if my card moved later, that does not rewrite what I personally observed when I woke. A swap could still change what the cards mean.",
+      "id": "dooker-156",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "Before we Paw Point, my claim is about what my own screen showed me; I am not claiming knowledge outside that. I am comparing who was awake before and after the treats vanished.",
+      "id": "dooker-157",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "I am comparing notes and if my card moved later, that does not rewrite what I personally observed when I woke. I would rather be precise than loud.",
+      "id": "dooker-158",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "One thing I do not want to lose is my claim is about what my own screen showed me; I am not claiming knowledge outside that. I am keeping my Paw Point open for now.",
+      "id": "dooker-159",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "The useful detail for me is if my card moved later, that does not rewrite what I personally observed when I woke. I want the sequence to make sense first.",
+      "id": "dooker-160",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "I am sticking to the facts: my claim is about what my own screen showed me; I am not claiming knowledge outside that. The app-confirmed pieces come first.",
+      "id": "dooker-161",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "The night makes more sense if if my card moved later, that does not rewrite what I personally observed when I woke. I am leaving room for card movement.",
+      "id": "dooker-162",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "I want to separate fact from guess: my claim is about what my own screen showed me; I am not claiming knowledge outside that. I am checking it against the treat state.",
+      "id": "dooker-163",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "My private notes say if my card moved later, that does not rewrite what I personally observed when I woke. I need the wake windows to line up.",
+      "id": "dooker-164",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "I am not treating this as proof, but my claim is about what my own screen showed me; I am not claiming knowledge outside that. I am still weighing the same evidence.",
+      "id": "dooker-165",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "For Morning Business, if my card moved later, that does not rewrite what I personally observed when I woke. The timing still matters more than vibes.",
+      "id": "dooker-166",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "The clue I am weighing is my claim is about what my own screen showed me; I am not claiming knowledge outside that. I am not treating a role claim as verified.",
+      "id": "dooker-167",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "I am watching the order of events: if my card moved later, that does not rewrite what I personally observed when I woke. I am not adding facts I did not actually receive.",
+      "id": "dooker-168",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "The safest thing I can say is my claim is about what my own screen showed me; I am not claiming knowledge outside that. I want to hear how that fits everyone else.",
+      "id": "dooker-169",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "My current timeline says if my card moved later, that does not rewrite what I personally observed when I woke. I want another claim against that timeline.",
+      "id": "dooker-170",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "I am cross-checking claims: my claim is about what my own screen showed me; I am not claiming knowledge outside that. I am watching for contradictions, not just confidence.",
+      "id": "dooker-171",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "The strongest detail I have is if my card moved later, that does not rewrite what I personally observed when I woke. I want a timeline that survives the swap possibilities.",
+      "id": "dooker-172",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "I am keeping this narrow: my claim is about what my own screen showed me; I am not claiming knowledge outside that. I am not calling that automatic guilt.",
+      "id": "dooker-173",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "I do not want to overstate it: if my card moved later, that does not rewrite what I personally observed when I woke. The Raider is still the primary target.",
+      "id": "dooker-174",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "Here is the part I can actually use: my claim is about what my own screen showed me; I am not claiming knowledge outside that. That is the part I can defend if challenged.",
+      "id": "dooker-175",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "defense"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "From my side, if nothing stronger appears, {{target}} is where my Paw Point is leaning. That is where I am starting.",
+      "id": "dooker-176",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "For the timeline, I am not locking yet, but {{target}} is my current vote pressure. That is evidence, not a verdict.",
+      "id": "dooker-177",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "What I can confirm is if nothing stronger appears, {{target}} is where my Paw Point is leaning. That could be true without proving allegiance.",
+      "id": "dooker-178",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "My read right now is I am not locking yet, but {{target}} is my current vote pressure. I am keeping the difference between starting role and current card in mind.",
+      "id": "dooker-179",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "I keep coming back to if nothing stronger appears, {{target}} is where my Paw Point is leaning. That does not settle the whole round.",
+      "id": "dooker-180",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "The piece I trust most is I am not locking yet, but {{target}} is my current vote pressure. A swap could still change what the cards mean.",
+      "id": "dooker-181",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "Before we Paw Point, if nothing stronger appears, {{target}} is where my Paw Point is leaning. I am comparing who was awake before and after the treats vanished.",
+      "id": "dooker-182",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "I am comparing notes and I am not locking yet, but {{target}} is my current vote pressure. I would rather be precise than loud.",
+      "id": "dooker-183",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "One thing I do not want to lose is if nothing stronger appears, {{target}} is where my Paw Point is leaning. I am keeping my Paw Point open for now.",
+      "id": "dooker-184",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "The useful detail for me is I am not locking yet, but {{target}} is my current vote pressure. I want the sequence to make sense first.",
+      "id": "dooker-185",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "I am sticking to the facts: if nothing stronger appears, {{target}} is where my Paw Point is leaning. The app-confirmed pieces come first.",
+      "id": "dooker-186",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "The night makes more sense if I am not locking yet, but {{target}} is my current vote pressure. I am leaving room for card movement.",
+      "id": "dooker-187",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "I want to separate fact from guess: if nothing stronger appears, {{target}} is where my Paw Point is leaning. I am checking it against the treat state.",
+      "id": "dooker-188",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "My private notes say I am not locking yet, but {{target}} is my current vote pressure. I need the wake windows to line up.",
+      "id": "dooker-189",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "I am not treating this as proof, but if nothing stronger appears, {{target}} is where my Paw Point is leaning. I am still weighing the same evidence.",
+      "id": "dooker-190",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "For Morning Business, I am not locking yet, but {{target}} is my current vote pressure. The timing still matters more than vibes.",
+      "id": "dooker-191",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "The clue I am weighing is if nothing stronger appears, {{target}} is where my Paw Point is leaning. I am not treating a role claim as verified.",
+      "id": "dooker-192",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "I am watching the order of events: I am not locking yet, but {{target}} is my current vote pressure. I am not adding facts I did not actually receive.",
+      "id": "dooker-193",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "The safest thing I can say is if nothing stronger appears, {{target}} is where my Paw Point is leaning. I want to hear how that fits everyone else.",
+      "id": "dooker-194",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "My current timeline says I am not locking yet, but {{target}} is my current vote pressure. I want another claim against that timeline.",
+      "id": "dooker-195",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "I am cross-checking claims: if nothing stronger appears, {{target}} is where my Paw Point is leaning. I am watching for contradictions, not just confidence.",
+      "id": "dooker-196",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "The strongest detail I have is I am not locking yet, but {{target}} is my current vote pressure. I want a timeline that survives the swap possibilities.",
+      "id": "dooker-197",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "I am keeping this narrow: if nothing stronger appears, {{target}} is where my Paw Point is leaning. I am not calling that automatic guilt.",
+      "id": "dooker-198",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "I do not want to overstate it: I am not locking yet, but {{target}} is my current vote pressure. The Raider is still the primary target.",
+      "id": "dooker-199",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "Here is the part I can actually use: if nothing stronger appears, {{target}} is where my Paw Point is leaning. That is the part I can defend if challenged.",
+      "id": "dooker-200",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "vote"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "From my side, that claim changes the order I am testing, especially around the treat-state switch. That is where I am starting.",
+      "id": "dooker-201",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "For the timeline, I heard that; I am checking whether it agrees with my private wake evidence. That is evidence, not a verdict.",
+      "id": "dooker-202",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "What I can confirm is that claim changes the order I am testing, especially around the treat-state switch. That could be true without proving allegiance.",
+      "id": "dooker-203",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "My read right now is I heard that; I am checking whether it agrees with my private wake evidence. I am keeping the difference between starting role and current card in mind.",
+      "id": "dooker-204",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "I keep coming back to that claim changes the order I am testing, especially around the treat-state switch. That does not settle the whole round.",
+      "id": "dooker-205",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "The piece I trust most is I heard that; I am checking whether it agrees with my private wake evidence. A swap could still change what the cards mean.",
+      "id": "dooker-206",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "Before we Paw Point, that claim changes the order I am testing, especially around the treat-state switch. I am comparing who was awake before and after the treats vanished.",
+      "id": "dooker-207",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "I am comparing notes and I heard that; I am checking whether it agrees with my private wake evidence. I would rather be precise than loud.",
+      "id": "dooker-208",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "One thing I do not want to lose is that claim changes the order I am testing, especially around the treat-state switch. I am keeping my Paw Point open for now.",
+      "id": "dooker-209",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "The useful detail for me is I heard that; I am checking whether it agrees with my private wake evidence. I want the sequence to make sense first.",
+      "id": "dooker-210",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "I am sticking to the facts: that claim changes the order I am testing, especially around the treat-state switch. The app-confirmed pieces come first.",
+      "id": "dooker-211",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "The night makes more sense if I heard that; I am checking whether it agrees with my private wake evidence. I am leaving room for card movement.",
+      "id": "dooker-212",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "I want to separate fact from guess: that claim changes the order I am testing, especially around the treat-state switch. I am checking it against the treat state.",
+      "id": "dooker-213",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "My private notes say I heard that; I am checking whether it agrees with my private wake evidence. I need the wake windows to line up.",
+      "id": "dooker-214",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "I am not treating this as proof, but that claim changes the order I am testing, especially around the treat-state switch. I am still weighing the same evidence.",
+      "id": "dooker-215",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "For Morning Business, I heard that; I am checking whether it agrees with my private wake evidence. The timing still matters more than vibes.",
+      "id": "dooker-216",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "The clue I am weighing is that claim changes the order I am testing, especially around the treat-state switch. I am not treating a role claim as verified.",
+      "id": "dooker-217",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "I am watching the order of events: I heard that; I am checking whether it agrees with my private wake evidence. I am not adding facts I did not actually receive.",
+      "id": "dooker-218",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "The safest thing I can say is that claim changes the order I am testing, especially around the treat-state switch. I want to hear how that fits everyone else.",
+      "id": "dooker-219",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "My current timeline says I heard that; I am checking whether it agrees with my private wake evidence. I want another claim against that timeline.",
+      "id": "dooker-220",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "I am cross-checking claims: that claim changes the order I am testing, especially around the treat-state switch. I am watching for contradictions, not just confidence.",
+      "id": "dooker-221",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "The strongest detail I have is I heard that; I am checking whether it agrees with my private wake evidence. I want a timeline that survives the swap possibilities.",
+      "id": "dooker-222",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "I am keeping this narrow: that claim changes the order I am testing, especially around the treat-state switch. I am not calling that automatic guilt.",
+      "id": "dooker-223",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "I do not want to overstate it: I heard that; I am checking whether it agrees with my private wake evidence. The Raider is still the primary target.",
+      "id": "dooker-224",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "Here is the part I can actually use: that claim changes the order I am testing, especially around the treat-state switch. That is the part I can defend if challenged.",
+      "id": "dooker-225",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "reaction"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "From my side, there are still multiple legal stories because cards and allegiances can move differently. That is where I am starting.",
+      "id": "dooker-226",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "For the timeline, I can narrow the timeline without pretending I know every current card. That is evidence, not a verdict.",
+      "id": "dooker-227",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "What I can confirm is there are still multiple legal stories because cards and allegiances can move differently. That could be true without proving allegiance.",
+      "id": "dooker-228",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "My read right now is I can narrow the timeline without pretending I know every current card. I am keeping the difference between starting role and current card in mind.",
+      "id": "dooker-229",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "I keep coming back to there are still multiple legal stories because cards and allegiances can move differently. That does not settle the whole round.",
+      "id": "dooker-230",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "The piece I trust most is I can narrow the timeline without pretending I know every current card. A swap could still change what the cards mean.",
+      "id": "dooker-231",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "Before we Paw Point, there are still multiple legal stories because cards and allegiances can move differently. I am comparing who was awake before and after the treats vanished.",
+      "id": "dooker-232",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "I am comparing notes and I can narrow the timeline without pretending I know every current card. I would rather be precise than loud.",
+      "id": "dooker-233",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "One thing I do not want to lose is there are still multiple legal stories because cards and allegiances can move differently. I am keeping my Paw Point open for now.",
+      "id": "dooker-234",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "The useful detail for me is I can narrow the timeline without pretending I know every current card. I want the sequence to make sense first.",
+      "id": "dooker-235",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "I am sticking to the facts: there are still multiple legal stories because cards and allegiances can move differently. The app-confirmed pieces come first.",
+      "id": "dooker-236",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "The night makes more sense if I can narrow the timeline without pretending I know every current card. I am leaving room for card movement.",
+      "id": "dooker-237",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "I want to separate fact from guess: there are still multiple legal stories because cards and allegiances can move differently. I am checking it against the treat state.",
+      "id": "dooker-238",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "My private notes say I can narrow the timeline without pretending I know every current card. I need the wake windows to line up.",
+      "id": "dooker-239",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "I am not treating this as proof, but there are still multiple legal stories because cards and allegiances can move differently. I am still weighing the same evidence.",
+      "id": "dooker-240",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "For Morning Business, I can narrow the timeline without pretending I know every current card. The timing still matters more than vibes.",
+      "id": "dooker-241",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "The clue I am weighing is there are still multiple legal stories because cards and allegiances can move differently. I am not treating a role claim as verified.",
+      "id": "dooker-242",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "I am watching the order of events: I can narrow the timeline without pretending I know every current card. I am not adding facts I did not actually receive.",
+      "id": "dooker-243",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "The safest thing I can say is there are still multiple legal stories because cards and allegiances can move differently. I want to hear how that fits everyone else.",
+      "id": "dooker-244",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "My current timeline says I can narrow the timeline without pretending I know every current card. I want another claim against that timeline.",
+      "id": "dooker-245",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "I am cross-checking claims: there are still multiple legal stories because cards and allegiances can move differently. I am watching for contradictions, not just confidence.",
+      "id": "dooker-246",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "The strongest detail I have is I can narrow the timeline without pretending I know every current card. I want a timeline that survives the swap possibilities.",
+      "id": "dooker-247",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "I am keeping this narrow: there are still multiple legal stories because cards and allegiances can move differently. I am not calling that automatic guilt.",
+      "id": "dooker-248",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "I do not want to overstate it: I can narrow the timeline without pretending I know every current card. The Raider is still the primary target.",
+      "id": "dooker-249",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "Here is the part I can actually use: there are still multiple legal stories because cards and allegiances can move differently. That is the part I can defend if challenged.",
+      "id": "dooker-250",
+      "tags": [
+        "ferret-frenzy",
+        "dooker",
+        "uncertainty"
+      ]
+    }
+  ]
+}

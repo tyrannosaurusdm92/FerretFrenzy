@@ -1,0 +1,1 @@
+const KEY='ff:last-room:v1';export const reconnect={save(code){localStorage.setItem(KEY,JSON.stringify({code,at:Date.now()}))},load(){try{const x=JSON.parse(localStorage.getItem(KEY)||'null');return x&&Date.now()-x.at<8*60*60*1000?x:null}catch{return null}},clear(){localStorage.removeItem(KEY)}};

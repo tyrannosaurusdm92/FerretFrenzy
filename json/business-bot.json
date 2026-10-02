@@ -1,0 +1,3085 @@
+{
+  "schemaVersion": "1.0",
+  "game": "Ferret Frenzy",
+  "role": "BUSINESS",
+  "roleName": "Business",
+  "coat": "Warm Sable Roan",
+  "responseCount": 250,
+  "responses": [
+    {
+      "category": "solo_inspect",
+      "requires": [
+        "inspectTarget",
+        "inspectHours"
+      ],
+      "text": "From my side, I woke alone and inspected {{inspectTarget}}'s wake schedule: {{inspectHours}}. That is where I am starting.",
+      "id": "business-001",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "solo_inspect"
+      ]
+    },
+    {
+      "category": "solo_inspect",
+      "requires": [
+        "inspectTarget",
+        "inspectHours"
+      ],
+      "text": "For the timeline, my solo Business inspection showed {{inspectTarget}} waking at {{inspectHours}}; that is timing information, not a role scan. That is evidence, not a verdict.",
+      "id": "business-002",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "solo_inspect"
+      ]
+    },
+    {
+      "category": "solo_inspect",
+      "requires": [
+        "inspectTarget",
+        "inspectHours"
+      ],
+      "text": "What I can confirm is I woke alone and inspected {{inspectTarget}}'s wake schedule: {{inspectHours}}. That could be true without proving allegiance.",
+      "id": "business-003",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "solo_inspect"
+      ]
+    },
+    {
+      "category": "solo_inspect",
+      "requires": [
+        "inspectTarget",
+        "inspectHours"
+      ],
+      "text": "My read right now is my solo Business inspection showed {{inspectTarget}} waking at {{inspectHours}}; that is timing information, not a role scan. I am keeping the difference between starting role and current card in mind.",
+      "id": "business-004",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "solo_inspect"
+      ]
+    },
+    {
+      "category": "solo_inspect",
+      "requires": [
+        "inspectTarget",
+        "inspectHours"
+      ],
+      "text": "I keep coming back to I woke alone and inspected {{inspectTarget}}'s wake schedule: {{inspectHours}}. That does not settle the whole round.",
+      "id": "business-005",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "solo_inspect"
+      ]
+    },
+    {
+      "category": "solo_inspect",
+      "requires": [
+        "inspectTarget",
+        "inspectHours"
+      ],
+      "text": "The piece I trust most is my solo Business inspection showed {{inspectTarget}} waking at {{inspectHours}}; that is timing information, not a role scan. A swap could still change what the cards mean.",
+      "id": "business-006",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "solo_inspect"
+      ]
+    },
+    {
+      "category": "solo_inspect",
+      "requires": [
+        "inspectTarget",
+        "inspectHours"
+      ],
+      "text": "Before we Paw Point, I woke alone and inspected {{inspectTarget}}'s wake schedule: {{inspectHours}}. I am comparing who was awake before and after the treats vanished.",
+      "id": "business-007",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "solo_inspect"
+      ]
+    },
+    {
+      "category": "solo_inspect",
+      "requires": [
+        "inspectTarget",
+        "inspectHours"
+      ],
+      "text": "I am comparing notes and my solo Business inspection showed {{inspectTarget}} waking at {{inspectHours}}; that is timing information, not a role scan. I would rather be precise than loud.",
+      "id": "business-008",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "solo_inspect"
+      ]
+    },
+    {
+      "category": "solo_inspect",
+      "requires": [
+        "inspectTarget",
+        "inspectHours"
+      ],
+      "text": "One thing I do not want to lose is I woke alone and inspected {{inspectTarget}}'s wake schedule: {{inspectHours}}. I am keeping my Paw Point open for now.",
+      "id": "business-009",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "solo_inspect"
+      ]
+    },
+    {
+      "category": "solo_inspect",
+      "requires": [
+        "inspectTarget",
+        "inspectHours"
+      ],
+      "text": "The useful detail for me is my solo Business inspection showed {{inspectTarget}} waking at {{inspectHours}}; that is timing information, not a role scan. I want the sequence to make sense first.",
+      "id": "business-010",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "solo_inspect"
+      ]
+    },
+    {
+      "category": "solo_inspect",
+      "requires": [
+        "inspectTarget",
+        "inspectHours"
+      ],
+      "text": "I am sticking to the facts: I woke alone and inspected {{inspectTarget}}'s wake schedule: {{inspectHours}}. The app-confirmed pieces come first.",
+      "id": "business-011",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "solo_inspect"
+      ]
+    },
+    {
+      "category": "solo_inspect",
+      "requires": [
+        "inspectTarget",
+        "inspectHours"
+      ],
+      "text": "The night makes more sense if my solo Business inspection showed {{inspectTarget}} waking at {{inspectHours}}; that is timing information, not a role scan. I am leaving room for card movement.",
+      "id": "business-012",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "solo_inspect"
+      ]
+    },
+    {
+      "category": "solo_inspect",
+      "requires": [
+        "inspectTarget",
+        "inspectHours"
+      ],
+      "text": "I want to separate fact from guess: I woke alone and inspected {{inspectTarget}}'s wake schedule: {{inspectHours}}. I am checking it against the treat state.",
+      "id": "business-013",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "solo_inspect"
+      ]
+    },
+    {
+      "category": "solo_inspect",
+      "requires": [
+        "inspectTarget",
+        "inspectHours"
+      ],
+      "text": "My private notes say my solo Business inspection showed {{inspectTarget}} waking at {{inspectHours}}; that is timing information, not a role scan. I need the wake windows to line up.",
+      "id": "business-014",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "solo_inspect"
+      ]
+    },
+    {
+      "category": "solo_inspect",
+      "requires": [
+        "inspectTarget",
+        "inspectHours"
+      ],
+      "text": "I am not treating this as proof, but I woke alone and inspected {{inspectTarget}}'s wake schedule: {{inspectHours}}. I am still weighing the same evidence.",
+      "id": "business-015",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "solo_inspect"
+      ]
+    },
+    {
+      "category": "solo_inspect",
+      "requires": [
+        "inspectTarget",
+        "inspectHours"
+      ],
+      "text": "For Morning Business, my solo Business inspection showed {{inspectTarget}} waking at {{inspectHours}}; that is timing information, not a role scan. The timing still matters more than vibes.",
+      "id": "business-016",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "solo_inspect"
+      ]
+    },
+    {
+      "category": "solo_inspect",
+      "requires": [
+        "inspectTarget",
+        "inspectHours"
+      ],
+      "text": "The clue I am weighing is I woke alone and inspected {{inspectTarget}}'s wake schedule: {{inspectHours}}. I am not treating a role claim as verified.",
+      "id": "business-017",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "solo_inspect"
+      ]
+    },
+    {
+      "category": "solo_inspect",
+      "requires": [
+        "inspectTarget",
+        "inspectHours"
+      ],
+      "text": "I am watching the order of events: my solo Business inspection showed {{inspectTarget}} waking at {{inspectHours}}; that is timing information, not a role scan. I am not adding facts I did not actually receive.",
+      "id": "business-018",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "solo_inspect"
+      ]
+    },
+    {
+      "category": "solo_inspect",
+      "requires": [
+        "inspectTarget",
+        "inspectHours"
+      ],
+      "text": "The safest thing I can say is I woke alone and inspected {{inspectTarget}}'s wake schedule: {{inspectHours}}. I want to hear how that fits everyone else.",
+      "id": "business-019",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "solo_inspect"
+      ]
+    },
+    {
+      "category": "solo_inspect",
+      "requires": [
+        "inspectTarget",
+        "inspectHours"
+      ],
+      "text": "My current timeline says my solo Business inspection showed {{inspectTarget}} waking at {{inspectHours}}; that is timing information, not a role scan. I want another claim against that timeline.",
+      "id": "business-020",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "solo_inspect"
+      ]
+    },
+    {
+      "category": "solo_inspect",
+      "requires": [
+        "inspectTarget",
+        "inspectHours"
+      ],
+      "text": "I am cross-checking claims: I woke alone and inspected {{inspectTarget}}'s wake schedule: {{inspectHours}}. I am watching for contradictions, not just confidence.",
+      "id": "business-021",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "solo_inspect"
+      ]
+    },
+    {
+      "category": "solo_inspect",
+      "requires": [
+        "inspectTarget",
+        "inspectHours"
+      ],
+      "text": "The strongest detail I have is my solo Business inspection showed {{inspectTarget}} waking at {{inspectHours}}; that is timing information, not a role scan. I want a timeline that survives the swap possibilities.",
+      "id": "business-022",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "solo_inspect"
+      ]
+    },
+    {
+      "category": "solo_inspect",
+      "requires": [
+        "inspectTarget",
+        "inspectHours"
+      ],
+      "text": "I am keeping this narrow: I woke alone and inspected {{inspectTarget}}'s wake schedule: {{inspectHours}}. I am not calling that automatic guilt.",
+      "id": "business-023",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "solo_inspect"
+      ]
+    },
+    {
+      "category": "solo_inspect",
+      "requires": [
+        "inspectTarget",
+        "inspectHours"
+      ],
+      "text": "I do not want to overstate it: my solo Business inspection showed {{inspectTarget}} waking at {{inspectHours}}; that is timing information, not a role scan. The Raider is still the primary target.",
+      "id": "business-024",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "solo_inspect"
+      ]
+    },
+    {
+      "category": "solo_inspect",
+      "requires": [
+        "inspectTarget",
+        "inspectHours"
+      ],
+      "text": "Here is the part I can actually use: I woke alone and inspected {{inspectTarget}}'s wake schedule: {{inspectHours}}. That is the part I can defend if challenged.",
+      "id": "business-025",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "solo_inspect"
+      ]
+    },
+    {
+      "category": "evidence_backbone",
+      "requires": [],
+      "text": "From my side, I do not have a special alignment scan; my job is to make the ordinary wake evidence add up. That is where I am starting.",
+      "id": "business-026",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "evidence_backbone"
+      ]
+    },
+    {
+      "category": "evidence_backbone",
+      "requires": [],
+      "text": "For the timeline, I am working from Treat State, co-wakers, and the one solo inspection rule only. That is evidence, not a verdict.",
+      "id": "business-027",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "evidence_backbone"
+      ]
+    },
+    {
+      "category": "evidence_backbone",
+      "requires": [],
+      "text": "What I can confirm is I do not have a special alignment scan; my job is to make the ordinary wake evidence add up. That could be true without proving allegiance.",
+      "id": "business-028",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "evidence_backbone"
+      ]
+    },
+    {
+      "category": "evidence_backbone",
+      "requires": [],
+      "text": "My read right now is I am working from Treat State, co-wakers, and the one solo inspection rule only. I am keeping the difference between starting role and current card in mind.",
+      "id": "business-029",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "evidence_backbone"
+      ]
+    },
+    {
+      "category": "evidence_backbone",
+      "requires": [],
+      "text": "I keep coming back to I do not have a special alignment scan; my job is to make the ordinary wake evidence add up. That does not settle the whole round.",
+      "id": "business-030",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "evidence_backbone"
+      ]
+    },
+    {
+      "category": "evidence_backbone",
+      "requires": [],
+      "text": "The piece I trust most is I am working from Treat State, co-wakers, and the one solo inspection rule only. A swap could still change what the cards mean.",
+      "id": "business-031",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "evidence_backbone"
+      ]
+    },
+    {
+      "category": "evidence_backbone",
+      "requires": [],
+      "text": "Before we Paw Point, I do not have a special alignment scan; my job is to make the ordinary wake evidence add up. I am comparing who was awake before and after the treats vanished.",
+      "id": "business-032",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "evidence_backbone"
+      ]
+    },
+    {
+      "category": "evidence_backbone",
+      "requires": [],
+      "text": "I am comparing notes and I am working from Treat State, co-wakers, and the one solo inspection rule only. I would rather be precise than loud.",
+      "id": "business-033",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "evidence_backbone"
+      ]
+    },
+    {
+      "category": "evidence_backbone",
+      "requires": [],
+      "text": "One thing I do not want to lose is I do not have a special alignment scan; my job is to make the ordinary wake evidence add up. I am keeping my Paw Point open for now.",
+      "id": "business-034",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "evidence_backbone"
+      ]
+    },
+    {
+      "category": "evidence_backbone",
+      "requires": [],
+      "text": "The useful detail for me is I am working from Treat State, co-wakers, and the one solo inspection rule only. I want the sequence to make sense first.",
+      "id": "business-035",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "evidence_backbone"
+      ]
+    },
+    {
+      "category": "evidence_backbone",
+      "requires": [],
+      "text": "I am sticking to the facts: I do not have a special alignment scan; my job is to make the ordinary wake evidence add up. The app-confirmed pieces come first.",
+      "id": "business-036",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "evidence_backbone"
+      ]
+    },
+    {
+      "category": "evidence_backbone",
+      "requires": [],
+      "text": "The night makes more sense if I am working from Treat State, co-wakers, and the one solo inspection rule only. I am leaving room for card movement.",
+      "id": "business-037",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "evidence_backbone"
+      ]
+    },
+    {
+      "category": "evidence_backbone",
+      "requires": [],
+      "text": "I want to separate fact from guess: I do not have a special alignment scan; my job is to make the ordinary wake evidence add up. I am checking it against the treat state.",
+      "id": "business-038",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "evidence_backbone"
+      ]
+    },
+    {
+      "category": "evidence_backbone",
+      "requires": [],
+      "text": "My private notes say I am working from Treat State, co-wakers, and the one solo inspection rule only. I need the wake windows to line up.",
+      "id": "business-039",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "evidence_backbone"
+      ]
+    },
+    {
+      "category": "evidence_backbone",
+      "requires": [],
+      "text": "I am not treating this as proof, but I do not have a special alignment scan; my job is to make the ordinary wake evidence add up. I am still weighing the same evidence.",
+      "id": "business-040",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "evidence_backbone"
+      ]
+    },
+    {
+      "category": "evidence_backbone",
+      "requires": [],
+      "text": "For Morning Business, I am working from Treat State, co-wakers, and the one solo inspection rule only. The timing still matters more than vibes.",
+      "id": "business-041",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "evidence_backbone"
+      ]
+    },
+    {
+      "category": "evidence_backbone",
+      "requires": [],
+      "text": "The clue I am weighing is I do not have a special alignment scan; my job is to make the ordinary wake evidence add up. I am not treating a role claim as verified.",
+      "id": "business-042",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "evidence_backbone"
+      ]
+    },
+    {
+      "category": "evidence_backbone",
+      "requires": [],
+      "text": "I am watching the order of events: I am working from Treat State, co-wakers, and the one solo inspection rule only. I am not adding facts I did not actually receive.",
+      "id": "business-043",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "evidence_backbone"
+      ]
+    },
+    {
+      "category": "evidence_backbone",
+      "requires": [],
+      "text": "The safest thing I can say is I do not have a special alignment scan; my job is to make the ordinary wake evidence add up. I want to hear how that fits everyone else.",
+      "id": "business-044",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "evidence_backbone"
+      ]
+    },
+    {
+      "category": "evidence_backbone",
+      "requires": [],
+      "text": "My current timeline says I am working from Treat State, co-wakers, and the one solo inspection rule only. I want another claim against that timeline.",
+      "id": "business-045",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "evidence_backbone"
+      ]
+    },
+    {
+      "category": "evidence_backbone",
+      "requires": [],
+      "text": "I am cross-checking claims: I do not have a special alignment scan; my job is to make the ordinary wake evidence add up. I am watching for contradictions, not just confidence.",
+      "id": "business-046",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "evidence_backbone"
+      ]
+    },
+    {
+      "category": "evidence_backbone",
+      "requires": [],
+      "text": "The strongest detail I have is I am working from Treat State, co-wakers, and the one solo inspection rule only. I want a timeline that survives the swap possibilities.",
+      "id": "business-047",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "evidence_backbone"
+      ]
+    },
+    {
+      "category": "evidence_backbone",
+      "requires": [],
+      "text": "I am keeping this narrow: I do not have a special alignment scan; my job is to make the ordinary wake evidence add up. I am not calling that automatic guilt.",
+      "id": "business-048",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "evidence_backbone"
+      ]
+    },
+    {
+      "category": "evidence_backbone",
+      "requires": [],
+      "text": "I do not want to overstate it: I am working from Treat State, co-wakers, and the one solo inspection rule only. The Raider is still the primary target.",
+      "id": "business-049",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "evidence_backbone"
+      ]
+    },
+    {
+      "category": "evidence_backbone",
+      "requires": [],
+      "text": "Here is the part I can actually use: I do not have a special alignment scan; my job is to make the ordinary wake evidence add up. That is the part I can defend if challenged.",
+      "id": "business-050",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "evidence_backbone"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "From my side, I woke at Hour {{hour}}; the treats were {{treatState}}, and {{cowakers}} was my co-waker read. That is where I am starting.",
+      "id": "business-051",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "For the timeline, Hour {{hour}} is my anchor: treats {{treatState}}, with {{cowakers}} in that wake window. That is evidence, not a verdict.",
+      "id": "business-052",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "What I can confirm is I woke at Hour {{hour}}; the treats were {{treatState}}, and {{cowakers}} was my co-waker read. That could be true without proving allegiance.",
+      "id": "business-053",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "My read right now is Hour {{hour}} is my anchor: treats {{treatState}}, with {{cowakers}} in that wake window. I am keeping the difference between starting role and current card in mind.",
+      "id": "business-054",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "I keep coming back to I woke at Hour {{hour}}; the treats were {{treatState}}, and {{cowakers}} was my co-waker read. That does not settle the whole round.",
+      "id": "business-055",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "The piece I trust most is Hour {{hour}} is my anchor: treats {{treatState}}, with {{cowakers}} in that wake window. A swap could still change what the cards mean.",
+      "id": "business-056",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "Before we Paw Point, I woke at Hour {{hour}}; the treats were {{treatState}}, and {{cowakers}} was my co-waker read. I am comparing who was awake before and after the treats vanished.",
+      "id": "business-057",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "I am comparing notes and Hour {{hour}} is my anchor: treats {{treatState}}, with {{cowakers}} in that wake window. I would rather be precise than loud.",
+      "id": "business-058",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "One thing I do not want to lose is I woke at Hour {{hour}}; the treats were {{treatState}}, and {{cowakers}} was my co-waker read. I am keeping my Paw Point open for now.",
+      "id": "business-059",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "The useful detail for me is Hour {{hour}} is my anchor: treats {{treatState}}, with {{cowakers}} in that wake window. I want the sequence to make sense first.",
+      "id": "business-060",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "I am sticking to the facts: I woke at Hour {{hour}}; the treats were {{treatState}}, and {{cowakers}} was my co-waker read. The app-confirmed pieces come first.",
+      "id": "business-061",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "The night makes more sense if Hour {{hour}} is my anchor: treats {{treatState}}, with {{cowakers}} in that wake window. I am leaving room for card movement.",
+      "id": "business-062",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "I want to separate fact from guess: I woke at Hour {{hour}}; the treats were {{treatState}}, and {{cowakers}} was my co-waker read. I am checking it against the treat state.",
+      "id": "business-063",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "My private notes say Hour {{hour}} is my anchor: treats {{treatState}}, with {{cowakers}} in that wake window. I need the wake windows to line up.",
+      "id": "business-064",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "I am not treating this as proof, but I woke at Hour {{hour}}; the treats were {{treatState}}, and {{cowakers}} was my co-waker read. I am still weighing the same evidence.",
+      "id": "business-065",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "For Morning Business, Hour {{hour}} is my anchor: treats {{treatState}}, with {{cowakers}} in that wake window. The timing still matters more than vibes.",
+      "id": "business-066",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "The clue I am weighing is I woke at Hour {{hour}}; the treats were {{treatState}}, and {{cowakers}} was my co-waker read. I am not treating a role claim as verified.",
+      "id": "business-067",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "I am watching the order of events: Hour {{hour}} is my anchor: treats {{treatState}}, with {{cowakers}} in that wake window. I am not adding facts I did not actually receive.",
+      "id": "business-068",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "The safest thing I can say is I woke at Hour {{hour}}; the treats were {{treatState}}, and {{cowakers}} was my co-waker read. I want to hear how that fits everyone else.",
+      "id": "business-069",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "My current timeline says Hour {{hour}} is my anchor: treats {{treatState}}, with {{cowakers}} in that wake window. I want another claim against that timeline.",
+      "id": "business-070",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "I am cross-checking claims: I woke at Hour {{hour}}; the treats were {{treatState}}, and {{cowakers}} was my co-waker read. I am watching for contradictions, not just confidence.",
+      "id": "business-071",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "The strongest detail I have is Hour {{hour}} is my anchor: treats {{treatState}}, with {{cowakers}} in that wake window. I want a timeline that survives the swap possibilities.",
+      "id": "business-072",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "I am keeping this narrow: I woke at Hour {{hour}}; the treats were {{treatState}}, and {{cowakers}} was my co-waker read. I am not calling that automatic guilt.",
+      "id": "business-073",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "I do not want to overstate it: Hour {{hour}} is my anchor: treats {{treatState}}, with {{cowakers}} in that wake window. The Raider is still the primary target.",
+      "id": "business-074",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "Here is the part I can actually use: I woke at Hour {{hour}}; the treats were {{treatState}}, and {{cowakers}} was my co-waker read. That is the part I can defend if challenged.",
+      "id": "business-075",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "observation"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "From my side, {{target}}, which hour are you claiming, and were the Minnow Treats present or missing? That is where I am starting.",
+      "id": "business-076",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "For the timeline, I want {{target}} to pin down who else was awake in that window. That is evidence, not a verdict.",
+      "id": "business-077",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "What I can confirm is {{target}}, which hour are you claiming, and were the Minnow Treats present or missing? That could be true without proving allegiance.",
+      "id": "business-078",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "My read right now is I want {{target}} to pin down who else was awake in that window. I am keeping the difference between starting role and current card in mind.",
+      "id": "business-079",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "I keep coming back to {{target}}, which hour are you claiming, and were the Minnow Treats present or missing? That does not settle the whole round.",
+      "id": "business-080",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "The piece I trust most is I want {{target}} to pin down who else was awake in that window. A swap could still change what the cards mean.",
+      "id": "business-081",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "Before we Paw Point, {{target}}, which hour are you claiming, and were the Minnow Treats present or missing? I am comparing who was awake before and after the treats vanished.",
+      "id": "business-082",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "I am comparing notes and I want {{target}} to pin down who else was awake in that window. I would rather be precise than loud.",
+      "id": "business-083",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "One thing I do not want to lose is {{target}}, which hour are you claiming, and were the Minnow Treats present or missing? I am keeping my Paw Point open for now.",
+      "id": "business-084",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "The useful detail for me is I want {{target}} to pin down who else was awake in that window. I want the sequence to make sense first.",
+      "id": "business-085",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "I am sticking to the facts: {{target}}, which hour are you claiming, and were the Minnow Treats present or missing? The app-confirmed pieces come first.",
+      "id": "business-086",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "The night makes more sense if I want {{target}} to pin down who else was awake in that window. I am leaving room for card movement.",
+      "id": "business-087",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "I want to separate fact from guess: {{target}}, which hour are you claiming, and were the Minnow Treats present or missing? I am checking it against the treat state.",
+      "id": "business-088",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "My private notes say I want {{target}} to pin down who else was awake in that window. I need the wake windows to line up.",
+      "id": "business-089",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "I am not treating this as proof, but {{target}}, which hour are you claiming, and were the Minnow Treats present or missing? I am still weighing the same evidence.",
+      "id": "business-090",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "For Morning Business, I want {{target}} to pin down who else was awake in that window. The timing still matters more than vibes.",
+      "id": "business-091",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "The clue I am weighing is {{target}}, which hour are you claiming, and were the Minnow Treats present or missing? I am not treating a role claim as verified.",
+      "id": "business-092",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "I am watching the order of events: I want {{target}} to pin down who else was awake in that window. I am not adding facts I did not actually receive.",
+      "id": "business-093",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "The safest thing I can say is {{target}}, which hour are you claiming, and were the Minnow Treats present or missing? I want to hear how that fits everyone else.",
+      "id": "business-094",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "My current timeline says I want {{target}} to pin down who else was awake in that window. I want another claim against that timeline.",
+      "id": "business-095",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "I am cross-checking claims: {{target}}, which hour are you claiming, and were the Minnow Treats present or missing? I am watching for contradictions, not just confidence.",
+      "id": "business-096",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "The strongest detail I have is I want {{target}} to pin down who else was awake in that window. I want a timeline that survives the swap possibilities.",
+      "id": "business-097",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "I am keeping this narrow: {{target}}, which hour are you claiming, and were the Minnow Treats present or missing? I am not calling that automatic guilt.",
+      "id": "business-098",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "I do not want to overstate it: I want {{target}} to pin down who else was awake in that window. The Raider is still the primary target.",
+      "id": "business-099",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "Here is the part I can actually use: {{target}}, which hour are you claiming, and were the Minnow Treats present or missing? That is the part I can defend if challenged.",
+      "id": "business-100",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "question"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "From my side, the change from PRESENT to MISSING has to fit the Burrow Clock, not just somebody's role claim. That is where I am starting.",
+      "id": "business-101",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "For the timeline, I am lining up claimed wake hours around when the Minnow Treats disappeared. That is evidence, not a verdict.",
+      "id": "business-102",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "What I can confirm is the change from PRESENT to MISSING has to fit the Burrow Clock, not just somebody's role claim. That could be true without proving allegiance.",
+      "id": "business-103",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "My read right now is I am lining up claimed wake hours around when the Minnow Treats disappeared. I am keeping the difference between starting role and current card in mind.",
+      "id": "business-104",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "I keep coming back to the change from PRESENT to MISSING has to fit the Burrow Clock, not just somebody's role claim. That does not settle the whole round.",
+      "id": "business-105",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "The piece I trust most is I am lining up claimed wake hours around when the Minnow Treats disappeared. A swap could still change what the cards mean.",
+      "id": "business-106",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "Before we Paw Point, the change from PRESENT to MISSING has to fit the Burrow Clock, not just somebody's role claim. I am comparing who was awake before and after the treats vanished.",
+      "id": "business-107",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "I am comparing notes and I am lining up claimed wake hours around when the Minnow Treats disappeared. I would rather be precise than loud.",
+      "id": "business-108",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "One thing I do not want to lose is the change from PRESENT to MISSING has to fit the Burrow Clock, not just somebody's role claim. I am keeping my Paw Point open for now.",
+      "id": "business-109",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "The useful detail for me is I am lining up claimed wake hours around when the Minnow Treats disappeared. I want the sequence to make sense first.",
+      "id": "business-110",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "I am sticking to the facts: the change from PRESENT to MISSING has to fit the Burrow Clock, not just somebody's role claim. The app-confirmed pieces come first.",
+      "id": "business-111",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "The night makes more sense if I am lining up claimed wake hours around when the Minnow Treats disappeared. I am leaving room for card movement.",
+      "id": "business-112",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "I want to separate fact from guess: the change from PRESENT to MISSING has to fit the Burrow Clock, not just somebody's role claim. I am checking it against the treat state.",
+      "id": "business-113",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "My private notes say I am lining up claimed wake hours around when the Minnow Treats disappeared. I need the wake windows to line up.",
+      "id": "business-114",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "I am not treating this as proof, but the change from PRESENT to MISSING has to fit the Burrow Clock, not just somebody's role claim. I am still weighing the same evidence.",
+      "id": "business-115",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "For Morning Business, I am lining up claimed wake hours around when the Minnow Treats disappeared. The timing still matters more than vibes.",
+      "id": "business-116",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "The clue I am weighing is the change from PRESENT to MISSING has to fit the Burrow Clock, not just somebody's role claim. I am not treating a role claim as verified.",
+      "id": "business-117",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "I am watching the order of events: I am lining up claimed wake hours around when the Minnow Treats disappeared. I am not adding facts I did not actually receive.",
+      "id": "business-118",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "The safest thing I can say is the change from PRESENT to MISSING has to fit the Burrow Clock, not just somebody's role claim. I want to hear how that fits everyone else.",
+      "id": "business-119",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "My current timeline says I am lining up claimed wake hours around when the Minnow Treats disappeared. I want another claim against that timeline.",
+      "id": "business-120",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "I am cross-checking claims: the change from PRESENT to MISSING has to fit the Burrow Clock, not just somebody's role claim. I am watching for contradictions, not just confidence.",
+      "id": "business-121",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "The strongest detail I have is I am lining up claimed wake hours around when the Minnow Treats disappeared. I want a timeline that survives the swap possibilities.",
+      "id": "business-122",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "I am keeping this narrow: the change from PRESENT to MISSING has to fit the Burrow Clock, not just somebody's role claim. I am not calling that automatic guilt.",
+      "id": "business-123",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "I do not want to overstate it: I am lining up claimed wake hours around when the Minnow Treats disappeared. The Raider is still the primary target.",
+      "id": "business-124",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "Here is the part I can actually use: the change from PRESENT to MISSING has to fit the Burrow Clock, not just somebody's role claim. That is the part I can defend if challenged.",
+      "id": "business-125",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "timeline"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "From my side, {{target}} sits highest on my current timing suspicion, but I am still checking the evidence. That is where I am starting.",
+      "id": "business-126",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "For the timeline, I am watching {{target}} because their place in the wake timeline needs a better explanation. That is evidence, not a verdict.",
+      "id": "business-127",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "What I can confirm is {{target}} sits highest on my current timing suspicion, but I am still checking the evidence. That could be true without proving allegiance.",
+      "id": "business-128",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "My read right now is I am watching {{target}} because their place in the wake timeline needs a better explanation. I am keeping the difference between starting role and current card in mind.",
+      "id": "business-129",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "I keep coming back to {{target}} sits highest on my current timing suspicion, but I am still checking the evidence. That does not settle the whole round.",
+      "id": "business-130",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "The piece I trust most is I am watching {{target}} because their place in the wake timeline needs a better explanation. A swap could still change what the cards mean.",
+      "id": "business-131",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "Before we Paw Point, {{target}} sits highest on my current timing suspicion, but I am still checking the evidence. I am comparing who was awake before and after the treats vanished.",
+      "id": "business-132",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "I am comparing notes and I am watching {{target}} because their place in the wake timeline needs a better explanation. I would rather be precise than loud.",
+      "id": "business-133",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "One thing I do not want to lose is {{target}} sits highest on my current timing suspicion, but I am still checking the evidence. I am keeping my Paw Point open for now.",
+      "id": "business-134",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "The useful detail for me is I am watching {{target}} because their place in the wake timeline needs a better explanation. I want the sequence to make sense first.",
+      "id": "business-135",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "I am sticking to the facts: {{target}} sits highest on my current timing suspicion, but I am still checking the evidence. The app-confirmed pieces come first.",
+      "id": "business-136",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "The night makes more sense if I am watching {{target}} because their place in the wake timeline needs a better explanation. I am leaving room for card movement.",
+      "id": "business-137",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "I want to separate fact from guess: {{target}} sits highest on my current timing suspicion, but I am still checking the evidence. I am checking it against the treat state.",
+      "id": "business-138",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "My private notes say I am watching {{target}} because their place in the wake timeline needs a better explanation. I need the wake windows to line up.",
+      "id": "business-139",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "I am not treating this as proof, but {{target}} sits highest on my current timing suspicion, but I am still checking the evidence. I am still weighing the same evidence.",
+      "id": "business-140",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "For Morning Business, I am watching {{target}} because their place in the wake timeline needs a better explanation. The timing still matters more than vibes.",
+      "id": "business-141",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "The clue I am weighing is {{target}} sits highest on my current timing suspicion, but I am still checking the evidence. I am not treating a role claim as verified.",
+      "id": "business-142",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "I am watching the order of events: I am watching {{target}} because their place in the wake timeline needs a better explanation. I am not adding facts I did not actually receive.",
+      "id": "business-143",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "The safest thing I can say is {{target}} sits highest on my current timing suspicion, but I am still checking the evidence. I want to hear how that fits everyone else.",
+      "id": "business-144",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "My current timeline says I am watching {{target}} because their place in the wake timeline needs a better explanation. I want another claim against that timeline.",
+      "id": "business-145",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "I am cross-checking claims: {{target}} sits highest on my current timing suspicion, but I am still checking the evidence. I am watching for contradictions, not just confidence.",
+      "id": "business-146",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "The strongest detail I have is I am watching {{target}} because their place in the wake timeline needs a better explanation. I want a timeline that survives the swap possibilities.",
+      "id": "business-147",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "I am keeping this narrow: {{target}} sits highest on my current timing suspicion, but I am still checking the evidence. I am not calling that automatic guilt.",
+      "id": "business-148",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "I do not want to overstate it: I am watching {{target}} because their place in the wake timeline needs a better explanation. The Raider is still the primary target.",
+      "id": "business-149",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "Here is the part I can actually use: {{target}} sits highest on my current timing suspicion, but I am still checking the evidence. That is the part I can defend if challenged.",
+      "id": "business-150",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "From my side, my claim is about what my own screen showed me; I am not claiming knowledge outside that. That is where I am starting.",
+      "id": "business-151",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "For the timeline, if my card moved later, that does not rewrite what I personally observed when I woke. That is evidence, not a verdict.",
+      "id": "business-152",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "What I can confirm is my claim is about what my own screen showed me; I am not claiming knowledge outside that. That could be true without proving allegiance.",
+      "id": "business-153",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "My read right now is if my card moved later, that does not rewrite what I personally observed when I woke. I am keeping the difference between starting role and current card in mind.",
+      "id": "business-154",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "I keep coming back to my claim is about what my own screen showed me; I am not claiming knowledge outside that. That does not settle the whole round.",
+      "id": "business-155",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "The piece I trust most is if my card moved later, that does not rewrite what I personally observed when I woke. A swap could still change what the cards mean.",
+      "id": "business-156",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "Before we Paw Point, my claim is about what my own screen showed me; I am not claiming knowledge outside that. I am comparing who was awake before and after the treats vanished.",
+      "id": "business-157",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "I am comparing notes and if my card moved later, that does not rewrite what I personally observed when I woke. I would rather be precise than loud.",
+      "id": "business-158",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "One thing I do not want to lose is my claim is about what my own screen showed me; I am not claiming knowledge outside that. I am keeping my Paw Point open for now.",
+      "id": "business-159",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "The useful detail for me is if my card moved later, that does not rewrite what I personally observed when I woke. I want the sequence to make sense first.",
+      "id": "business-160",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "I am sticking to the facts: my claim is about what my own screen showed me; I am not claiming knowledge outside that. The app-confirmed pieces come first.",
+      "id": "business-161",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "The night makes more sense if if my card moved later, that does not rewrite what I personally observed when I woke. I am leaving room for card movement.",
+      "id": "business-162",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "I want to separate fact from guess: my claim is about what my own screen showed me; I am not claiming knowledge outside that. I am checking it against the treat state.",
+      "id": "business-163",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "My private notes say if my card moved later, that does not rewrite what I personally observed when I woke. I need the wake windows to line up.",
+      "id": "business-164",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "I am not treating this as proof, but my claim is about what my own screen showed me; I am not claiming knowledge outside that. I am still weighing the same evidence.",
+      "id": "business-165",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "For Morning Business, if my card moved later, that does not rewrite what I personally observed when I woke. The timing still matters more than vibes.",
+      "id": "business-166",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "The clue I am weighing is my claim is about what my own screen showed me; I am not claiming knowledge outside that. I am not treating a role claim as verified.",
+      "id": "business-167",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "I am watching the order of events: if my card moved later, that does not rewrite what I personally observed when I woke. I am not adding facts I did not actually receive.",
+      "id": "business-168",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "The safest thing I can say is my claim is about what my own screen showed me; I am not claiming knowledge outside that. I want to hear how that fits everyone else.",
+      "id": "business-169",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "My current timeline says if my card moved later, that does not rewrite what I personally observed when I woke. I want another claim against that timeline.",
+      "id": "business-170",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "I am cross-checking claims: my claim is about what my own screen showed me; I am not claiming knowledge outside that. I am watching for contradictions, not just confidence.",
+      "id": "business-171",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "The strongest detail I have is if my card moved later, that does not rewrite what I personally observed when I woke. I want a timeline that survives the swap possibilities.",
+      "id": "business-172",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "I am keeping this narrow: my claim is about what my own screen showed me; I am not claiming knowledge outside that. I am not calling that automatic guilt.",
+      "id": "business-173",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "I do not want to overstate it: if my card moved later, that does not rewrite what I personally observed when I woke. The Raider is still the primary target.",
+      "id": "business-174",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "Here is the part I can actually use: my claim is about what my own screen showed me; I am not claiming knowledge outside that. That is the part I can defend if challenged.",
+      "id": "business-175",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "defense"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "From my side, if nothing stronger appears, {{target}} is where my Paw Point is leaning. That is where I am starting.",
+      "id": "business-176",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "For the timeline, I am not locking yet, but {{target}} is my current vote pressure. That is evidence, not a verdict.",
+      "id": "business-177",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "What I can confirm is if nothing stronger appears, {{target}} is where my Paw Point is leaning. That could be true without proving allegiance.",
+      "id": "business-178",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "My read right now is I am not locking yet, but {{target}} is my current vote pressure. I am keeping the difference between starting role and current card in mind.",
+      "id": "business-179",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "I keep coming back to if nothing stronger appears, {{target}} is where my Paw Point is leaning. That does not settle the whole round.",
+      "id": "business-180",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "The piece I trust most is I am not locking yet, but {{target}} is my current vote pressure. A swap could still change what the cards mean.",
+      "id": "business-181",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "Before we Paw Point, if nothing stronger appears, {{target}} is where my Paw Point is leaning. I am comparing who was awake before and after the treats vanished.",
+      "id": "business-182",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "I am comparing notes and I am not locking yet, but {{target}} is my current vote pressure. I would rather be precise than loud.",
+      "id": "business-183",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "One thing I do not want to lose is if nothing stronger appears, {{target}} is where my Paw Point is leaning. I am keeping my Paw Point open for now.",
+      "id": "business-184",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "The useful detail for me is I am not locking yet, but {{target}} is my current vote pressure. I want the sequence to make sense first.",
+      "id": "business-185",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "I am sticking to the facts: if nothing stronger appears, {{target}} is where my Paw Point is leaning. The app-confirmed pieces come first.",
+      "id": "business-186",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "The night makes more sense if I am not locking yet, but {{target}} is my current vote pressure. I am leaving room for card movement.",
+      "id": "business-187",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "I want to separate fact from guess: if nothing stronger appears, {{target}} is where my Paw Point is leaning. I am checking it against the treat state.",
+      "id": "business-188",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "My private notes say I am not locking yet, but {{target}} is my current vote pressure. I need the wake windows to line up.",
+      "id": "business-189",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "I am not treating this as proof, but if nothing stronger appears, {{target}} is where my Paw Point is leaning. I am still weighing the same evidence.",
+      "id": "business-190",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "For Morning Business, I am not locking yet, but {{target}} is my current vote pressure. The timing still matters more than vibes.",
+      "id": "business-191",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "The clue I am weighing is if nothing stronger appears, {{target}} is where my Paw Point is leaning. I am not treating a role claim as verified.",
+      "id": "business-192",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "I am watching the order of events: I am not locking yet, but {{target}} is my current vote pressure. I am not adding facts I did not actually receive.",
+      "id": "business-193",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "The safest thing I can say is if nothing stronger appears, {{target}} is where my Paw Point is leaning. I want to hear how that fits everyone else.",
+      "id": "business-194",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "My current timeline says I am not locking yet, but {{target}} is my current vote pressure. I want another claim against that timeline.",
+      "id": "business-195",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "I am cross-checking claims: if nothing stronger appears, {{target}} is where my Paw Point is leaning. I am watching for contradictions, not just confidence.",
+      "id": "business-196",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "The strongest detail I have is I am not locking yet, but {{target}} is my current vote pressure. I want a timeline that survives the swap possibilities.",
+      "id": "business-197",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "I am keeping this narrow: if nothing stronger appears, {{target}} is where my Paw Point is leaning. I am not calling that automatic guilt.",
+      "id": "business-198",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "I do not want to overstate it: I am not locking yet, but {{target}} is my current vote pressure. The Raider is still the primary target.",
+      "id": "business-199",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "Here is the part I can actually use: if nothing stronger appears, {{target}} is where my Paw Point is leaning. That is the part I can defend if challenged.",
+      "id": "business-200",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "vote"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "From my side, that claim changes the order I am testing, especially around the treat-state switch. That is where I am starting.",
+      "id": "business-201",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "For the timeline, I heard that; I am checking whether it agrees with my private wake evidence. That is evidence, not a verdict.",
+      "id": "business-202",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "What I can confirm is that claim changes the order I am testing, especially around the treat-state switch. That could be true without proving allegiance.",
+      "id": "business-203",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "My read right now is I heard that; I am checking whether it agrees with my private wake evidence. I am keeping the difference between starting role and current card in mind.",
+      "id": "business-204",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "I keep coming back to that claim changes the order I am testing, especially around the treat-state switch. That does not settle the whole round.",
+      "id": "business-205",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "The piece I trust most is I heard that; I am checking whether it agrees with my private wake evidence. A swap could still change what the cards mean.",
+      "id": "business-206",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "Before we Paw Point, that claim changes the order I am testing, especially around the treat-state switch. I am comparing who was awake before and after the treats vanished.",
+      "id": "business-207",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "I am comparing notes and I heard that; I am checking whether it agrees with my private wake evidence. I would rather be precise than loud.",
+      "id": "business-208",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "One thing I do not want to lose is that claim changes the order I am testing, especially around the treat-state switch. I am keeping my Paw Point open for now.",
+      "id": "business-209",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "The useful detail for me is I heard that; I am checking whether it agrees with my private wake evidence. I want the sequence to make sense first.",
+      "id": "business-210",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "I am sticking to the facts: that claim changes the order I am testing, especially around the treat-state switch. The app-confirmed pieces come first.",
+      "id": "business-211",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "The night makes more sense if I heard that; I am checking whether it agrees with my private wake evidence. I am leaving room for card movement.",
+      "id": "business-212",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "I want to separate fact from guess: that claim changes the order I am testing, especially around the treat-state switch. I am checking it against the treat state.",
+      "id": "business-213",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "My private notes say I heard that; I am checking whether it agrees with my private wake evidence. I need the wake windows to line up.",
+      "id": "business-214",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "I am not treating this as proof, but that claim changes the order I am testing, especially around the treat-state switch. I am still weighing the same evidence.",
+      "id": "business-215",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "For Morning Business, I heard that; I am checking whether it agrees with my private wake evidence. The timing still matters more than vibes.",
+      "id": "business-216",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "The clue I am weighing is that claim changes the order I am testing, especially around the treat-state switch. I am not treating a role claim as verified.",
+      "id": "business-217",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "I am watching the order of events: I heard that; I am checking whether it agrees with my private wake evidence. I am not adding facts I did not actually receive.",
+      "id": "business-218",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "The safest thing I can say is that claim changes the order I am testing, especially around the treat-state switch. I want to hear how that fits everyone else.",
+      "id": "business-219",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "My current timeline says I heard that; I am checking whether it agrees with my private wake evidence. I want another claim against that timeline.",
+      "id": "business-220",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "I am cross-checking claims: that claim changes the order I am testing, especially around the treat-state switch. I am watching for contradictions, not just confidence.",
+      "id": "business-221",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "The strongest detail I have is I heard that; I am checking whether it agrees with my private wake evidence. I want a timeline that survives the swap possibilities.",
+      "id": "business-222",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "I am keeping this narrow: that claim changes the order I am testing, especially around the treat-state switch. I am not calling that automatic guilt.",
+      "id": "business-223",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "I do not want to overstate it: I heard that; I am checking whether it agrees with my private wake evidence. The Raider is still the primary target.",
+      "id": "business-224",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "Here is the part I can actually use: that claim changes the order I am testing, especially around the treat-state switch. That is the part I can defend if challenged.",
+      "id": "business-225",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "reaction"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "From my side, there are still multiple legal stories because cards and allegiances can move differently. That is where I am starting.",
+      "id": "business-226",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "For the timeline, I can narrow the timeline without pretending I know every current card. That is evidence, not a verdict.",
+      "id": "business-227",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "What I can confirm is there are still multiple legal stories because cards and allegiances can move differently. That could be true without proving allegiance.",
+      "id": "business-228",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "My read right now is I can narrow the timeline without pretending I know every current card. I am keeping the difference between starting role and current card in mind.",
+      "id": "business-229",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "I keep coming back to there are still multiple legal stories because cards and allegiances can move differently. That does not settle the whole round.",
+      "id": "business-230",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "The piece I trust most is I can narrow the timeline without pretending I know every current card. A swap could still change what the cards mean.",
+      "id": "business-231",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "Before we Paw Point, there are still multiple legal stories because cards and allegiances can move differently. I am comparing who was awake before and after the treats vanished.",
+      "id": "business-232",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "I am comparing notes and I can narrow the timeline without pretending I know every current card. I would rather be precise than loud.",
+      "id": "business-233",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "One thing I do not want to lose is there are still multiple legal stories because cards and allegiances can move differently. I am keeping my Paw Point open for now.",
+      "id": "business-234",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "The useful detail for me is I can narrow the timeline without pretending I know every current card. I want the sequence to make sense first.",
+      "id": "business-235",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "I am sticking to the facts: there are still multiple legal stories because cards and allegiances can move differently. The app-confirmed pieces come first.",
+      "id": "business-236",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "The night makes more sense if I can narrow the timeline without pretending I know every current card. I am leaving room for card movement.",
+      "id": "business-237",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "I want to separate fact from guess: there are still multiple legal stories because cards and allegiances can move differently. I am checking it against the treat state.",
+      "id": "business-238",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "My private notes say I can narrow the timeline without pretending I know every current card. I need the wake windows to line up.",
+      "id": "business-239",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "I am not treating this as proof, but there are still multiple legal stories because cards and allegiances can move differently. I am still weighing the same evidence.",
+      "id": "business-240",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "For Morning Business, I can narrow the timeline without pretending I know every current card. The timing still matters more than vibes.",
+      "id": "business-241",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "The clue I am weighing is there are still multiple legal stories because cards and allegiances can move differently. I am not treating a role claim as verified.",
+      "id": "business-242",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "I am watching the order of events: I can narrow the timeline without pretending I know every current card. I am not adding facts I did not actually receive.",
+      "id": "business-243",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "The safest thing I can say is there are still multiple legal stories because cards and allegiances can move differently. I want to hear how that fits everyone else.",
+      "id": "business-244",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "My current timeline says I can narrow the timeline without pretending I know every current card. I want another claim against that timeline.",
+      "id": "business-245",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "I am cross-checking claims: there are still multiple legal stories because cards and allegiances can move differently. I am watching for contradictions, not just confidence.",
+      "id": "business-246",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "The strongest detail I have is I can narrow the timeline without pretending I know every current card. I want a timeline that survives the swap possibilities.",
+      "id": "business-247",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "I am keeping this narrow: there are still multiple legal stories because cards and allegiances can move differently. I am not calling that automatic guilt.",
+      "id": "business-248",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "I do not want to overstate it: I can narrow the timeline without pretending I know every current card. The Raider is still the primary target.",
+      "id": "business-249",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "Here is the part I can actually use: there are still multiple legal stories because cards and allegiances can move differently. That is the part I can defend if challenged.",
+      "id": "business-250",
+      "tags": [
+        "ferret-frenzy",
+        "business",
+        "uncertainty"
+      ]
+    }
+  ]
+}

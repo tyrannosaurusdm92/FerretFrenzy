@@ -1,0 +1,3060 @@
+{
+  "schemaVersion": "1.0",
+  "game": "Ferret Frenzy",
+  "role": "GUARDIAN",
+  "roleName": "Guardian",
+  "coat": "Dark-Eyed White",
+  "responseCount": 250,
+  "responses": [
+    {
+      "category": "hunter_trust",
+      "requires": [
+        "partner"
+      ],
+      "text": "From my side, I began the night recognizing {{partner}} as Hunter; I was not told whether any later conversion happened. That is where I am starting.",
+      "id": "guardian-001",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "hunter_trust"
+      ]
+    },
+    {
+      "category": "hunter_trust",
+      "requires": [
+        "partner"
+      ],
+      "text": "For the timeline, {{partner}} is the Hunter I recognized before Hour 1, but Guardian receives no conversion alert. That is evidence, not a verdict.",
+      "id": "guardian-002",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "hunter_trust"
+      ]
+    },
+    {
+      "category": "hunter_trust",
+      "requires": [
+        "partner"
+      ],
+      "text": "What I can confirm is I began the night recognizing {{partner}} as Hunter; I was not told whether any later conversion happened. That could be true without proving allegiance.",
+      "id": "guardian-003",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "hunter_trust"
+      ]
+    },
+    {
+      "category": "hunter_trust",
+      "requires": [
+        "partner"
+      ],
+      "text": "My read right now is {{partner}} is the Hunter I recognized before Hour 1, but Guardian receives no conversion alert. I am keeping the difference between starting role and current card in mind.",
+      "id": "guardian-004",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "hunter_trust"
+      ]
+    },
+    {
+      "category": "hunter_trust",
+      "requires": [
+        "partner"
+      ],
+      "text": "I keep coming back to I began the night recognizing {{partner}} as Hunter; I was not told whether any later conversion happened. That does not settle the whole round.",
+      "id": "guardian-005",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "hunter_trust"
+      ]
+    },
+    {
+      "category": "hunter_trust",
+      "requires": [
+        "partner"
+      ],
+      "text": "The piece I trust most is {{partner}} is the Hunter I recognized before Hour 1, but Guardian receives no conversion alert. A swap could still change what the cards mean.",
+      "id": "guardian-006",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "hunter_trust"
+      ]
+    },
+    {
+      "category": "hunter_trust",
+      "requires": [
+        "partner"
+      ],
+      "text": "Before we Paw Point, I began the night recognizing {{partner}} as Hunter; I was not told whether any later conversion happened. I am comparing who was awake before and after the treats vanished.",
+      "id": "guardian-007",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "hunter_trust"
+      ]
+    },
+    {
+      "category": "hunter_trust",
+      "requires": [
+        "partner"
+      ],
+      "text": "I am comparing notes and {{partner}} is the Hunter I recognized before Hour 1, but Guardian receives no conversion alert. I would rather be precise than loud.",
+      "id": "guardian-008",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "hunter_trust"
+      ]
+    },
+    {
+      "category": "hunter_trust",
+      "requires": [
+        "partner"
+      ],
+      "text": "One thing I do not want to lose is I began the night recognizing {{partner}} as Hunter; I was not told whether any later conversion happened. I am keeping my Paw Point open for now.",
+      "id": "guardian-009",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "hunter_trust"
+      ]
+    },
+    {
+      "category": "hunter_trust",
+      "requires": [
+        "partner"
+      ],
+      "text": "The useful detail for me is {{partner}} is the Hunter I recognized before Hour 1, but Guardian receives no conversion alert. I want the sequence to make sense first.",
+      "id": "guardian-010",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "hunter_trust"
+      ]
+    },
+    {
+      "category": "hunter_trust",
+      "requires": [
+        "partner"
+      ],
+      "text": "I am sticking to the facts: I began the night recognizing {{partner}} as Hunter; I was not told whether any later conversion happened. The app-confirmed pieces come first.",
+      "id": "guardian-011",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "hunter_trust"
+      ]
+    },
+    {
+      "category": "hunter_trust",
+      "requires": [
+        "partner"
+      ],
+      "text": "The night makes more sense if {{partner}} is the Hunter I recognized before Hour 1, but Guardian receives no conversion alert. I am leaving room for card movement.",
+      "id": "guardian-012",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "hunter_trust"
+      ]
+    },
+    {
+      "category": "hunter_trust",
+      "requires": [
+        "partner"
+      ],
+      "text": "I want to separate fact from guess: I began the night recognizing {{partner}} as Hunter; I was not told whether any later conversion happened. I am checking it against the treat state.",
+      "id": "guardian-013",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "hunter_trust"
+      ]
+    },
+    {
+      "category": "hunter_trust",
+      "requires": [
+        "partner"
+      ],
+      "text": "My private notes say {{partner}} is the Hunter I recognized before Hour 1, but Guardian receives no conversion alert. I need the wake windows to line up.",
+      "id": "guardian-014",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "hunter_trust"
+      ]
+    },
+    {
+      "category": "hunter_trust",
+      "requires": [
+        "partner"
+      ],
+      "text": "I am not treating this as proof, but I began the night recognizing {{partner}} as Hunter; I was not told whether any later conversion happened. I am still weighing the same evidence.",
+      "id": "guardian-015",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "hunter_trust"
+      ]
+    },
+    {
+      "category": "hunter_trust",
+      "requires": [
+        "partner"
+      ],
+      "text": "For Morning Business, {{partner}} is the Hunter I recognized before Hour 1, but Guardian receives no conversion alert. The timing still matters more than vibes.",
+      "id": "guardian-016",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "hunter_trust"
+      ]
+    },
+    {
+      "category": "hunter_trust",
+      "requires": [
+        "partner"
+      ],
+      "text": "The clue I am weighing is I began the night recognizing {{partner}} as Hunter; I was not told whether any later conversion happened. I am not treating a role claim as verified.",
+      "id": "guardian-017",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "hunter_trust"
+      ]
+    },
+    {
+      "category": "hunter_trust",
+      "requires": [
+        "partner"
+      ],
+      "text": "I am watching the order of events: {{partner}} is the Hunter I recognized before Hour 1, but Guardian receives no conversion alert. I am not adding facts I did not actually receive.",
+      "id": "guardian-018",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "hunter_trust"
+      ]
+    },
+    {
+      "category": "hunter_trust",
+      "requires": [
+        "partner"
+      ],
+      "text": "The safest thing I can say is I began the night recognizing {{partner}} as Hunter; I was not told whether any later conversion happened. I want to hear how that fits everyone else.",
+      "id": "guardian-019",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "hunter_trust"
+      ]
+    },
+    {
+      "category": "hunter_trust",
+      "requires": [
+        "partner"
+      ],
+      "text": "My current timeline says {{partner}} is the Hunter I recognized before Hour 1, but Guardian receives no conversion alert. I want another claim against that timeline.",
+      "id": "guardian-020",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "hunter_trust"
+      ]
+    },
+    {
+      "category": "hunter_trust",
+      "requires": [
+        "partner"
+      ],
+      "text": "I am cross-checking claims: I began the night recognizing {{partner}} as Hunter; I was not told whether any later conversion happened. I am watching for contradictions, not just confidence.",
+      "id": "guardian-021",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "hunter_trust"
+      ]
+    },
+    {
+      "category": "hunter_trust",
+      "requires": [
+        "partner"
+      ],
+      "text": "The strongest detail I have is {{partner}} is the Hunter I recognized before Hour 1, but Guardian receives no conversion alert. I want a timeline that survives the swap possibilities.",
+      "id": "guardian-022",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "hunter_trust"
+      ]
+    },
+    {
+      "category": "hunter_trust",
+      "requires": [
+        "partner"
+      ],
+      "text": "I am keeping this narrow: I began the night recognizing {{partner}} as Hunter; I was not told whether any later conversion happened. I am not calling that automatic guilt.",
+      "id": "guardian-023",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "hunter_trust"
+      ]
+    },
+    {
+      "category": "hunter_trust",
+      "requires": [
+        "partner"
+      ],
+      "text": "I do not want to overstate it: {{partner}} is the Hunter I recognized before Hour 1, but Guardian receives no conversion alert. The Raider is still the primary target.",
+      "id": "guardian-024",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "hunter_trust"
+      ]
+    },
+    {
+      "category": "hunter_trust",
+      "requires": [
+        "partner"
+      ],
+      "text": "Here is the part I can actually use: I began the night recognizing {{partner}} as Hunter; I was not told whether any later conversion happened. That is the part I can defend if challenged.",
+      "id": "guardian-025",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "hunter_trust"
+      ]
+    },
+    {
+      "category": "protection_caution",
+      "requires": [],
+      "text": "From my side, Guardian protection changes final vote capture only; it does not stop swaps, bonds, clues, or conversion. That is where I am starting.",
+      "id": "guardian-026",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "protection_caution"
+      ]
+    },
+    {
+      "category": "protection_caution",
+      "requires": [],
+      "text": "For the timeline, my protection is a vote shield for one other player, not a way to rewrite the Night. That is evidence, not a verdict.",
+      "id": "guardian-027",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "protection_caution"
+      ]
+    },
+    {
+      "category": "protection_caution",
+      "requires": [],
+      "text": "What I can confirm is Guardian protection changes final vote capture only; it does not stop swaps, bonds, clues, or conversion. That could be true without proving allegiance.",
+      "id": "guardian-028",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "protection_caution"
+      ]
+    },
+    {
+      "category": "protection_caution",
+      "requires": [],
+      "text": "My read right now is my protection is a vote shield for one other player, not a way to rewrite the Night. I am keeping the difference between starting role and current card in mind.",
+      "id": "guardian-029",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "protection_caution"
+      ]
+    },
+    {
+      "category": "protection_caution",
+      "requires": [],
+      "text": "I keep coming back to Guardian protection changes final vote capture only; it does not stop swaps, bonds, clues, or conversion. That does not settle the whole round.",
+      "id": "guardian-030",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "protection_caution"
+      ]
+    },
+    {
+      "category": "protection_caution",
+      "requires": [],
+      "text": "The piece I trust most is my protection is a vote shield for one other player, not a way to rewrite the Night. A swap could still change what the cards mean.",
+      "id": "guardian-031",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "protection_caution"
+      ]
+    },
+    {
+      "category": "protection_caution",
+      "requires": [],
+      "text": "Before we Paw Point, Guardian protection changes final vote capture only; it does not stop swaps, bonds, clues, or conversion. I am comparing who was awake before and after the treats vanished.",
+      "id": "guardian-032",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "protection_caution"
+      ]
+    },
+    {
+      "category": "protection_caution",
+      "requires": [],
+      "text": "I am comparing notes and my protection is a vote shield for one other player, not a way to rewrite the Night. I would rather be precise than loud.",
+      "id": "guardian-033",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "protection_caution"
+      ]
+    },
+    {
+      "category": "protection_caution",
+      "requires": [],
+      "text": "One thing I do not want to lose is Guardian protection changes final vote capture only; it does not stop swaps, bonds, clues, or conversion. I am keeping my Paw Point open for now.",
+      "id": "guardian-034",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "protection_caution"
+      ]
+    },
+    {
+      "category": "protection_caution",
+      "requires": [],
+      "text": "The useful detail for me is my protection is a vote shield for one other player, not a way to rewrite the Night. I want the sequence to make sense first.",
+      "id": "guardian-035",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "protection_caution"
+      ]
+    },
+    {
+      "category": "protection_caution",
+      "requires": [],
+      "text": "I am sticking to the facts: Guardian protection changes final vote capture only; it does not stop swaps, bonds, clues, or conversion. The app-confirmed pieces come first.",
+      "id": "guardian-036",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "protection_caution"
+      ]
+    },
+    {
+      "category": "protection_caution",
+      "requires": [],
+      "text": "The night makes more sense if my protection is a vote shield for one other player, not a way to rewrite the Night. I am leaving room for card movement.",
+      "id": "guardian-037",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "protection_caution"
+      ]
+    },
+    {
+      "category": "protection_caution",
+      "requires": [],
+      "text": "I want to separate fact from guess: Guardian protection changes final vote capture only; it does not stop swaps, bonds, clues, or conversion. I am checking it against the treat state.",
+      "id": "guardian-038",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "protection_caution"
+      ]
+    },
+    {
+      "category": "protection_caution",
+      "requires": [],
+      "text": "My private notes say my protection is a vote shield for one other player, not a way to rewrite the Night. I need the wake windows to line up.",
+      "id": "guardian-039",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "protection_caution"
+      ]
+    },
+    {
+      "category": "protection_caution",
+      "requires": [],
+      "text": "I am not treating this as proof, but Guardian protection changes final vote capture only; it does not stop swaps, bonds, clues, or conversion. I am still weighing the same evidence.",
+      "id": "guardian-040",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "protection_caution"
+      ]
+    },
+    {
+      "category": "protection_caution",
+      "requires": [],
+      "text": "For Morning Business, my protection is a vote shield for one other player, not a way to rewrite the Night. The timing still matters more than vibes.",
+      "id": "guardian-041",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "protection_caution"
+      ]
+    },
+    {
+      "category": "protection_caution",
+      "requires": [],
+      "text": "The clue I am weighing is Guardian protection changes final vote capture only; it does not stop swaps, bonds, clues, or conversion. I am not treating a role claim as verified.",
+      "id": "guardian-042",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "protection_caution"
+      ]
+    },
+    {
+      "category": "protection_caution",
+      "requires": [],
+      "text": "I am watching the order of events: my protection is a vote shield for one other player, not a way to rewrite the Night. I am not adding facts I did not actually receive.",
+      "id": "guardian-043",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "protection_caution"
+      ]
+    },
+    {
+      "category": "protection_caution",
+      "requires": [],
+      "text": "The safest thing I can say is Guardian protection changes final vote capture only; it does not stop swaps, bonds, clues, or conversion. I want to hear how that fits everyone else.",
+      "id": "guardian-044",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "protection_caution"
+      ]
+    },
+    {
+      "category": "protection_caution",
+      "requires": [],
+      "text": "My current timeline says my protection is a vote shield for one other player, not a way to rewrite the Night. I want another claim against that timeline.",
+      "id": "guardian-045",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "protection_caution"
+      ]
+    },
+    {
+      "category": "protection_caution",
+      "requires": [],
+      "text": "I am cross-checking claims: Guardian protection changes final vote capture only; it does not stop swaps, bonds, clues, or conversion. I am watching for contradictions, not just confidence.",
+      "id": "guardian-046",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "protection_caution"
+      ]
+    },
+    {
+      "category": "protection_caution",
+      "requires": [],
+      "text": "The strongest detail I have is my protection is a vote shield for one other player, not a way to rewrite the Night. I want a timeline that survives the swap possibilities.",
+      "id": "guardian-047",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "protection_caution"
+      ]
+    },
+    {
+      "category": "protection_caution",
+      "requires": [],
+      "text": "I am keeping this narrow: Guardian protection changes final vote capture only; it does not stop swaps, bonds, clues, or conversion. I am not calling that automatic guilt.",
+      "id": "guardian-048",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "protection_caution"
+      ]
+    },
+    {
+      "category": "protection_caution",
+      "requires": [],
+      "text": "I do not want to overstate it: my protection is a vote shield for one other player, not a way to rewrite the Night. The Raider is still the primary target.",
+      "id": "guardian-049",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "protection_caution"
+      ]
+    },
+    {
+      "category": "protection_caution",
+      "requires": [],
+      "text": "Here is the part I can actually use: Guardian protection changes final vote capture only; it does not stop swaps, bonds, clues, or conversion. That is the part I can defend if challenged.",
+      "id": "guardian-050",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "protection_caution"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "From my side, I woke at Hour {{hour}}; the treats were {{treatState}}, and {{cowakers}} was my co-waker read. That is where I am starting.",
+      "id": "guardian-051",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "For the timeline, Hour {{hour}} is my anchor: treats {{treatState}}, with {{cowakers}} in that wake window. That is evidence, not a verdict.",
+      "id": "guardian-052",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "What I can confirm is I woke at Hour {{hour}}; the treats were {{treatState}}, and {{cowakers}} was my co-waker read. That could be true without proving allegiance.",
+      "id": "guardian-053",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "My read right now is Hour {{hour}} is my anchor: treats {{treatState}}, with {{cowakers}} in that wake window. I am keeping the difference between starting role and current card in mind.",
+      "id": "guardian-054",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "I keep coming back to I woke at Hour {{hour}}; the treats were {{treatState}}, and {{cowakers}} was my co-waker read. That does not settle the whole round.",
+      "id": "guardian-055",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "The piece I trust most is Hour {{hour}} is my anchor: treats {{treatState}}, with {{cowakers}} in that wake window. A swap could still change what the cards mean.",
+      "id": "guardian-056",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "Before we Paw Point, I woke at Hour {{hour}}; the treats were {{treatState}}, and {{cowakers}} was my co-waker read. I am comparing who was awake before and after the treats vanished.",
+      "id": "guardian-057",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "I am comparing notes and Hour {{hour}} is my anchor: treats {{treatState}}, with {{cowakers}} in that wake window. I would rather be precise than loud.",
+      "id": "guardian-058",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "One thing I do not want to lose is I woke at Hour {{hour}}; the treats were {{treatState}}, and {{cowakers}} was my co-waker read. I am keeping my Paw Point open for now.",
+      "id": "guardian-059",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "The useful detail for me is Hour {{hour}} is my anchor: treats {{treatState}}, with {{cowakers}} in that wake window. I want the sequence to make sense first.",
+      "id": "guardian-060",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "I am sticking to the facts: I woke at Hour {{hour}}; the treats were {{treatState}}, and {{cowakers}} was my co-waker read. The app-confirmed pieces come first.",
+      "id": "guardian-061",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "The night makes more sense if Hour {{hour}} is my anchor: treats {{treatState}}, with {{cowakers}} in that wake window. I am leaving room for card movement.",
+      "id": "guardian-062",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "I want to separate fact from guess: I woke at Hour {{hour}}; the treats were {{treatState}}, and {{cowakers}} was my co-waker read. I am checking it against the treat state.",
+      "id": "guardian-063",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "My private notes say Hour {{hour}} is my anchor: treats {{treatState}}, with {{cowakers}} in that wake window. I need the wake windows to line up.",
+      "id": "guardian-064",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "I am not treating this as proof, but I woke at Hour {{hour}}; the treats were {{treatState}}, and {{cowakers}} was my co-waker read. I am still weighing the same evidence.",
+      "id": "guardian-065",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "For Morning Business, Hour {{hour}} is my anchor: treats {{treatState}}, with {{cowakers}} in that wake window. The timing still matters more than vibes.",
+      "id": "guardian-066",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "The clue I am weighing is I woke at Hour {{hour}}; the treats were {{treatState}}, and {{cowakers}} was my co-waker read. I am not treating a role claim as verified.",
+      "id": "guardian-067",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "I am watching the order of events: Hour {{hour}} is my anchor: treats {{treatState}}, with {{cowakers}} in that wake window. I am not adding facts I did not actually receive.",
+      "id": "guardian-068",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "The safest thing I can say is I woke at Hour {{hour}}; the treats were {{treatState}}, and {{cowakers}} was my co-waker read. I want to hear how that fits everyone else.",
+      "id": "guardian-069",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "My current timeline says Hour {{hour}} is my anchor: treats {{treatState}}, with {{cowakers}} in that wake window. I want another claim against that timeline.",
+      "id": "guardian-070",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "I am cross-checking claims: I woke at Hour {{hour}}; the treats were {{treatState}}, and {{cowakers}} was my co-waker read. I am watching for contradictions, not just confidence.",
+      "id": "guardian-071",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "The strongest detail I have is Hour {{hour}} is my anchor: treats {{treatState}}, with {{cowakers}} in that wake window. I want a timeline that survives the swap possibilities.",
+      "id": "guardian-072",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "I am keeping this narrow: I woke at Hour {{hour}}; the treats were {{treatState}}, and {{cowakers}} was my co-waker read. I am not calling that automatic guilt.",
+      "id": "guardian-073",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "I do not want to overstate it: Hour {{hour}} is my anchor: treats {{treatState}}, with {{cowakers}} in that wake window. The Raider is still the primary target.",
+      "id": "guardian-074",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "Here is the part I can actually use: I woke at Hour {{hour}}; the treats were {{treatState}}, and {{cowakers}} was my co-waker read. That is the part I can defend if challenged.",
+      "id": "guardian-075",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "observation"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "From my side, {{target}}, which hour are you claiming, and were the Minnow Treats present or missing? That is where I am starting.",
+      "id": "guardian-076",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "For the timeline, I want {{target}} to pin down who else was awake in that window. That is evidence, not a verdict.",
+      "id": "guardian-077",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "What I can confirm is {{target}}, which hour are you claiming, and were the Minnow Treats present or missing? That could be true without proving allegiance.",
+      "id": "guardian-078",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "My read right now is I want {{target}} to pin down who else was awake in that window. I am keeping the difference between starting role and current card in mind.",
+      "id": "guardian-079",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "I keep coming back to {{target}}, which hour are you claiming, and were the Minnow Treats present or missing? That does not settle the whole round.",
+      "id": "guardian-080",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "The piece I trust most is I want {{target}} to pin down who else was awake in that window. A swap could still change what the cards mean.",
+      "id": "guardian-081",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "Before we Paw Point, {{target}}, which hour are you claiming, and were the Minnow Treats present or missing? I am comparing who was awake before and after the treats vanished.",
+      "id": "guardian-082",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "I am comparing notes and I want {{target}} to pin down who else was awake in that window. I would rather be precise than loud.",
+      "id": "guardian-083",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "One thing I do not want to lose is {{target}}, which hour are you claiming, and were the Minnow Treats present or missing? I am keeping my Paw Point open for now.",
+      "id": "guardian-084",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "The useful detail for me is I want {{target}} to pin down who else was awake in that window. I want the sequence to make sense first.",
+      "id": "guardian-085",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "I am sticking to the facts: {{target}}, which hour are you claiming, and were the Minnow Treats present or missing? The app-confirmed pieces come first.",
+      "id": "guardian-086",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "The night makes more sense if I want {{target}} to pin down who else was awake in that window. I am leaving room for card movement.",
+      "id": "guardian-087",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "I want to separate fact from guess: {{target}}, which hour are you claiming, and were the Minnow Treats present or missing? I am checking it against the treat state.",
+      "id": "guardian-088",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "My private notes say I want {{target}} to pin down who else was awake in that window. I need the wake windows to line up.",
+      "id": "guardian-089",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "I am not treating this as proof, but {{target}}, which hour are you claiming, and were the Minnow Treats present or missing? I am still weighing the same evidence.",
+      "id": "guardian-090",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "For Morning Business, I want {{target}} to pin down who else was awake in that window. The timing still matters more than vibes.",
+      "id": "guardian-091",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "The clue I am weighing is {{target}}, which hour are you claiming, and were the Minnow Treats present or missing? I am not treating a role claim as verified.",
+      "id": "guardian-092",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "I am watching the order of events: I want {{target}} to pin down who else was awake in that window. I am not adding facts I did not actually receive.",
+      "id": "guardian-093",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "The safest thing I can say is {{target}}, which hour are you claiming, and were the Minnow Treats present or missing? I want to hear how that fits everyone else.",
+      "id": "guardian-094",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "My current timeline says I want {{target}} to pin down who else was awake in that window. I want another claim against that timeline.",
+      "id": "guardian-095",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "I am cross-checking claims: {{target}}, which hour are you claiming, and were the Minnow Treats present or missing? I am watching for contradictions, not just confidence.",
+      "id": "guardian-096",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "The strongest detail I have is I want {{target}} to pin down who else was awake in that window. I want a timeline that survives the swap possibilities.",
+      "id": "guardian-097",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "I am keeping this narrow: {{target}}, which hour are you claiming, and were the Minnow Treats present or missing? I am not calling that automatic guilt.",
+      "id": "guardian-098",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "I do not want to overstate it: I want {{target}} to pin down who else was awake in that window. The Raider is still the primary target.",
+      "id": "guardian-099",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "Here is the part I can actually use: {{target}}, which hour are you claiming, and were the Minnow Treats present or missing? That is the part I can defend if challenged.",
+      "id": "guardian-100",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "question"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "From my side, the change from PRESENT to MISSING has to fit the Burrow Clock, not just somebody's role claim. That is where I am starting.",
+      "id": "guardian-101",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "For the timeline, I am lining up claimed wake hours around when the Minnow Treats disappeared. That is evidence, not a verdict.",
+      "id": "guardian-102",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "What I can confirm is the change from PRESENT to MISSING has to fit the Burrow Clock, not just somebody's role claim. That could be true without proving allegiance.",
+      "id": "guardian-103",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "My read right now is I am lining up claimed wake hours around when the Minnow Treats disappeared. I am keeping the difference between starting role and current card in mind.",
+      "id": "guardian-104",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "I keep coming back to the change from PRESENT to MISSING has to fit the Burrow Clock, not just somebody's role claim. That does not settle the whole round.",
+      "id": "guardian-105",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "The piece I trust most is I am lining up claimed wake hours around when the Minnow Treats disappeared. A swap could still change what the cards mean.",
+      "id": "guardian-106",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "Before we Paw Point, the change from PRESENT to MISSING has to fit the Burrow Clock, not just somebody's role claim. I am comparing who was awake before and after the treats vanished.",
+      "id": "guardian-107",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "I am comparing notes and I am lining up claimed wake hours around when the Minnow Treats disappeared. I would rather be precise than loud.",
+      "id": "guardian-108",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "One thing I do not want to lose is the change from PRESENT to MISSING has to fit the Burrow Clock, not just somebody's role claim. I am keeping my Paw Point open for now.",
+      "id": "guardian-109",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "The useful detail for me is I am lining up claimed wake hours around when the Minnow Treats disappeared. I want the sequence to make sense first.",
+      "id": "guardian-110",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "I am sticking to the facts: the change from PRESENT to MISSING has to fit the Burrow Clock, not just somebody's role claim. The app-confirmed pieces come first.",
+      "id": "guardian-111",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "The night makes more sense if I am lining up claimed wake hours around when the Minnow Treats disappeared. I am leaving room for card movement.",
+      "id": "guardian-112",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "I want to separate fact from guess: the change from PRESENT to MISSING has to fit the Burrow Clock, not just somebody's role claim. I am checking it against the treat state.",
+      "id": "guardian-113",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "My private notes say I am lining up claimed wake hours around when the Minnow Treats disappeared. I need the wake windows to line up.",
+      "id": "guardian-114",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "I am not treating this as proof, but the change from PRESENT to MISSING has to fit the Burrow Clock, not just somebody's role claim. I am still weighing the same evidence.",
+      "id": "guardian-115",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "For Morning Business, I am lining up claimed wake hours around when the Minnow Treats disappeared. The timing still matters more than vibes.",
+      "id": "guardian-116",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "The clue I am weighing is the change from PRESENT to MISSING has to fit the Burrow Clock, not just somebody's role claim. I am not treating a role claim as verified.",
+      "id": "guardian-117",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "I am watching the order of events: I am lining up claimed wake hours around when the Minnow Treats disappeared. I am not adding facts I did not actually receive.",
+      "id": "guardian-118",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "The safest thing I can say is the change from PRESENT to MISSING has to fit the Burrow Clock, not just somebody's role claim. I want to hear how that fits everyone else.",
+      "id": "guardian-119",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "My current timeline says I am lining up claimed wake hours around when the Minnow Treats disappeared. I want another claim against that timeline.",
+      "id": "guardian-120",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "I am cross-checking claims: the change from PRESENT to MISSING has to fit the Burrow Clock, not just somebody's role claim. I am watching for contradictions, not just confidence.",
+      "id": "guardian-121",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "The strongest detail I have is I am lining up claimed wake hours around when the Minnow Treats disappeared. I want a timeline that survives the swap possibilities.",
+      "id": "guardian-122",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "I am keeping this narrow: the change from PRESENT to MISSING has to fit the Burrow Clock, not just somebody's role claim. I am not calling that automatic guilt.",
+      "id": "guardian-123",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "I do not want to overstate it: I am lining up claimed wake hours around when the Minnow Treats disappeared. The Raider is still the primary target.",
+      "id": "guardian-124",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "Here is the part I can actually use: the change from PRESENT to MISSING has to fit the Burrow Clock, not just somebody's role claim. That is the part I can defend if challenged.",
+      "id": "guardian-125",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "timeline"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "From my side, {{target}} sits highest on my current timing suspicion, but I am still checking the evidence. That is where I am starting.",
+      "id": "guardian-126",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "For the timeline, I am watching {{target}} because their place in the wake timeline needs a better explanation. That is evidence, not a verdict.",
+      "id": "guardian-127",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "What I can confirm is {{target}} sits highest on my current timing suspicion, but I am still checking the evidence. That could be true without proving allegiance.",
+      "id": "guardian-128",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "My read right now is I am watching {{target}} because their place in the wake timeline needs a better explanation. I am keeping the difference between starting role and current card in mind.",
+      "id": "guardian-129",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "I keep coming back to {{target}} sits highest on my current timing suspicion, but I am still checking the evidence. That does not settle the whole round.",
+      "id": "guardian-130",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "The piece I trust most is I am watching {{target}} because their place in the wake timeline needs a better explanation. A swap could still change what the cards mean.",
+      "id": "guardian-131",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "Before we Paw Point, {{target}} sits highest on my current timing suspicion, but I am still checking the evidence. I am comparing who was awake before and after the treats vanished.",
+      "id": "guardian-132",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "I am comparing notes and I am watching {{target}} because their place in the wake timeline needs a better explanation. I would rather be precise than loud.",
+      "id": "guardian-133",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "One thing I do not want to lose is {{target}} sits highest on my current timing suspicion, but I am still checking the evidence. I am keeping my Paw Point open for now.",
+      "id": "guardian-134",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "The useful detail for me is I am watching {{target}} because their place in the wake timeline needs a better explanation. I want the sequence to make sense first.",
+      "id": "guardian-135",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "I am sticking to the facts: {{target}} sits highest on my current timing suspicion, but I am still checking the evidence. The app-confirmed pieces come first.",
+      "id": "guardian-136",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "The night makes more sense if I am watching {{target}} because their place in the wake timeline needs a better explanation. I am leaving room for card movement.",
+      "id": "guardian-137",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "I want to separate fact from guess: {{target}} sits highest on my current timing suspicion, but I am still checking the evidence. I am checking it against the treat state.",
+      "id": "guardian-138",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "My private notes say I am watching {{target}} because their place in the wake timeline needs a better explanation. I need the wake windows to line up.",
+      "id": "guardian-139",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "I am not treating this as proof, but {{target}} sits highest on my current timing suspicion, but I am still checking the evidence. I am still weighing the same evidence.",
+      "id": "guardian-140",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "For Morning Business, I am watching {{target}} because their place in the wake timeline needs a better explanation. The timing still matters more than vibes.",
+      "id": "guardian-141",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "The clue I am weighing is {{target}} sits highest on my current timing suspicion, but I am still checking the evidence. I am not treating a role claim as verified.",
+      "id": "guardian-142",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "I am watching the order of events: I am watching {{target}} because their place in the wake timeline needs a better explanation. I am not adding facts I did not actually receive.",
+      "id": "guardian-143",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "The safest thing I can say is {{target}} sits highest on my current timing suspicion, but I am still checking the evidence. I want to hear how that fits everyone else.",
+      "id": "guardian-144",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "My current timeline says I am watching {{target}} because their place in the wake timeline needs a better explanation. I want another claim against that timeline.",
+      "id": "guardian-145",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "I am cross-checking claims: {{target}} sits highest on my current timing suspicion, but I am still checking the evidence. I am watching for contradictions, not just confidence.",
+      "id": "guardian-146",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "The strongest detail I have is I am watching {{target}} because their place in the wake timeline needs a better explanation. I want a timeline that survives the swap possibilities.",
+      "id": "guardian-147",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "I am keeping this narrow: {{target}} sits highest on my current timing suspicion, but I am still checking the evidence. I am not calling that automatic guilt.",
+      "id": "guardian-148",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "I do not want to overstate it: I am watching {{target}} because their place in the wake timeline needs a better explanation. The Raider is still the primary target.",
+      "id": "guardian-149",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "Here is the part I can actually use: {{target}} sits highest on my current timing suspicion, but I am still checking the evidence. That is the part I can defend if challenged.",
+      "id": "guardian-150",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "From my side, my claim is about what my own screen showed me; I am not claiming knowledge outside that. That is where I am starting.",
+      "id": "guardian-151",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "For the timeline, if my card moved later, that does not rewrite what I personally observed when I woke. That is evidence, not a verdict.",
+      "id": "guardian-152",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "What I can confirm is my claim is about what my own screen showed me; I am not claiming knowledge outside that. That could be true without proving allegiance.",
+      "id": "guardian-153",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "My read right now is if my card moved later, that does not rewrite what I personally observed when I woke. I am keeping the difference between starting role and current card in mind.",
+      "id": "guardian-154",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "I keep coming back to my claim is about what my own screen showed me; I am not claiming knowledge outside that. That does not settle the whole round.",
+      "id": "guardian-155",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "The piece I trust most is if my card moved later, that does not rewrite what I personally observed when I woke. A swap could still change what the cards mean.",
+      "id": "guardian-156",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "Before we Paw Point, my claim is about what my own screen showed me; I am not claiming knowledge outside that. I am comparing who was awake before and after the treats vanished.",
+      "id": "guardian-157",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "I am comparing notes and if my card moved later, that does not rewrite what I personally observed when I woke. I would rather be precise than loud.",
+      "id": "guardian-158",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "One thing I do not want to lose is my claim is about what my own screen showed me; I am not claiming knowledge outside that. I am keeping my Paw Point open for now.",
+      "id": "guardian-159",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "The useful detail for me is if my card moved later, that does not rewrite what I personally observed when I woke. I want the sequence to make sense first.",
+      "id": "guardian-160",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "I am sticking to the facts: my claim is about what my own screen showed me; I am not claiming knowledge outside that. The app-confirmed pieces come first.",
+      "id": "guardian-161",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "The night makes more sense if if my card moved later, that does not rewrite what I personally observed when I woke. I am leaving room for card movement.",
+      "id": "guardian-162",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "I want to separate fact from guess: my claim is about what my own screen showed me; I am not claiming knowledge outside that. I am checking it against the treat state.",
+      "id": "guardian-163",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "My private notes say if my card moved later, that does not rewrite what I personally observed when I woke. I need the wake windows to line up.",
+      "id": "guardian-164",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "I am not treating this as proof, but my claim is about what my own screen showed me; I am not claiming knowledge outside that. I am still weighing the same evidence.",
+      "id": "guardian-165",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "For Morning Business, if my card moved later, that does not rewrite what I personally observed when I woke. The timing still matters more than vibes.",
+      "id": "guardian-166",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "The clue I am weighing is my claim is about what my own screen showed me; I am not claiming knowledge outside that. I am not treating a role claim as verified.",
+      "id": "guardian-167",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "I am watching the order of events: if my card moved later, that does not rewrite what I personally observed when I woke. I am not adding facts I did not actually receive.",
+      "id": "guardian-168",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "The safest thing I can say is my claim is about what my own screen showed me; I am not claiming knowledge outside that. I want to hear how that fits everyone else.",
+      "id": "guardian-169",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "My current timeline says if my card moved later, that does not rewrite what I personally observed when I woke. I want another claim against that timeline.",
+      "id": "guardian-170",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "I am cross-checking claims: my claim is about what my own screen showed me; I am not claiming knowledge outside that. I am watching for contradictions, not just confidence.",
+      "id": "guardian-171",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "The strongest detail I have is if my card moved later, that does not rewrite what I personally observed when I woke. I want a timeline that survives the swap possibilities.",
+      "id": "guardian-172",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "I am keeping this narrow: my claim is about what my own screen showed me; I am not claiming knowledge outside that. I am not calling that automatic guilt.",
+      "id": "guardian-173",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "I do not want to overstate it: if my card moved later, that does not rewrite what I personally observed when I woke. The Raider is still the primary target.",
+      "id": "guardian-174",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "Here is the part I can actually use: my claim is about what my own screen showed me; I am not claiming knowledge outside that. That is the part I can defend if challenged.",
+      "id": "guardian-175",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "defense"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "From my side, if nothing stronger appears, {{target}} is where my Paw Point is leaning. That is where I am starting.",
+      "id": "guardian-176",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "For the timeline, I am not locking yet, but {{target}} is my current vote pressure. That is evidence, not a verdict.",
+      "id": "guardian-177",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "What I can confirm is if nothing stronger appears, {{target}} is where my Paw Point is leaning. That could be true without proving allegiance.",
+      "id": "guardian-178",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "My read right now is I am not locking yet, but {{target}} is my current vote pressure. I am keeping the difference between starting role and current card in mind.",
+      "id": "guardian-179",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "I keep coming back to if nothing stronger appears, {{target}} is where my Paw Point is leaning. That does not settle the whole round.",
+      "id": "guardian-180",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "The piece I trust most is I am not locking yet, but {{target}} is my current vote pressure. A swap could still change what the cards mean.",
+      "id": "guardian-181",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "Before we Paw Point, if nothing stronger appears, {{target}} is where my Paw Point is leaning. I am comparing who was awake before and after the treats vanished.",
+      "id": "guardian-182",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "I am comparing notes and I am not locking yet, but {{target}} is my current vote pressure. I would rather be precise than loud.",
+      "id": "guardian-183",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "One thing I do not want to lose is if nothing stronger appears, {{target}} is where my Paw Point is leaning. I am keeping my Paw Point open for now.",
+      "id": "guardian-184",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "The useful detail for me is I am not locking yet, but {{target}} is my current vote pressure. I want the sequence to make sense first.",
+      "id": "guardian-185",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "I am sticking to the facts: if nothing stronger appears, {{target}} is where my Paw Point is leaning. The app-confirmed pieces come first.",
+      "id": "guardian-186",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "The night makes more sense if I am not locking yet, but {{target}} is my current vote pressure. I am leaving room for card movement.",
+      "id": "guardian-187",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "I want to separate fact from guess: if nothing stronger appears, {{target}} is where my Paw Point is leaning. I am checking it against the treat state.",
+      "id": "guardian-188",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "My private notes say I am not locking yet, but {{target}} is my current vote pressure. I need the wake windows to line up.",
+      "id": "guardian-189",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "I am not treating this as proof, but if nothing stronger appears, {{target}} is where my Paw Point is leaning. I am still weighing the same evidence.",
+      "id": "guardian-190",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "For Morning Business, I am not locking yet, but {{target}} is my current vote pressure. The timing still matters more than vibes.",
+      "id": "guardian-191",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "The clue I am weighing is if nothing stronger appears, {{target}} is where my Paw Point is leaning. I am not treating a role claim as verified.",
+      "id": "guardian-192",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "I am watching the order of events: I am not locking yet, but {{target}} is my current vote pressure. I am not adding facts I did not actually receive.",
+      "id": "guardian-193",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "The safest thing I can say is if nothing stronger appears, {{target}} is where my Paw Point is leaning. I want to hear how that fits everyone else.",
+      "id": "guardian-194",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "My current timeline says I am not locking yet, but {{target}} is my current vote pressure. I want another claim against that timeline.",
+      "id": "guardian-195",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "I am cross-checking claims: if nothing stronger appears, {{target}} is where my Paw Point is leaning. I am watching for contradictions, not just confidence.",
+      "id": "guardian-196",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "The strongest detail I have is I am not locking yet, but {{target}} is my current vote pressure. I want a timeline that survives the swap possibilities.",
+      "id": "guardian-197",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "I am keeping this narrow: if nothing stronger appears, {{target}} is where my Paw Point is leaning. I am not calling that automatic guilt.",
+      "id": "guardian-198",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "I do not want to overstate it: I am not locking yet, but {{target}} is my current vote pressure. The Raider is still the primary target.",
+      "id": "guardian-199",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "Here is the part I can actually use: if nothing stronger appears, {{target}} is where my Paw Point is leaning. That is the part I can defend if challenged.",
+      "id": "guardian-200",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "vote"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "From my side, that claim changes the order I am testing, especially around the treat-state switch. That is where I am starting.",
+      "id": "guardian-201",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "For the timeline, I heard that; I am checking whether it agrees with my private wake evidence. That is evidence, not a verdict.",
+      "id": "guardian-202",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "What I can confirm is that claim changes the order I am testing, especially around the treat-state switch. That could be true without proving allegiance.",
+      "id": "guardian-203",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "My read right now is I heard that; I am checking whether it agrees with my private wake evidence. I am keeping the difference between starting role and current card in mind.",
+      "id": "guardian-204",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "I keep coming back to that claim changes the order I am testing, especially around the treat-state switch. That does not settle the whole round.",
+      "id": "guardian-205",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "The piece I trust most is I heard that; I am checking whether it agrees with my private wake evidence. A swap could still change what the cards mean.",
+      "id": "guardian-206",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "Before we Paw Point, that claim changes the order I am testing, especially around the treat-state switch. I am comparing who was awake before and after the treats vanished.",
+      "id": "guardian-207",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "I am comparing notes and I heard that; I am checking whether it agrees with my private wake evidence. I would rather be precise than loud.",
+      "id": "guardian-208",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "One thing I do not want to lose is that claim changes the order I am testing, especially around the treat-state switch. I am keeping my Paw Point open for now.",
+      "id": "guardian-209",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "The useful detail for me is I heard that; I am checking whether it agrees with my private wake evidence. I want the sequence to make sense first.",
+      "id": "guardian-210",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "I am sticking to the facts: that claim changes the order I am testing, especially around the treat-state switch. The app-confirmed pieces come first.",
+      "id": "guardian-211",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "The night makes more sense if I heard that; I am checking whether it agrees with my private wake evidence. I am leaving room for card movement.",
+      "id": "guardian-212",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "I want to separate fact from guess: that claim changes the order I am testing, especially around the treat-state switch. I am checking it against the treat state.",
+      "id": "guardian-213",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "My private notes say I heard that; I am checking whether it agrees with my private wake evidence. I need the wake windows to line up.",
+      "id": "guardian-214",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "I am not treating this as proof, but that claim changes the order I am testing, especially around the treat-state switch. I am still weighing the same evidence.",
+      "id": "guardian-215",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "For Morning Business, I heard that; I am checking whether it agrees with my private wake evidence. The timing still matters more than vibes.",
+      "id": "guardian-216",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "The clue I am weighing is that claim changes the order I am testing, especially around the treat-state switch. I am not treating a role claim as verified.",
+      "id": "guardian-217",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "I am watching the order of events: I heard that; I am checking whether it agrees with my private wake evidence. I am not adding facts I did not actually receive.",
+      "id": "guardian-218",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "The safest thing I can say is that claim changes the order I am testing, especially around the treat-state switch. I want to hear how that fits everyone else.",
+      "id": "guardian-219",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "My current timeline says I heard that; I am checking whether it agrees with my private wake evidence. I want another claim against that timeline.",
+      "id": "guardian-220",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "I am cross-checking claims: that claim changes the order I am testing, especially around the treat-state switch. I am watching for contradictions, not just confidence.",
+      "id": "guardian-221",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "The strongest detail I have is I heard that; I am checking whether it agrees with my private wake evidence. I want a timeline that survives the swap possibilities.",
+      "id": "guardian-222",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "I am keeping this narrow: that claim changes the order I am testing, especially around the treat-state switch. I am not calling that automatic guilt.",
+      "id": "guardian-223",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "I do not want to overstate it: I heard that; I am checking whether it agrees with my private wake evidence. The Raider is still the primary target.",
+      "id": "guardian-224",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "Here is the part I can actually use: that claim changes the order I am testing, especially around the treat-state switch. That is the part I can defend if challenged.",
+      "id": "guardian-225",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "reaction"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "From my side, there are still multiple legal stories because cards and allegiances can move differently. That is where I am starting.",
+      "id": "guardian-226",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "For the timeline, I can narrow the timeline without pretending I know every current card. That is evidence, not a verdict.",
+      "id": "guardian-227",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "What I can confirm is there are still multiple legal stories because cards and allegiances can move differently. That could be true without proving allegiance.",
+      "id": "guardian-228",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "My read right now is I can narrow the timeline without pretending I know every current card. I am keeping the difference between starting role and current card in mind.",
+      "id": "guardian-229",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "I keep coming back to there are still multiple legal stories because cards and allegiances can move differently. That does not settle the whole round.",
+      "id": "guardian-230",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "The piece I trust most is I can narrow the timeline without pretending I know every current card. A swap could still change what the cards mean.",
+      "id": "guardian-231",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "Before we Paw Point, there are still multiple legal stories because cards and allegiances can move differently. I am comparing who was awake before and after the treats vanished.",
+      "id": "guardian-232",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "I am comparing notes and I can narrow the timeline without pretending I know every current card. I would rather be precise than loud.",
+      "id": "guardian-233",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "One thing I do not want to lose is there are still multiple legal stories because cards and allegiances can move differently. I am keeping my Paw Point open for now.",
+      "id": "guardian-234",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "The useful detail for me is I can narrow the timeline without pretending I know every current card. I want the sequence to make sense first.",
+      "id": "guardian-235",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "I am sticking to the facts: there are still multiple legal stories because cards and allegiances can move differently. The app-confirmed pieces come first.",
+      "id": "guardian-236",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "The night makes more sense if I can narrow the timeline without pretending I know every current card. I am leaving room for card movement.",
+      "id": "guardian-237",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "I want to separate fact from guess: there are still multiple legal stories because cards and allegiances can move differently. I am checking it against the treat state.",
+      "id": "guardian-238",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "My private notes say I can narrow the timeline without pretending I know every current card. I need the wake windows to line up.",
+      "id": "guardian-239",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "I am not treating this as proof, but there are still multiple legal stories because cards and allegiances can move differently. I am still weighing the same evidence.",
+      "id": "guardian-240",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "For Morning Business, I can narrow the timeline without pretending I know every current card. The timing still matters more than vibes.",
+      "id": "guardian-241",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "The clue I am weighing is there are still multiple legal stories because cards and allegiances can move differently. I am not treating a role claim as verified.",
+      "id": "guardian-242",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "I am watching the order of events: I can narrow the timeline without pretending I know every current card. I am not adding facts I did not actually receive.",
+      "id": "guardian-243",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "The safest thing I can say is there are still multiple legal stories because cards and allegiances can move differently. I want to hear how that fits everyone else.",
+      "id": "guardian-244",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "My current timeline says I can narrow the timeline without pretending I know every current card. I want another claim against that timeline.",
+      "id": "guardian-245",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "I am cross-checking claims: there are still multiple legal stories because cards and allegiances can move differently. I am watching for contradictions, not just confidence.",
+      "id": "guardian-246",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "The strongest detail I have is I can narrow the timeline without pretending I know every current card. I want a timeline that survives the swap possibilities.",
+      "id": "guardian-247",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "I am keeping this narrow: there are still multiple legal stories because cards and allegiances can move differently. I am not calling that automatic guilt.",
+      "id": "guardian-248",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "I do not want to overstate it: I can narrow the timeline without pretending I know every current card. The Raider is still the primary target.",
+      "id": "guardian-249",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "Here is the part I can actually use: there are still multiple legal stories because cards and allegiances can move differently. That is the part I can defend if challenged.",
+      "id": "guardian-250",
+      "tags": [
+        "ferret-frenzy",
+        "guardian",
+        "uncertainty"
+      ]
+    }
+  ]
+}

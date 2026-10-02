@@ -1,0 +1,14 @@
+{
+  "version": 3,
+  "purpose": "Pre-game controller reservations for lobby create/join and smart-bot gap filling. The tested backend still performs the real hidden Starting Card deal at game.start.",
+  "roles": ["BANDIT","DOOKER","ITCHY","TROUBLE","BUSINESS","SNUGGLER","HUNTER","GUARDIAN"],
+  "singleCopy": ["DOOKER","ITCHY","TROUBLE","SNUGGLER","HUNTER","GUARDIAN"],
+  "repeatable": {"BANDIT":4,"BUSINESS":14},
+  "controllerSeatPlan": ["BANDIT","DOOKER","ITCHY","TROUBLE","BUSINESS","SNUGGLER","HUNTER","GUARDIAN","BUSINESS","BANDIT","BUSINESS","BANDIT"],
+  "flow": {
+    "create": "Reserve the joining human's controller role immediately from their lobby seat.",
+    "join": "Reserve the joining human's controller role immediately from their lobby seat.",
+    "start": "Host reconciles occupied seat reservations, creates smart guest-bots for missing reserved-role seats, then calls the existing backend game.start action.",
+    "afterStart": "Backend hidden role is authoritative; each smart bot switches to the bot module matching the role actually dealt by the backend."
+  }
+}

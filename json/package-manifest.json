@@ -1,0 +1,84 @@
+{
+  "name": "Ferret Frenzy \u2014 Locked Minnow Hitbox Pass",
+  "entry": "lobby.html",
+  "structure": [
+    "lobby.html",
+    "manifest.webmanifest",
+    "service-worker.js",
+    "js/",
+    "css/",
+    "json/",
+    "assets/images/",
+    "assets/audio/",
+    "assets/code/frenzy.html"
+  ],
+  "notes": "Removes the former polygon editor and locks the user-approved Minnow Treats GeoJSON into gameplay. The actual Raider can click the hotspot at the theft hour to switch to the post-theft scene. No backend .gs file is included or modified.",
+  "gameShell": {
+    "html": "assets/code/frenzy.html",
+    "scripts": [
+      "js/frenzy-shell.js",
+      "js/dice.js",
+      "js/frenzy-game.js",
+      "js/minnow-hitbox.js",
+      "js/frenzy-network.js",
+      "js/bot-game-bootstrap.js"
+    ],
+    "styles": [
+      "css/frenzy-shell.css",
+      "css/dice.css",
+      "css/frenzy-game.css"
+    ],
+    "controlsConfig": "json/frenzy-controls.json"
+  },
+  "backend": {
+    "provider": "Google Apps Script",
+    "endpoint": "https://script.google.com/macros/s/AKfycbyAShO3c_FLVqp-fisabNx_DMuLD0UYMPygU22_jQfpLjIs796fgsJPo3viZq5FGeYd1A/exec",
+    "config": "json/backend-config.json",
+    "modified": false,
+    "note": "No backend file is included or modified in this pass."
+  },
+  "assetMap": "json/asset-map.json",
+  "botEngine": "json/bot-manifest.json",
+  "roleAssignment": "js/assign-role.js",
+  "nightLock": {
+    "trigger": "backend state phase NIGHT + me.actionPrompt.kind=SLEEP",
+    "display": "black screen with frenzy_logo.png only"
+  },
+  "minnowHitbox": {
+    "geojson": "json/minnow-hitbox.geojson",
+    "script": "js/minnow-hitbox.js",
+    "locked": true,
+    "imageWidth": 1672,
+    "imageHeight": 941,
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            726.51,
+            258.23
+          ],
+          [
+            916.57,
+            257.2
+          ],
+          [
+            904.8,
+            454
+          ],
+          [
+            736.84,
+            451.39
+          ],
+          [
+            726.51,
+            258.23
+          ]
+        ]
+      ]
+    },
+    "eligiblePlayer": "starting BANDIT + isRaider=true + current Night hour is one of that player\u2019s wake hours",
+    "result": "pre-theft scene changes immediately to assets/images/Minnow Treats crime scene-2.png on click",
+    "backendChanged": false
+  }
+}

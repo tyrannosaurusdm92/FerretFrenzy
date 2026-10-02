@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "minPlayers": 4,
+  "maxPlayers": 12,
+  "roomCodeDigits": 6,
+  "roomExpiryHours": 8,
+  "publicBrowser": {
+    "defaultSort": "recent",
+    "filters": [
+      "openSeats",
+      "roomName"
+    ]
+  },
+  "deviceMemory": {
+    "storage": "localStorage",
+    "accountRequired": false
+  },
+  "gameEntry": "assets/code/frenzy.html",
+  "backendUrlGlobal": "FF_BACKEND_URL",
+  "backendUrl": "https://script.google.com/macros/s/AKfycbyAShO3c_FLVqp-fisabNx_DMuLD0UYMPygU22_jQfpLjIs796fgsJPo3viZq5FGeYd1A/exec",
+  "pwa": {
+    "manifest": "manifest.webmanifest",
+    "serviceWorker": "service-worker.js"
+  },
+  "chat": {
+    "channels": false,
+    "lobbyDiscussion": true,
+    "morningBusiness": true
+  },
+  "voting": {
+    "style": "single simultaneous Paw Point selector",
+    "labels": "Player <seat> \u00b7 <displayName>"
+  },
+  "bots": {
+    "engine": "smart role bots",
+    "autoFillOnStart": true,
+    "serverAutoFillForNewRooms": false,
+    "manifest": "bot-manifest.json"
+  },
+  "roleAssignment": {
+    "script": "../js/assign-role.js",
+    "singleCopy": [
+      "DOOKER",
+      "ITCHY",
+      "TROUBLE",
+      "SNUGGLER",
+      "HUNTER",
+      "GUARDIAN"
+    ],
+    "repeatable": [
+      "BANDIT",
+      "BUSINESS"
+    ]
+  }
+}

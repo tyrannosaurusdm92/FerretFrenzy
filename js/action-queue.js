@@ -1,0 +1,2 @@
+import {uid} from './utils.js';
+export class ActionQueue{constructor(){this.items=[];this.locked=false}add(action,{priority=0}={}){const x={...action,id:action.id||uid('q'),priority,createdAt:Date.now()};this.items.push(x);this.items.sort((a,b)=>b.priority-a.priority||a.createdAt-b.createdAt);return x}peek(){return this.items[0]||null}shift(){if(this.locked)throw new Error('Queue locked');return this.items.shift()||null}lock(){this.locked=true}unlock(){this.locked=false}remove(id){this.items=this.items.filter(x=>x.id!==id)}clear(){this.items.length=0}}

@@ -1,0 +1,53 @@
+{
+  "roles": [
+    "Bandit",
+    "Dooker",
+    "Itchy",
+    "Trouble",
+    "Business",
+    "Snuggler",
+    "Hunter",
+    "Guardian"
+  ],
+  "cardPool": {
+    "Bandit": 4,
+    "Business": 14,
+    "Dooker": 1,
+    "Itchy": 1,
+    "Trouble": 1,
+    "Snuggler": 1,
+    "Hunter": 1,
+    "Guardian": 1
+  },
+  "dice": {
+    "d6": "action/chance",
+    "d12": "wake hour",
+    "private": true
+  },
+  "controls": {
+    "joystick": {
+      "navigate": "ordinary movement navigates highlighted targets",
+      "roll": "deliberate flick rolls selected die"
+    },
+    "/1/": "select d6 action/chance die",
+    "/2/": "select d12 wake-hour die",
+    "/3/": "optional quick confirm / lock latest result",
+    "/4/": "open private role, wake schedule, Treat States, co-wakers, confirmed facts",
+    "A": "primary confirm / select",
+    "B": "back / close / cancel before lock",
+    "X": "context-sensitive role action",
+    "Y": "private notebook / reminder",
+    "Z": "reserved",
+    "R": "reserved",
+    "privacy": "raw dice values and private facts are local/private unless rules explicitly reveal derived information"
+  },
+  "object": "Minnow Treats",
+  "burrowHours": 12,
+  "leaderRole": false,
+  "burrowClock": {
+    "hours": 12,
+    "secondsPerHour": 60,
+    "startsOn": "START GAME",
+    "afterHour12": "Morning Business"
+  }
+}

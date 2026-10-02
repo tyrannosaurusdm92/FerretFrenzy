@@ -1,0 +1,3085 @@
+{
+  "schemaVersion": "1.0",
+  "game": "Ferret Frenzy",
+  "role": "SNUGGLER",
+  "roleName": "Snuggler",
+  "coat": "Chocolate",
+  "responseCount": 250,
+  "responses": [
+    {
+      "category": "bond_claim",
+      "requires": [
+        "bondA",
+        "bondB"
+      ],
+      "text": "From my side, I set the Snuggle Bond on {{bondA}} and {{bondB}}; the bond follows those players even if cards move. That is where I am starting.",
+      "id": "snuggler-001",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "bond_claim"
+      ]
+    },
+    {
+      "category": "bond_claim",
+      "requires": [
+        "bondA",
+        "bondB"
+      ],
+      "text": "For the timeline, my bond pair was {{bondA}} with {{bondB}}; that relationship does not tell me either role. That is evidence, not a verdict.",
+      "id": "snuggler-002",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "bond_claim"
+      ]
+    },
+    {
+      "category": "bond_claim",
+      "requires": [
+        "bondA",
+        "bondB"
+      ],
+      "text": "What I can confirm is I set the Snuggle Bond on {{bondA}} and {{bondB}}; the bond follows those players even if cards move. That could be true without proving allegiance.",
+      "id": "snuggler-003",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "bond_claim"
+      ]
+    },
+    {
+      "category": "bond_claim",
+      "requires": [
+        "bondA",
+        "bondB"
+      ],
+      "text": "My read right now is my bond pair was {{bondA}} with {{bondB}}; that relationship does not tell me either role. I am keeping the difference between starting role and current card in mind.",
+      "id": "snuggler-004",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "bond_claim"
+      ]
+    },
+    {
+      "category": "bond_claim",
+      "requires": [
+        "bondA",
+        "bondB"
+      ],
+      "text": "I keep coming back to I set the Snuggle Bond on {{bondA}} and {{bondB}}; the bond follows those players even if cards move. That does not settle the whole round.",
+      "id": "snuggler-005",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "bond_claim"
+      ]
+    },
+    {
+      "category": "bond_claim",
+      "requires": [
+        "bondA",
+        "bondB"
+      ],
+      "text": "The piece I trust most is my bond pair was {{bondA}} with {{bondB}}; that relationship does not tell me either role. A swap could still change what the cards mean.",
+      "id": "snuggler-006",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "bond_claim"
+      ]
+    },
+    {
+      "category": "bond_claim",
+      "requires": [
+        "bondA",
+        "bondB"
+      ],
+      "text": "Before we Paw Point, I set the Snuggle Bond on {{bondA}} and {{bondB}}; the bond follows those players even if cards move. I am comparing who was awake before and after the treats vanished.",
+      "id": "snuggler-007",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "bond_claim"
+      ]
+    },
+    {
+      "category": "bond_claim",
+      "requires": [
+        "bondA",
+        "bondB"
+      ],
+      "text": "I am comparing notes and my bond pair was {{bondA}} with {{bondB}}; that relationship does not tell me either role. I would rather be precise than loud.",
+      "id": "snuggler-008",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "bond_claim"
+      ]
+    },
+    {
+      "category": "bond_claim",
+      "requires": [
+        "bondA",
+        "bondB"
+      ],
+      "text": "One thing I do not want to lose is I set the Snuggle Bond on {{bondA}} and {{bondB}}; the bond follows those players even if cards move. I am keeping my Paw Point open for now.",
+      "id": "snuggler-009",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "bond_claim"
+      ]
+    },
+    {
+      "category": "bond_claim",
+      "requires": [
+        "bondA",
+        "bondB"
+      ],
+      "text": "The useful detail for me is my bond pair was {{bondA}} with {{bondB}}; that relationship does not tell me either role. I want the sequence to make sense first.",
+      "id": "snuggler-010",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "bond_claim"
+      ]
+    },
+    {
+      "category": "bond_claim",
+      "requires": [
+        "bondA",
+        "bondB"
+      ],
+      "text": "I am sticking to the facts: I set the Snuggle Bond on {{bondA}} and {{bondB}}; the bond follows those players even if cards move. The app-confirmed pieces come first.",
+      "id": "snuggler-011",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "bond_claim"
+      ]
+    },
+    {
+      "category": "bond_claim",
+      "requires": [
+        "bondA",
+        "bondB"
+      ],
+      "text": "The night makes more sense if my bond pair was {{bondA}} with {{bondB}}; that relationship does not tell me either role. I am leaving room for card movement.",
+      "id": "snuggler-012",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "bond_claim"
+      ]
+    },
+    {
+      "category": "bond_claim",
+      "requires": [
+        "bondA",
+        "bondB"
+      ],
+      "text": "I want to separate fact from guess: I set the Snuggle Bond on {{bondA}} and {{bondB}}; the bond follows those players even if cards move. I am checking it against the treat state.",
+      "id": "snuggler-013",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "bond_claim"
+      ]
+    },
+    {
+      "category": "bond_claim",
+      "requires": [
+        "bondA",
+        "bondB"
+      ],
+      "text": "My private notes say my bond pair was {{bondA}} with {{bondB}}; that relationship does not tell me either role. I need the wake windows to line up.",
+      "id": "snuggler-014",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "bond_claim"
+      ]
+    },
+    {
+      "category": "bond_claim",
+      "requires": [
+        "bondA",
+        "bondB"
+      ],
+      "text": "I am not treating this as proof, but I set the Snuggle Bond on {{bondA}} and {{bondB}}; the bond follows those players even if cards move. I am still weighing the same evidence.",
+      "id": "snuggler-015",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "bond_claim"
+      ]
+    },
+    {
+      "category": "bond_claim",
+      "requires": [
+        "bondA",
+        "bondB"
+      ],
+      "text": "For Morning Business, my bond pair was {{bondA}} with {{bondB}}; that relationship does not tell me either role. The timing still matters more than vibes.",
+      "id": "snuggler-016",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "bond_claim"
+      ]
+    },
+    {
+      "category": "bond_claim",
+      "requires": [
+        "bondA",
+        "bondB"
+      ],
+      "text": "The clue I am weighing is I set the Snuggle Bond on {{bondA}} and {{bondB}}; the bond follows those players even if cards move. I am not treating a role claim as verified.",
+      "id": "snuggler-017",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "bond_claim"
+      ]
+    },
+    {
+      "category": "bond_claim",
+      "requires": [
+        "bondA",
+        "bondB"
+      ],
+      "text": "I am watching the order of events: my bond pair was {{bondA}} with {{bondB}}; that relationship does not tell me either role. I am not adding facts I did not actually receive.",
+      "id": "snuggler-018",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "bond_claim"
+      ]
+    },
+    {
+      "category": "bond_claim",
+      "requires": [
+        "bondA",
+        "bondB"
+      ],
+      "text": "The safest thing I can say is I set the Snuggle Bond on {{bondA}} and {{bondB}}; the bond follows those players even if cards move. I want to hear how that fits everyone else.",
+      "id": "snuggler-019",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "bond_claim"
+      ]
+    },
+    {
+      "category": "bond_claim",
+      "requires": [
+        "bondA",
+        "bondB"
+      ],
+      "text": "My current timeline says my bond pair was {{bondA}} with {{bondB}}; that relationship does not tell me either role. I want another claim against that timeline.",
+      "id": "snuggler-020",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "bond_claim"
+      ]
+    },
+    {
+      "category": "bond_claim",
+      "requires": [
+        "bondA",
+        "bondB"
+      ],
+      "text": "I am cross-checking claims: I set the Snuggle Bond on {{bondA}} and {{bondB}}; the bond follows those players even if cards move. I am watching for contradictions, not just confidence.",
+      "id": "snuggler-021",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "bond_claim"
+      ]
+    },
+    {
+      "category": "bond_claim",
+      "requires": [
+        "bondA",
+        "bondB"
+      ],
+      "text": "The strongest detail I have is my bond pair was {{bondA}} with {{bondB}}; that relationship does not tell me either role. I want a timeline that survives the swap possibilities.",
+      "id": "snuggler-022",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "bond_claim"
+      ]
+    },
+    {
+      "category": "bond_claim",
+      "requires": [
+        "bondA",
+        "bondB"
+      ],
+      "text": "I am keeping this narrow: I set the Snuggle Bond on {{bondA}} and {{bondB}}; the bond follows those players even if cards move. I am not calling that automatic guilt.",
+      "id": "snuggler-023",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "bond_claim"
+      ]
+    },
+    {
+      "category": "bond_claim",
+      "requires": [
+        "bondA",
+        "bondB"
+      ],
+      "text": "I do not want to overstate it: my bond pair was {{bondA}} with {{bondB}}; that relationship does not tell me either role. The Raider is still the primary target.",
+      "id": "snuggler-024",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "bond_claim"
+      ]
+    },
+    {
+      "category": "bond_claim",
+      "requires": [
+        "bondA",
+        "bondB"
+      ],
+      "text": "Here is the part I can actually use: I set the Snuggle Bond on {{bondA}} and {{bondB}}; the bond follows those players even if cards move. That is the part I can defend if challenged.",
+      "id": "snuggler-025",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "bond_claim"
+      ]
+    },
+    {
+      "category": "bond_caution",
+      "requires": [],
+      "text": "From my side, cooperation between two players can come from the Snuggle Bond without proving they share allegiance. That is where I am starting.",
+      "id": "snuggler-026",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "bond_caution"
+      ]
+    },
+    {
+      "category": "bond_caution",
+      "requires": [],
+      "text": "For the timeline, if a bonded player is caught, the partner reveal follows, but that is separate from catching the Raider. That is evidence, not a verdict.",
+      "id": "snuggler-027",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "bond_caution"
+      ]
+    },
+    {
+      "category": "bond_caution",
+      "requires": [],
+      "text": "What I can confirm is cooperation between two players can come from the Snuggle Bond without proving they share allegiance. That could be true without proving allegiance.",
+      "id": "snuggler-028",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "bond_caution"
+      ]
+    },
+    {
+      "category": "bond_caution",
+      "requires": [],
+      "text": "My read right now is if a bonded player is caught, the partner reveal follows, but that is separate from catching the Raider. I am keeping the difference between starting role and current card in mind.",
+      "id": "snuggler-029",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "bond_caution"
+      ]
+    },
+    {
+      "category": "bond_caution",
+      "requires": [],
+      "text": "I keep coming back to cooperation between two players can come from the Snuggle Bond without proving they share allegiance. That does not settle the whole round.",
+      "id": "snuggler-030",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "bond_caution"
+      ]
+    },
+    {
+      "category": "bond_caution",
+      "requires": [],
+      "text": "The piece I trust most is if a bonded player is caught, the partner reveal follows, but that is separate from catching the Raider. A swap could still change what the cards mean.",
+      "id": "snuggler-031",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "bond_caution"
+      ]
+    },
+    {
+      "category": "bond_caution",
+      "requires": [],
+      "text": "Before we Paw Point, cooperation between two players can come from the Snuggle Bond without proving they share allegiance. I am comparing who was awake before and after the treats vanished.",
+      "id": "snuggler-032",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "bond_caution"
+      ]
+    },
+    {
+      "category": "bond_caution",
+      "requires": [],
+      "text": "I am comparing notes and if a bonded player is caught, the partner reveal follows, but that is separate from catching the Raider. I would rather be precise than loud.",
+      "id": "snuggler-033",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "bond_caution"
+      ]
+    },
+    {
+      "category": "bond_caution",
+      "requires": [],
+      "text": "One thing I do not want to lose is cooperation between two players can come from the Snuggle Bond without proving they share allegiance. I am keeping my Paw Point open for now.",
+      "id": "snuggler-034",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "bond_caution"
+      ]
+    },
+    {
+      "category": "bond_caution",
+      "requires": [],
+      "text": "The useful detail for me is if a bonded player is caught, the partner reveal follows, but that is separate from catching the Raider. I want the sequence to make sense first.",
+      "id": "snuggler-035",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "bond_caution"
+      ]
+    },
+    {
+      "category": "bond_caution",
+      "requires": [],
+      "text": "I am sticking to the facts: cooperation between two players can come from the Snuggle Bond without proving they share allegiance. The app-confirmed pieces come first.",
+      "id": "snuggler-036",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "bond_caution"
+      ]
+    },
+    {
+      "category": "bond_caution",
+      "requires": [],
+      "text": "The night makes more sense if if a bonded player is caught, the partner reveal follows, but that is separate from catching the Raider. I am leaving room for card movement.",
+      "id": "snuggler-037",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "bond_caution"
+      ]
+    },
+    {
+      "category": "bond_caution",
+      "requires": [],
+      "text": "I want to separate fact from guess: cooperation between two players can come from the Snuggle Bond without proving they share allegiance. I am checking it against the treat state.",
+      "id": "snuggler-038",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "bond_caution"
+      ]
+    },
+    {
+      "category": "bond_caution",
+      "requires": [],
+      "text": "My private notes say if a bonded player is caught, the partner reveal follows, but that is separate from catching the Raider. I need the wake windows to line up.",
+      "id": "snuggler-039",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "bond_caution"
+      ]
+    },
+    {
+      "category": "bond_caution",
+      "requires": [],
+      "text": "I am not treating this as proof, but cooperation between two players can come from the Snuggle Bond without proving they share allegiance. I am still weighing the same evidence.",
+      "id": "snuggler-040",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "bond_caution"
+      ]
+    },
+    {
+      "category": "bond_caution",
+      "requires": [],
+      "text": "For Morning Business, if a bonded player is caught, the partner reveal follows, but that is separate from catching the Raider. The timing still matters more than vibes.",
+      "id": "snuggler-041",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "bond_caution"
+      ]
+    },
+    {
+      "category": "bond_caution",
+      "requires": [],
+      "text": "The clue I am weighing is cooperation between two players can come from the Snuggle Bond without proving they share allegiance. I am not treating a role claim as verified.",
+      "id": "snuggler-042",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "bond_caution"
+      ]
+    },
+    {
+      "category": "bond_caution",
+      "requires": [],
+      "text": "I am watching the order of events: if a bonded player is caught, the partner reveal follows, but that is separate from catching the Raider. I am not adding facts I did not actually receive.",
+      "id": "snuggler-043",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "bond_caution"
+      ]
+    },
+    {
+      "category": "bond_caution",
+      "requires": [],
+      "text": "The safest thing I can say is cooperation between two players can come from the Snuggle Bond without proving they share allegiance. I want to hear how that fits everyone else.",
+      "id": "snuggler-044",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "bond_caution"
+      ]
+    },
+    {
+      "category": "bond_caution",
+      "requires": [],
+      "text": "My current timeline says if a bonded player is caught, the partner reveal follows, but that is separate from catching the Raider. I want another claim against that timeline.",
+      "id": "snuggler-045",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "bond_caution"
+      ]
+    },
+    {
+      "category": "bond_caution",
+      "requires": [],
+      "text": "I am cross-checking claims: cooperation between two players can come from the Snuggle Bond without proving they share allegiance. I am watching for contradictions, not just confidence.",
+      "id": "snuggler-046",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "bond_caution"
+      ]
+    },
+    {
+      "category": "bond_caution",
+      "requires": [],
+      "text": "The strongest detail I have is if a bonded player is caught, the partner reveal follows, but that is separate from catching the Raider. I want a timeline that survives the swap possibilities.",
+      "id": "snuggler-047",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "bond_caution"
+      ]
+    },
+    {
+      "category": "bond_caution",
+      "requires": [],
+      "text": "I am keeping this narrow: cooperation between two players can come from the Snuggle Bond without proving they share allegiance. I am not calling that automatic guilt.",
+      "id": "snuggler-048",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "bond_caution"
+      ]
+    },
+    {
+      "category": "bond_caution",
+      "requires": [],
+      "text": "I do not want to overstate it: if a bonded player is caught, the partner reveal follows, but that is separate from catching the Raider. The Raider is still the primary target.",
+      "id": "snuggler-049",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "bond_caution"
+      ]
+    },
+    {
+      "category": "bond_caution",
+      "requires": [],
+      "text": "Here is the part I can actually use: cooperation between two players can come from the Snuggle Bond without proving they share allegiance. That is the part I can defend if challenged.",
+      "id": "snuggler-050",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "bond_caution"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "From my side, I woke at Hour {{hour}}; the treats were {{treatState}}, and {{cowakers}} was my co-waker read. That is where I am starting.",
+      "id": "snuggler-051",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "For the timeline, Hour {{hour}} is my anchor: treats {{treatState}}, with {{cowakers}} in that wake window. That is evidence, not a verdict.",
+      "id": "snuggler-052",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "What I can confirm is I woke at Hour {{hour}}; the treats were {{treatState}}, and {{cowakers}} was my co-waker read. That could be true without proving allegiance.",
+      "id": "snuggler-053",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "My read right now is Hour {{hour}} is my anchor: treats {{treatState}}, with {{cowakers}} in that wake window. I am keeping the difference between starting role and current card in mind.",
+      "id": "snuggler-054",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "I keep coming back to I woke at Hour {{hour}}; the treats were {{treatState}}, and {{cowakers}} was my co-waker read. That does not settle the whole round.",
+      "id": "snuggler-055",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "The piece I trust most is Hour {{hour}} is my anchor: treats {{treatState}}, with {{cowakers}} in that wake window. A swap could still change what the cards mean.",
+      "id": "snuggler-056",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "Before we Paw Point, I woke at Hour {{hour}}; the treats were {{treatState}}, and {{cowakers}} was my co-waker read. I am comparing who was awake before and after the treats vanished.",
+      "id": "snuggler-057",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "I am comparing notes and Hour {{hour}} is my anchor: treats {{treatState}}, with {{cowakers}} in that wake window. I would rather be precise than loud.",
+      "id": "snuggler-058",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "One thing I do not want to lose is I woke at Hour {{hour}}; the treats were {{treatState}}, and {{cowakers}} was my co-waker read. I am keeping my Paw Point open for now.",
+      "id": "snuggler-059",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "The useful detail for me is Hour {{hour}} is my anchor: treats {{treatState}}, with {{cowakers}} in that wake window. I want the sequence to make sense first.",
+      "id": "snuggler-060",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "I am sticking to the facts: I woke at Hour {{hour}}; the treats were {{treatState}}, and {{cowakers}} was my co-waker read. The app-confirmed pieces come first.",
+      "id": "snuggler-061",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "The night makes more sense if Hour {{hour}} is my anchor: treats {{treatState}}, with {{cowakers}} in that wake window. I am leaving room for card movement.",
+      "id": "snuggler-062",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "I want to separate fact from guess: I woke at Hour {{hour}}; the treats were {{treatState}}, and {{cowakers}} was my co-waker read. I am checking it against the treat state.",
+      "id": "snuggler-063",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "My private notes say Hour {{hour}} is my anchor: treats {{treatState}}, with {{cowakers}} in that wake window. I need the wake windows to line up.",
+      "id": "snuggler-064",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "I am not treating this as proof, but I woke at Hour {{hour}}; the treats were {{treatState}}, and {{cowakers}} was my co-waker read. I am still weighing the same evidence.",
+      "id": "snuggler-065",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "For Morning Business, Hour {{hour}} is my anchor: treats {{treatState}}, with {{cowakers}} in that wake window. The timing still matters more than vibes.",
+      "id": "snuggler-066",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "The clue I am weighing is I woke at Hour {{hour}}; the treats were {{treatState}}, and {{cowakers}} was my co-waker read. I am not treating a role claim as verified.",
+      "id": "snuggler-067",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "I am watching the order of events: Hour {{hour}} is my anchor: treats {{treatState}}, with {{cowakers}} in that wake window. I am not adding facts I did not actually receive.",
+      "id": "snuggler-068",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "The safest thing I can say is I woke at Hour {{hour}}; the treats were {{treatState}}, and {{cowakers}} was my co-waker read. I want to hear how that fits everyone else.",
+      "id": "snuggler-069",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "My current timeline says Hour {{hour}} is my anchor: treats {{treatState}}, with {{cowakers}} in that wake window. I want another claim against that timeline.",
+      "id": "snuggler-070",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "I am cross-checking claims: I woke at Hour {{hour}}; the treats were {{treatState}}, and {{cowakers}} was my co-waker read. I am watching for contradictions, not just confidence.",
+      "id": "snuggler-071",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "The strongest detail I have is Hour {{hour}} is my anchor: treats {{treatState}}, with {{cowakers}} in that wake window. I want a timeline that survives the swap possibilities.",
+      "id": "snuggler-072",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "I am keeping this narrow: I woke at Hour {{hour}}; the treats were {{treatState}}, and {{cowakers}} was my co-waker read. I am not calling that automatic guilt.",
+      "id": "snuggler-073",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "I do not want to overstate it: Hour {{hour}} is my anchor: treats {{treatState}}, with {{cowakers}} in that wake window. The Raider is still the primary target.",
+      "id": "snuggler-074",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "observation"
+      ]
+    },
+    {
+      "category": "observation",
+      "requires": [
+        "hour",
+        "treatState",
+        "cowakers"
+      ],
+      "text": "Here is the part I can actually use: I woke at Hour {{hour}}; the treats were {{treatState}}, and {{cowakers}} was my co-waker read. That is the part I can defend if challenged.",
+      "id": "snuggler-075",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "observation"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "From my side, {{target}}, which hour are you claiming, and were the Minnow Treats present or missing? That is where I am starting.",
+      "id": "snuggler-076",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "For the timeline, I want {{target}} to pin down who else was awake in that window. That is evidence, not a verdict.",
+      "id": "snuggler-077",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "What I can confirm is {{target}}, which hour are you claiming, and were the Minnow Treats present or missing? That could be true without proving allegiance.",
+      "id": "snuggler-078",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "My read right now is I want {{target}} to pin down who else was awake in that window. I am keeping the difference between starting role and current card in mind.",
+      "id": "snuggler-079",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "I keep coming back to {{target}}, which hour are you claiming, and were the Minnow Treats present or missing? That does not settle the whole round.",
+      "id": "snuggler-080",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "The piece I trust most is I want {{target}} to pin down who else was awake in that window. A swap could still change what the cards mean.",
+      "id": "snuggler-081",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "Before we Paw Point, {{target}}, which hour are you claiming, and were the Minnow Treats present or missing? I am comparing who was awake before and after the treats vanished.",
+      "id": "snuggler-082",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "I am comparing notes and I want {{target}} to pin down who else was awake in that window. I would rather be precise than loud.",
+      "id": "snuggler-083",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "One thing I do not want to lose is {{target}}, which hour are you claiming, and were the Minnow Treats present or missing? I am keeping my Paw Point open for now.",
+      "id": "snuggler-084",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "The useful detail for me is I want {{target}} to pin down who else was awake in that window. I want the sequence to make sense first.",
+      "id": "snuggler-085",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "I am sticking to the facts: {{target}}, which hour are you claiming, and were the Minnow Treats present or missing? The app-confirmed pieces come first.",
+      "id": "snuggler-086",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "The night makes more sense if I want {{target}} to pin down who else was awake in that window. I am leaving room for card movement.",
+      "id": "snuggler-087",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "I want to separate fact from guess: {{target}}, which hour are you claiming, and were the Minnow Treats present or missing? I am checking it against the treat state.",
+      "id": "snuggler-088",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "My private notes say I want {{target}} to pin down who else was awake in that window. I need the wake windows to line up.",
+      "id": "snuggler-089",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "I am not treating this as proof, but {{target}}, which hour are you claiming, and were the Minnow Treats present or missing? I am still weighing the same evidence.",
+      "id": "snuggler-090",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "For Morning Business, I want {{target}} to pin down who else was awake in that window. The timing still matters more than vibes.",
+      "id": "snuggler-091",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "The clue I am weighing is {{target}}, which hour are you claiming, and were the Minnow Treats present or missing? I am not treating a role claim as verified.",
+      "id": "snuggler-092",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "I am watching the order of events: I want {{target}} to pin down who else was awake in that window. I am not adding facts I did not actually receive.",
+      "id": "snuggler-093",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "The safest thing I can say is {{target}}, which hour are you claiming, and were the Minnow Treats present or missing? I want to hear how that fits everyone else.",
+      "id": "snuggler-094",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "My current timeline says I want {{target}} to pin down who else was awake in that window. I want another claim against that timeline.",
+      "id": "snuggler-095",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "I am cross-checking claims: {{target}}, which hour are you claiming, and were the Minnow Treats present or missing? I am watching for contradictions, not just confidence.",
+      "id": "snuggler-096",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "The strongest detail I have is I want {{target}} to pin down who else was awake in that window. I want a timeline that survives the swap possibilities.",
+      "id": "snuggler-097",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "I am keeping this narrow: {{target}}, which hour are you claiming, and were the Minnow Treats present or missing? I am not calling that automatic guilt.",
+      "id": "snuggler-098",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "I do not want to overstate it: I want {{target}} to pin down who else was awake in that window. The Raider is still the primary target.",
+      "id": "snuggler-099",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "question"
+      ]
+    },
+    {
+      "category": "question",
+      "requires": [
+        "target"
+      ],
+      "text": "Here is the part I can actually use: {{target}}, which hour are you claiming, and were the Minnow Treats present or missing? That is the part I can defend if challenged.",
+      "id": "snuggler-100",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "question"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "From my side, the change from PRESENT to MISSING has to fit the Burrow Clock, not just somebody's role claim. That is where I am starting.",
+      "id": "snuggler-101",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "For the timeline, I am lining up claimed wake hours around when the Minnow Treats disappeared. That is evidence, not a verdict.",
+      "id": "snuggler-102",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "What I can confirm is the change from PRESENT to MISSING has to fit the Burrow Clock, not just somebody's role claim. That could be true without proving allegiance.",
+      "id": "snuggler-103",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "My read right now is I am lining up claimed wake hours around when the Minnow Treats disappeared. I am keeping the difference between starting role and current card in mind.",
+      "id": "snuggler-104",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "I keep coming back to the change from PRESENT to MISSING has to fit the Burrow Clock, not just somebody's role claim. That does not settle the whole round.",
+      "id": "snuggler-105",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "The piece I trust most is I am lining up claimed wake hours around when the Minnow Treats disappeared. A swap could still change what the cards mean.",
+      "id": "snuggler-106",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "Before we Paw Point, the change from PRESENT to MISSING has to fit the Burrow Clock, not just somebody's role claim. I am comparing who was awake before and after the treats vanished.",
+      "id": "snuggler-107",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "I am comparing notes and I am lining up claimed wake hours around when the Minnow Treats disappeared. I would rather be precise than loud.",
+      "id": "snuggler-108",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "One thing I do not want to lose is the change from PRESENT to MISSING has to fit the Burrow Clock, not just somebody's role claim. I am keeping my Paw Point open for now.",
+      "id": "snuggler-109",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "The useful detail for me is I am lining up claimed wake hours around when the Minnow Treats disappeared. I want the sequence to make sense first.",
+      "id": "snuggler-110",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "I am sticking to the facts: the change from PRESENT to MISSING has to fit the Burrow Clock, not just somebody's role claim. The app-confirmed pieces come first.",
+      "id": "snuggler-111",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "The night makes more sense if I am lining up claimed wake hours around when the Minnow Treats disappeared. I am leaving room for card movement.",
+      "id": "snuggler-112",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "I want to separate fact from guess: the change from PRESENT to MISSING has to fit the Burrow Clock, not just somebody's role claim. I am checking it against the treat state.",
+      "id": "snuggler-113",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "My private notes say I am lining up claimed wake hours around when the Minnow Treats disappeared. I need the wake windows to line up.",
+      "id": "snuggler-114",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "I am not treating this as proof, but the change from PRESENT to MISSING has to fit the Burrow Clock, not just somebody's role claim. I am still weighing the same evidence.",
+      "id": "snuggler-115",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "For Morning Business, I am lining up claimed wake hours around when the Minnow Treats disappeared. The timing still matters more than vibes.",
+      "id": "snuggler-116",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "The clue I am weighing is the change from PRESENT to MISSING has to fit the Burrow Clock, not just somebody's role claim. I am not treating a role claim as verified.",
+      "id": "snuggler-117",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "I am watching the order of events: I am lining up claimed wake hours around when the Minnow Treats disappeared. I am not adding facts I did not actually receive.",
+      "id": "snuggler-118",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "The safest thing I can say is the change from PRESENT to MISSING has to fit the Burrow Clock, not just somebody's role claim. I want to hear how that fits everyone else.",
+      "id": "snuggler-119",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "My current timeline says I am lining up claimed wake hours around when the Minnow Treats disappeared. I want another claim against that timeline.",
+      "id": "snuggler-120",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "I am cross-checking claims: the change from PRESENT to MISSING has to fit the Burrow Clock, not just somebody's role claim. I am watching for contradictions, not just confidence.",
+      "id": "snuggler-121",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "The strongest detail I have is I am lining up claimed wake hours around when the Minnow Treats disappeared. I want a timeline that survives the swap possibilities.",
+      "id": "snuggler-122",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "I am keeping this narrow: the change from PRESENT to MISSING has to fit the Burrow Clock, not just somebody's role claim. I am not calling that automatic guilt.",
+      "id": "snuggler-123",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "I do not want to overstate it: I am lining up claimed wake hours around when the Minnow Treats disappeared. The Raider is still the primary target.",
+      "id": "snuggler-124",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "timeline"
+      ]
+    },
+    {
+      "category": "timeline",
+      "requires": [],
+      "text": "Here is the part I can actually use: the change from PRESENT to MISSING has to fit the Burrow Clock, not just somebody's role claim. That is the part I can defend if challenged.",
+      "id": "snuggler-125",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "timeline"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "From my side, {{target}} sits highest on my current timing suspicion, but I am still checking the evidence. That is where I am starting.",
+      "id": "snuggler-126",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "For the timeline, I am watching {{target}} because their place in the wake timeline needs a better explanation. That is evidence, not a verdict.",
+      "id": "snuggler-127",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "What I can confirm is {{target}} sits highest on my current timing suspicion, but I am still checking the evidence. That could be true without proving allegiance.",
+      "id": "snuggler-128",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "My read right now is I am watching {{target}} because their place in the wake timeline needs a better explanation. I am keeping the difference between starting role and current card in mind.",
+      "id": "snuggler-129",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "I keep coming back to {{target}} sits highest on my current timing suspicion, but I am still checking the evidence. That does not settle the whole round.",
+      "id": "snuggler-130",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "The piece I trust most is I am watching {{target}} because their place in the wake timeline needs a better explanation. A swap could still change what the cards mean.",
+      "id": "snuggler-131",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "Before we Paw Point, {{target}} sits highest on my current timing suspicion, but I am still checking the evidence. I am comparing who was awake before and after the treats vanished.",
+      "id": "snuggler-132",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "I am comparing notes and I am watching {{target}} because their place in the wake timeline needs a better explanation. I would rather be precise than loud.",
+      "id": "snuggler-133",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "One thing I do not want to lose is {{target}} sits highest on my current timing suspicion, but I am still checking the evidence. I am keeping my Paw Point open for now.",
+      "id": "snuggler-134",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "The useful detail for me is I am watching {{target}} because their place in the wake timeline needs a better explanation. I want the sequence to make sense first.",
+      "id": "snuggler-135",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "I am sticking to the facts: {{target}} sits highest on my current timing suspicion, but I am still checking the evidence. The app-confirmed pieces come first.",
+      "id": "snuggler-136",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "The night makes more sense if I am watching {{target}} because their place in the wake timeline needs a better explanation. I am leaving room for card movement.",
+      "id": "snuggler-137",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "I want to separate fact from guess: {{target}} sits highest on my current timing suspicion, but I am still checking the evidence. I am checking it against the treat state.",
+      "id": "snuggler-138",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "My private notes say I am watching {{target}} because their place in the wake timeline needs a better explanation. I need the wake windows to line up.",
+      "id": "snuggler-139",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "I am not treating this as proof, but {{target}} sits highest on my current timing suspicion, but I am still checking the evidence. I am still weighing the same evidence.",
+      "id": "snuggler-140",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "For Morning Business, I am watching {{target}} because their place in the wake timeline needs a better explanation. The timing still matters more than vibes.",
+      "id": "snuggler-141",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "The clue I am weighing is {{target}} sits highest on my current timing suspicion, but I am still checking the evidence. I am not treating a role claim as verified.",
+      "id": "snuggler-142",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "I am watching the order of events: I am watching {{target}} because their place in the wake timeline needs a better explanation. I am not adding facts I did not actually receive.",
+      "id": "snuggler-143",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "The safest thing I can say is {{target}} sits highest on my current timing suspicion, but I am still checking the evidence. I want to hear how that fits everyone else.",
+      "id": "snuggler-144",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "My current timeline says I am watching {{target}} because their place in the wake timeline needs a better explanation. I want another claim against that timeline.",
+      "id": "snuggler-145",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "I am cross-checking claims: {{target}} sits highest on my current timing suspicion, but I am still checking the evidence. I am watching for contradictions, not just confidence.",
+      "id": "snuggler-146",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "The strongest detail I have is I am watching {{target}} because their place in the wake timeline needs a better explanation. I want a timeline that survives the swap possibilities.",
+      "id": "snuggler-147",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "I am keeping this narrow: {{target}} sits highest on my current timing suspicion, but I am still checking the evidence. I am not calling that automatic guilt.",
+      "id": "snuggler-148",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "I do not want to overstate it: I am watching {{target}} because their place in the wake timeline needs a better explanation. The Raider is still the primary target.",
+      "id": "snuggler-149",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "suspicion",
+      "requires": [
+        "target"
+      ],
+      "text": "Here is the part I can actually use: {{target}} sits highest on my current timing suspicion, but I am still checking the evidence. That is the part I can defend if challenged.",
+      "id": "snuggler-150",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "suspicion"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "From my side, my claim is about what my own screen showed me; I am not claiming knowledge outside that. That is where I am starting.",
+      "id": "snuggler-151",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "For the timeline, if my card moved later, that does not rewrite what I personally observed when I woke. That is evidence, not a verdict.",
+      "id": "snuggler-152",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "What I can confirm is my claim is about what my own screen showed me; I am not claiming knowledge outside that. That could be true without proving allegiance.",
+      "id": "snuggler-153",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "My read right now is if my card moved later, that does not rewrite what I personally observed when I woke. I am keeping the difference between starting role and current card in mind.",
+      "id": "snuggler-154",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "I keep coming back to my claim is about what my own screen showed me; I am not claiming knowledge outside that. That does not settle the whole round.",
+      "id": "snuggler-155",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "The piece I trust most is if my card moved later, that does not rewrite what I personally observed when I woke. A swap could still change what the cards mean.",
+      "id": "snuggler-156",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "Before we Paw Point, my claim is about what my own screen showed me; I am not claiming knowledge outside that. I am comparing who was awake before and after the treats vanished.",
+      "id": "snuggler-157",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "I am comparing notes and if my card moved later, that does not rewrite what I personally observed when I woke. I would rather be precise than loud.",
+      "id": "snuggler-158",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "One thing I do not want to lose is my claim is about what my own screen showed me; I am not claiming knowledge outside that. I am keeping my Paw Point open for now.",
+      "id": "snuggler-159",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "The useful detail for me is if my card moved later, that does not rewrite what I personally observed when I woke. I want the sequence to make sense first.",
+      "id": "snuggler-160",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "I am sticking to the facts: my claim is about what my own screen showed me; I am not claiming knowledge outside that. The app-confirmed pieces come first.",
+      "id": "snuggler-161",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "The night makes more sense if if my card moved later, that does not rewrite what I personally observed when I woke. I am leaving room for card movement.",
+      "id": "snuggler-162",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "I want to separate fact from guess: my claim is about what my own screen showed me; I am not claiming knowledge outside that. I am checking it against the treat state.",
+      "id": "snuggler-163",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "My private notes say if my card moved later, that does not rewrite what I personally observed when I woke. I need the wake windows to line up.",
+      "id": "snuggler-164",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "I am not treating this as proof, but my claim is about what my own screen showed me; I am not claiming knowledge outside that. I am still weighing the same evidence.",
+      "id": "snuggler-165",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "For Morning Business, if my card moved later, that does not rewrite what I personally observed when I woke. The timing still matters more than vibes.",
+      "id": "snuggler-166",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "The clue I am weighing is my claim is about what my own screen showed me; I am not claiming knowledge outside that. I am not treating a role claim as verified.",
+      "id": "snuggler-167",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "I am watching the order of events: if my card moved later, that does not rewrite what I personally observed when I woke. I am not adding facts I did not actually receive.",
+      "id": "snuggler-168",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "The safest thing I can say is my claim is about what my own screen showed me; I am not claiming knowledge outside that. I want to hear how that fits everyone else.",
+      "id": "snuggler-169",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "My current timeline says if my card moved later, that does not rewrite what I personally observed when I woke. I want another claim against that timeline.",
+      "id": "snuggler-170",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "I am cross-checking claims: my claim is about what my own screen showed me; I am not claiming knowledge outside that. I am watching for contradictions, not just confidence.",
+      "id": "snuggler-171",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "The strongest detail I have is if my card moved later, that does not rewrite what I personally observed when I woke. I want a timeline that survives the swap possibilities.",
+      "id": "snuggler-172",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "I am keeping this narrow: my claim is about what my own screen showed me; I am not claiming knowledge outside that. I am not calling that automatic guilt.",
+      "id": "snuggler-173",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "I do not want to overstate it: if my card moved later, that does not rewrite what I personally observed when I woke. The Raider is still the primary target.",
+      "id": "snuggler-174",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "defense"
+      ]
+    },
+    {
+      "category": "defense",
+      "requires": [],
+      "text": "Here is the part I can actually use: my claim is about what my own screen showed me; I am not claiming knowledge outside that. That is the part I can defend if challenged.",
+      "id": "snuggler-175",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "defense"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "From my side, if nothing stronger appears, {{target}} is where my Paw Point is leaning. That is where I am starting.",
+      "id": "snuggler-176",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "For the timeline, I am not locking yet, but {{target}} is my current vote pressure. That is evidence, not a verdict.",
+      "id": "snuggler-177",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "What I can confirm is if nothing stronger appears, {{target}} is where my Paw Point is leaning. That could be true without proving allegiance.",
+      "id": "snuggler-178",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "My read right now is I am not locking yet, but {{target}} is my current vote pressure. I am keeping the difference between starting role and current card in mind.",
+      "id": "snuggler-179",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "I keep coming back to if nothing stronger appears, {{target}} is where my Paw Point is leaning. That does not settle the whole round.",
+      "id": "snuggler-180",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "The piece I trust most is I am not locking yet, but {{target}} is my current vote pressure. A swap could still change what the cards mean.",
+      "id": "snuggler-181",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "Before we Paw Point, if nothing stronger appears, {{target}} is where my Paw Point is leaning. I am comparing who was awake before and after the treats vanished.",
+      "id": "snuggler-182",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "I am comparing notes and I am not locking yet, but {{target}} is my current vote pressure. I would rather be precise than loud.",
+      "id": "snuggler-183",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "One thing I do not want to lose is if nothing stronger appears, {{target}} is where my Paw Point is leaning. I am keeping my Paw Point open for now.",
+      "id": "snuggler-184",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "The useful detail for me is I am not locking yet, but {{target}} is my current vote pressure. I want the sequence to make sense first.",
+      "id": "snuggler-185",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "I am sticking to the facts: if nothing stronger appears, {{target}} is where my Paw Point is leaning. The app-confirmed pieces come first.",
+      "id": "snuggler-186",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "The night makes more sense if I am not locking yet, but {{target}} is my current vote pressure. I am leaving room for card movement.",
+      "id": "snuggler-187",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "I want to separate fact from guess: if nothing stronger appears, {{target}} is where my Paw Point is leaning. I am checking it against the treat state.",
+      "id": "snuggler-188",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "My private notes say I am not locking yet, but {{target}} is my current vote pressure. I need the wake windows to line up.",
+      "id": "snuggler-189",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "I am not treating this as proof, but if nothing stronger appears, {{target}} is where my Paw Point is leaning. I am still weighing the same evidence.",
+      "id": "snuggler-190",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "For Morning Business, I am not locking yet, but {{target}} is my current vote pressure. The timing still matters more than vibes.",
+      "id": "snuggler-191",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "The clue I am weighing is if nothing stronger appears, {{target}} is where my Paw Point is leaning. I am not treating a role claim as verified.",
+      "id": "snuggler-192",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "I am watching the order of events: I am not locking yet, but {{target}} is my current vote pressure. I am not adding facts I did not actually receive.",
+      "id": "snuggler-193",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "The safest thing I can say is if nothing stronger appears, {{target}} is where my Paw Point is leaning. I want to hear how that fits everyone else.",
+      "id": "snuggler-194",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "My current timeline says I am not locking yet, but {{target}} is my current vote pressure. I want another claim against that timeline.",
+      "id": "snuggler-195",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "I am cross-checking claims: if nothing stronger appears, {{target}} is where my Paw Point is leaning. I am watching for contradictions, not just confidence.",
+      "id": "snuggler-196",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "The strongest detail I have is I am not locking yet, but {{target}} is my current vote pressure. I want a timeline that survives the swap possibilities.",
+      "id": "snuggler-197",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "I am keeping this narrow: if nothing stronger appears, {{target}} is where my Paw Point is leaning. I am not calling that automatic guilt.",
+      "id": "snuggler-198",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "I do not want to overstate it: I am not locking yet, but {{target}} is my current vote pressure. The Raider is still the primary target.",
+      "id": "snuggler-199",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "vote"
+      ]
+    },
+    {
+      "category": "vote",
+      "requires": [
+        "target"
+      ],
+      "text": "Here is the part I can actually use: if nothing stronger appears, {{target}} is where my Paw Point is leaning. That is the part I can defend if challenged.",
+      "id": "snuggler-200",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "vote"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "From my side, that claim changes the order I am testing, especially around the treat-state switch. That is where I am starting.",
+      "id": "snuggler-201",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "For the timeline, I heard that; I am checking whether it agrees with my private wake evidence. That is evidence, not a verdict.",
+      "id": "snuggler-202",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "What I can confirm is that claim changes the order I am testing, especially around the treat-state switch. That could be true without proving allegiance.",
+      "id": "snuggler-203",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "My read right now is I heard that; I am checking whether it agrees with my private wake evidence. I am keeping the difference between starting role and current card in mind.",
+      "id": "snuggler-204",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "I keep coming back to that claim changes the order I am testing, especially around the treat-state switch. That does not settle the whole round.",
+      "id": "snuggler-205",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "The piece I trust most is I heard that; I am checking whether it agrees with my private wake evidence. A swap could still change what the cards mean.",
+      "id": "snuggler-206",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "Before we Paw Point, that claim changes the order I am testing, especially around the treat-state switch. I am comparing who was awake before and after the treats vanished.",
+      "id": "snuggler-207",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "I am comparing notes and I heard that; I am checking whether it agrees with my private wake evidence. I would rather be precise than loud.",
+      "id": "snuggler-208",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "One thing I do not want to lose is that claim changes the order I am testing, especially around the treat-state switch. I am keeping my Paw Point open for now.",
+      "id": "snuggler-209",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "The useful detail for me is I heard that; I am checking whether it agrees with my private wake evidence. I want the sequence to make sense first.",
+      "id": "snuggler-210",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "I am sticking to the facts: that claim changes the order I am testing, especially around the treat-state switch. The app-confirmed pieces come first.",
+      "id": "snuggler-211",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "The night makes more sense if I heard that; I am checking whether it agrees with my private wake evidence. I am leaving room for card movement.",
+      "id": "snuggler-212",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "I want to separate fact from guess: that claim changes the order I am testing, especially around the treat-state switch. I am checking it against the treat state.",
+      "id": "snuggler-213",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "My private notes say I heard that; I am checking whether it agrees with my private wake evidence. I need the wake windows to line up.",
+      "id": "snuggler-214",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "I am not treating this as proof, but that claim changes the order I am testing, especially around the treat-state switch. I am still weighing the same evidence.",
+      "id": "snuggler-215",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "For Morning Business, I heard that; I am checking whether it agrees with my private wake evidence. The timing still matters more than vibes.",
+      "id": "snuggler-216",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "The clue I am weighing is that claim changes the order I am testing, especially around the treat-state switch. I am not treating a role claim as verified.",
+      "id": "snuggler-217",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "I am watching the order of events: I heard that; I am checking whether it agrees with my private wake evidence. I am not adding facts I did not actually receive.",
+      "id": "snuggler-218",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "The safest thing I can say is that claim changes the order I am testing, especially around the treat-state switch. I want to hear how that fits everyone else.",
+      "id": "snuggler-219",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "My current timeline says I heard that; I am checking whether it agrees with my private wake evidence. I want another claim against that timeline.",
+      "id": "snuggler-220",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "I am cross-checking claims: that claim changes the order I am testing, especially around the treat-state switch. I am watching for contradictions, not just confidence.",
+      "id": "snuggler-221",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "The strongest detail I have is I heard that; I am checking whether it agrees with my private wake evidence. I want a timeline that survives the swap possibilities.",
+      "id": "snuggler-222",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "I am keeping this narrow: that claim changes the order I am testing, especially around the treat-state switch. I am not calling that automatic guilt.",
+      "id": "snuggler-223",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "I do not want to overstate it: I heard that; I am checking whether it agrees with my private wake evidence. The Raider is still the primary target.",
+      "id": "snuggler-224",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "reaction"
+      ]
+    },
+    {
+      "category": "reaction",
+      "requires": [],
+      "text": "Here is the part I can actually use: that claim changes the order I am testing, especially around the treat-state switch. That is the part I can defend if challenged.",
+      "id": "snuggler-225",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "reaction"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "From my side, there are still multiple legal stories because cards and allegiances can move differently. That is where I am starting.",
+      "id": "snuggler-226",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "For the timeline, I can narrow the timeline without pretending I know every current card. That is evidence, not a verdict.",
+      "id": "snuggler-227",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "What I can confirm is there are still multiple legal stories because cards and allegiances can move differently. That could be true without proving allegiance.",
+      "id": "snuggler-228",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "My read right now is I can narrow the timeline without pretending I know every current card. I am keeping the difference between starting role and current card in mind.",
+      "id": "snuggler-229",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "I keep coming back to there are still multiple legal stories because cards and allegiances can move differently. That does not settle the whole round.",
+      "id": "snuggler-230",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "The piece I trust most is I can narrow the timeline without pretending I know every current card. A swap could still change what the cards mean.",
+      "id": "snuggler-231",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "Before we Paw Point, there are still multiple legal stories because cards and allegiances can move differently. I am comparing who was awake before and after the treats vanished.",
+      "id": "snuggler-232",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "I am comparing notes and I can narrow the timeline without pretending I know every current card. I would rather be precise than loud.",
+      "id": "snuggler-233",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "One thing I do not want to lose is there are still multiple legal stories because cards and allegiances can move differently. I am keeping my Paw Point open for now.",
+      "id": "snuggler-234",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "The useful detail for me is I can narrow the timeline without pretending I know every current card. I want the sequence to make sense first.",
+      "id": "snuggler-235",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "I am sticking to the facts: there are still multiple legal stories because cards and allegiances can move differently. The app-confirmed pieces come first.",
+      "id": "snuggler-236",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "The night makes more sense if I can narrow the timeline without pretending I know every current card. I am leaving room for card movement.",
+      "id": "snuggler-237",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "I want to separate fact from guess: there are still multiple legal stories because cards and allegiances can move differently. I am checking it against the treat state.",
+      "id": "snuggler-238",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "My private notes say I can narrow the timeline without pretending I know every current card. I need the wake windows to line up.",
+      "id": "snuggler-239",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "I am not treating this as proof, but there are still multiple legal stories because cards and allegiances can move differently. I am still weighing the same evidence.",
+      "id": "snuggler-240",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "For Morning Business, I can narrow the timeline without pretending I know every current card. The timing still matters more than vibes.",
+      "id": "snuggler-241",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "The clue I am weighing is there are still multiple legal stories because cards and allegiances can move differently. I am not treating a role claim as verified.",
+      "id": "snuggler-242",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "I am watching the order of events: I can narrow the timeline without pretending I know every current card. I am not adding facts I did not actually receive.",
+      "id": "snuggler-243",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "The safest thing I can say is there are still multiple legal stories because cards and allegiances can move differently. I want to hear how that fits everyone else.",
+      "id": "snuggler-244",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "My current timeline says I can narrow the timeline without pretending I know every current card. I want another claim against that timeline.",
+      "id": "snuggler-245",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "I am cross-checking claims: there are still multiple legal stories because cards and allegiances can move differently. I am watching for contradictions, not just confidence.",
+      "id": "snuggler-246",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "The strongest detail I have is I can narrow the timeline without pretending I know every current card. I want a timeline that survives the swap possibilities.",
+      "id": "snuggler-247",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "I am keeping this narrow: there are still multiple legal stories because cards and allegiances can move differently. I am not calling that automatic guilt.",
+      "id": "snuggler-248",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "I do not want to overstate it: I can narrow the timeline without pretending I know every current card. The Raider is still the primary target.",
+      "id": "snuggler-249",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "uncertainty"
+      ]
+    },
+    {
+      "category": "uncertainty",
+      "requires": [],
+      "text": "Here is the part I can actually use: there are still multiple legal stories because cards and allegiances can move differently. That is the part I can defend if challenged.",
+      "id": "snuggler-250",
+      "tags": [
+        "ferret-frenzy",
+        "snuggler",
+        "uncertainty"
+      ]
+    }
+  ]
+}
