@@ -1,4 +1,4 @@
-const CACHE = 'ferret-frenzy-v8-locked-minnow-hitbox-20261002';
+const CACHE = 'ferret-frenzy-v10-frontend-pass-20261002';
 const CORE = [
   './assets/audio/dice-roll.mp3',
   './assets/audio/ferret.mp3',
@@ -51,6 +51,7 @@ const CORE = [
   './js/bandit-bot.js',
   './js/bot-game-bootstrap.js',
   './js/bot-manager.js',
+  './js/cards.js',
   './js/business-bot.js',
   './js/device-store.js',
   './js/dice.js',
@@ -121,10 +122,15 @@ self.addEventListener('activate', event => {
 self.addEventListener('fetch', event => {
   const request=event.request;if(request.method!=='GET')return;const url=new URL(request.url);
   if(url.origin!==self.location.origin)return;
-  if(request.mode==='navigate'){
-    event.respondWith((async()=>{try{const response=await fetch(request);if(response&&response.ok){const cache=await caches.open(CACHE);cache.put(request,response.clone()).catch(()=>{})}return response}catch(_){return(await caches.match(request))||(await caches.match('./lobby.html'))||Response.error()}})());return;
+  const path=url.pathname.toLowerCase();
+  const networkFirst=request.mode==='navigate'||/\.(?:html|js|css|json|geojson)$/.test(path);
+  if(networkFirst){
+    event.respondWith((async()=>{
+      try{const response=await fetch(request,{cache:'no-store'});if(response&&response.ok){const cache=await caches.open(CACHE);cache.put(request,response.clone()).catch(()=>{})}return response}
+      catch(_){return(await caches.match(request))||(request.mode==='navigate'?(await caches.match('./lobby.html')):null)||Response.error()}
+    })());return;
   }
-  event.respondWith((async()=>{const cached=await caches.match(request);const network=fetch(request).then(async response=>{if(response&&response.ok){const cache=await caches.open(CACHE);cache.put(request,response.clone()).catch(()=>{})}return response}).catch(()=>null);return cached||(await network)||Response.error()})());
+  event.respondWith((async()=>{const cached=await caches.match(request);if(cached)return cached;try{const response=await fetch(request);if(response&&response.ok){const cache=await caches.open(CACHE);cache.put(request,response.clone()).catch(()=>{})}return response}catch(_){return Response.error()}})());
 });
 
 self.addEventListener('message',event=>{if(event.data==='SKIP_WAITING'||event.data?.type==='SKIP_WAITING')self.skipWaiting()});

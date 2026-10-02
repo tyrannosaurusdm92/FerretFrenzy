@@ -64,3 +64,13 @@ Dice Witch code is not imported by this lobby runtime. This information is retai
 - `json/minnow-hitbox.geojson` is the locked, user-approved polygon around the Minnow Treats on the 1672×941 pre-theft image. `js/minnow-hitbox.js` places it over the exact contained image area at any viewport size.
 - The hotspot is armed only for the starting Bandit who is the authoritative Raider, during that Raider's Night wake hour. Clicking the Minnow Treats switches that client immediately to `Minnow Treats crime scene-2.png`. Later awake players whose private observation begins with Treat State MISSING also see the post-theft scene.
 - During Night, a client whose private backend action prompt is `SLEEP` receives a fixed black Night Lock with only `frenzy_logo.png` visible.
+
+## Full frontend gameplay pass (2026-10-02)
+
+- Backend remains the tested Google Apps Script deployment; no `.gs` replacement is bundled.
+- GitHub Pages POST requests use `text/plain;charset=UTF-8` so Apps Script receives the JSON body without requiring a CORS preflight.
+- The backend `actionPrompt` is now the source of truth for required dice and private actions.
+- PREP uses private role-card reveal plus the exact d6/d12 sequence required by the backend.
+- NIGHT uses 12 backend Burrow Hours, each 60 seconds. The host frontend calls `game.advance` when the current hour expires and waits if actions are pending.
+- Card art is now used for role reveal, private card view, lobby/player backs, Hammock choices, action targets, Paw Point targets, and final results.
+- Sleeping clients remain fully covered by Night Lock (black + Ferret Frenzy logo only).

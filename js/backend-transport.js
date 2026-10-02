@@ -4,7 +4,7 @@ const GAME_PREFIX='ff:game-id:';
 function readJSON(k){try{return JSON.parse(localStorage.getItem(k)||'null')}catch{return null}}
 function writeJSON(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch{}}
 async function post(baseUrl,action,data={}){
-  const res=await fetch(baseUrl,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({action,data}),cache:'no-store',redirect:'follow'});
+  const res=await fetch(baseUrl,{method:'POST',headers:{'Content-Type':'text/plain;charset=UTF-8'},body:JSON.stringify({action,data}),cache:'no-store',redirect:'follow'});
   if(!res.ok) throw new Error(`Backend HTTP ${res.status}`);
   const env=await res.json();
   if(env&&env.ok===false){const e=new Error(env.error?.message||'Ferret Frenzy backend error');e.code=env.error?.code;e.status=env.error?.status;e.details=env.error?.details;throw e}

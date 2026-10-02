@@ -148,7 +148,7 @@ export class FerretFrenzyRoleBot {
     const others=this._participants(state);if(!others.length)return null;
     if(this.role==='SNUGGLER'&&prompt.type==='SNUGGLER_BOND'){
       const picks=shuffled(others,this.rng).slice(0,2);if(picks.length<2)return null;
-      this.memory.actions.bond=[picks[0].id,picks[1].id];return {type:'SNUGGLER_BOND',targetAId:picks[0].id,targetBId:picks[1].id};
+      this.memory.actions.bond=[picks[0].id,picks[1].id];return {type:'SNUGGLER_BOND',targetAId:picks[0].id,targetBId:picks[1].id,targetIds:[picks[0].id,picks[1].id]};
     }
     if(this.role==='DOOKER'&&prompt.type==='DOOKER_GLIMPSE'){
       const t=this._rankedTargets(state)[0]||choice(others,this.rng);return {type:'DOOKER_GLIMPSE',targetId:t.id};

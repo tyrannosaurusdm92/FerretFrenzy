@@ -90,7 +90,7 @@
     try {
       const response = await fetch(BACKEND_URL, {
         method: 'POST',
-        headers: {'Content-Type':'application/json'},
+        headers: {'Content-Type':'text/plain;charset=UTF-8'},
         body: JSON.stringify({ action, data }),
         cache: 'no-store',
         redirect: 'follow',

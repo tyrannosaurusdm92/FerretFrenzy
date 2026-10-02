@@ -19,7 +19,9 @@ function isAwake(s){const h=Number(s?.game?.currentHour||0);return Array.isArray
 function currentObservation(s){const h=Number(s?.game?.currentHour||0);return (s?.me?.observations||[]).find(o=>Number(o?.hour)===h)||null}
 function awakeAlreadySeesMissing(s){
   if(phaseOf(s)!=='NIGHT'||s?.me?.actionPrompt?.kind==='SLEEP')return false;
-  return String(currentObservation(s)?.treatStateBefore||'').toUpperCase()==='MISSING';
+  const obs=currentObservation(s);
+  if(isRaiderTheftMoment(s))return false;
+  return String(obs?.treatStateBefore||'').toUpperCase()==='MISSING'||obs?.treatChangedDuringWindow===true;
 }
 function isRaiderTheftMoment(s){
   const me=s?.me||{},phase=phaseOf(s),hour=Number(s?.game?.currentHour||0);
