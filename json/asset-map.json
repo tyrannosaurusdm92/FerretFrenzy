@@ -59,5 +59,18 @@
     "coordinateSpace": "1672x941 image pixels",
     "interaction": "Armed only for starting BANDIT with isRaider=true during the Raider wake hour.",
     "afterClick": "Switches local viewport to the post-theft crime-scene image; existing tested backend remains authoritative for game state."
+  },
+  "cards": {
+    "directory": "assets/images/cards/",
+    "use": [
+      "starting role reveal",
+      "private role dock",
+      "private info",
+      "face-down action targets",
+      "Hammock interaction",
+      "Paw Point targets",
+      "results reveal"
+    ],
+    "copies": "4 Bandit, 14 Business, one each Dooker/Itchy/Trouble/Snuggler/Hunter/Guardian"
   }
 }

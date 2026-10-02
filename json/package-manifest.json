@@ -1,5 +1,5 @@
 {
-  "name": "Ferret Frenzy \u2014 Locked Minnow Hitbox Pass",
+  "name": "Ferret Frenzy — Full Frontend Gameplay Pass",
   "entry": "lobby.html",
   "structure": [
     "lobby.html",
@@ -10,15 +10,17 @@
     "json/",
     "assets/images/",
     "assets/audio/",
-    "assets/code/frenzy.html"
+    "assets/code/frenzy.html",
+    "docs/"
   ],
-  "notes": "Removes the former polygon editor and locks the user-approved Minnow Treats GeoJSON into gameplay. The actual Raider can click the hotspot at the theft hour to switch to the post-theft scene. No backend .gs file is included or modified.",
+  "notes": "Frontend-only verification/fix pass against the existing Apps Script backend. Repairs the fatal frenzy-network module parse error; preserves the backend endpoint and contract; hardens host detection and Snuggler two-target payload compatibility; keeps smart role bots visibly labeled; retains all 24 card assets and all four audio assets; confirms twelve 60-second Burrow Hours as a 12-minute base Night; and bumps the PWA cache so the revised frontend deploys cleanly. No backend .gs file is included or modified.",
   "gameShell": {
     "html": "assets/code/frenzy.html",
     "scripts": [
       "js/frenzy-shell.js",
       "js/dice.js",
       "js/frenzy-game.js",
+      "js/cards.js",
       "js/minnow-hitbox.js",
       "js/frenzy-network.js",
       "js/bot-game-bootstrap.js"
@@ -77,8 +79,23 @@
         ]
       ]
     },
-    "eligiblePlayer": "starting BANDIT + isRaider=true + current Night hour is one of that player\u2019s wake hours",
+    "eligiblePlayer": "starting BANDIT + isRaider=true + current Night hour is one of that player’s wake hours",
     "result": "pre-theft scene changes immediately to assets/images/Minnow Treats crime scene-2.png on click",
     "backendChanged": false
+  },
+  "frontendGameplay": {
+    "transport": "Apps Script POST bodies use text/plain;charset=UTF-8 to avoid JSON preflight failures on GitHub Pages",
+    "clock": "Host client advances tested backend game.advance after each 60-second NIGHT hour; waits and retries while private actions are pending",
+    "dice": "Backend actionPrompt chooses required d6/d12; joystick flick sends game.roll and animates the authoritative returned face",
+    "cards": [
+      "private starting-role reveal",
+      "persistent private role-card dock",
+      "face-down player cards in lobby/actions/voting",
+      "three face-down Hammock choices",
+      "Dooker peek reveal",
+      "final card reveal for every player"
+    ],
+    "nightLock": "Sleeping clients show black screen with Ferret Frenzy logo only",
+    "chatVoting": "Single shared Morning Business discussion; Paw Point selection uses player cards and no channels"
   }
 }
