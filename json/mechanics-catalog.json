@@ -1,64 +1,17 @@
 {
-  "reusableMechanics": [
-    {
-      "id": "atomic_swap",
-      "inspiration": "UNO Mobile Swap on 7",
-      "use": "Swap selected state keys between exactly two players atomically."
-    },
-    {
-      "id": "rotate_state",
-      "inspiration": "UNO Mobile Swap on 0",
-      "use": "Rotate selected player-owned state around ordered players."
-    },
-    {
-      "id": "effect_stack",
-      "inspiration": "UNO Mobile stacking",
-      "use": "Accumulate compatible effects and resolve total against one target."
-    },
-    {
-      "id": "forced_action",
-      "inspiration": "UNO Mobile Force",
-      "use": "Auto-resolve a single legal action when the rules require it."
-    },
-    {
-      "id": "challenge_hook",
-      "inspiration": "UNO challenge flow",
-      "use": "Validate a hidden rule condition and branch penalties/results without exposing private data."
-    },
-    {
-      "id": "invite_code",
-      "inspiration": "Discord-clone invite flows",
-      "use": "Create/regenerate room codes; join by code; validate existing membership."
-    },
-    {
-      "id": "room_member_collection",
-      "inspiration": "Discord-clone server/member model",
-      "use": "Room contains players with host/member role, presence, ready state, and join order."
-    },
-    {
-      "id": "room_broadcast",
-      "inspiration": "Discord-clone WebSocket rooms",
-      "use": "Broadcast room events only to connected members and recover with a snapshot."
-    },
-    {
-      "id": "presence",
-      "inspiration": "Discord-clone presence",
-      "use": "online/offline/reconnecting states without accounts."
-    },
-    {
-      "id": "host_migration",
-      "inspiration": "multiplayer room resilience",
-      "use": "Oldest remaining player becomes host when host leaves."
-    },
-    {
-      "id": "public_private_toggle",
-      "inspiration": "Among Us lobby flow",
-      "use": "Rooms begin private or can be toggled public; public browser lists joinable rooms."
-    },
-    {
-      "id": "streamer_code_privacy",
-      "inspiration": "Among Us streamer mode",
-      "use": "Backend/UI can optionally mask room code until tapped/copied."
-    }
+  "version": "dossier-r2-aligned",
+  "mechanics": [
+    {"id":"random_active_set","use":"Build player-count + 3 active cards from the dossier recipe and let the tested backend shuffle/deal."},
+    {"id":"starting_vs_current_card","use":"Starting Role drives scheduled night action; Current Card may move without rewriting historical events."},
+    {"id":"player_bound_status","use":"Raider, Trouble accomplice, Hunter conversion and Snuggle Bond stay attached to players across card movement."},
+    {"id":"private_dice","use":"/1/ d6 and /2/ d12 are committed by joystick flick; online animation lands on the backend-approved private result."},
+    {"id":"twelve_hour_night","use":"Advance twelve Burrow Hours; only scheduled clients wake while sleeping clients remain in Night Lock."},
+    {"id":"geojson_raid","use":"Historical Raider clicks the packaged Minnow Treat GeoJSON polygon during the theft window to transition the private scene."},
+    {"id":"card_tampering","use":"Trouble blind-swaps two player cards; Dooker can move a viewed Hammock card onto a player."},
+    {"id":"morning_business","use":"Shared discussion combines verified personal facts with explicitly unverified public claims."},
+    {"id":"simultaneous_paw_point","use":"Each active player locks one private vote; Guardian protection resolves before top-vote capture; eligible ties catch all top players."},
+    {"id":"secondary_reveal","use":"Snuggle Bond and loyal Hunter Hunt Mark can add reveals after the primary vote capture."},
+    {"id":"bot_seat_autofill","use":"Frontend creates ordinary ready guest seats for empty target seats; bots receive random roles only from game.state after backend deal."},
+    {"id":"reconnect_private_view","use":"Reconnect rebuilds only the authorized current state; hidden history is never replayed to unauthorized clients."}
   ]
 }

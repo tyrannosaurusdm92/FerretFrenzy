@@ -33,7 +33,8 @@
       "PREP/NIGHT ferret ambience"
     ],
     "assets/audio/ferret_sound.mp3": [
-      "Morning Business discussion ambience"
+      "Morning Business discussion ambience",
+      "quiet sleep chitter layer when Bandit/Raider/accomplice activity is exposed to the frontend without identifying who"
     ]
   },
   "backend": "https://script.google.com/macros/s/AKfycbyAShO3c_FLVqp-fisabNx_DMuLD0UYMPygU22_jQfpLjIs796fgsJPo3viZq5FGeYd1A/exec",
@@ -50,15 +51,20 @@
   },
   "bots": {
     "manifest": "json/bot-manifest.json",
-    "assignment": "js/assign-role.js",
-    "responsesPerRole": 250
+    "manager": "js/bot-manager.js",
+    "roster": "js/ferret-frenzy-bot-roster.js",
+    "brainVersion": "3.0.0",
+    "responsesPerRole": 250,
+    "totalResponses": 2000,
+    "roleAssignment": "authoritative backend deal; no browser reservation"
   },
   "minnowHitbox": {
     "geojson": "json/minnow-hitbox.geojson",
     "runtime": "js/minnow-hitbox.js",
     "coordinateSpace": "1672x941 image pixels",
     "interaction": "Armed only for starting BANDIT with isRaider=true during the Raider wake hour.",
-    "afterClick": "Switches local viewport to the post-theft crime-scene image; existing tested backend remains authoritative for game state."
+    "afterClick": "Switches local viewport to the post-theft crime-scene image; existing tested backend remains authoritative for game state.",
+    "source": "runtime fetches packaged json/minnow-hitbox.geojson; hard-coded polygon exists only as offline fallback"
   },
   "cards": {
     "directory": "assets/images/cards/",
@@ -71,6 +77,15 @@
       "Paw Point targets",
       "results reveal"
     ],
-    "copies": "4 Bandit, 14 Business, one each Dooker/Itchy/Trouble/Snuggler/Hunter/Guardian"
+    "copies": "4 Bandit, 14 Business, one each Dooker/Itchy/Trouble/Snuggler/Hunter/Guardian",
+    "hierarchy": [
+      "role name",
+      "ferret portrait",
+      "role icon",
+      "one-line power summary",
+      "wake dice",
+      "team/status",
+      "expandable full role rules"
+    ]
   }
 }

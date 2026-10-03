@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "1.0",
+  "schemaVersion": 3,
   "game": "Ferret Frenzy",
   "role": "DOOKER",
   "roleName": "Dooker",
@@ -3106,5 +3106,6 @@
         "uncertainty"
       ]
     }
-  ]
+  ],
+  "brainVersion": "3.0.0"
 }

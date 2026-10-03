@@ -32,24 +32,16 @@
     "labels": "Player <seat> \u00b7 <displayName>"
   },
   "bots": {
-    "engine": "smart role bots",
+    "engine": "Ferret Frenzy Bots v3.0.0",
     "autoFillOnStart": true,
     "serverAutoFillForNewRooms": false,
-    "manifest": "bot-manifest.json"
+    "manifest": "bot-manifest.json",
+    "controller": "frontend guest seats",
+    "roleSource": "backend game.state startingRole"
   },
   "roleAssignment": {
-    "script": "../js/assign-role.js",
-    "singleCopy": [
-      "DOOKER",
-      "ITCHY",
-      "TROUBLE",
-      "SNUGGLER",
-      "HUNTER",
-      "GUARDIAN"
-    ],
-    "repeatable": [
-      "BANDIT",
-      "BUSINESS"
-    ]
+    "authority": "tested backend only",
+    "clientReservations": false,
+    "note": "Frontend does not preassign or reserve roles. Each bot loads its specialized brain after the backend deals startingRole."
   }
 }

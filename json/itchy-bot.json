@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "1.0",
+  "schemaVersion": 3,
   "game": "Ferret Frenzy",
   "role": "ITCHY",
   "roleName": "Itchy",
@@ -3131,5 +3131,6 @@
         "no_clue"
       ]
     }
-  ]
+  ],
+  "brainVersion": "3.0.0"
 }

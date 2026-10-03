@@ -57,13 +57,14 @@ Dice Witch code is not imported by this lobby runtime. This information is retai
 
 `manifest.webmanifest` was revised for the Ferret Frenzy lobby and the new Download App control. `service-worker.js` now precaches only lobby-critical known paths and uses resilient per-file caching so a missing optional file does not fail service-worker installation. Other same-origin assets are cached opportunistically as the rest of Ferret Frenzy is used.
 
-## Role reservation / locked Minnow hitbox / Night Lock pass
+## Bots v3 / locked Minnow hitbox / Night Lock pass
 
 - No Google Apps Script backend file is included or changed. The tested deployment remains authoritative for the real hidden Starting Card deal and theft state.
-- `js/assign-role.js` reserves non-duplicate pre-game role-controller slots as humans create/join, and Start Game fills missing reserved-role seats with smart guest-bots before calling the existing backend `game.start`.
+- The live backend path no longer reserves roles in the browser. Empty seats are created as ready anonymous guest bots, the tested backend performs the real hidden role deal, and each managed seat then loads the matching Ferret Frenzy Bots v3 specialist from its own private `game.state.startingRole`.
 - `json/minnow-hitbox.geojson` is the locked, user-approved polygon around the Minnow Treats on the 1672×941 pre-theft image. `js/minnow-hitbox.js` places it over the exact contained image area at any viewport size.
 - The hotspot is armed only for the starting Bandit who is the authoritative Raider, during that Raider's Night wake hour. Clicking the Minnow Treats switches that client immediately to `Minnow Treats crime scene-2.png`. Later awake players whose private observation begins with Treat State MISSING also see the post-theft scene.
-- During Night, a client whose private backend action prompt is `SLEEP` receives a fixed black Night Lock with only `frenzy_logo.png` visible.
+- During Night, a client whose private backend action prompt is `SLEEP` receives a black Night Lock **inside the game viewport**. The surrounding shell and HUD stay visible, including the live Burrow Hour countdown. Gameplay controls are inert while asleep.
+- Sleep audio can layer `ferret_sound.mp3` as a quiet chitter cue when the authoritative/sanitized frontend state or event stream exposes Bandit/Raider/accomplice activity. In Solo + Bots, the host can also derive the cue from the private state of locally managed bots it already controls; no identities or hidden cards are shown to the sleeping player.
 
 ## Full frontend gameplay pass (2026-10-02)
 
@@ -73,4 +74,14 @@ Dice Witch code is not imported by this lobby runtime. This information is retai
 - PREP uses private role-card reveal plus the exact d6/d12 sequence required by the backend.
 - NIGHT uses 12 backend Burrow Hours, each 60 seconds. The host frontend calls `game.advance` when the current hour expires and waits if actions are pending.
 - Card art is now used for role reveal, private card view, lobby/player backs, Hammock choices, action targets, Paw Point targets, and final results.
-- Sleeping clients remain fully covered by Night Lock (black + Ferret Frenzy logo only).
+- Sleeping clients have the scene covered by Night Lock (black + Ferret Frenzy logo), but the Ferret Frenzy shell/HUD and Burrow Clock remain visible.
+
+
+## Social deduction / chat / voting reference pass (2026-10-02)
+
+The two supplied Among Us clone repositories were reviewed again specifically for social-deduction flow. No Among Us art or ripped assets were copied into Ferret Frenzy.
+
+- `NikitaShkaruba/among_us_clone`: used as a reference for clearly separated lobby / role reveal / play phases and host-gated phase transitions.
+- Supplied Python/Pygame `Among-Us-clone-main`: used as a reference for its meeting progression (meeting alert → chat → vote), one checked vote choice, and keeping discussion/vote as a focused temporary game state. Its supplied code is Unlicense/public-domain, but Ferret Frenzy uses its own HTML/CSS/JS implementation and existing backend API.
+- Ferret Frenzy now presents Morning Business as a visible three-step strip: Discuss → Paw Point → Result. Chat stays visible when voting opens, message metadata is clearer, duplicate sends are guarded, the input has a live 500-character counter, and Paw Point choices show a selected check with a final lock action.
+- Vote authority is unchanged: the existing backend `vote.begin` / `vote.cast` actions still decide and resolve votes. No backend code was changed.

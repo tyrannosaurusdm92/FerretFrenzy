@@ -1,0 +1,10 @@
+{
+  "name": "ferret-frenzy-solidified-bots",
+  "version": "3.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Ferret Frenzy dossier-aligned frontend with Bots v3, random backend deal, sleep HUD, card movement, GeoJSON raid, chat/voting and integrated how-to-play.",
+  "scripts": {
+    "test": "node tests/bot-self-test.mjs && node tests/simulation-test.mjs && node tests/frontend-dossier-test.mjs"
+  }
+}

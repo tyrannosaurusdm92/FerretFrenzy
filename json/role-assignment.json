@@ -1,14 +1,23 @@
 {
-  "version": 3,
-  "purpose": "Pre-game controller reservations for lobby create/join and smart-bot gap filling. The tested backend still performs the real hidden Starting Card deal at game.start.",
+  "version": 4,
+  "liveDeal": "backend-random-and-authoritative",
+  "purpose": "Documents random active-set/deal rules. Browser guest bots fill empty seats but never reserve or pre-claim roles.",
   "roles": ["BANDIT","DOOKER","ITCHY","TROUBLE","BUSINESS","SNUGGLER","HUNTER","GUARDIAN"],
-  "singleCopy": ["DOOKER","ITCHY","TROUBLE","SNUGGLER","HUNTER","GUARDIAN"],
-  "repeatable": {"BANDIT":4,"BUSINESS":14},
-  "controllerSeatPlan": ["BANDIT","DOOKER","ITCHY","TROUBLE","BUSINESS","SNUGGLER","HUNTER","GUARDIAN","BUSINESS","BANDIT","BUSINESS","BANDIT"],
+  "deck": {"BANDIT":4,"BUSINESS":14,"DOOKER":1,"ITCHY":1,"TROUBLE":1,"SNUGGLER":1,"HUNTER":1,"GUARDIAN":1},
+  "hammockCards": 3,
+  "activeSetRecipes": {
+    "4": {"BANDIT":1,"BUSINESS":3,"DOOKER":1,"HUNTER":1,"GUARDIAN":1},
+    "5": {"BANDIT":1,"BUSINESS":3,"DOOKER":1,"ITCHY":1,"TROUBLE":1,"SNUGGLER":1},
+    "6": {"BANDIT":1,"BUSINESS":3,"DOOKER":1,"ITCHY":1,"TROUBLE":1,"HUNTER":1,"GUARDIAN":1},
+    "7": {"BANDIT":2,"BUSINESS":3,"DOOKER":1,"TROUBLE":1,"SNUGGLER":1,"HUNTER":1,"GUARDIAN":1},
+    "8": {"BANDIT":2,"BUSINESS":4,"DOOKER":1,"ITCHY":1,"TROUBLE":1,"HUNTER":1,"GUARDIAN":1},
+    "9": {"BANDIT":2,"BUSINESS":4,"DOOKER":1,"ITCHY":1,"TROUBLE":1,"SNUGGLER":1,"HUNTER":1,"GUARDIAN":1},
+    "10": {"BANDIT":2,"BUSINESS":5,"DOOKER":1,"ITCHY":1,"TROUBLE":1,"SNUGGLER":1,"HUNTER":1,"GUARDIAN":1}
+  },
   "flow": {
-    "create": "Reserve the joining human's controller role immediately from their lobby seat.",
-    "join": "Reserve the joining human's controller role immediately from their lobby seat.",
-    "start": "Host reconciles occupied seat reservations, creates smart guest-bots for missing reserved-role seats, then calls the existing backend game.start action.",
-    "afterStart": "Backend hidden role is authoritative; each smart bot switches to the bot module matching the role actually dealt by the backend."
+    "lobby": "Humans and optional frontend guest bots occupy seats only.",
+    "start": "The tested backend builds and shuffles the active set, deals one Starting Card per player, and keeps three Hammock cards.",
+    "bots": "After game.start, each bot reads only its own authoritative startingRole and loads the matching specialized role brain.",
+    "cardMovement": "Starting Role never mutates; Current Card and player-bound statuses remain separate."
   }
 }

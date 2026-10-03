@@ -38,6 +38,9 @@
         <button class="console-button" id="refreshButton" type="button" title="Refresh public games">
           <span class="button-icon refresh-glyph" aria-hidden="true">↻</span><span>REFRESH</span>
         </button>
+        <button class="console-button" id="howToPlayButton" type="button" title="Open the complete Ferret Frenzy how-to-play guide">
+          <span class="button-icon" aria-hidden="true">?</span><span>HOW TO PLAY</span>
+        </button>
         <button class="console-button" id="musicButton" type="button" aria-pressed="true" title="Toggle lobby music">
           <span class="button-icon" aria-hidden="true">♫</span><span>MUSIC</span>
         </button>
@@ -110,7 +113,8 @@
                 </select>
               </label>
               <label class="switch-line"><input id="allowBots" type="checkbox" checked><span>ALLOW ROLE BOTS</span></label>
-              <label class="switch-line"><input id="autoFillBots" type="checkbox"><span>AUTO-FILL BOTS</span></label>
+              <label class="switch-line"><input id="autoFillBots" type="checkbox" checked><span>FILL EMPTY SEATS WITH BOTS</span></label>
+              <div class="deal-note"><strong>RANDOM DEAL</strong><span>The tested backend shuffles the active set, deals one private card per seat, and keeps three Hammock cards. Bots fill seats, never pre-claim roles.</span></div>
             </div>
           </section>
 
@@ -141,6 +145,34 @@
       <span class="rail-center">NORTHERN LIGHTS NETWORK</span>
       <span>MINNOW CASE STATUS: UNSOLVED</span>
     </footer>
+
+
+    <dialog class="howto-dialog" id="howToPlayDialog" aria-labelledby="howToPlayTitle">
+      <div class="howto-shell">
+        <header class="howto-head"><div><span class="micro-label">FERRET FRENZY FIELD GUIDE</span><h2 id="howToPlayTitle">How to Play</h2></div><button class="howto-close" id="howToPlayClose" type="button" aria-label="Close how to play">×</button></header>
+        <div class="howto-scroll">
+          <section class="howto-hero"><img src="assets/images/frenzy_logo.png" alt=""><div><strong>Catch the Raider before Morning Business ends.</strong><p>One chaotic night, twelve Burrow Hours, one shared discussion, and one simultaneous Paw Point vote.</p></div></section>
+          <section><h3>1 · Build the round and deal</h3><p>The active set contains one card per player plus three face-down Hammock cards. The backend randomly deals the active set. Your <strong>Starting Card</strong> controls your night action even if Trouble or Dooker moves that card later.</p><div class="howto-callout">Live play never assigns a role because of seat number, player name, or bot status. Bots occupy empty seats, then receive whatever role the same backend deal gives them.</div></section>
+          <section><h3>2 · Learn your private role</h3><div class="role-cheat-grid">
+            <article><b>Bandit</b><span>Sable / Black Sable</span><p>Starting Bandits know one another. Earliest Bandit wake becomes the historical Raider.</p></article>
+            <article><b>Dooker</b><span>Silver Mitt</span><p>Three wakes: observe, Glimpse one alignment, then inspect one Hammock card and optionally Trip it onto a player.</p></article>
+            <article><b>Itchy</b><span>Cinnamon</span><p>d6 5–6 activates Ears Up: gain a second wake and a partial Raider clue.</p></article>
+            <article><b>Trouble</b><span>Champagne</span><p>Blind-swap two other players. If awake for the theft, become In On It before swapping.</p></article>
+            <article><b>Business</b><span>Warm Sable Roan</span><p>Observe Treat State and co-wakers. If you wake alone, you may inspect one other wake schedule.</p></article>
+            <article><b>Snuggler</b><span>Chocolate</span><p>Bond two players before Hour 1. The bond follows those players even if cards move.</p></article>
+            <article><b>Hunter</b><span>Blaze</span><p>Two wakes. A Bandit overlap can trigger a d6 1–2 conversion; a loyal Hunter later sets one Hunt Mark.</p></article>
+            <article><b>Guardian</b><span>Dark-Eyed White</span><p>Recognize the starting Hunter and protect one other player before final vote resolution.</p></article>
+          </div></section>
+          <section><h3>3 · Roll privately</h3><p><kbd>1</kbd> selects d6. <kbd>2</kbd> selects d12. A deliberate joystick flick rolls the selected die. d12 chooses Burrow Hours; d6 handles Itchy, Hunter conversion, and Bandit Raider tiebreaks. Multi-wake roles reroll only duplicate d12 results.</p></section>
+          <section><h3>4 · Sleep, wake, and the crime scene</h3><p>While you are asleep, the game viewport goes black with the Ferret Frenzy logo, but the shell/HUD and live Burrow Clock stay visible. If Bandit-side activity is occurring, you may hear non-identifying ferret chittering. When your hour opens, you see only your authorized Treat State, co-wakers, and role prompt.</p><p>If you are the Raider, the Minnow Treat bag becomes a highlighted clickable GeoJSON hotspot during your theft window. Clicking it changes your scene from the pre-crime shelf to the post-crime scene immediately. Other players only see the scene change when their own authorized information says the treats are missing, or when Morning Business begins.</p></section>
+          <section><h3>5 · Card tampering is real, but history stays real too</h3><p>Trouble swaps two player <strong>Current Cards</strong> blindly. Dooker can move one viewed Hammock card onto a player. These actions never rewrite anyone’s Starting Role, the historical Raider, Trouble’s accomplice status, Hunter conversion, or Snuggle Bond.</p></section>
+          <section><h3>6 · Teamwork and deduction</h3><p>Bandits coordinate from their known starting roster. Hunter and Guardian begin with mutual recognition, but Guardian is never told if Hunter later converts. Snuggle partners know each other but not each other’s role. Morning Business is where everyone compares wake times, Treat State, co-wakers, card movement, bonds, and claims. Claims are social evidence, not verified facts.</p></section>
+          <section><h3>7 · Paw Point</h3><p>Every active player privately chooses exactly one player. Votes lock simultaneously. Guardian protection is applied before capture. Every eligible player tied for the highest vote total is caught. Snuggle Bond and a loyal Hunter’s Hunt Mark can add extra reveals. The Business side wins only if the <strong>historical Raider</strong> is among the final caught players.</p></section>
+          <section><h3>Solo + Bots</h3><p>Choose <strong>SOLO + BOTS</strong> to create a private four-seat round. The frontend creates ordinary guest bot seats to fill the empty seats, readies them, then the existing backend performs the same random deal. Each bot loads its specialized role brain only after its own dealt Starting Role is returned.</p></section>
+          <section class="howto-last"><h3>Privacy rule</h3><p>Your raw d6/d12 rolls, hidden cards, conversion flags, Hammock views, and private facts stay on authorized screens. The host may advance the shared Burrow Clock, but the host UI must not reveal secrets it is not entitled to display.</p></section>
+        </div>
+      </div>
+    </dialog>
 
     <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
     <div class="busy-mask" id="busyMask" hidden>

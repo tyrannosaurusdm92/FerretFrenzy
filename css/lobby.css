@@ -104,3 +104,16 @@ button:disabled{cursor:not-allowed;opacity:.48}
 /* Solo-vs-bots first-class entry */
 .among-button.solo{border-color:#ffd86e;background:linear-gradient(180deg,#7a6430,#4c3d1f);color:#fff8d7}.among-button.solo small{color:#f6e6aa}.host-controls{flex-wrap:wrap}.host-controls .among-button{min-width:30%}
 @media(max-width:570px){.host-controls .among-button{min-width:100%}}
+
+/* Dossier pass: full lobby How to Play */
+.deal-note{grid-column:1/-1;display:grid;gap:3px;padding:8px 9px;border:1px solid rgba(157,228,209,.28);border-radius:9px;background:rgba(4,14,23,.72)}
+.deal-note strong{color:var(--gold);font-size:7px;letter-spacing:.12em}.deal-note span{color:#a9c0c1;font-size:7px;line-height:1.4}
+.howto-dialog{width:min(980px,calc(100vw - 24px));max-height:min(88dvh,900px);padding:0;border:1px solid rgba(157,228,209,.62);border-radius:18px;background:#07131e;color:#eef7f6;box-shadow:0 30px 90px rgba(0,0,0,.72)}
+.howto-dialog::backdrop{background:rgba(0,0,0,.78);backdrop-filter:blur(7px)}
+.howto-shell{display:grid;grid-template-rows:auto minmax(0,1fr);max-height:min(88dvh,900px)}
+.howto-head{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:14px 16px;border-bottom:1px solid rgba(157,228,209,.24);background:linear-gradient(90deg,#0a1c28,#17162a)}
+.howto-head h2{margin:3px 0 0;font-size:20px;letter-spacing:.06em}.howto-close{width:42px;height:42px;border:1px solid #547780;border-radius:10px;background:#08131e;color:#eef7f6;font-size:24px}.howto-scroll{overflow:auto;padding:14px;display:grid;gap:11px}
+.howto-scroll>section{padding:12px 13px;border:1px solid rgba(72,123,128,.52);border-radius:13px;background:linear-gradient(145deg,rgba(9,25,35,.96),rgba(10,15,27,.96))}.howto-scroll h3{margin:0 0 7px;color:#9de4d1;font-size:12px;letter-spacing:.05em}.howto-scroll p{margin:0;color:#c7d9d9;font-size:9px;line-height:1.6}.howto-scroll p+p{margin-top:8px}.howto-scroll kbd{display:inline-grid;place-items:center;min-width:24px;height:24px;padding:0 5px;border:1px solid #8ba9ad;border-bottom-width:3px;border-radius:6px;background:#09131d;color:#ffe69b;font:900 10px/1 ui-monospace,SFMono-Regular,Consolas,monospace}
+.howto-hero{display:grid!important;grid-template-columns:120px 1fr;align-items:center;gap:14px}.howto-hero img{width:100%;height:100px;object-fit:contain}.howto-hero strong{display:block;margin-bottom:5px;color:#ffe69b;font-size:13px}.howto-callout{margin-top:9px;padding:8px 10px;border-left:3px solid #ffd86e;background:rgba(255,216,110,.07);color:#e5e7d2;font-size:8px;line-height:1.5}.role-cheat-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px}.role-cheat-grid article{display:grid;gap:3px;padding:8px;border:1px solid rgba(81,124,130,.48);border-radius:9px;background:#07141f}.role-cheat-grid b{color:#ffe69b;font-size:9px}.role-cheat-grid span{color:#9de4d1;font-size:7px;font-weight:900}.role-cheat-grid p{font-size:8px!important}.howto-last{margin-bottom:4px}
+body.howto-open{overflow:hidden}
+@media(max-width:650px){.howto-dialog{width:calc(100vw - 12px);max-height:94dvh}.howto-shell{max-height:94dvh}.howto-hero{grid-template-columns:82px 1fr}.howto-hero img{height:76px}.role-cheat-grid{grid-template-columns:1fr}}

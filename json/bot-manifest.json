@@ -1,43 +1,73 @@
 {
-  "engine": "Ferret Frenzy merged role bots",
-  "core": "js/ferret-frenzy-bot-core.js",
-  "manager": "js/bot-manager.js",
-  "assignment": "js/assign-role.js",
-  "bootstrap": "js/bot-game-bootstrap.js",
-  "roles": {
-    "BANDIT": {
-      "script": "js/bandit-bot.js",
-      "responses": "json/bandit-bot.json"
+  "schemaVersion": 3,
+  "game": "Ferret Frenzy",
+  "brainVersion": "3.0.0",
+  "backendUrl": "https://script.google.com/macros/s/AKfycbyAShO3c_FLVqp-fisabNx_DMuLD0UYMPygU22_jQfpLjIs796fgsJPo3viZq5FGeYd1A/exec",
+  "backendCompatibility": "FerretFrenzy_v2.gs / API 2026-10-02.ff.v2",
+  "roles": [
+    {
+      "id": "BANDIT",
+      "name": "Bandit",
+      "coat": "Sable / Black Sable",
+      "js": "js/bandit-bot.js",
+      "responses": "json/bandit-bot.json",
+      "responseCount": 250
     },
-    "DOOKER": {
-      "script": "js/dooker-bot.js",
-      "responses": "json/dooker-bot.json"
+    {
+      "id": "DOOKER",
+      "name": "Dooker",
+      "coat": "Silver Mitt",
+      "js": "js/dooker-bot.js",
+      "responses": "json/dooker-bot.json",
+      "responseCount": 250
     },
-    "ITCHY": {
-      "script": "js/itchy-bot.js",
-      "responses": "json/itchy-bot.json"
+    {
+      "id": "ITCHY",
+      "name": "Itchy",
+      "coat": "Cinnamon",
+      "js": "js/itchy-bot.js",
+      "responses": "json/itchy-bot.json",
+      "responseCount": 250
     },
-    "TROUBLE": {
-      "script": "js/trouble-bot.js",
-      "responses": "json/trouble-bot.json"
+    {
+      "id": "TROUBLE",
+      "name": "Trouble",
+      "coat": "Champagne",
+      "js": "js/trouble-bot.js",
+      "responses": "json/trouble-bot.json",
+      "responseCount": 250
     },
-    "BUSINESS": {
-      "script": "js/business-bot.js",
-      "responses": "json/business-bot.json"
+    {
+      "id": "BUSINESS",
+      "name": "Business",
+      "coat": "Warm Sable Roan",
+      "js": "js/business-bot.js",
+      "responses": "json/business-bot.json",
+      "responseCount": 250
     },
-    "SNUGGLER": {
-      "script": "js/snuggler-bot.js",
-      "responses": "json/snuggler-bot.json"
+    {
+      "id": "SNUGGLER",
+      "name": "Snuggler",
+      "coat": "Chocolate",
+      "js": "js/snuggler-bot.js",
+      "responses": "json/snuggler-bot.json",
+      "responseCount": 250
     },
-    "HUNTER": {
-      "script": "js/hunter-bot.js",
-      "responses": "json/hunter-bot.json"
+    {
+      "id": "HUNTER",
+      "name": "Hunter",
+      "coat": "Blaze",
+      "js": "js/hunter-bot.js",
+      "responses": "json/hunter-bot.json",
+      "responseCount": 250
     },
-    "GUARDIAN": {
-      "script": "js/guardian-bot.js",
-      "responses": "json/guardian-bot.json"
+    {
+      "id": "GUARDIAN",
+      "name": "Guardian",
+      "coat": "Dark-Eyed White",
+      "js": "js/guardian-bot.js",
+      "responses": "json/guardian-bot.json",
+      "responseCount": 250
     }
-  },
-  "responsesPerRole": 250,
-  "behavior": "Smart bots join as anonymous guest clients, receive the normal backend hidden deal, then load the matching role bot after startingRole is known."
+  ]
 }

@@ -1,37 +1,24 @@
 {
-  "clientToServer": [
-    "room.create",
-    "room.join",
-    "room.leave",
-    "room.ready",
-    "room.visibility",
-    "room.regenerateCode",
-    "room.kick",
-    "room.chat",
-    "room.start",
-    "presence.heartbeat"
+  "version": "dossier-r2-aligned",
+  "backendActions": {
+    "guest": ["guest.create","guest.resume"],
+    "lobby": ["lobby.public","lobby.create","lobby.get","lobby.join","lobby.leave","lobby.ready","lobby.update","lobby.fillBots","lobby.share"],
+    "game": ["game.start","game.state","game.roll","game.action","game.advance"],
+    "discussion": ["chat.send","chat.list"],
+    "vote": ["vote.begin","vote.cast"],
+    "sync": ["events.poll"]
+  },
+  "dossierEventVocabulary": [
+    "MATCH_CREATED","ACTIVE_SET_LOCKED","CARD_DEALT","HAMMOCK_CARD_PLACED","STARTING_ROLE_REVEALED",
+    "SNUGGLE_BOND_CREATED","GUARDIAN_HUNTER_RECOGNITION","DIE_SELECTED","D6_ROLLED","D12_ROLLED",
+    "DUPLICATE_WAKE_REROLL_REQUIRED","WAKE_SCHEDULE_LOCKED","RAIDER_TIE_DETECTED","RAIDER_SELECTED",
+    "HOUR_OPENED","PLAYER_WOKE","TREAT_STATE_OBSERVED","RAID_COMPLETED","TROUBLE_CONVERTED",
+    "HUNTER_OVERLAP_TRIGGERED","HUNTER_CONVERSION_ROLL","HUNTER_CONVERTED","DOOKER_GLIMPSE",
+    "DOOKER_HAMMOCK_VIEW","DOOKER_TRIP","TROUBLE_SWAP","BUSINESS_SOLO_INSPECTION","ITCHY_CLUE_DELIVERED",
+    "HUNT_MARK_SET","MORNING_BUSINESS_OPENED","GUARDIAN_PROTECTION_SET","VOTE_CAST","VOTE_LOCKED",
+    "VOTE_TARGETS_COMPUTED","BOND_EXTRA_REVEAL","HUNT_MARK_CHECKED","RAIDER_CAUGHT","RAIDER_ESCAPED",
+    "RESULT_COMPUTED","REPLAY_OPENED"
   ],
-  "serverToClient": [
-    "room.snapshot",
-    "room.updated",
-    "member.joined",
-    "member.left",
-    "member.ready",
-    "member.kicked",
-    "host.changed",
-    "visibility.changed",
-    "code.changed",
-    "chat.message",
-    "game.starting",
-    "presence.update",
-    "error"
-  ],
-  "principles": [
-    "room-scoped broadcasts",
-    "revision numbers",
-    "idempotent action IDs",
-    "server-authoritative membership",
-    "private payload filtering",
-    "reconnect snapshot before delta events"
-  ]
+  "privacy": ["PUBLIC","PLAYER_ONLY","ROLE_GROUP_ONLY","POSTGAME_ONLY","SERVER_ONLY"],
+  "principles": ["idempotent transitions","backend-authoritative randomness and resolution","private payload filtering","reconnect from authorized current state","no client-side role reservation"]
 }

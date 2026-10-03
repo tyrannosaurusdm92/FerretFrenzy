@@ -32,3 +32,12 @@ No Apps Script source, deployment, endpoint, data model, or backend behavior was
 - Media audit: PWA icons are valid 192x192 and 512x512 PNGs; all four MP3 files decode; all 24 card JPEGs decode.
 
 A full local browser navigation harness could not be run in the build sandbox because localhost/file navigation is blocked by the environment. The frontend was therefore validated through parser, asset, media, DOM-reference, and bot-module tests without making calls to the live Apps Script backend.
+
+
+## Sleep HUD + social deduction follow-up
+- Night sleep blackout moved from a page-wide fixed overlay into `#viewerScreen`, keeping the HUD/Burrow Clock visible while the scene stays black.
+- Sleeping interaction remains locked; dice, role-card overlays, controller layer and number rail cannot be used during Sleep.
+- Added conditional ferret chitter overlay audio for Bandit/Raider/accomplice activity cues exposed by sanitized state/events, without backend changes.
+- Morning Business now uses a staged Discuss → Paw Point → Result presentation inspired by the supplied Among Us clone meeting flows.
+- Chat now shows message count/timestamps when supplied, a character counter, self/bot distinctions, and double-submit protection.
+- Paw Point keeps one private selected card, displays a check mark, and makes the final lock state clearer.

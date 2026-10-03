@@ -1,4 +1,4 @@
-const CACHE = 'ferret-frenzy-v11-solo-prep-controls-20261002';
+const CACHE = 'ferret-frenzy-v14-full-dossier-20261002';
 const CORE = [
   './assets/audio/dice-roll.mp3',
   './assets/audio/ferret.mp3',
@@ -56,7 +56,18 @@ const CORE = [
   './js/device-store.js',
   './js/dice.js',
   './js/dooker-bot.js',
+  './js/dossier-pass.js',
+  './js/ferret-frenzy-api.js',
   './js/ferret-frenzy-bot-core.js',
+  './js/ferret-frenzy-bot-manager.js',
+  './js/ferret-frenzy-bot-roster.js',
+  './js/ferret-frenzy-claim-parser.js',
+  './js/ferret-frenzy-constants.js',
+  './js/ferret-frenzy-conversation-engine.js',
+  './js/ferret-frenzy-deduction-engine.js',
+  './js/ferret-frenzy-dice-brain.js',
+  './js/ferret-frenzy-memory.js',
+  './js/ferret-frenzy-role-brain.js',
   './js/frenzy-game.js',
   './js/frenzy-network.js',
   './js/frenzy-shell.js',

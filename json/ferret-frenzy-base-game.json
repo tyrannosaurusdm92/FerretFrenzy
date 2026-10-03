@@ -1,59 +1,41 @@
 {
-  "roles": [
-    "Bandit",
-    "Dooker",
-    "Itchy",
-    "Trouble",
-    "Business",
-    "Snuggler",
-    "Hunter",
-    "Guardian"
-  ],
-  "cardPool": {
-    "Bandit": 4,
-    "Business": 14,
-    "Dooker": 1,
-    "Itchy": 1,
-    "Trouble": 1,
-    "Snuggler": 1,
-    "Hunter": 1,
-    "Guardian": 1
+  "version": "dossier-r2-aligned-2026-10-02",
+  "roles": ["Bandit","Dooker","Itchy","Trouble","Business","Snuggler","Hunter","Guardian"],
+  "cardPool": {"Bandit":4,"Business":14,"Dooker":1,"Itchy":1,"Trouble":1,"Snuggler":1,"Hunter":1,"Guardian":1},
+  "roundSetup": {
+    "activeSet": "player count + 3 cards",
+    "hammockCards": 3,
+    "deal": "random, backend-authoritative, one Starting Card per player",
+    "startingRoleImmutable": true,
+    "currentCardMayMove": true
   },
   "dice": {
-    "d6": "action/chance",
-    "d12": "wake hour",
-    "private": true
+    "d6": "action/chance: Itchy activation, Hunter conversion, Bandit Raider tiebreak",
+    "d12": "Burrow Hour",
+    "private": true,
+    "serverAuthoritativeOnline": true,
+    "multiWakeDuplicates": "reroll only the duplicate result until each wake hour is unique"
   },
   "controls": {
-    "joystick": {
-      "navigate": "ordinary movement navigates highlighted targets",
-      "roll": "deliberate flick rolls selected die"
-    },
-    "/1/": "select d6 action/chance die",
-    "/2/": "select d12 wake-hour die",
-    "A": "primary confirm / select",
+    "joystick": {"navigate":"ordinary movement navigates highlighted targets","roll":"deliberate flick rolls the selected/required die"},
+    "/1/": "select d6",
+    "/2/": "select d12",
+    "A": "confirm / select",
     "B": "back / close / cancel before lock",
     "X": "context-sensitive role action",
-    "hudTools": [
-      "private role/wake/fact view",
-      "private notebook"
-    ],
-    "removedOptionalPhysicalButtons": [
-      "/3/",
-      "/4/",
-      "Y",
-      "Z",
-      "R"
-    ],
-    "privacy": "raw dice values and private facts are local/private unless rules explicitly reveal derived information"
+    "hudTools": ["private role/wake/fact view","private notebook","quick how to play"]
   },
-  "object": "Minnow Treats",
-  "burrowHours": 12,
-  "leaderRole": false,
-  "burrowClock": {
-    "hours": 12,
-    "secondsPerHour": 60,
-    "startsOn": "START GAME",
-    "afterHour12": "Morning Business"
-  }
+  "burrowClock": {"hours":12,"secondsPerHour":60,"afterHour12":"Morning Business"},
+  "sleep": {"viewport":"black with Ferret Frenzy logo","hudVisible":true,"clockContinues":true,"banditActivityChitter":"non-identifying audio cue when authorized state/local bot controller exposes hostile-side activity"},
+  "crimeScene": {"before":"assets/images/Aurora-lit ferret treats bookshelf-1.png","after":"assets/images/Minnow Treats crime scene-2.png","clickOverlay":"json/minnow-hitbox.geojson","raiderOnly":true},
+  "cardMovement": {
+    "Trouble": "blindly swaps two distinct other player Current Cards",
+    "DookerTrip": "views one Hammock card, optionally swaps it with one player Current Card without viewing the displaced player card",
+    "playerBoundStatuses": ["historical Raider","Trouble accomplice","Hunter conversion","Snuggle Bond","Guardian protection","Hunt Mark"]
+  },
+  "morningBusiness": {"sharedDiscussion":true,"claimsVerifiedByApp":false},
+  "pawPoint": {"oneVotePerActivePlayer":true,"simultaneousLock":true,"ties":"all eligible tied top vote-getters are caught","guardianProtectionBeforeCapture":true},
+  "primaryWin": {"Business":"historical Raider is in the final caught set","Bandit":"historical Raider escapes"},
+  "bots": {"fillEmptySeats":true,"roleReservation":false,"roleBrainLoadsAfterAuthoritativeDeal":true,"soloDefaultSeats":4},
+  "leaderRole": false
 }

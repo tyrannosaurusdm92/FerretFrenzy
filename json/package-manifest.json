@@ -1,5 +1,5 @@
 {
-  "name": "Ferret Frenzy \u2014 Solo Bots + Pre-Game Card Frontend Pass",
+  "name": "Ferret Frenzy \u2014 Full Dossier Pass + Bots v3",
   "entry": "lobby.html",
   "structure": [
     "lobby.html",
@@ -13,7 +13,7 @@
     "assets/code/frenzy.html",
     "docs/"
   ],
-  "notes": "Frontend-only pass. No backend Apps Script code is included or modified. Adds a one-human Solo + Bots lobby entry; makes PREP visibly function as Pre-Game Setup with dealt role card acknowledgment before setup rolls/actions; keeps the 12 x 60-second Night; removes unused physical controller buttons /3/, /4/, Y, Z and R while retaining A/B/X + /1//2/ + joystick; preserves card-backed target/vote/Hammock choices and role/result card reveals; retains all four audio files, friend codes and PWA install.",
+  "notes": "Frontend-only full dossier alignment pass. The tested Google Apps Script backend remains authoritative and unchanged. Live players and guest bots receive randomly dealt roles from game.state; the frontend does not reserve roles. The pass aligns cards, sleep/HUD, GeoJSON crime-scene interaction, dice, card movement, teamwork/private facts, Paw Point voting, Solo + Bots, and embedded How to Play guides.",
   "gameShell": {
     "html": "assets/code/frenzy.html",
     "scripts": [
@@ -23,7 +23,8 @@
       "js/cards.js",
       "js/minnow-hitbox.js",
       "js/frenzy-network.js",
-      "js/bot-game-bootstrap.js"
+      "js/bot-game-bootstrap.js",
+      "js/dossier-pass.js"
     ],
     "styles": [
       "css/frenzy-shell.css",
@@ -37,14 +38,33 @@
     "endpoint": "https://script.google.com/macros/s/AKfycbyAShO3c_FLVqp-fisabNx_DMuLD0UYMPygU22_jQfpLjIs796fgsJPo3viZq5FGeYd1A/exec",
     "config": "json/backend-config.json",
     "modified": false,
-    "note": "No backend file is included or modified in this pass."
+    "note": "Existing tested Google Apps Script backend is referenced only. No .gs backend file is included, generated, or modified."
   },
   "assetMap": "json/asset-map.json",
-  "botEngine": "json/bot-manifest.json",
-  "roleAssignment": "js/assign-role.js",
+  "botEngine": {
+    "manifest": "json/bot-manifest.json",
+    "brainVersion": "3.0.0",
+    "mode": "frontend guest bots for browser-owned autofill seats",
+    "roleSource": "authoritative game.state startingRole after backend deal",
+    "responsesPerRole": 250,
+    "totalResponses": 2000,
+    "runtime": [
+      "js/ferret-frenzy-bot-core.js",
+      "js/ferret-frenzy-bot-roster.js",
+      "js/ferret-frenzy-claim-parser.js",
+      "js/ferret-frenzy-conversation-engine.js",
+      "js/ferret-frenzy-deduction-engine.js",
+      "js/ferret-frenzy-dice-brain.js",
+      "js/ferret-frenzy-memory.js",
+      "js/ferret-frenzy-role-brain.js"
+    ],
+    "seatFill": "When Fill Empty Seats is enabled, Bots v3 guest seats fill empty target seats before game.start; each bot loads its role-specific brain only after the backend deal returns startingRole."
+  },
   "nightLock": {
     "trigger": "backend state phase NIGHT + me.actionPrompt.kind=SLEEP",
-    "display": "black screen with frenzy_logo.png only"
+    "display": "black viewport overlay with frenzy_logo.png; surrounding shell/HUD and live Burrow Clock remain visible",
+    "controls": "disabled/inert while sleeping",
+    "chitter": "ferret_sound.mp3 layers quietly when sanitized state/events expose Bandit/Raider/accomplice activity; Solo + Bots can also use locally managed bot state already owned by the host controller; no identity is displayed"
   },
   "minnowHitbox": {
     "geojson": "json/minnow-hitbox.geojson",
@@ -81,7 +101,8 @@
     },
     "eligiblePlayer": "starting BANDIT + isRaider=true + current Night hour is one of that player\u2019s wake hours",
     "result": "pre-theft scene changes immediately to assets/images/Minnow Treats crime scene-2.png on click",
-    "backendChanged": false
+    "backendChanged": false,
+    "sourceOfGeometry": "json/minnow-hitbox.geojson fetched at runtime with an approved fallback polygon only if the packaged GeoJSON cannot load."
   },
   "frontendGameplay": {
     "transport": "Apps Script POST bodies use text/plain;charset=UTF-8 to avoid JSON preflight failures on GitHub Pages",
@@ -95,10 +116,50 @@
       "Dooker peek reveal",
       "final card reveal for every player"
     ],
-    "nightLock": "Sleeping clients show black screen with Ferret Frenzy logo only",
-    "chatVoting": "Single shared Morning Business discussion; Paw Point selection uses player cards and no channels",
+    "nightLock": "Sleeping clients see a black viewport + Ferret Frenzy logo while shell/HUD and live countdown remain visible; gameplay controls are inert.",
+    "chatVoting": "Morning Business uses a staged Discuss \u2192 Paw Point \u2192 Result flow; one shared discussion remains visible through voting; messages have clearer metadata and send guarding; Paw Point retains card-backed private selection plus a final server-authoritative lock.",
     "controls": "Physical gameplay controls are joystick + /1/ d6 + /2/ d12 + A confirm + B back + X role action. Private Info/Notebook remain HUD tools.",
     "preGame": "Role deal enters backend PREP, presented as Pre-Game Setup. The actual dealt role card must be acknowledged before the frontend enables the required setup roll/action prompt; Night begins only after backend setup completion.",
-    "solo": "Solo + Bots creates a private target-4 room with bots/autofill enabled; Start/Deal Role + Prep fills the remaining seats with role bots before the backend deal."
+    "solo": "Solo + Bots creates a private target-4 room. On Start, empty seats are created as frontend guest bots; after the tested backend deals roles, each seat loads the matching Ferret Frenzy v3 specialized role brain.",
+    "botAutofill": "No client-side role reservations. Bot guests join and ready before game.start; authoritative startingRole from game.state selects the role brain after the backend deal."
+  },
+  "packageVersion": "3.1.0",
+  "dossierAlignment": {
+    "source": "Ferret_Frenzy_8_Role_d6_d12_Revised_Dossier.txt \u2014 Revision 2.0",
+    "roles": [
+      "BANDIT",
+      "DOOKER",
+      "ITCHY",
+      "TROUBLE",
+      "BUSINESS",
+      "SNUGGLER",
+      "HUNTER",
+      "GUARDIAN"
+    ],
+    "deal": "Backend-authoritative random deal from an active set with one card per occupied seat plus three Hammock cards.",
+    "stateSeparation": [
+      "startingRole",
+      "currentCard",
+      "currentTeam",
+      "raider status",
+      "Trouble accomplice status",
+      "Hunter conversion status",
+      "Snuggle Bond",
+      "Guardian protection",
+      "Hunt Mark"
+    ],
+    "sleep": "Black sleep + logo remains inside the game viewport; HUD/Burrow Clock remains visible and active.",
+    "crimeScene": "Clickable hit region is loaded from json/minnow-hitbox.geojson; eligible Raider click changes the local pre-crime scene to the packaged post-crime image while the tested backend remains authoritative.",
+    "dice": "/1/ selects d6, /2/ selects d12, joystick flick commits the required backend roll; animation lands on the authoritative returned face.",
+    "voting": "One Paw Point per active player; simultaneous lock; tied eligible top vote-getters are caught together; Guardian protection and secondary resolution remain backend-authoritative.",
+    "help": [
+      "Full How to Play dialog in lobby",
+      "Short Quick How to Play panel/button in the HUD"
+    ],
+    "backendModified": false
+  },
+  "guides": {
+    "lobby": "Full dossier-oriented How to Play dialog",
+    "hud": "Short Quick How to Play panel available from HUD and menu"
   }
 }

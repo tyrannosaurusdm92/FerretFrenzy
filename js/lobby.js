@@ -29,6 +29,9 @@
     publicGameCount: $('#publicGameCount'),
     refreshButton: $('#refreshButton'),
     musicButton: $('#musicButton'),
+    howToPlayButton: $('#howToPlayButton'),
+    howToPlayDialog: $('#howToPlayDialog'),
+    howToPlayClose: $('#howToPlayClose'),
     installButton: $('#installButton'),
     installText: $('#installText'),
     connectionChip: $('#connectionChip'),
@@ -48,17 +51,6 @@
   let guestValidated = false;
   let deferredInstallPrompt = null;
   let musicWanted = localStorage.getItem(KEYS.music) !== 'off';
-  let activeRoleReservation = null;
-
-  async function reserveRoleOnEntry(view, source = 'create/join') {
-    if (!view?.game?.code || !view?.me?.id) return null;
-    const moduleUrl = new URL('js/assign-role.js', window.location.href).href;
-    const roles = await import(moduleUrl);
-    activeRoleReservation = roles.reserveLobbyView(view, { source });
-    try { localStorage.setItem(`ff:my-role-reservation:${view.game.code}`, JSON.stringify(activeRoleReservation)); } catch {}
-    return activeRoleReservation;
-  }
-
   function safeJson(value, fallback = null) {
     try { return JSON.parse(value); } catch { return fallback; }
   }
@@ -165,7 +157,7 @@
       share: view?.share || null,
       guest: sessionGuest,
       guestToken,
-      roleReservation: activeRoleReservation
+      roleReservation: null
     };
     localStorage.setItem(KEYS.activeLobby, JSON.stringify(record));
     localStorage.setItem(KEYS.legacyLobby, JSON.stringify(record));
@@ -259,8 +251,7 @@
         autoFillBots: solo ? true : el.autoFillBots.checked,
         botDifficulty: 'NORMAL'
       });
-      await reserveRoleOnEntry(view, 'create');
-      showToast(solo ? `Solo burrow ${view?.game?.code || ''} created. You can deal your role and the remaining seats will be bots.` : `Burrow ${view?.game?.code || ''} created. Role slot reserved. Opening Ferret Frenzy…`, 'success', 1700);
+      showToast(solo ? `Solo burrow ${view?.game?.code || ''} created. The remaining seats will use Ferret Frenzy v3 bots when you start.` : `Burrow ${view?.game?.code || ''} created. The backend will deal roles when the game starts.`, 'success', 1700);
       setTimeout(() => launchFrenzy(view, guestData.guestToken), 180);
     } catch (error) {
       showToast(error.message || 'Could not create a game.', 'error');
@@ -274,14 +265,34 @@
     try {
       const guestData = await ensureGuest();
       const view = await apiCall('lobby.join', { guestToken: guestData.guestToken, ...data });
-      await reserveRoleOnEntry(view, 'join');
-      showToast(`Joined ${view?.game?.name || 'Ferret Frenzy'}. Role slot reserved. Opening game…`, 'success', 1400);
+      showToast(`Joined ${view?.game?.name || 'Ferret Frenzy'}. The backend will deal your private role when the game starts.`, 'success', 1400);
       setTimeout(() => launchFrenzy(view, guestData.guestToken), 180);
     } catch (error) {
       showToast(error.message || 'Could not join that game.', 'error');
     } finally {
       setBusy(false);
     }
+  }
+
+  function setupHowToPlay() {
+    const dialog = el.howToPlayDialog;
+    if (!dialog) return;
+    const open = () => {
+      if (typeof dialog.showModal === 'function') dialog.showModal();
+      else dialog.setAttribute('open', '');
+      document.body.classList.add('howto-open');
+      el.howToPlayClose?.focus();
+    };
+    const close = () => {
+      if (typeof dialog.close === 'function' && dialog.open) dialog.close();
+      else dialog.removeAttribute('open');
+      document.body.classList.remove('howto-open');
+      el.howToPlayButton?.focus();
+    };
+    el.howToPlayButton?.addEventListener('click', open);
+    el.howToPlayClose?.addEventListener('click', close);
+    dialog.addEventListener('cancel', event => { event.preventDefault(); close(); });
+    dialog.addEventListener('click', event => { if (event.target === dialog) close(); });
   }
 
   function setupMusic() {
@@ -414,6 +425,7 @@
   const joinCode = normalizeCode(params.get('join') || params.get('code'));
   if (joinCode) el.friendCode.value = joinCode;
 
+  setupHowToPlay();
   setupMusic();
   updateInstallButton();
   registerServiceWorker();
