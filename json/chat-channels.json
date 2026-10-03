@@ -1,12 +1,12 @@
 {
-  "version": "1.0",
+  "version": "1.1",
   "publicOnly": true,
   "privacyModel": "All channels are public organizational views over the existing shared Ferret Frenzy chat. No faction/private channel is created.",
   "channels": [
     {
       "id": "burrow",
       "label": "burrow",
-      "purpose": "General Morning Business and ordinary discussion",
+      "purpose": "Public lobby coordination before the deal, then Morning Business and ordinary discussion",
       "writableByPlayers": true
     },
     {
@@ -53,6 +53,9 @@
       "Lower Paw",
       "End Own Turn"
     ],
-    "narratorBypassesTurnMute": true
+    "narratorBypassesTurnMute": true,
+    "availablePhases": ["MORNING", "VOTE"],
+    "backendEnforced": false,
+    "enforcementNote": "The current frontend disables the ordinary message composer for players without the floor. The existing backend chat API has no turn-floor permission check, so this is a shared client-side meeting control, not an anti-cheat boundary."
   }
 }

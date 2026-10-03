@@ -1,11 +1,12 @@
 {
-  "name": "Ferret Frenzy \u2014 Revision 3.3 Pass 5 + Integrated Narrator",
+  "name": "Ferret Frenzy — Revision 3.3 Pass 10 + Savanski-style resizable menu accessibility",
   "entry": "lobby.html",
   "structure": {
     "rootFiles": [
       "lobby.html",
       "manifest.webmanifest",
-      "service-worker.js"
+      "service-worker.js",
+      "package.json"
     ],
     "rootFolders": [
       "css",
@@ -24,15 +25,17 @@
       "frenzy.html"
     ]
   },
-  "notes": "Pass 7: full narrator speech + chat integration, narrator speech mastered by the global sound toggle, public Discord-inspired gameplay channels, and Zoom-inspired turn-floor controls. Existing backend remains unchanged. Package normalized per user request: docs/tests flattened; role-card images flattened into assets/images; assets/code contains frenzy.html only.",
+  "notes": "Pass 10 gameplay and backend are preserved. This accessibility pass ports the Savanski multi-direction menu resizing pattern to Ferret Frenzy: all in-game panels and the lobby How to Play dialog resize from four sides/four corners, scale text/buttons/content proportionally, reflow compact layouts, support keyboard resize handles, and can be repositioned by dragging their header. Existing backend remains unchanged.",
   "gameShell": {
     "html": "assets/code/frenzy.html",
     "scripts": [
       "js/frenzy-shell.js",
+      "js/menu-resize-accessibility.js",
       "js/dice.js",
       "js/frenzy-game.js",
       "js/cards.js",
       "js/minnow-hitbox.js",
+      "js/chat-turn-rules.js",
       "js/frenzy-network.js",
       "js/bot-game-bootstrap.js",
       "js/dossier-pass.js",
@@ -42,7 +45,8 @@
       "css/frenzy-shell.css",
       "css/dice.css",
       "css/frenzy-game.css",
-      "css/narrator.css"
+      "css/narrator.css",
+      "css/menu-resize-accessibility.css"
     ],
     "controlsConfig": "json/frenzy-controls.json"
   },
@@ -112,7 +116,7 @@
         ]
       ]
     },
-    "eligiblePlayer": "starting BANDIT + isRaider=true + current Night hour is one of that player\u2019s wake hours",
+    "eligiblePlayer": "starting BANDIT + isRaider=true + current Night hour is one of that player’s wake hours",
     "result": "pre-theft scene changes immediately to assets/images/Minnow Treats crime scene-2.png on click",
     "backendChanged": false,
     "sourceOfGeometry": "json/minnow-hitbox.geojson fetched at runtime with an approved fallback polygon only if the packaged GeoJSON cannot load."
@@ -130,16 +134,36 @@
       "final card reveal for every player"
     ],
     "nightLock": "Sleeping clients see a black viewport + Ferret Frenzy logo while shell/HUD and live countdown remain visible; gameplay controls are inert.",
-    "chatVoting": "Morning Business uses a staged Discuss \u2192 Paw Point \u2192 Result flow; one shared discussion remains visible through voting; messages have clearer metadata and send guarding; Paw Point retains card-backed private selection plus a final server-authoritative lock.",
+    "chatVoting": "Public lobby chat is writable before the deal. Morning Business and Paw Point share chat history; Quick Role Claim is available only in those two phases. Paw Point remains private and server-authoritative.",
     "controls": "Physical gameplay controls are joystick + /1/ d6 + /2/ d12 + A confirm + B back + X role action. Private Info/Notebook remain HUD tools.",
     "preGame": "Role deal enters backend PREP, presented as Pre-Game Setup. The actual dealt role card must be acknowledged before the frontend enables the required setup roll/action prompt; Night begins only after backend setup completion.",
     "solo": "Solo + Bots creates a private target-4 room. On Start, empty seats are created as frontend guest bots; after the tested backend deals roles, each seat loads the matching Ferret Frenzy v3 specialized role brain.",
     "botAutofill": "No client-side role reservations. Bot guests join and ready before game.start; authoritative startingRole from game.state selects the role brain after the backend deal.",
-    "localFallback": "Lobby-only local fallback is role-neutral; seat creation/joining never reserves or previews a role."
+    "localFallback": "Lobby-only local fallback is role-neutral; seat creation/joining never reserves or previews a role.",
+    "mobileUsability": "Lobby guide and game chat use readable phone text sizes, reachable 44px-class controls, safe-area-aware full-height discussion, and horizontally scrollable channel navigation.",
+    "turnFloor": {
+      "transport": "public system messages carried by existing chat.send/chat.list",
+      "availablePhases": [
+        "MORNING",
+        "VOTE"
+      ],
+      "clientBehavior": "Updated clients disable the ordinary chat composer unless the player owns the floor.",
+      "backendEnforced": false,
+      "limitation": "The supplied backend contract has no turn-floor authorization endpoint; this is a shared meeting courtesy control, not a server-enforced chat permission."
+    },
+    "menuAccessibility": {
+      "sourcePattern": "Savanski Art Studio multi-direction resize + proportional UI scaling",
+      "targets": "all .panel windows in assets/code/frenzy.html plus the lobby How to Play dialog",
+      "resize": "north, south, east, west, and all four corners; pointer/touch drag plus keyboard Arrow keys",
+      "scaling": "text, buttons, inputs, spacing, cards, and common menu content grow with the window; compact widths reflow to fewer columns",
+      "reset": "double-click a resize handle or press Home while a handle is focused",
+      "movement": "drag a menu header to reposition a manually sized menu",
+      "backendModified": false
+    }
   },
-  "packageVersion": "3.8.0",
+  "packageVersion": "3.11.0",
   "dossierAlignment": {
-    "source": "Ferret_Frenzy_8_Role_Gameplay_Solidification_Dossier_v3_3_Pass5.txt \u2014 Revision 3.3",
+    "source": "Ferret_Frenzy_8_Role_Gameplay_Solidification_Dossier_v3_3_Pass5.txt — Revision 3.3",
     "supersedes": "Revision 3.2/3.1/3.0 wording only where Revision 3.3 explicitly clarifies secondary-resolution order, result provenance, live-help authority, and result refresh behavior",
     "roles": [
       "BANDIT",
@@ -163,7 +187,7 @@
       "Guardian protection",
       "Hunt Mark"
     ],
-    "sameHourOrder": "wake \u2192 Treat State before action \u2192 Raider theft \u2192 conversion/witness triggers \u2192 Starting-Role actions \u2192 commit",
+    "sameHourOrder": "wake → Treat State before action → Raider theft → conversion/witness triggers → Starting-Role actions → commit",
     "businessSoloInspection": "Exactly one randomly selected wake result from one chosen player; never the target's full schedule.",
     "dookerGlimpse": "Current allegiance at the exact Glimpse timestamp; later movement may make the fact stale.",
     "troubleConversion": "Theft-window overlap converts Trouble before the blind swap and grants historical Raider identity.",
@@ -174,8 +198,8 @@
     "quickRoleClaim": "Public statement builder only; never validates hidden truth. Starting Role and Current Card claim scopes are tracked separately, with optional wake chronology, Treat State, co-waker, and role-specific targets/results.",
     "botPrivacy": "Bots reason from authorized facts plus public claims; timestamped multi-wake testimony is not flattened into a single Treat State, and hidden roles are not exposed unless voluntarily claimed or publicly revealed.",
     "help": [
-      "Full Revision 3.3 How to Play in lobby",
-      "Short Revision 3.3 Quick How to Play in HUD"
+      "Full Revision 3.3 How to Play in lobby, refreshed with the complete player-facing intro and rules supplied for Pass 10",
+      "Short Revision 3.3 Quick How to Play in HUD, aligned with the refreshed lobby guide"
     ],
     "backendModified": false,
     "itchyClue": "A valid two-player clue contains the historical Raider plus a legal non-Raider decoy; no-decoy edge cases must be explicitly marked degraded.",
@@ -188,8 +212,8 @@
     "resultRefresh": "Authorized bondRevealed and optional catch-provenance changes invalidate result-note render signatures."
   },
   "guides": {
-    "lobby": "Full Revision 3.3 How to Play: round flow, evidence taxonomy, role gotchas, exact secondary-resolution order, state separation, Paw Point, bots and privacy.",
-    "hud": "Short Revision 3.3 Quick How to Play with same-hour order, role clarifications, and Paw Point -> Hunt Mark -> Bond-Reveal resolution order."
+    "lobby": "Full Revision 3.3 How to Play: supplied intro, goal, player-count recipes, all eight roles, twelve Burrow Hours, evidence, Morning Business, Paw Point, results, controls and privacy.",
+    "hud": "Short Revision 3.3 Quick How to Play aligned to the full lobby guide, with all roles, same-hour order, voting and Paw Point -> Hunt Mark -> Bond-Reveal resolution order."
   },
   "chatVoting": {
     "persistentChat": "Chat opens once at Morning Business and once at Paw Point phase entry; state polling no longer toggles it closed while typing.",
@@ -207,7 +231,7 @@
     "bluffing": "Quick claims are public statements and are not validated against hidden truth. Starting Role and Current Card claims are distinct testimony fields.",
     "botRolePrivacy": "Role-specific bot evidence is gated until the bot deliberately volunteers a public role claim or is publicly revealed/caught.",
     "quickClaimTimeline": "Optional role-claim scope, claimed wake hours, Treat State, first co-waker, and timestamped role-specific details.",
-    "claimParser": "Recognizes human Quick Role Claim and bot volunteer wording; stores Treat State by Burrow Hour; preserves PRESENT\u2192MISSING same-window testimony; allows legal multi-wake disclosures; and never applies Starting-Role capability rules from a Current Card claim."
+    "claimParser": "Recognizes human Quick Role Claim and bot volunteer wording; stores Treat State by Burrow Hour; preserves PRESENT→MISSING same-window testimony; allows legal multi-wake disclosures; and never applies Starting-Role capability rules from a Current Card claim."
   },
   "narrator": {
     "config": "json/narrator-config.json",
@@ -219,7 +243,7 @@
     "privacy": "Private prompts/facts are never sent to shared chat.",
     "backendModified": false
   },
-  "version": "3.8.0",
+  "version": "3.11.0",
   "chatChannels": {
     "config": "json/chat-channels.json",
     "publicOnly": true,
@@ -231,6 +255,19 @@
       "narrator"
     ],
     "transport": "existing chat.send/chat.list markers",
-    "turnFloor": "host turn mode + raise paw queue + next turn + end turn"
+    "turnFloor": "Host turn mode + validated raise-paw queue + next turn + end turn; client composer enforcement only because existing backend has no turn-permission action",
+    "version": "1.1"
+  },
+  "lobbyChat": {
+    "writableBeforeDeal": true,
+    "composer": "Existing chat.send/chat.list transport",
+    "channel": "burrow by default",
+    "quickClaimsDuringLobby": false
+  },
+  "soundPreference": {
+    "key": "ff:sound-level:v1",
+    "scope": "this device",
+    "controls": "mute/low/full buttons and volume slider share the same persisted update path",
+    "narratorFollowsMaster": true
   }
 }

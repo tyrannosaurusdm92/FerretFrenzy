@@ -38,7 +38,7 @@
     ]
   },
   "backend": "https://script.google.com/macros/s/AKfycbyAShO3c_FLVqp-fisabNx_DMuLD0UYMPygU22_jQfpLjIs796fgsJPo3viZq5FGeYd1A/exec",
-  "chatModel": "public Discord-inspired organizational channels over one shared game discussion; no hidden team channels",
+  "chatModel": "Public lobby chat before the deal, followed by Discord-inspired organizational views over one shared game discussion; no hidden team channels",
   "voteModel": "one simultaneous Paw Point vote; player buttons labeled by seat number",
   "viewport": {
     "sourceAspect": "1672:941",

@@ -1,0 +1,202 @@
+/* Ferret Frenzy responsive menu accessibility.
+   Adapted from the Savanski Art Studio multi-direction resize + proportional UI scaling pattern.
+   Game rules, transport, and existing Ferret Frenzy visual identity are unchanged. */
+.ff-resizable{
+  --ff-ui-scale:1;
+  --ff-font-tiny:9px;
+  --ff-font-small:10px;
+  --ff-font-body:12px;
+  --ff-font-heading:12px;
+  --ff-font-large:14px;
+  --ff-font-xl:20px;
+  --ff-icon-size:18px;
+  --ff-gap:8px;
+  --ff-gap-small:5px;
+  --ff-pad:12px;
+  --ff-pad-small:8px;
+  --ff-radius:10px;
+  --ff-head-h:42px;
+  --ff-action-size:31px;
+  --ff-control-h:36px;
+  --ff-card-min:150px;
+  --ff-sidebar-w:190px;
+  position:relative;
+}
+
+/* Once a user manually sizes a window, preserve the exact viewport rectangle
+   instead of letting phone/desktop media queries force it back to a preset. */
+.panel.ff-user-sized{
+  left:var(--ff-user-x,12px)!important;
+  top:var(--ff-user-y,80px)!important;
+  right:auto!important;
+  bottom:auto!important;
+  width:var(--ff-user-w,520px)!important;
+  height:var(--ff-user-h,420px)!important;
+  min-width:0!important;
+  min-height:0!important;
+  max-width:none!important;
+  max-height:none!important;
+}
+.howto-dialog.ff-user-sized{
+  position:fixed!important;
+  inset:auto!important;
+  left:var(--ff-user-x,12px)!important;
+  top:var(--ff-user-y,12px)!important;
+  width:var(--ff-user-w,900px)!important;
+  height:var(--ff-user-h,700px)!important;
+  min-width:0!important;
+  min-height:0!important;
+  max-width:none!important;
+  max-height:none!important;
+  margin:0!important;
+}
+.howto-dialog.ff-user-sized .howto-shell{height:100%;max-height:none!important;min-height:0}
+
+/* Eight accessible resize zones: four sides + four corners. */
+.ff-resize-handle{
+  position:absolute;
+  z-index:10000;
+  display:block;
+  touch-action:none;
+  user-select:none;
+  -webkit-user-select:none;
+  pointer-events:auto;
+  outline:none;
+}
+.ff-resize-handle[data-edge="n"]{top:0;left:22px;right:22px;height:13px;cursor:ns-resize}
+.ff-resize-handle[data-edge="s"]{bottom:0;left:22px;right:22px;height:15px;cursor:ns-resize}
+.ff-resize-handle[data-edge="e"]{top:22px;right:0;bottom:22px;width:13px;cursor:ew-resize}
+.ff-resize-handle[data-edge="w"]{top:22px;left:0;bottom:22px;width:13px;cursor:ew-resize}
+.ff-resize-handle[data-edge="ne"]{top:0;right:0;width:28px;height:28px;cursor:nesw-resize}
+.ff-resize-handle[data-edge="nw"]{top:0;left:0;width:28px;height:28px;cursor:nwse-resize}
+.ff-resize-handle[data-edge="se"]{right:0;bottom:0;width:30px;height:30px;cursor:nwse-resize}
+.ff-resize-handle[data-edge="sw"]{left:0;bottom:0;width:30px;height:30px;cursor:nesw-resize}
+.ff-resize-handle[data-edge="s"]::after{
+  content:"";position:absolute;left:50%;bottom:3px;width:min(64px,38%);height:4px;
+  transform:translateX(-50%);border-radius:999px;background:linear-gradient(90deg,#63D6A7,#69C9D5,#8977BE);opacity:.82;
+}
+.ff-resize-handle[data-edge="se"]::after,.ff-resize-handle[data-edge="sw"]::after{
+  content:"";position:absolute;bottom:4px;width:12px;height:12px;border-bottom:2px solid #9DE4D1;opacity:.9;
+}
+.ff-resize-handle[data-edge="se"]::after{right:4px;border-right:2px solid #9DE4D1}
+.ff-resize-handle[data-edge="sw"]::after{left:4px;border-left:2px solid #9DE4D1}
+.ff-resize-handle:focus-visible::before,
+.ff-resize-handle:hover::before{
+  content:"";position:absolute;inset:2px;border:2px solid rgba(157,228,209,.9);border-radius:6px;box-shadow:0 0 0 2px rgba(2,5,11,.72);
+}
+.ff-resizing,.ff-moving{user-select:none!important;-webkit-user-select:none!important}
+.ff-resizing *{cursor:inherit!important}
+.ff-resizable>.panel-head,.howto-dialog.ff-resizable .howto-head{cursor:move;user-select:none}
+.ff-resizable>.panel-head button,.howto-dialog.ff-resizable .howto-head button{cursor:pointer}
+
+/* Proportional shell geometry. Values are written by the resize controller. */
+.panel.ff-resizable .panel-head{min-height:var(--ff-head-h)!important;gap:var(--ff-gap-small)!important;padding:var(--ff-pad-small)!important}
+.panel.ff-resizable .panel-head>span:first-child{font-size:var(--ff-icon-size)!important;line-height:1}
+.panel.ff-resizable .panel-head strong{font-size:var(--ff-font-heading)!important;line-height:1.25;overflow-wrap:anywhere}
+.panel.ff-resizable .panel-head .panel-actions{gap:var(--ff-gap-small)!important}
+.panel.ff-resizable .panel-head button,
+.panel.ff-resizable .panel-head .panel-actions button{
+  width:var(--ff-action-size)!important;height:var(--ff-action-size)!important;min-width:var(--ff-action-size)!important;min-height:var(--ff-action-size)!important;
+  border-radius:var(--ff-radius)!important;font-size:var(--ff-font-body)!important;
+}
+.panel.ff-resizable .panel-body{min-height:0;overflow:auto;padding:var(--ff-pad)!important}
+.panel.ff-resizable .section{gap:var(--ff-gap)!important;padding:var(--ff-pad-small)!important;margin-bottom:var(--ff-gap)!important;border-radius:var(--ff-radius)!important}
+.panel.ff-resizable .grid{gap:var(--ff-gap-small)!important}
+
+/* Text hierarchy grows with the window instead of leaving tiny fixed-size labels behind. */
+.panel.ff-resizable :is(.section h3,.narrator-card h3,.vote-head h3){font-size:var(--ff-font-heading)!important;line-height:1.3}
+.panel.ff-resizable :is(.readout,.discussion-note,.discussion-channel-readonly,.quick-claim-status,.narrator-card p,.narrator-check,.narrator-voice-status,.narrator-connection-status,.narrator-chat-note,.narrator-log li,.turn-floor p,.turn-queue ol,.private-card span,.private-card ul,.private-card li,.trail-list,.prep-instruction,.ff-result-note,.vote-head p){font-size:var(--ff-font-body)!important;line-height:1.5}
+.panel.ff-resizable :is(.discussion-message p,.narrator-line,.results-summary){font-size:var(--ff-font-large)!important;line-height:1.5}
+.panel.ff-resizable :is(.discussion-message strong,.narrator-stat strong,.quick-claim-head strong,.private-card strong,.narrator-log-head strong){font-size:var(--ff-font-heading)!important}
+.panel.ff-resizable :is(.discussion-message time,.discussion-meta,.channel-category small,.channel-button small,.quick-claim-head small,.quick-claim-field span,.narrator-stat span,.narrator-kind,.turn-floor-head strong,.turn-floor-head span,.turn-queue>span,.ff-card-copy small,.ff-card-copy span,.ff-card-copy em,.ff-card-rules summary,.ff-card-rules ul){font-size:var(--ff-font-small)!important;line-height:1.35}
+.panel.ff-resizable :is(.channel-category span,.channel-button strong){font-size:var(--ff-font-body)!important}
+
+/* Controls remain touch-friendly, then become larger as the panel is expanded. */
+.panel.ff-resizable :is(.panel-btn,.menu-item,.turn-button,.channel-button,.quick-claim-toggle,.role-target,.vote-candidate){min-height:var(--ff-control-h)!important;font-size:var(--ff-font-body)!important;padding:var(--ff-pad-small)!important;border-radius:var(--ff-radius)!important}
+.panel.ff-resizable :is(input:not([type="checkbox"]):not([type="range"]),select,textarea){min-height:var(--ff-control-h)!important;font-size:var(--ff-font-body)!important;padding:var(--ff-pad-small)!important;border-radius:var(--ff-radius)!important}
+.panel.ff-resizable input[type="checkbox"]{width:max(18px,var(--ff-icon-size));height:max(18px,var(--ff-icon-size));flex:none}
+.panel.ff-resizable .range-row{grid-template-columns:minmax(90px,auto) minmax(120px,1fr) minmax(58px,auto);gap:var(--ff-gap)!important;font-size:var(--ff-font-body)!important}
+.panel.ff-resizable .range-row output{font-size:var(--ff-font-body)!important}
+.panel.ff-resizable .notebook-area{min-height:calc(var(--ff-control-h) * 5)!important}
+.panel.ff-resizable .quick-claim-toggle{width:var(--ff-action-size)!important;height:var(--ff-action-size)!important;padding:0!important}
+
+/* Content tiles/cards scale too, not just their labels. */
+.panel.ff-resizable .quick-guide-steps{gap:var(--ff-gap)!important;margin-bottom:var(--ff-gap)!important}
+.panel.ff-resizable .quick-guide-steps article,
+.panel.ff-resizable .narrator-card,
+.panel.ff-resizable .narrator-stat,
+.panel.ff-resizable .narrator-current,
+.panel.ff-resizable .quick-claim,
+.panel.ff-resizable .paw-vote,
+.panel.ff-resizable .private-card{padding:var(--ff-pad-small)!important;border-radius:var(--ff-radius)!important}
+.panel.ff-resizable .quick-guide-steps b{font-size:var(--ff-font-heading)!important}
+.panel.ff-resizable .quick-guide-steps span{font-size:var(--ff-font-body)!important;line-height:1.5}
+.panel.ff-resizable .results-cards{grid-template-columns:repeat(auto-fit,minmax(var(--ff-card-min),1fr))!important;gap:var(--ff-gap)!important}
+.panel.ff-resizable .ff-lobby-roster{grid-template-columns:repeat(auto-fit,minmax(calc(var(--ff-card-min) * .62),1fr))!important;gap:var(--ff-gap-small)!important}
+.panel.ff-resizable .ff-card-copy{gap:var(--ff-gap-small)!important;padding:var(--ff-pad-small)!important}
+.panel.ff-resizable .ff-card-copy strong{font-size:var(--ff-font-heading)!important}
+.panel.ff-resizable .room-code-row{gap:var(--ff-gap)!important}
+.panel.ff-resizable .room-code-row>strong{min-height:var(--ff-control-h)!important;font-size:var(--ff-font-xl)!important}
+.panel.ff-resizable .narrator-status-strip,
+.panel.ff-resizable .narrator-grid,
+.panel.ff-resizable .narrator-actions,
+.panel.ff-resizable .narrator-chat-compose,
+.panel.ff-resizable .discussion-workspace,
+.panel.ff-resizable .discussion-main,
+.panel.ff-resizable .chat-channel-sidebar,
+.panel.ff-resizable .chat-channel-list,
+.panel.ff-resizable .turn-floor,
+.panel.ff-resizable .turn-controls,
+.panel.ff-resizable .quick-claim-body,
+.panel.ff-resizable .quick-claim-targets,
+.panel.ff-resizable .quick-claim-actions,
+.panel.ff-resizable .discussion-compose,
+.panel.ff-resizable .vote-candidates,
+.panel.ff-resizable .vote-actions,
+.panel.ff-resizable .private-grid{gap:var(--ff-gap)!important}
+.panel.ff-resizable .discussion-workspace{grid-template-columns:var(--ff-sidebar-w) minmax(0,1fr)!important}
+
+/* Width-driven reflow is based on the menu itself, not the whole screen. */
+.panel.ff-resizable[data-ff-layout="compact"] :is(.grid.cols-2,.grid.cols-3,.quick-guide-steps,.narrator-grid,.private-grid,.quick-claim-targets){grid-template-columns:1fr!important}
+.panel.ff-resizable[data-ff-layout="compact"] .narrator-status-strip{grid-template-columns:repeat(2,minmax(0,1fr))!important}
+.panel.ff-resizable[data-ff-layout="compact"] .narrator-stat:last-child{grid-column:1/-1}
+.panel.ff-resizable[data-ff-layout="compact"] .narrator-chat-compose{grid-template-columns:1fr!important}
+.panel.ff-resizable[data-ff-layout="compact"] .discussion-workspace{grid-template-columns:1fr!important}
+.panel.ff-resizable[data-ff-layout="compact"] .chat-channel-sidebar{display:grid;grid-template-columns:1fr;overflow:visible}
+.panel.ff-resizable[data-ff-layout="compact"] .chat-channel-list{display:flex;flex-direction:row;overflow-x:auto;overflow-y:hidden;overscroll-behavior-x:contain;scroll-snap-type:x proximity}
+.panel.ff-resizable[data-ff-layout="compact"] .channel-button{min-width:max(110px,calc(var(--ff-control-h) * 2.45));scroll-snap-align:start}
+.panel.ff-resizable[data-ff-layout="compact"] .turn-controls{grid-template-columns:repeat(2,minmax(0,1fr))}
+.panel.ff-resizable[data-ff-layout="compact"] .discussion-main{grid-template-rows:auto auto auto minmax(110px,1fr) auto auto auto}
+.panel.ff-resizable[data-ff-layout="compact"] .room-code-row{grid-template-columns:1fr!important}
+.panel.ff-resizable[data-ff-layout="medium"] .discussion-workspace{grid-template-columns:minmax(150px,var(--ff-sidebar-w)) minmax(0,1fr)!important}
+
+/* Lobby How to Play dialog gets the same scalable reading treatment. */
+.howto-dialog.ff-resizable .howto-head{gap:var(--ff-gap)!important;padding:var(--ff-pad)!important}
+.howto-dialog.ff-resizable .howto-head h2{font-size:var(--ff-font-xl)!important;line-height:1.2}
+.howto-dialog.ff-resizable .micro-label{font-size:var(--ff-font-small)!important}
+.howto-dialog.ff-resizable .howto-close{width:var(--ff-action-size)!important;height:var(--ff-action-size)!important;font-size:var(--ff-font-xl)!important;border-radius:var(--ff-radius)!important}
+.howto-dialog.ff-resizable .howto-scroll{min-height:0;overflow:auto;padding:var(--ff-pad)!important;gap:var(--ff-gap)!important}
+.howto-dialog.ff-resizable .howto-scroll>section{padding:var(--ff-pad)!important;border-radius:var(--ff-radius)!important}
+.howto-dialog.ff-resizable .howto-scroll h3{font-size:var(--ff-font-heading)!important;line-height:1.3}
+.howto-dialog.ff-resizable .howto-scroll :is(p,ul,ol,li){font-size:var(--ff-font-body)!important;line-height:1.65}
+.howto-dialog.ff-resizable .howto-scroll kbd{min-width:var(--ff-action-size)!important;height:var(--ff-action-size)!important;font-size:var(--ff-font-body)!important}
+.howto-dialog.ff-resizable .howto-hero{gap:var(--ff-gap)!important;grid-template-columns:minmax(100px,calc(var(--ff-card-min) * .8)) 1fr!important}
+.howto-dialog.ff-resizable .howto-hero strong{font-size:var(--ff-font-large)!important}
+.howto-dialog.ff-resizable .howto-callout{font-size:var(--ff-font-body)!important;line-height:1.6;padding:var(--ff-pad-small)!important}
+.howto-dialog.ff-resizable .role-cheat-grid{gap:var(--ff-gap)!important}
+.howto-dialog.ff-resizable .role-cheat-grid article{padding:var(--ff-pad-small)!important;border-radius:var(--ff-radius)!important}
+.howto-dialog.ff-resizable .role-cheat-grid b{font-size:var(--ff-font-heading)!important}
+.howto-dialog.ff-resizable .role-cheat-grid span{font-size:var(--ff-font-small)!important}
+.howto-dialog.ff-resizable .role-cheat-grid p{font-size:var(--ff-font-body)!important;line-height:1.6}
+.howto-dialog.ff-resizable .howto-table{font-size:var(--ff-font-body)!important;line-height:1.45}
+.howto-dialog.ff-resizable .howto-table :is(th,td,caption){padding:var(--ff-pad-small)!important}
+.howto-dialog.ff-resizable[data-ff-layout="compact"] .howto-hero{grid-template-columns:1fr!important}
+.howto-dialog.ff-resizable[data-ff-layout="compact"] .howto-hero img{height:auto;max-height:120px}
+.howto-dialog.ff-resizable[data-ff-layout="compact"] .role-cheat-grid{grid-template-columns:1fr!important}
+
+@media(max-width:620px){
+  .ff-resize-handle[data-edge="n"],.ff-resize-handle[data-edge="s"]{height:17px}
+  .ff-resize-handle[data-edge="e"],.ff-resize-handle[data-edge="w"]{width:17px}
+  .ff-resize-handle[data-edge="ne"],.ff-resize-handle[data-edge="nw"],.ff-resize-handle[data-edge="se"],.ff-resize-handle[data-edge="sw"]{width:34px;height:34px}
+}
+@media(prefers-reduced-motion:reduce){.ff-resize-handle{transition:none!important}}

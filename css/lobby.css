@@ -117,3 +117,18 @@ button:disabled{cursor:not-allowed;opacity:.48}
 .howto-hero{display:grid!important;grid-template-columns:120px 1fr;align-items:center;gap:14px}.howto-hero img{width:100%;height:100px;object-fit:contain}.howto-hero strong{display:block;margin-bottom:5px;color:#ffe69b;font-size:13px}.howto-callout{margin-top:9px;padding:8px 10px;border-left:3px solid #ffd86e;background:rgba(255,216,110,.07);color:#e5e7d2;font-size:8px;line-height:1.5}.role-cheat-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px}.role-cheat-grid article{display:grid;gap:3px;padding:8px;border:1px solid rgba(81,124,130,.48);border-radius:9px;background:#07141f}.role-cheat-grid b{color:#ffe69b;font-size:9px}.role-cheat-grid span{color:#9de4d1;font-size:7px;font-weight:900}.role-cheat-grid p{font-size:8px!important}.howto-last{margin-bottom:4px}
 body.howto-open{overflow:hidden}
 @media(max-width:650px){.howto-dialog{width:calc(100vw - 12px);max-height:94dvh}.howto-shell{max-height:94dvh}.howto-hero{grid-template-columns:82px 1fr}.howto-hero img{height:76px}.role-cheat-grid{grid-template-columns:1fr}}
+@media(max-width:800px){.console-button,.install-button,.among-button,.code-arrow,.how-to-button{min-height:44px}.howto-scroll p{font-size:12px;line-height:1.65}.howto-scroll h3{font-size:14px}.howto-callout{font-size:11px;line-height:1.6}.role-cheat-grid b{font-size:12px}.role-cheat-grid span{font-size:10px}.role-cheat-grid p{font-size:11px!important;line-height:1.5}}
+
+/* Pass 10: readable, touch-scrollable full how-to guide and role recipe table */
+.howto-scroll p{font-size:12px;line-height:1.6}
+.howto-scroll ul,.howto-scroll ol{margin:8px 0 0;padding-left:20px;color:#c7d9d9;font-size:12px;line-height:1.6}
+.howto-scroll li+li{margin-top:4px}
+.howto-table-wrap{max-width:100%;overflow-x:auto;margin-top:10px;border:1px solid rgba(72,123,128,.52);border-radius:10px;overscroll-behavior-x:contain}
+.howto-table{width:100%;min-width:510px;border-collapse:collapse;background:#07141f;color:#dceae7;font-size:11px;line-height:1.4}
+.howto-table caption{padding:8px;background:#0b1c27;color:#9de4d1;font-weight:900;text-align:left}
+.howto-table th,.howto-table td{padding:7px 9px;border:1px solid rgba(72,123,128,.42);text-align:left;vertical-align:top}
+.howto-table th{background:#102a32;color:#ffe69b}
+.howto-table td:first-child,.howto-table td:nth-child(2),.howto-table td:nth-child(3){text-align:center;font-weight:900}
+.howto-callout ul{margin-top:5px}
+.role-cheat-grid p{font-size:11px!important;line-height:1.55}
+@media(max-width:800px){.howto-scroll p{font-size:13px;line-height:1.65}.howto-scroll ul,.howto-scroll ol{font-size:13px;line-height:1.6}.howto-table{font-size:12px}.role-cheat-grid p{font-size:12px!important;line-height:1.6}}

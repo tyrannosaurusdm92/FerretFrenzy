@@ -1,4 +1,4 @@
-const CACHE = 'ferret-frenzy-v22-channels-turn-narrator-20261003';
+const CACHE = 'ferret-frenzy-v25-how-to-play-menu-20261003';
 const CORE = [
   './assets/audio/dice-roll.mp3',
   './assets/audio/ferret.mp3',
@@ -43,6 +43,7 @@ const CORE = [
   './css/frenzy-game.css',
   './css/frenzy-shell.css',
   './css/lobby.css',
+  './css/menu-resize-accessibility.css',
   './css/narrator.css',
   './js/action-queue.js',
   './js/app.js',
@@ -54,6 +55,7 @@ const CORE = [
   './js/bot-game-bootstrap.js',
   './js/bot-manager.js',
   './js/cards.js',
+  './js/chat-turn-rules.js',
   './js/business-bot.js',
   './js/device-store.js',
   './js/dice.js',
@@ -78,6 +80,7 @@ const CORE = [
   './js/hunter-bot.js',
   './js/itchy-bot.js',
   './js/lobby.js',
+  './js/menu-resize-accessibility.js',
   './js/local-transport.js',
   './js/mechanics-engine.js',
   './js/minnow-hitbox.js',

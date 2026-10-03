@@ -1,5 +1,5 @@
 {
-  "version": "1.1.0-integrated",
+  "version": "1.2.0-integrated-pass8",
   "mode": "integrated-player-session",
   "voice": {
     "engine": "browser-speech-synthesis",
@@ -12,13 +12,16 @@
   "publicNarration": {
     "hostOwnsSharedNarrator": true,
     "autoChatPhases": [
+      "LOBBY",
       "MORNING",
       "VOTE",
       "RESULTS"
     ],
     "chatMarker": "[[FF_NARRATOR_V1]]",
     "displayName": "Ferret Frenzy Narrator",
-    "deduplicateByGameAndPhase": true
+    "deduplicateByGameAndPhase": true,
+    "volumePreferenceKey": "ff:sound-level:v1",
+    "lobbyChatAvailable": true
   },
   "privacy": {
     "privatePromptsMayBeSpokenLocally": true,

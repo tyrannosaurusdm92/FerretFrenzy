@@ -42,7 +42,8 @@
   },
   "chat": {
     "channels": false,
-    "model": "one shared lobby discussion and one shared Morning Business discussion"
+    "model": "one shared lobby discussion and one shared Morning Business discussion",
+    "turnFloor": "No server action or permission field exists in this contract; current clients coordinate the optional turn queue through public chat system messages and disable the composer locally."
   },
   "voting": {
     "simultaneous": true,
