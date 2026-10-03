@@ -9,7 +9,7 @@ The uploaded Ferret Frenzy Narrator companion has been integrated directly into 
 - Private role prompts and newly delivered private facts are displayed locally and can be spoken only after the player confirms private headphones.
 - The narrator never submits dice rolls, role actions, protection, marks, swaps, votes, or other gameplay decisions.
 - The host seat owns shared narrator chat posting to prevent every connected player from producing duplicate narrator messages.
-- New shared Morning Business, Paw Point, and Results announcements can post automatically to the existing shared chat.
+- New shared lobby, Morning Business, Paw Point, and Results announcements can post automatically to the existing shared chat.
 - The host may also type a manual public narrator line in the narrator panel.
 - Private instructions and private facts never use the narrator chat pathway.
 
@@ -25,7 +25,7 @@ This preserves the user's tested Apps Script backend unchanged while allowing th
 - `css/narrator.css` — narrator HUD/panel and narrator chat styling.
 - `json/narrator-config.json` — integration contract and privacy settings.
 - `docs/narrator/NARRATION_DESIGN_AND_RESEARCH.md` — research/design document carried forward from the uploaded narrator package.
-- `tests/narrator-integration-test.mjs` — static integration/privacy regression coverage.
+- `docs/test__narrator-integration-test.mjs` — static integration/privacy regression coverage in the flattened package.
 
 ## Backend boundary
 

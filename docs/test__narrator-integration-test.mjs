@@ -25,7 +25,7 @@ assert.equal(cfg.privacy.privatePromptsMayEnterSharedChat,false);
 assert.equal(cfg.privacy.privateFactsMayEnterSharedChat,false);
 assert.equal(cfg.privacy.backendModified,false);
 assert.equal(cfg.publicNarration.hostOwnsSharedNarrator,true);
-assert.equal(pkg.version,'3.8.0');
+assert.equal(pkg.version,'3.11.0');
 for(const f of ['./css/narrator.css','./js/narrator.js','./json/narrator-config.json']) assert.match(sw,new RegExp(f.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')));
 const gs=[];const walk=d=>{for(const ent of fs.readdirSync(d,{withFileTypes:true})){const p=path.join(d,ent.name);if(ent.isDirectory())walk(p);else if(p.endsWith('.gs'))gs.push(p)}};walk(root);assert.equal(gs.length,0,'Narrator integration must not add/modify Apps Script backend source');
 console.log(JSON.stringify({ok:true,test:'narrator-integration-test',integratedPanel:true,reusesPlayerSession:true,hostNarratorChat:true,privateChatLeakBlocked:true,backendFiles:0},null,2));

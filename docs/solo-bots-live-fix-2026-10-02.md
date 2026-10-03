@@ -24,4 +24,4 @@ The service-worker cache key was bumped to `ferret-frenzy-v15-solo-bots-fetch-fi
 
 ## Regression coverage
 
-`tests/solo-bots-browser-fetch-test.mjs` installs a receiver-sensitive browser-style fetch stub that deliberately throws the same Illegal Invocation error unless called with the global receiver. The test verifies that `FerretFrenzyApi.health()` now succeeds and still targets the locked tested backend URL.
+`docs/test__solo-bots-browser-fetch-test.mjs` installs a receiver-sensitive browser-style fetch stub that deliberately throws the same Illegal Invocation error unless called with the global receiver. The test verifies that `FerretFrenzyApi.health()` now succeeds and still targets the locked tested backend URL.

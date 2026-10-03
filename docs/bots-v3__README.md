@@ -15,7 +15,7 @@ This package is a **Ferret Frenzy-only** frontend bot brain for the existing tes
 - Hostile-side cover stories that remain stable instead of changing every message.
 - Paw Point target selection that absolutely protects a known historical Raider while still permitting strategic distancing from non-Raider starting Bandits when public pressure warrants it.
 - Server-bot and frontend-guest-bot integration modes.
-- Repository provenance, license notes, backend contract, integration guide, and tests under `docs/` and `tests/`.
+- Repository provenance, license notes, backend contract, integration guide, and flattened test files under `docs/`.
 
 ## Revision 3.0 evidence rules
 

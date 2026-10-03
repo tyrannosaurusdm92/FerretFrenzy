@@ -12,3 +12,6 @@ The queue and floor state are represented through reserved system messages carri
 
 ## Privacy
 No new hidden channel exists. Private role prompts, dice, conversions, scans, marks, protection, votes, and other authorized facts remain outside public chat. The narrator can speak private information locally only when the user enables the headphone gate; private lines cannot use narrator chat.
+
+## Pass 8 correction
+Lobby chat is writable before roles are dealt. The turn queue now validates host grants against raised paws, rejects non-host state changes, and is only shown as active during Morning Business or Paw Point. It disables typing in the supplied clients; server-side chat permission enforcement would require a backend change.

@@ -39,7 +39,7 @@ Evidence and chat
 - Hard personal facts are only facts delivered to that player by the game or chosen by that player.
 - Public statements are CLAIMS, not server-verified truth. Quick Role Claim is a statement builder and supports bluffing.
 - A true fact may become STALE after later card movement/conversion. Timestamp role information when discussing it.
-- Chat remains open through Morning Business and Paw Point so typing is not interrupted by polling or vote state changes.
+- Public chat is available in the lobby for coordination, then stays open through Morning Business and Paw Point so typing is not interrupted by polling or vote state changes. Quick Role Claim appears only during Morning Business and Paw Point.
 - Bots obey the same information boundary as humans. They may voluntarily make a role claim, but direct questions cannot force hidden-role disclosure.
 
 Solo + Bots
@@ -91,7 +91,7 @@ This package is an additive pass over the complete Revision 3 second-dossier-pas
 - Guardian protection semantics explicitly allow a zero-capture Paw Point when every positive vote total belongs to protected targets.
 - The visible vote submission path rechecks that the target is another active participant.
 - Every current base-role action whose dossier text requires “another player” filters self even if a malformed prompt omits `excludeSelf`; two-target actions still require distinct choices.
-- `tests/pass4-package-integrity-test.mjs` verifies all 24 card images, critical scene/logo/audio resources, eight 250-response bot libraries, and the new client target-legality guards.
+- `docs/test__pass4-package-integrity-test.mjs` verifies all 24 card images, critical scene/logo/audio resources, eight 250-response bot libraries, and the client target-legality guards.
 - The original Revision 3.0 dossier, Revision 3.1 Pass 3 dossier/audit, and new Revision 3.2 dossier/audit remain in `docs/`.
 - No Apps Script backend source is included or modified.
 
@@ -104,7 +104,7 @@ Revision 3.3 is additive over the complete Revision 3.2 / Pass 4 package.
 - The dossier result-note refresh signature includes `bondRevealed` and optional catch-source fields so a later authorized Results snapshot cannot be ignored by the UI.
 - `json/protocol-events.json` now places `HUNT_MARK_CHECKED` before `BOND_EXTRA_REVEAL`, matching the causal rule.
 - Live lobby/HUD help is labeled Revision 3.3 and uses the current resolution order.
-- `tests/pass5-dossier-consistency-test.mjs` guards the order, result distinction, current authority metadata, and Pass 5 cache/version wiring.
+- `docs/test__pass5-dossier-consistency-test.mjs` guards the order, result distinction, current authority metadata, and Pass 5 cache/version wiring.
 - The complete Pass 4 package remains the preservation baseline; no existing game file, asset, audio file, card image, bot library, prior dossier, or earlier test is removed.
 - The tested Apps Script backend remains unchanged.
 
@@ -133,3 +133,30 @@ See `docs/narrator/NARRATOR_INTEGRATION_2026-10-03.md` and `json/narrator-config
 - Public channels: #burrow, #evidence, #claims, #paw-point, #narrator. These are organizational views over the same public chat stream, not hidden faction rooms.
 - Turn Mode adapts Zoom-style mute + raise-hand interaction to text gameplay: host enables Turn Mode, players Raise Paw, host grants Next Turn, and the floor-holder ends/yields the turn.
 - No new backend dependency was added.
+
+## Pass 8 — lobby, mobile, and control corrections
+
+- Lobby chat is writable before roles are dealt. The chat panel opens in the lobby; Quick Role Claim stays hidden until Morning Business or Paw Point.
+- Turn Floor controls are active only during Morning Business and Paw Point. System messages are replayed through a tested rules module; a host cannot grant the floor to someone who has not raised a paw, and non-host commands cannot alter host-only state.
+- Game and narrator volume now share one persisted device setting. The mute, low, full, and slider controls all use the same update path, so narrator speech and game audio stay aligned after reloads.
+- Mobile chat uses a safe-area-aware full-height panel, readable message text, horizontally scrollable channels, and larger touch controls.
+- The ZIP now includes a root `package.json`; `npm test` runs the flattened tests under `docs/`.
+- The backend remains unchanged. Turn Floor is enforced by the current client composer; the existing chat endpoint has no server-side turn-permission check.
+
+## Pass 9 — client reliability corrections
+
+- Turn Floor host replay now resolves the host from game.hostParticipantId, a host participant row, or the connected host's own me.isHost flag.
+- Paw Point, private role-action targets, and Quick Role Claim targets compare participant IDs consistently even when a JSON response mixes numeric and string forms.
+- Older overlapping chat.list responses cannot overwrite a newer discussion refresh.
+- A chat draft is restored after a failed or ignored send, unless the player has already started a different message.
+- The tested backend and existing package content remain unchanged; the service-worker cache version is advanced for the updated client.
+
+
+
+## Pass 10 — complete How to Play menu refresh
+
+- Replaced the lobby field guide with the supplied high-energy intro and full player-facing explanation: goal, player-count card recipes, Starting Role/Current Card/Current Allegiance, all eight roles, twelve Burrow Hours, evidence, Morning Business, Paw Point, results, and controls.
+- Rewrote HUD Quick How to Play as a shorter companion guide using the same role facts and resolution order.
+- Improved mobile readability and horizontal scrolling for the recipe table.
+- Advanced the package to 3.11.0 and the service-worker cache to v25 so installed clients receive the updated help.
+- The complete game package and tested backend contract remain in place.
