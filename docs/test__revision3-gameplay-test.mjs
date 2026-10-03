@@ -1,0 +1,15 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';import path from 'node:path';import {fileURLToPath} from 'node:url';
+import {normalizeRevision3State} from '../js/revision3-normalizer.js';import {topTargets,simultaneousLock,tallyVotes} from '../js/voting.js';
+const here=path.dirname(fileURLToPath(import.meta.url));const root=path.resolve(here,'..');
+const state={game:{id:'g-r3',phase:'MORNING'},me:{id:'me',privateFacts:[{type:'BUSINESS_WAKE_INSPECTION',participantId:'p2',wakeHours:[2,7,11]}]}};normalizeRevision3State(state);const fact=state.me.privateFacts[0];assert.equal(Array.isArray(fact.wakeHours),false);assert.ok([2,7,11].includes(fact.wakeHour));
+assert.deepEqual(topTargets([{actorId:'a',targetId:'x'},{actorId:'b',targetId:'x'},{actorId:'c',targetId:'y'},{actorId:'d',targetId:'y'}]),['x','y']);assert.deepEqual(topTargets([{actorId:'a',targetId:'x'},{actorId:'b',targetId:'x'},{actorId:'c',targetId:'y'}],{protectedIds:['x']}),['y']);
+assert.deepEqual(topTargets([{actorId:'a',targetId:'x'},{actorId:'b',targetId:'x'}],{protectedIds:['x']}),[],'all votes on a protected target must produce no Paw Point capture');
+assert.deepEqual(tallyVotes([{actorId:'a',targetId:'a'},{actorId:'b',targetId:'a'}]),{a:1},'self-votes are ignored by helper logic');
+assert.equal(simultaneousLock({a:'a',b:'a'},['a','b']).some(v=>v.actorId===v.targetId),false,'simultaneous lock must reject self-votes');
+const cards=fs.readFileSync(path.join(root,'js/cards.js'),'utf8');assert.match(cards,/one randomly selected wake result/i);assert.match(cards,/learn the historical Raider identity/i);assert.match(cards,/Bond-Reveal is not itself a capture/i);
+const lobby=fs.readFileSync(path.join(root,'lobby.html'),'utf8');assert.match(lobby,/Quick Role Claim[\s\S]*statement builder/i);assert.match(lobby,/wake scheduled players → show Treat State before action/i);assert.match(lobby,/Bond-Revealed in results/i);
+const quick=fs.readFileSync(path.join(root,'assets/code/frenzy.html'),'utf8');assert.match(quick,/Quick How to Play · Revision 3\.3/);assert.match(quick,/one random wake result, not a whole schedule/i);
+const readme=fs.readFileSync(path.join(root,'README.md'),'utf8');assert.match(readme,/Revision 3\.3 Frontend/);assert.match(readme,/exactly one randomly selected wake result/i);
+const bot=JSON.parse(fs.readFileSync(path.join(root,'json/business-bot.json'),'utf8'));assert.equal(bot.responses.length,250);assert.ok(bot.responses.filter(x=>x.category==='solo_inspect').every(x=>!x.text.toLowerCase().includes('wake schedule')));
+console.log('Revision 3.x gameplay regression checks passed under Revision 3.3 authority.');

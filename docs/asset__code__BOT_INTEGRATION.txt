@@ -1,0 +1,13 @@
+FERRET FRENZY BOTS v3 FRONTEND INTEGRATION
+
+- The live browser bot runtime is Ferret Frenzy Bots v3.0.0.
+- Empty seats are created as ordinary anonymous guest seats and marked ready before game start.
+- The browser DOES NOT reserve, choose, or assign a role for any player or bot.
+- The existing tested Apps Script backend deals roles authoritatively during game.start.
+- After the deal, js/bot-manager.js reads each managed bot's own game.state startingRole and creates the matching v3 specialized role brain through js/ferret-frenzy-bot-roster.js.
+- Runtime modules include claim parsing, contradiction memory, deduction, role-aware actions, d6/d12 coordination, social discussion, and Paw Point voting.
+- Each of the eight role JSON files contains exactly 250 Ferret Frenzy responses (2,000 total).
+- js/bot-game-bootstrap.js resumes browser-owned bot seats after navigation into assets/code/frenzy.html.
+- A per-room lease prevents two tabs from driving the same browser-owned bot seats at the same time.
+- Native backend lobby.fillBots seats are not driven again by the browser, preventing double controllers.
+- The backend URL is unchanged and no Apps Script backend file is included in this package.

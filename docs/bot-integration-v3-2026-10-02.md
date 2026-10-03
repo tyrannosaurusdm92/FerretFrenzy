@@ -22,3 +22,16 @@ The v3 bot manager exposes current managed-bot state to the existing Night audio
 ## Backend protection
 
 The supplied `.gs` backend was used only as a read-only contract reference while integrating these frontend modules. It is not copied into this deliverable, and no replacement backend file is generated.
+
+## Revision 3.0 second-pass bot doctrine
+
+- Claim memory is chronological. Multi-wake roles can disclose several legal hours without creating a false contradiction, and Treat State is stored per claimed Burrow Hour when the statement gives a timestamp.
+- Quick Role Claim's `I am claiming …` phrasing is parsed as an actual public role claim.
+- Loyal Itchy voting honors a valid two-candidate historical-Raider clue instead of wandering outside the guaranteed pair.
+- Guardian protection does not automatically target the recognized starting Hunter; recognition is historical and may be stale after Hunter conversion.
+- Converted Hunter never uses loyal Hunt Mark logic.
+- A known historical Raider is never selected by a hostile bot's own Paw Point. Non-Raider starting Bandits can still be sacrificially distanced if public evidence makes that the best Raider-protection play.
+- Bot reasoning still uses only the private facts delivered to that bot plus parsed public claims. These changes do not grant new server truth.
+
+- Starting Role and Current Card claims are parsed separately; bot-volunteered `role claim:` phrasing is recognized by other bots.
+- Runtime reasoning contract is brainVersion 3.1.0; the 250-response-per-role libraries remain intact.
