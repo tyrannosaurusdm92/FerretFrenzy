@@ -17,6 +17,7 @@
   const $ = (selector, root = document) => root.querySelector(selector);
   const el = {
     displayName: $('#displayName'),
+    createSoloButton: $('#createSoloButton'),
     createPrivateButton: $('#createPrivateButton'),
     createPublicButton: $('#createPublicButton'),
     targetPlayers: $('#targetPlayers'),
@@ -242,23 +243,24 @@
     }
   }
 
-  async function createLobby(visibility) {
-    setBusy(true, visibility === 'PUBLIC' ? 'Creating public burrow…' : 'Creating private burrow…');
+  async function createLobby(visibility, options = {}) {
+    const solo = options.solo === true;
+    setBusy(true, solo ? 'Creating solo burrow and preparing role bots…' : (visibility === 'PUBLIC' ? 'Creating public burrow…' : 'Creating private burrow…'));
     try {
       const guestData = await ensureGuest();
-      const targetPlayers = Number(el.targetPlayers.value || 6);
+      const targetPlayers = solo ? 4 : Number(el.targetPlayers.value || 6);
       const view = await apiCall('lobby.create', {
         guestToken: guestData.guestToken,
         name: `${guestData.guest.displayName}'s Burrow`,
         visibility,
         maxPlayers: 10,
         targetPlayers,
-        allowBots: el.allowBots.checked,
-        autoFillBots: el.autoFillBots.checked,
+        allowBots: solo ? true : el.allowBots.checked,
+        autoFillBots: solo ? true : el.autoFillBots.checked,
         botDifficulty: 'NORMAL'
       });
       await reserveRoleOnEntry(view, 'create');
-      showToast(`Burrow ${view?.game?.code || ''} created. Role slot reserved. Opening Ferret Frenzy…`, 'success', 1400);
+      showToast(solo ? `Solo burrow ${view?.game?.code || ''} created. You can deal your role and the remaining seats will be bots.` : `Burrow ${view?.game?.code || ''} created. Role slot reserved. Opening Ferret Frenzy…`, 'success', 1700);
       setTimeout(() => launchFrenzy(view, guestData.guestToken), 180);
     } catch (error) {
       showToast(error.message || 'Could not create a game.', 'error');
@@ -347,6 +349,7 @@
   }
 
   el.refreshButton.addEventListener('click', () => refreshGames(false));
+  el.createSoloButton?.addEventListener('click', () => createLobby('PRIVATE', {solo:true}));
   el.createPrivateButton.addEventListener('click', () => createLobby('PRIVATE'));
   el.createPublicButton.addEventListener('click', () => createLobby('PUBLIC'));
 

@@ -1,17 +1,21 @@
 {
   "joystick": {
     "navigate": "ordinary movement navigates highlighted targets",
-    "roll": "deliberate flick rolls selected die"
+    "roll": "deliberate flick rolls the currently required selected die"
   },
   "/1/": "select d6 action/chance die",
   "/2/": "select d12 wake-hour die",
-  "/3/": "optional quick confirm / lock latest result",
-  "/4/": "open private role, wake schedule, Treat States, co-wakers, confirmed facts",
   "A": "primary confirm / select",
   "B": "back / close / cancel before lock",
   "X": "context-sensitive role action",
-  "Y": "private notebook / reminder",
-  "Z": "reserved",
-  "R": "reserved",
+  "removedPhysicalButtons": [
+    "/3/",
+    "/4/",
+    "Y",
+    "Z",
+    "R"
+  ],
+  "privateTools": "Private Info and Notebook remain in the HUD/menu and do not consume controller buttons.",
+  "preGame": "After the host deals roles, each human privately sees the dealt card first; required setup rolls/actions occur in PREP before Hour 1/Night begins.",
   "privacy": "raw dice values and private facts are local/private unless rules explicitly reveal derived information"
 }

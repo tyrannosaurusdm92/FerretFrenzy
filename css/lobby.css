@@ -100,3 +100,7 @@ button:disabled{cursor:not-allowed;opacity:.48}
 }
 @media(max-width:800px){.frenzy-logo{width:min(100%,330px);max-height:270px}}
 @media(max-width:570px){.frenzy-logo{width:min(96vw,310px);max-height:250px}}
+
+/* Solo-vs-bots first-class entry */
+.among-button.solo{border-color:#ffd86e;background:linear-gradient(180deg,#7a6430,#4c3d1f);color:#fff8d7}.among-button.solo small{color:#f6e6aa}.host-controls{flex-wrap:wrap}.host-controls .among-button{min-width:30%}
+@media(max-width:570px){.host-controls .among-button{min-width:100%}}

@@ -31,14 +31,20 @@
     },
     "/1/": "select d6 action/chance die",
     "/2/": "select d12 wake-hour die",
-    "/3/": "optional quick confirm / lock latest result",
-    "/4/": "open private role, wake schedule, Treat States, co-wakers, confirmed facts",
     "A": "primary confirm / select",
     "B": "back / close / cancel before lock",
     "X": "context-sensitive role action",
-    "Y": "private notebook / reminder",
-    "Z": "reserved",
-    "R": "reserved",
+    "hudTools": [
+      "private role/wake/fact view",
+      "private notebook"
+    ],
+    "removedOptionalPhysicalButtons": [
+      "/3/",
+      "/4/",
+      "Y",
+      "Z",
+      "R"
+    ],
     "privacy": "raw dice values and private facts are local/private unless rules explicitly reveal derived information"
   },
   "object": "Minnow Treats",

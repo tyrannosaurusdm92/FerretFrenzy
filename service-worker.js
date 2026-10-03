@@ -1,4 +1,4 @@
-const CACHE = 'ferret-frenzy-v10-frontend-pass-20261002';
+const CACHE = 'ferret-frenzy-v11-solo-prep-controls-20261002';
 const CORE = [
   './assets/audio/dice-roll.mp3',
   './assets/audio/ferret.mp3',

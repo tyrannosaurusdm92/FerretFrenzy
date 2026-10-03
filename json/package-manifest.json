@@ -1,5 +1,5 @@
 {
-  "name": "Ferret Frenzy — Full Frontend Gameplay Pass",
+  "name": "Ferret Frenzy \u2014 Solo Bots + Pre-Game Card Frontend Pass",
   "entry": "lobby.html",
   "structure": [
     "lobby.html",
@@ -13,7 +13,7 @@
     "assets/code/frenzy.html",
     "docs/"
   ],
-  "notes": "Frontend-only verification/fix pass against the existing Apps Script backend. Repairs the fatal frenzy-network module parse error; preserves the backend endpoint and contract; hardens host detection and Snuggler two-target payload compatibility; keeps smart role bots visibly labeled; retains all 24 card assets and all four audio assets; confirms twelve 60-second Burrow Hours as a 12-minute base Night; and bumps the PWA cache so the revised frontend deploys cleanly. No backend .gs file is included or modified.",
+  "notes": "Frontend-only pass. No backend Apps Script code is included or modified. Adds a one-human Solo + Bots lobby entry; makes PREP visibly function as Pre-Game Setup with dealt role card acknowledgment before setup rolls/actions; keeps the 12 x 60-second Night; removes unused physical controller buttons /3/, /4/, Y, Z and R while retaining A/B/X + /1//2/ + joystick; preserves card-backed target/vote/Hammock choices and role/result card reveals; retains all four audio files, friend codes and PWA install.",
   "gameShell": {
     "html": "assets/code/frenzy.html",
     "scripts": [
@@ -79,7 +79,7 @@
         ]
       ]
     },
-    "eligiblePlayer": "starting BANDIT + isRaider=true + current Night hour is one of that player’s wake hours",
+    "eligiblePlayer": "starting BANDIT + isRaider=true + current Night hour is one of that player\u2019s wake hours",
     "result": "pre-theft scene changes immediately to assets/images/Minnow Treats crime scene-2.png on click",
     "backendChanged": false
   },
@@ -96,6 +96,9 @@
       "final card reveal for every player"
     ],
     "nightLock": "Sleeping clients show black screen with Ferret Frenzy logo only",
-    "chatVoting": "Single shared Morning Business discussion; Paw Point selection uses player cards and no channels"
+    "chatVoting": "Single shared Morning Business discussion; Paw Point selection uses player cards and no channels",
+    "controls": "Physical gameplay controls are joystick + /1/ d6 + /2/ d12 + A confirm + B back + X role action. Private Info/Notebook remain HUD tools.",
+    "preGame": "Role deal enters backend PREP, presented as Pre-Game Setup. The actual dealt role card must be acknowledged before the frontend enables the required setup roll/action prompt; Night begins only after backend setup completion.",
+    "solo": "Solo + Bots creates a private target-4 room with bots/autofill enabled; Start/Deal Role + Prep fills the remaining seats with role bots before the backend deal."
   }
 }
