@@ -5,11 +5,19 @@ export class FerretFrenzyApiError extends Error {
 }
 
 export class FerretFrenzyApi {
-  constructor(baseUrl=FF_BACKEND_URL,{allowHostActions=false,fetchImpl=globalThis.fetch}={}){
+  constructor(baseUrl=FF_BACKEND_URL,{allowHostActions=false,fetchImpl=null}={}){
     this.baseUrl=String(baseUrl||'').trim();
     if(this.baseUrl!==FF_BACKEND_URL) throw new Error('Ferret Frenzy bot API is locked to the tested Ferret Frenzy backend.');
-    if(typeof fetchImpl!=='function') throw new Error('A fetch implementation is required.');
-    this.fetchImpl=fetchImpl;this.allowHostActions=Boolean(allowHostActions);
+    const resolvedFetch=fetchImpl||globalThis.fetch;
+    if(typeof resolvedFetch!=='function') throw new Error('A fetch implementation is required.');
+    // Window.fetch is brand-checked in browsers. Calling a captured native fetch as
+    // this.fetchImpl(...) gives it the FerretFrenzyApi instance as `this`, which
+    // Chrome rejects with "Illegal Invocation". Bind only the native global fetch;
+    // injected test/custom fetch implementations retain their original semantics.
+    this.fetchImpl=(resolvedFetch===globalThis.fetch&&typeof resolvedFetch.bind==='function')
+      ? resolvedFetch.bind(globalThis)
+      : resolvedFetch;
+    this.allowHostActions=Boolean(allowHostActions);
   }
   _allowed(action){return FF_SAFE_BOT_ACTIONS.has(action)||(this.allowHostActions&&FF_HOST_ACTIONS.has(action));}
   async post(action,data={}){

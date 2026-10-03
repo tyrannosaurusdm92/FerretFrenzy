@@ -1,4 +1,4 @@
-const CACHE = 'ferret-frenzy-v14-full-dossier-20261002';
+const CACHE = 'ferret-frenzy-v15-solo-bots-fetch-fix-20261002';
 const CORE = [
   './assets/audio/dice-roll.mp3',
   './assets/audio/ferret.mp3',
