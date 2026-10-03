@@ -43,7 +43,7 @@
       else if (t === 'HUNTER_RECOGNITION') rows.push(`You recognize ${f.displayName || participantName(state, f.participantId)} as the starting Hunter. This does not reveal later conversion.`);
       else if (t === 'GUARDIAN_RECOGNITION') rows.push(`You recognize ${f.displayName || participantName(state, f.participantId)} as the starting Guardian.`);
       else if (t === 'HUNTER_CONVERSION') rows.push(f.converted ? 'Your Hunter conversion roll converted you to the Bandit side.' : 'Your Hunter conversion roll left you on the Business side.');
-      else if (t === 'TROUBLE_CONVERTED') rows.push(`You became In On It during Hour ${f.hour || '?'}.`);
+      else if (t === 'TROUBLE_CONVERTED') rows.push(`You became In On It during Hour ${f.hour || '?'}.${f.raiderDisplayName||f.raiderName||f.raiderId?` You learned the historical Raider was ${f.raiderDisplayName||f.raiderName||participantName(state,f.raiderId)}.`:''}`);
       else if (t === 'GUARDIAN_PROTECTION') rows.push(`Your protection is locked on ${f.displayName || participantName(state, f.participantId || f.targetId)}.`);
       else if (t === 'HUNT_MARK') rows.push(`Your Hunt Mark is on ${f.displayName || participantName(state, f.participantId || f.targetId)}.`);
     }
@@ -88,7 +88,12 @@
       if (p.isRaider === true) rows.push(`${label}: historical Raider${p.caught ? ' · CAUGHT' : ' · ESCAPED'}.`);
       if (p.troubleAccomplice === true) rows.push(`${label}: Trouble accomplice / In On It status was player-bound.`);
       if (p.hunterConverted === true) rows.push(`${label}: Hunter converted to Bandit side; conversion was player-bound.`);
-      if (p.caught === true && p.isRaider !== true) rows.push(`${label}: caught/revealed by Paw Point or a secondary resolution effect.`);
+      if (p.caught === true && p.isRaider !== true) {
+        const source = upper(p.catchSource || p.caughtBy || p.captureSource || '');
+        const detail = /HUNT/.test(source) ? 'caught by Hunt Mark' : (/PAW|VOTE/.test(source) ? 'caught by Paw Point' : 'caught by Paw Point or a valid Hunt Mark');
+        rows.push(`${label}: ${detail}.`);
+      }
+      if (p.bondRevealed === true && p.caught !== true) rows.push(`${label}: Bond-Revealed in results; this reveal is not itself a Paw Point capture.`);
     }
     if (!rows.length) rows.push('No public card movement or player-bound status details were returned in this result view. The card reveal above remains authoritative for what this client may display.');
     const ul=document.createElement('ul');ul.className='trail-list';for(const row of rows){const li=document.createElement('li');li.textContent=row;ul.append(li)}box.append(ul);
@@ -97,7 +102,7 @@
   function update() {
     const state = window.FFNetwork?.getState?.(); if (!state?.game) return;
     const facts = state?.me?.privateFacts || [];
-    const publicDigest = (state.participants || []).map(p => [p.id,p.startingRole,p.currentCard,p.caught,p.isRaider,p.troubleAccomplice,p.hunterConverted]);
+    const publicDigest = (state.participants || []).map(p => [p.id,p.startingRole,p.currentCard,p.caught,p.bondRevealed,p.catchSource,p.caughtBy,p.captureSource,p.isRaider,p.troubleAccomplice,p.hunterConverted]);
     const signature = JSON.stringify([state.game.phase,state.game.currentHour,state.me?.actionPrompt?.kind,state.me?.actionPrompt?.type,state.me?.isRaider,state.me?.troubleAccomplice,state.me?.hunterConverted,facts,publicDigest]);
     if (signature === lastSignature) { updateSleepAndCrime(state); return; }
     lastSignature = signature;

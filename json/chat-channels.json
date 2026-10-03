@@ -1,0 +1,58 @@
+{
+  "version": "1.0",
+  "publicOnly": true,
+  "privacyModel": "All channels are public organizational views over the existing shared Ferret Frenzy chat. No faction/private channel is created.",
+  "channels": [
+    {
+      "id": "burrow",
+      "label": "burrow",
+      "purpose": "General Morning Business and ordinary discussion",
+      "writableByPlayers": true
+    },
+    {
+      "id": "evidence",
+      "label": "evidence",
+      "purpose": "Wake hours, Treat State, co-wakers, and mechanically checkable observations",
+      "writableByPlayers": true
+    },
+    {
+      "id": "claims",
+      "label": "claims",
+      "purpose": "Role claims, counterclaims, and card-movement explanations",
+      "writableByPlayers": true
+    },
+    {
+      "id": "paw-point",
+      "label": "paw-point",
+      "purpose": "Vote coordination and final public arguments; actual votes remain private",
+      "writableByPlayers": true
+    },
+    {
+      "id": "narrator",
+      "label": "narrator",
+      "purpose": "Narrator announcements and host narrator messages",
+      "writableByPlayers": false,
+      "writableByNarrator": true
+    }
+  ],
+  "wireFormat": {
+    "channel": "[[FF_CH:<ID>]]",
+    "narrator": "[[FF_NARRATOR_V1]]",
+    "system": "[[FF_SYS:<COMMAND>]]"
+  },
+  "turnFloor": {
+    "influence": "Zoom-style mute/unmute state plus raise-hand queue, translated into text-chat turn control",
+    "hostControls": [
+      "Enable Turn Mode",
+      "Disable Turn Mode",
+      "Next Turn",
+      "End Current Turn"
+    ],
+    "playerControls": [
+      "Raise Paw",
+      "Lower Paw",
+      "End Own Turn"
+    ],
+    "narratorBypassesTurnMute": true
+  }
+}

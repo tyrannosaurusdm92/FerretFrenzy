@@ -1,0 +1,56 @@
+{
+  "backend": "https://script.google.com/macros/s/AKfycbyAShO3c_FLVqp-fisabNx_DMuLD0UYMPygU22_jQfpLjIs796fgsJPo3viZq5FGeYd1A/exec",
+  "transport": "Google Apps Script Web App JSON actions over HTTPS polling; no WebSocket required",
+  "request": {
+    "POST": "{ action, data }",
+    "guestToken": "stored anonymous guest token inside data"
+  },
+  "actions": {
+    "guest": [
+      "guest.create",
+      "guest.resume"
+    ],
+    "lobby": [
+      "lobby.public",
+      "lobby.create",
+      "lobby.get",
+      "lobby.join",
+      "lobby.leave",
+      "lobby.ready",
+      "lobby.update",
+      "lobby.fillBots",
+      "lobby.share"
+    ],
+    "game": [
+      "game.start",
+      "game.state",
+      "game.roll",
+      "game.action",
+      "game.advance"
+    ],
+    "discussion": [
+      "chat.send",
+      "chat.list"
+    ],
+    "vote": [
+      "vote.begin",
+      "vote.cast"
+    ],
+    "sync": [
+      "events.poll"
+    ]
+  },
+  "chat": {
+    "channels": false,
+    "model": "one shared lobby discussion and one shared Morning Business discussion"
+  },
+  "voting": {
+    "simultaneous": true,
+    "selector": "Player seat buttons",
+    "authority": "server"
+  },
+  "pwa": {
+    "manifest": "manifest.webmanifest",
+    "serviceWorker": "service-worker.js"
+  }
+}

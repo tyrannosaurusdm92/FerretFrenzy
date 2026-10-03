@@ -1,19 +1,30 @@
 {
-  "name": "Ferret Frenzy \u2014 Full Dossier Pass + Bots v3",
+  "name": "Ferret Frenzy \u2014 Revision 3.3 Pass 5 + Integrated Narrator",
   "entry": "lobby.html",
-  "structure": [
-    "lobby.html",
-    "manifest.webmanifest",
-    "service-worker.js",
-    "js/",
-    "css/",
-    "json/",
-    "assets/images/",
-    "assets/audio/",
-    "assets/code/frenzy.html",
-    "docs/"
-  ],
-  "notes": "Frontend-only full dossier alignment pass. The tested Google Apps Script backend remains authoritative and unchanged. Live players and guest bots receive randomly dealt roles from game.state; the frontend does not reserve roles. The pass aligns cards, sleep/HUD, GeoJSON crime-scene interaction, dice, card movement, teamwork/private facts, Paw Point voting, Solo + Bots, and embedded How to Play guides.",
+  "structure": {
+    "rootFiles": [
+      "lobby.html",
+      "manifest.webmanifest",
+      "service-worker.js"
+    ],
+    "rootFolders": [
+      "css",
+      "js",
+      "json",
+      "docs",
+      "assets"
+    ],
+    "assetsSubfolders": [
+      "images",
+      "audio",
+      "code"
+    ],
+    "nestedFoldersOutsideAssets": false,
+    "assetsCodeFiles": [
+      "frenzy.html"
+    ]
+  },
+  "notes": "Pass 7: full narrator speech + chat integration, narrator speech mastered by the global sound toggle, public Discord-inspired gameplay channels, and Zoom-inspired turn-floor controls. Existing backend remains unchanged. Package normalized per user request: docs/tests flattened; role-card images flattened into assets/images; assets/code contains frenzy.html only.",
   "gameShell": {
     "html": "assets/code/frenzy.html",
     "scripts": [
@@ -24,12 +35,14 @@
       "js/minnow-hitbox.js",
       "js/frenzy-network.js",
       "js/bot-game-bootstrap.js",
-      "js/dossier-pass.js"
+      "js/dossier-pass.js",
+      "js/narrator.js"
     ],
     "styles": [
       "css/frenzy-shell.css",
       "css/dice.css",
-      "css/frenzy-game.css"
+      "css/frenzy-game.css",
+      "css/narrator.css"
     ],
     "controlsConfig": "json/frenzy-controls.json"
   },
@@ -43,7 +56,7 @@
   "assetMap": "json/asset-map.json",
   "botEngine": {
     "manifest": "json/bot-manifest.json",
-    "brainVersion": "3.0.0",
+    "brainVersion": "3.1.0",
     "mode": "frontend guest bots for browser-owned autofill seats",
     "roleSource": "authoritative game.state startingRole after backend deal",
     "responsesPerRole": 250,
@@ -121,11 +134,13 @@
     "controls": "Physical gameplay controls are joystick + /1/ d6 + /2/ d12 + A confirm + B back + X role action. Private Info/Notebook remain HUD tools.",
     "preGame": "Role deal enters backend PREP, presented as Pre-Game Setup. The actual dealt role card must be acknowledged before the frontend enables the required setup roll/action prompt; Night begins only after backend setup completion.",
     "solo": "Solo + Bots creates a private target-4 room. On Start, empty seats are created as frontend guest bots; after the tested backend deals roles, each seat loads the matching Ferret Frenzy v3 specialized role brain.",
-    "botAutofill": "No client-side role reservations. Bot guests join and ready before game.start; authoritative startingRole from game.state selects the role brain after the backend deal."
+    "botAutofill": "No client-side role reservations. Bot guests join and ready before game.start; authoritative startingRole from game.state selects the role brain after the backend deal.",
+    "localFallback": "Lobby-only local fallback is role-neutral; seat creation/joining never reserves or previews a role."
   },
-  "packageVersion": "3.1.0",
+  "packageVersion": "3.8.0",
   "dossierAlignment": {
-    "source": "Ferret_Frenzy_8_Role_d6_d12_Revised_Dossier.txt \u2014 Revision 2.0",
+    "source": "Ferret_Frenzy_8_Role_Gameplay_Solidification_Dossier_v3_3_Pass5.txt \u2014 Revision 3.3",
+    "supersedes": "Revision 3.2/3.1/3.0 wording only where Revision 3.3 explicitly clarifies secondary-resolution order, result provenance, live-help authority, and result refresh behavior",
     "roles": [
       "BANDIT",
       "DOOKER",
@@ -136,30 +151,86 @@
       "HUNTER",
       "GUARDIAN"
     ],
-    "deal": "Backend-authoritative random deal from an active set with one card per occupied seat plus three Hammock cards.",
+    "deal": "Backend-authoritative random Active Set deal: one Starting Card per occupied seat plus three hidden Hammock cards; bots reserve no roles.",
     "stateSeparation": [
-      "startingRole",
-      "currentCard",
-      "currentTeam",
-      "raider status",
-      "Trouble accomplice status",
-      "Hunter conversion status",
+      "Starting Role",
+      "Current Card",
+      "Current Allegiance",
+      "historical Raider",
+      "Trouble In On It",
+      "Hunter conversion",
       "Snuggle Bond",
       "Guardian protection",
       "Hunt Mark"
     ],
-    "sleep": "Black sleep + logo remains inside the game viewport; HUD/Burrow Clock remains visible and active.",
-    "crimeScene": "Clickable hit region is loaded from json/minnow-hitbox.geojson; eligible Raider click changes the local pre-crime scene to the packaged post-crime image while the tested backend remains authoritative.",
-    "dice": "/1/ selects d6, /2/ selects d12, joystick flick commits the required backend roll; animation lands on the authoritative returned face.",
-    "voting": "One Paw Point per active player; simultaneous lock; tied eligible top vote-getters are caught together; Guardian protection and secondary resolution remain backend-authoritative.",
+    "sameHourOrder": "wake \u2192 Treat State before action \u2192 Raider theft \u2192 conversion/witness triggers \u2192 Starting-Role actions \u2192 commit",
+    "businessSoloInspection": "Exactly one randomly selected wake result from one chosen player; never the target's full schedule.",
+    "dookerGlimpse": "Current allegiance at the exact Glimpse timestamp; later movement may make the fact stale.",
+    "troubleConversion": "Theft-window overlap converts Trouble before the blind swap and grants historical Raider identity.",
+    "snuggleBond": "Bond-Reveal is a results reveal, not an additional Paw Point capture.",
+    "guardianProtection": "Removes target from vote-capture eligibility; votes remain recorded for replay.",
+    "voting": "One private Paw Point per active player for another active player; simultaneous lock; protected targets are excluded from capture totals; all eligible positive top ties are caught; no positive eligible total means no Paw Point capture.",
+    "primaryWin": "Business must catch the historical Raider; catching only accomplices/converts is insufficient.",
+    "quickRoleClaim": "Public statement builder only; never validates hidden truth. Starting Role and Current Card claim scopes are tracked separately, with optional wake chronology, Treat State, co-waker, and role-specific targets/results.",
+    "botPrivacy": "Bots reason from authorized facts plus public claims; timestamped multi-wake testimony is not flattened into a single Treat State, and hidden roles are not exposed unless voluntarily claimed or publicly revealed.",
     "help": [
-      "Full How to Play dialog in lobby",
-      "Short Quick How to Play panel/button in the HUD"
+      "Full Revision 3.3 How to Play in lobby",
+      "Short Revision 3.3 Quick How to Play in HUD"
     ],
-    "backendModified": false
+    "backendModified": false,
+    "itchyClue": "A valid two-player clue contains the historical Raider plus a legal non-Raider decoy; no-decoy edge cases must be explicitly marked degraded.",
+    "guardianDoctrine": "Protection and Paw Point are separate choices; starting-Hunter recognition is historical/stale-able trust and does not force automatic protection.",
+    "hunterDoctrine": "Converted Hunter has no Hunt Mark effect; frontend bot logic refuses loyal mark behavior after conversion.",
+    "targetLegality": "All current player-targeting base role actions exclude self; Trouble/Snuggler require two distinct other targets; backend remains authoritative.",
+    "packagePreservation": "Dossier passes carry forward the complete known-good game package by default; unexpected package shrinkage requires audit before release.",
+    "secondaryResolution": "Paw Point catches -> valid loyal-Hunter Hunt Mark catch -> Snuggle Bond result reveal -> historical Raider primary-win check",
+    "resultProvenance": "CAUGHT is a real capture state; BOND-REVEALED is a separate results-only reveal and never itself a catch.",
+    "resultRefresh": "Authorized bondRevealed and optional catch-provenance changes invalidate result-note render signatures."
   },
   "guides": {
-    "lobby": "Full dossier-oriented How to Play dialog",
-    "hud": "Short Quick How to Play panel available from HUD and menu"
+    "lobby": "Full Revision 3.3 How to Play: round flow, evidence taxonomy, role gotchas, exact secondary-resolution order, state separation, Paw Point, bots and privacy.",
+    "hud": "Short Revision 3.3 Quick How to Play with same-hour order, role clarifications, and Paw Point -> Hunt Mark -> Bond-Reveal resolution order."
+  },
+  "chatVoting": {
+    "persistentChat": "Chat opens once at Morning Business and once at Paw Point phase entry; state polling no longer toggles it closed while typing.",
+    "quickRoleClaims": [
+      "Bandit",
+      "Dooker",
+      "Itchy",
+      "Trouble",
+      "Business",
+      "Snuggler",
+      "Hunter",
+      "Guardian"
+    ],
+    "targetSource": "Current participant displayName values, including human usernames and bot usernames.",
+    "bluffing": "Quick claims are public statements and are not validated against hidden truth. Starting Role and Current Card claims are distinct testimony fields.",
+    "botRolePrivacy": "Role-specific bot evidence is gated until the bot deliberately volunteers a public role claim or is publicly revealed/caught.",
+    "quickClaimTimeline": "Optional role-claim scope, claimed wake hours, Treat State, first co-waker, and timestamped role-specific details.",
+    "claimParser": "Recognizes human Quick Role Claim and bot volunteer wording; stores Treat State by Burrow Hour; preserves PRESENT\u2192MISSING same-window testimony; allows legal multi-wake disclosures; and never applies Starting-Role capability rules from a Current Card claim."
+  },
+  "narrator": {
+    "config": "json/narrator-config.json",
+    "script": "js/narrator.js",
+    "style": "css/narrator.css",
+    "session": "Reuses the current authenticated Ferret Frenzy player seat via window.FFNetwork.getState(); no second login/token entry.",
+    "voice": "Browser speech synthesis; shared announcements can use room audio, private role prompts require local headphone confirmation.",
+    "chat": "Host-owned shared narrator messages use existing chat.send with reserved [[FF_NARRATOR_V1]] marker and render as Ferret Frenzy Narrator on updated clients.",
+    "privacy": "Private prompts/facts are never sent to shared chat.",
+    "backendModified": false
+  },
+  "version": "3.8.0",
+  "chatChannels": {
+    "config": "json/chat-channels.json",
+    "publicOnly": true,
+    "channels": [
+      "burrow",
+      "evidence",
+      "claims",
+      "paw-point",
+      "narrator"
+    ],
+    "transport": "existing chat.send/chat.list markers",
+    "turnFloor": "host turn mode + raise paw queue + next turn + end turn"
   }
 }

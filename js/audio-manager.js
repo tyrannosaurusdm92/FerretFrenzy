@@ -56,6 +56,7 @@
     master=Math.max(0,Math.min(1,Number(v)||0));
     Object.entries(tracks).forEach(([k,a])=>a.volume=volumeFor(k));
     if(master===0)stopAll();else if(unlocked){setContext(context);if(chitterActive)playChitter()}
+    window.dispatchEvent(new CustomEvent('ff-audio-level',{detail:{level:master,muted:master===0}}));
   }
   function unlock(){
     if(unlocked) return; unlocked=true;
@@ -63,5 +64,5 @@
     removeEventListener('pointerdown',unlock,true);removeEventListener('keydown',unlock,true);removeEventListener('touchstart',unlock,true);
   }
   addEventListener('pointerdown',unlock,true);addEventListener('keydown',unlock,true);addEventListener('touchstart',unlock,true);
-  window.FFAudio={setContext,setMaster,setChitterActive,unlock,getContext:()=>context,isChitterActive:()=>chitterActive,urls};
+  window.FFAudio={setContext,setMaster,setChitterActive,unlock,getContext:()=>context,getMaster:()=>master,isMuted:()=>master===0,isChitterActive:()=>chitterActive,urls};
 })();

@@ -361,7 +361,7 @@
       "requires": [
         "range"
       ],
-      "text": "From my side, my fallback clue puts the Raider in {{range}}; it does not identify a player. That is where I am starting.",
+      "text": "From my side, my degraded fallback clue puts the Raider in {{range}}; it does not identify a player. That is where I am starting.",
       "id": "itchy-026",
       "tags": [
         "ferret-frenzy",
@@ -387,7 +387,7 @@
       "requires": [
         "range"
       ],
-      "text": "What I can confirm is my fallback clue puts the Raider in {{range}}; it does not identify a player. That could be true without proving allegiance.",
+      "text": "What I can confirm is my degraded fallback clue puts the Raider in {{range}}; it does not identify a player. That could be true without proving allegiance.",
       "id": "itchy-028",
       "tags": [
         "ferret-frenzy",
@@ -413,7 +413,7 @@
       "requires": [
         "range"
       ],
-      "text": "I keep coming back to my fallback clue puts the Raider in {{range}}; it does not identify a player. That does not settle the whole round.",
+      "text": "I keep coming back to my degraded fallback clue puts the Raider in {{range}}; it does not identify a player. That does not settle the whole round.",
       "id": "itchy-030",
       "tags": [
         "ferret-frenzy",
@@ -439,7 +439,7 @@
       "requires": [
         "range"
       ],
-      "text": "Before we Paw Point, my fallback clue puts the Raider in {{range}}; it does not identify a player. I am comparing who was awake before and after the treats vanished.",
+      "text": "Before we Paw Point, my degraded fallback clue puts the Raider in {{range}}; it does not identify a player. I am comparing who was awake before and after the treats vanished.",
       "id": "itchy-032",
       "tags": [
         "ferret-frenzy",
@@ -465,7 +465,7 @@
       "requires": [
         "range"
       ],
-      "text": "One thing I do not want to lose is my fallback clue puts the Raider in {{range}}; it does not identify a player. I am keeping my Paw Point open for now.",
+      "text": "One thing I do not want to lose is my degraded fallback clue puts the Raider in {{range}}; it does not identify a player. I am keeping my Paw Point open for now.",
       "id": "itchy-034",
       "tags": [
         "ferret-frenzy",
@@ -491,7 +491,7 @@
       "requires": [
         "range"
       ],
-      "text": "I am sticking to the facts: my fallback clue puts the Raider in {{range}}; it does not identify a player. The app-confirmed pieces come first.",
+      "text": "I am sticking to the facts: my degraded fallback clue puts the Raider in {{range}}; it does not identify a player. The app-confirmed pieces come first.",
       "id": "itchy-036",
       "tags": [
         "ferret-frenzy",
@@ -517,7 +517,7 @@
       "requires": [
         "range"
       ],
-      "text": "I want to separate fact from guess: my fallback clue puts the Raider in {{range}}; it does not identify a player. I am checking it against the treat state.",
+      "text": "I want to separate fact from guess: my degraded fallback clue puts the Raider in {{range}}; it does not identify a player. I am checking it against the treat state.",
       "id": "itchy-038",
       "tags": [
         "ferret-frenzy",
@@ -543,7 +543,7 @@
       "requires": [
         "range"
       ],
-      "text": "I am not treating this as proof, but my fallback clue puts the Raider in {{range}}; it does not identify a player. I am still weighing the same evidence.",
+      "text": "I am not treating this as proof, but my degraded fallback clue puts the Raider in {{range}}; it does not identify a player. I am still weighing the same evidence.",
       "id": "itchy-040",
       "tags": [
         "ferret-frenzy",
@@ -569,7 +569,7 @@
       "requires": [
         "range"
       ],
-      "text": "The clue I am weighing is my fallback clue puts the Raider in {{range}}; it does not identify a player. I am not treating a role claim as verified.",
+      "text": "The clue I am weighing is my degraded fallback clue puts the Raider in {{range}}; it does not identify a player. I am not treating a role claim as verified.",
       "id": "itchy-042",
       "tags": [
         "ferret-frenzy",
@@ -595,7 +595,7 @@
       "requires": [
         "range"
       ],
-      "text": "The safest thing I can say is my fallback clue puts the Raider in {{range}}; it does not identify a player. I want to hear how that fits everyone else.",
+      "text": "The safest thing I can say is my degraded fallback clue puts the Raider in {{range}}; it does not identify a player. I want to hear how that fits everyone else.",
       "id": "itchy-044",
       "tags": [
         "ferret-frenzy",
@@ -621,7 +621,7 @@
       "requires": [
         "range"
       ],
-      "text": "I am cross-checking claims: my fallback clue puts the Raider in {{range}}; it does not identify a player. I am watching for contradictions, not just confidence.",
+      "text": "I am cross-checking claims: my degraded fallback clue puts the Raider in {{range}}; it does not identify a player. I am watching for contradictions, not just confidence.",
       "id": "itchy-046",
       "tags": [
         "ferret-frenzy",
@@ -647,7 +647,7 @@
       "requires": [
         "range"
       ],
-      "text": "I am keeping this narrow: my fallback clue puts the Raider in {{range}}; it does not identify a player. I am not calling that automatic guilt.",
+      "text": "I am keeping this narrow: my degraded fallback clue puts the Raider in {{range}}; it does not identify a player. I am not calling that automatic guilt.",
       "id": "itchy-048",
       "tags": [
         "ferret-frenzy",
@@ -673,7 +673,7 @@
       "requires": [
         "range"
       ],
-      "text": "Here is the part I can actually use: my fallback clue puts the Raider in {{range}}; it does not identify a player. That is the part I can defend if challenged.",
+      "text": "Here is the part I can actually use: my degraded fallback clue puts the Raider in {{range}}; it does not identify a player. That is the part I can defend if challenged.",
       "id": "itchy-050",
       "tags": [
         "ferret-frenzy",
@@ -3132,5 +3132,5 @@
       ]
     }
   ],
-  "brainVersion": "3.0.0"
+  "brainVersion": "3.1.0"
 }

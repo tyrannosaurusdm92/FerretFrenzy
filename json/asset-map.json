@@ -38,7 +38,7 @@
     ]
   },
   "backend": "https://script.google.com/macros/s/AKfycbyAShO3c_FLVqp-fisabNx_DMuLD0UYMPygU22_jQfpLjIs796fgsJPo3viZq5FGeYd1A/exec",
-  "chatModel": "one shared Morning Business discussion; no channels",
+  "chatModel": "public Discord-inspired organizational channels over one shared game discussion; no hidden team channels",
   "voteModel": "one simultaneous Paw Point vote; player buttons labeled by seat number",
   "viewport": {
     "sourceAspect": "1672:941",
@@ -53,7 +53,7 @@
     "manifest": "json/bot-manifest.json",
     "manager": "js/bot-manager.js",
     "roster": "js/ferret-frenzy-bot-roster.js",
-    "brainVersion": "3.0.0",
+    "brainVersion": "3.1.0",
     "responsesPerRole": 250,
     "totalResponses": 2000,
     "roleAssignment": "authoritative backend deal; no browser reservation"
@@ -67,7 +67,7 @@
     "source": "runtime fetches packaged json/minnow-hitbox.geojson; hard-coded polygon exists only as offline fallback"
   },
   "cards": {
-    "directory": "assets/images/cards/",
+    "directory": "assets/images/",
     "use": [
       "starting role reveal",
       "private role dock",
@@ -87,5 +87,6 @@
       "team/status",
       "expandable full role rules"
     ]
-  }
+  },
+  "packageStructure": "Root folders are css, js, json, docs, assets; only assets nests images/audio/code."
 }

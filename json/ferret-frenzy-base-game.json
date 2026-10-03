@@ -1,41 +1,115 @@
 {
-  "version": "dossier-r2-aligned-2026-10-02",
-  "roles": ["Bandit","Dooker","Itchy","Trouble","Business","Snuggler","Hunter","Guardian"],
-  "cardPool": {"Bandit":4,"Business":14,"Dooker":1,"Itchy":1,"Trouble":1,"Snuggler":1,"Hunter":1,"Guardian":1},
+  "version": "dossier-r3.3-pass5-2026-10-03",
+  "authority": "Ferret_Frenzy_8_Role_Gameplay_Solidification_Dossier_v3_3_Pass5.txt — Revision 3.3",
+  "roles": [
+    "Bandit",
+    "Dooker",
+    "Itchy",
+    "Trouble",
+    "Business",
+    "Snuggler",
+    "Hunter",
+    "Guardian"
+  ],
+  "cardPool": {
+    "Bandit": 4,
+    "Business": 14,
+    "Dooker": 1,
+    "Itchy": 1,
+    "Trouble": 1,
+    "Snuggler": 1,
+    "Hunter": 1,
+    "Guardian": 1
+  },
   "roundSetup": {
-    "activeSet": "player count + 3 cards",
+    "activeSet": "player-count recipe + 3 Hammock cards",
     "hammockCards": 3,
-    "deal": "random, backend-authoritative, one Starting Card per player",
+    "deal": "random, backend-authoritative, one Starting Card per occupied seat",
+    "botsReserveRoles": false,
     "startingRoleImmutable": true,
     "currentCardMayMove": true
   },
   "dice": {
-    "d6": "action/chance: Itchy activation, Hunter conversion, Bandit Raider tiebreak",
+    "d6": "Itchy activation, Hunter conversion, Bandit Raider tie break only",
     "d12": "Burrow Hour",
     "private": true,
     "serverAuthoritativeOnline": true,
-    "multiWakeDuplicates": "reroll only the duplicate result until each wake hour is unique"
+    "multiWakeDuplicates": "reroll only the duplicate until that player's wake results are unique"
   },
-  "controls": {
-    "joystick": {"navigate":"ordinary movement navigates highlighted targets","roll":"deliberate flick rolls the selected/required die"},
-    "/1/": "select d6",
-    "/2/": "select d12",
-    "A": "confirm / select",
-    "B": "back / close / cancel before lock",
-    "X": "context-sensitive role action",
-    "hudTools": ["private role/wake/fact view","private notebook","quick how to play"]
+  "sameHourOrder": [
+    "wake scheduled players",
+    "show Treat State before action",
+    "historical Raider theft",
+    "witness/conversion triggers",
+    "Starting-Role actions",
+    "commit authorized facts",
+    "sleep"
+  ],
+  "allegiancePrecedence": [
+    "historical Raider remains Bandit-side",
+    "Trouble In On It or Hunter conversion remains Bandit-side",
+    "otherwise Bandit Current Card = Bandit-side; non-Bandit Current Card = Business-side"
+  ],
+  "rolesV3": {
+    "Dooker": "3 distinct wakes; second Glimpse reads current allegiance at that timestamp; third views one Hammock card and may Trip it onto one player without seeing displaced card",
+    "Itchy": "d6 5–6 activates second distinct wake and post-theft two-player historical-Raider clue with one legal non-Raider decoy when possible; if a legal pair cannot be formed, the clue is explicitly marked degraded rather than masquerading as a normal pair",
+    "Trouble": "blind swap two distinct other Current Cards; theft-window overlap converts before swap and reveals historical Raider identity to Trouble",
+    "Business": "if genuinely alone, choose one other player and inspect exactly one randomly selected wake result, never the full schedule",
+    "Snuggler": "bond two distinct other players; partner may be Bond-Revealed when the other is caught; Bond-Reveal is not itself a capture",
+    "Hunter": "recognizes Guardian; two wakes; first starting-Bandit overlap triggers one d6, 1–2 converts; loyal Hunter later marks",
+    "Guardian": "recognizes starting Hunter; never learns conversion; protects one other player by removing them from Paw Point capture eligibility"
   },
-  "burrowClock": {"hours":12,"secondsPerHour":60,"afterHour12":"Morning Business"},
-  "sleep": {"viewport":"black with Ferret Frenzy logo","hudVisible":true,"clockContinues":true,"banditActivityChitter":"non-identifying audio cue when authorized state/local bot controller exposes hostile-side activity"},
-  "crimeScene": {"before":"assets/images/Aurora-lit ferret treats bookshelf-1.png","after":"assets/images/Minnow Treats crime scene-2.png","clickOverlay":"json/minnow-hitbox.geojson","raiderOnly":true},
-  "cardMovement": {
-    "Trouble": "blindly swaps two distinct other player Current Cards",
-    "DookerTrip": "views one Hammock card, optionally swaps it with one player Current Card without viewing the displaced player card",
-    "playerBoundStatuses": ["historical Raider","Trouble accomplice","Hunter conversion","Snuggle Bond","Guardian protection","Hunt Mark"]
+  "evidence": {
+    "hardPersonalFact": "authorized mechanical fact delivered to this player",
+    "hardHistoricalEvent": "objective event, possibly hidden until replay",
+    "corroboratedClaim": "independent public stories agree; still not server verification",
+    "uncorroboratedClaim": "public statement without corroboration",
+    "inference": "deduction, never rendered as fact",
+    "staleFact": "fact true at an earlier timestamp that may not describe dawn",
+    "socialRead": "behavioral interpretation with no authoritative system weight"
   },
-  "morningBusiness": {"sharedDiscussion":true,"claimsVerifiedByApp":false},
-  "pawPoint": {"oneVotePerActivePlayer":true,"simultaneousLock":true,"ties":"all eligible tied top vote-getters are caught","guardianProtectionBeforeCapture":true},
-  "primaryWin": {"Business":"historical Raider is in the final caught set","Bandit":"historical Raider escapes"},
-  "bots": {"fillEmptySeats":true,"roleReservation":false,"roleBrainLoadsAfterAuthoritativeDeal":true,"soloDefaultSeats":4},
+  "morningBusiness": {
+    "sharedDiscussion": true,
+    "chatRemainsOpenThroughVote": true,
+    "claimsVerifiedByApp": false,
+    "guiltScore": false,
+    "quickRoleClaim": "bluff-safe statement builder; Starting Role and Current Card claims are tracked separately and optional timeline fields are not authenticated against hidden truth",
+    "claimParsing": "timestamp-aware: legal multi-wake testimony and PRESENT→MISSING chronology are not flattened into contradictions; Starting Role capability checks never derive from a Current Card claim"
+  },
+  "pawPoint": {
+    "oneVotePerActivePlayer": true,
+    "simultaneousLock": true,
+    "guardianProtection": "protected target removed from vote-capture eligibility; votes remain recorded for replay",
+    "ties": "all eligible tied top vote-getters are caught",
+    "targetRule": "one other active player; self-votes are illegal",
+    "zeroCapture": "if Guardian protection removes every positive eligible vote total, Paw Point catches nobody"
+  },
+  "secondaryResolution": {
+    "snuggleBond": "Bond-Reveal only; not an additional Paw Point capture",
+    "hunterMark": "loyal Hunter caught -> marked target caught only if Bandit-aligned at resolution; converted Hunter has no loyal mark effect",
+    "order": [
+      "Paw Point catch set",
+      "loyal Hunter Hunt Mark",
+      "Snuggle Bond result reveal",
+      "historical Raider primary-win check"
+    ],
+    "resultSemantics": "caught = Paw Point or valid loyal-Hunter Hunt Mark capture; bondRevealed = results-only reveal and never capture",
+    "lateResultUpdates": "frontend render caches must invalidate when authorized bondRevealed/catch provenance fields change"
+  },
+  "primaryWin": {
+    "Business": "historical Raider is in final valid catch set",
+    "Bandit": "historical Raider escapes"
+  },
+  "bots": {
+    "fillEmptySeats": true,
+    "roleReservation": false,
+    "roleBrainLoadsAfterAuthoritativeDeal": true,
+    "soloDefaultSeats": 4,
+    "hiddenRolePrivacy": "direct questions cannot force hidden-role disclosure; bots use authorized facts plus public claims only",
+    "claimParsing": "recognizes human Quick Role Claim phrasing and bot volunteer phrasing; public claims never grant hidden server truth",
+    "itchyVoting": "when a non-degraded two-player clue exists, loyal Itchy keeps its own Paw Point within the guaranteed candidate pair",
+    "guardianProtection": "starting-Hunter recognition is stale-capable trust, not an automatic protection command",
+    "hunterMark": "converted Hunter never uses loyal Hunt Mark logic"
+  },
   "leaderRole": false
 }

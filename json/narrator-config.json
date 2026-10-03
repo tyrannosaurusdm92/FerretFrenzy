@@ -1,0 +1,54 @@
+{
+  "version": "1.1.0-integrated",
+  "mode": "integrated-player-session",
+  "voice": {
+    "engine": "browser-speech-synthesis",
+    "language": "en-US",
+    "rate": 1.04,
+    "pitch": 1.48,
+    "privateSpeechRequiresHeadphonesConfirmation": true
+  },
+  "stateSource": "window.FFNetwork.getState()",
+  "publicNarration": {
+    "hostOwnsSharedNarrator": true,
+    "autoChatPhases": [
+      "MORNING",
+      "VOTE",
+      "RESULTS"
+    ],
+    "chatMarker": "[[FF_NARRATOR_V1]]",
+    "displayName": "Ferret Frenzy Narrator",
+    "deduplicateByGameAndPhase": true
+  },
+  "privacy": {
+    "privatePromptsMayBeSpokenLocally": true,
+    "privateFactsMayBeSpokenLocally": true,
+    "privatePromptsMayEnterSharedChat": false,
+    "privateFactsMayEnterSharedChat": false,
+    "sharedChatUsesExistingBackend": true,
+    "backendModified": false
+  },
+  "roles": [
+    "BANDIT",
+    "DOOKER",
+    "ITCHY",
+    "TROUBLE",
+    "BUSINESS",
+    "SNUGGLER",
+    "HUNTER",
+    "GUARDIAN"
+  ],
+  "soundControl": {
+    "source": "Ferret Frenzy global HUD sound control",
+    "muteBehavior": "Cancels and suppresses SpeechSynthesis narration at volume 0",
+    "volumeBehavior": "SpeechSynthesisUtterance.volume follows the same 0..1 master level",
+    "chatWhenMuted": "Narrator text chat remains visible because mute controls audio, not accessibility text"
+  },
+  "chatChannels": [
+    "narrator",
+    "burrow",
+    "evidence",
+    "claims",
+    "paw-point"
+  ]
+}

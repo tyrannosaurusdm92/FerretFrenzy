@@ -1,0 +1,10 @@
+{
+  "name": "ferret-frenzy-solidified-bots",
+  "version": "3.8.0",
+  "private": true,
+  "type": "module",
+  "description": "Ferret Frenzy Revision 3.3 Pass 5 full game plus sound-mastered narrator speech/chat, public gameplay channels, and Zoom-inspired turn-floor controls without backend changes.",
+  "scripts": {
+    "test": "node tests/bot-self-test.mjs && node tests/simulation-test.mjs && node tests/frontend-dossier-test.mjs && node tests/solo-bots-browser-fetch-test.mjs && node tests/solo-bots-manager-flow-test.mjs && node tests/chat-vote-claim-privacy-test.mjs && node tests/revision3-gameplay-test.mjs && node tests/revision3-social-deduction-test.mjs && node tests/pass4-package-integrity-test.mjs && node tests/pass5-dossier-consistency-test.mjs && node tests/narrator-integration-test.mjs && node tests/channels-turn-narrator-pass-test.mjs"
+  }
+}

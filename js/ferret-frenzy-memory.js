@@ -2,7 +2,7 @@ import {FF_BRAIN_VERSION} from './ferret-frenzy-constants.js';
 const arr=v=>Array.isArray(v)?v:[];
 export class FerretFrenzyMemory {
   constructor({storage=globalThis.localStorage,namespace='ff-bot-v3'}={}){this.storage=storage;this.namespace=namespace;this.key='';this.data=this.fresh();}
-  fresh(){return {version:3,brainVersion:FF_BRAIN_VERSION,roundKey:'',role:'',coverStory:null,claims:{},conversation:[],seenMessageIds:[],actions:[],usedResponseIds:[],questionsAsked:{},lastChatAt:0,sentMorning:0,sentVote:0,lastSeq:0,lastVote:null,diceHistory:[]};}
+  fresh(){return {version:3,brainVersion:FF_BRAIN_VERSION,roundKey:'',role:'',coverStory:null,publicRoleClaim:'',roleClaimVolunteeredAt:0,claims:{},conversation:[],seenMessageIds:[],actions:[],usedResponseIds:[],questionsAsked:{},lastChatAt:0,sentMorning:0,sentVote:0,lastSeq:0,lastVote:null,diceHistory:[]};}
   bind({code,participantId,role}){this.key=[this.namespace,String(code||''),String(participantId||''),String(role||'')].join(':');this.load();this.data.role=String(role||this.data.role||'').toUpperCase();return this;}
   load(){if(!this.key||!this.storage)return this.data;try{const raw=this.storage.getItem(this.key);const parsed=raw?JSON.parse(raw):null;if(parsed&&typeof parsed==='object')this.data={...this.fresh(),...parsed};}catch{}return this.data;}
   save(){if(this.key&&this.storage){try{this.data.brainVersion=FF_BRAIN_VERSION;this.data.conversation=arr(this.data.conversation).slice(-220);this.data.seenMessageIds=arr(this.data.seenMessageIds).slice(-450);this.data.actions=arr(this.data.actions).slice(-160);this.data.diceHistory=arr(this.data.diceHistory).slice(-80);this.storage.setItem(this.key,JSON.stringify(this.data));}catch{}}return this.data;}

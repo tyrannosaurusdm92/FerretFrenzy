@@ -1,24 +1,99 @@
 {
-  "version": "dossier-r2-aligned",
+  "version": "dossier-r3.3-pass5-2026-10-03",
   "backendActions": {
-    "guest": ["guest.create","guest.resume"],
-    "lobby": ["lobby.public","lobby.create","lobby.get","lobby.join","lobby.leave","lobby.ready","lobby.update","lobby.fillBots","lobby.share"],
-    "game": ["game.start","game.state","game.roll","game.action","game.advance"],
-    "discussion": ["chat.send","chat.list"],
-    "vote": ["vote.begin","vote.cast"],
-    "sync": ["events.poll"]
+    "guest": [
+      "guest.create",
+      "guest.resume"
+    ],
+    "lobby": [
+      "lobby.public",
+      "lobby.create",
+      "lobby.get",
+      "lobby.join",
+      "lobby.leave",
+      "lobby.ready",
+      "lobby.update",
+      "lobby.fillBots",
+      "lobby.share"
+    ],
+    "game": [
+      "game.start",
+      "game.state",
+      "game.roll",
+      "game.action",
+      "game.advance"
+    ],
+    "discussion": [
+      "chat.send",
+      "chat.list"
+    ],
+    "vote": [
+      "vote.begin",
+      "vote.cast"
+    ],
+    "sync": [
+      "events.poll"
+    ]
   },
   "dossierEventVocabulary": [
-    "MATCH_CREATED","ACTIVE_SET_LOCKED","CARD_DEALT","HAMMOCK_CARD_PLACED","STARTING_ROLE_REVEALED",
-    "SNUGGLE_BOND_CREATED","GUARDIAN_HUNTER_RECOGNITION","DIE_SELECTED","D6_ROLLED","D12_ROLLED",
-    "DUPLICATE_WAKE_REROLL_REQUIRED","WAKE_SCHEDULE_LOCKED","RAIDER_TIE_DETECTED","RAIDER_SELECTED",
-    "HOUR_OPENED","PLAYER_WOKE","TREAT_STATE_OBSERVED","RAID_COMPLETED","TROUBLE_CONVERTED",
-    "HUNTER_OVERLAP_TRIGGERED","HUNTER_CONVERSION_ROLL","HUNTER_CONVERTED","DOOKER_GLIMPSE",
-    "DOOKER_HAMMOCK_VIEW","DOOKER_TRIP","TROUBLE_SWAP","BUSINESS_SOLO_INSPECTION","ITCHY_CLUE_DELIVERED",
-    "HUNT_MARK_SET","MORNING_BUSINESS_OPENED","GUARDIAN_PROTECTION_SET","VOTE_CAST","VOTE_LOCKED",
-    "VOTE_TARGETS_COMPUTED","BOND_EXTRA_REVEAL","HUNT_MARK_CHECKED","RAIDER_CAUGHT","RAIDER_ESCAPED",
-    "RESULT_COMPUTED","REPLAY_OPENED"
+    "MATCH_CREATED",
+    "ACTIVE_SET_LOCKED",
+    "CARD_DEALT",
+    "HAMMOCK_CARD_PLACED",
+    "STARTING_ROLE_REVEALED",
+    "SNUGGLE_BOND_CREATED",
+    "GUARDIAN_HUNTER_RECOGNITION",
+    "DIE_SELECTED",
+    "D6_ROLLED",
+    "D12_ROLLED",
+    "DUPLICATE_WAKE_REROLL_REQUIRED",
+    "WAKE_SCHEDULE_LOCKED",
+    "RAIDER_TIE_DETECTED",
+    "RAIDER_SELECTED",
+    "HOUR_OPENED",
+    "PLAYER_WOKE",
+    "TREAT_STATE_OBSERVED",
+    "RAID_COMPLETED",
+    "TROUBLE_CONVERTED",
+    "HUNTER_OVERLAP_TRIGGERED",
+    "HUNTER_CONVERSION_ROLL",
+    "HUNTER_CONVERTED",
+    "DOOKER_GLIMPSE",
+    "DOOKER_HAMMOCK_VIEW",
+    "DOOKER_TRIP",
+    "TROUBLE_SWAP",
+    "BUSINESS_SOLO_INSPECTION",
+    "ITCHY_CLUE_DELIVERED",
+    "HUNT_MARK_SET",
+    "MORNING_BUSINESS_OPENED",
+    "GUARDIAN_PROTECTION_SET",
+    "VOTE_CAST",
+    "VOTE_LOCKED",
+    "VOTE_TARGETS_COMPUTED",
+    "HUNT_MARK_CHECKED",
+    "BOND_EXTRA_REVEAL",
+    "RAIDER_CAUGHT",
+    "RAIDER_ESCAPED",
+    "RESULT_COMPUTED",
+    "REPLAY_OPENED"
   ],
-  "privacy": ["PUBLIC","PLAYER_ONLY","ROLE_GROUP_ONLY","POSTGAME_ONLY","SERVER_ONLY"],
-  "principles": ["idempotent transitions","backend-authoritative randomness and resolution","private payload filtering","reconnect from authorized current state","no client-side role reservation"]
+  "privacy": [
+    "PUBLIC",
+    "PLAYER_ONLY",
+    "ROLE_GROUP_ONLY",
+    "POSTGAME_ONLY",
+    "SERVER_ONLY"
+  ],
+  "principles": [
+    "idempotent transitions",
+    "backend-authoritative randomness and resolution",
+    "private payload filtering",
+    "reconnect from authorized current state",
+    "no client-side role reservation"
+  ],
+  "resultOrder": "VOTE_TARGETS_COMPUTED -> HUNT_MARK_CHECKED -> BOND_EXTRA_REVEAL -> RAIDER_CAUGHT/RAIDER_ESCAPED -> RESULT_COMPUTED",
+  "resultSemantics": {
+    "caught": "real capture by Paw Point or valid loyal-Hunter Hunt Mark",
+    "bondRevealed": "result visibility only; never itself capture"
+  }
 }

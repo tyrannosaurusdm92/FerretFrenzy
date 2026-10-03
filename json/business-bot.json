@@ -10,9 +10,9 @@
       "category": "solo_inspect",
       "requires": [
         "inspectTarget",
-        "inspectHours"
+        "inspectHour"
       ],
-      "text": "From my side, I woke alone and inspected {{inspectTarget}}'s wake schedule: {{inspectHours}}. That is where I am starting.",
+      "text": "From my side, I woke alone and inspected one wake result belonging to {{inspectTarget}}: Hour {{inspectHour}}. That is where I am starting.",
       "id": "business-001",
       "tags": [
         "ferret-frenzy",
@@ -24,9 +24,9 @@
       "category": "solo_inspect",
       "requires": [
         "inspectTarget",
-        "inspectHours"
+        "inspectHour"
       ],
-      "text": "For the timeline, my solo Business inspection showed {{inspectTarget}} waking at {{inspectHours}}; that is timing information, not a role scan. That is evidence, not a verdict.",
+      "text": "For the timeline, my solo Business inspection showed one inspected result for {{inspectTarget}}: Hour {{inspectHour}}; that is timing information, not a role scan. That is evidence, not a verdict.",
       "id": "business-002",
       "tags": [
         "ferret-frenzy",
@@ -38,9 +38,9 @@
       "category": "solo_inspect",
       "requires": [
         "inspectTarget",
-        "inspectHours"
+        "inspectHour"
       ],
-      "text": "What I can confirm is I woke alone and inspected {{inspectTarget}}'s wake schedule: {{inspectHours}}. That could be true without proving allegiance.",
+      "text": "What I can confirm is I woke alone and inspected one wake result belonging to {{inspectTarget}}: Hour {{inspectHour}}. That could be true without proving allegiance.",
       "id": "business-003",
       "tags": [
         "ferret-frenzy",
@@ -52,9 +52,9 @@
       "category": "solo_inspect",
       "requires": [
         "inspectTarget",
-        "inspectHours"
+        "inspectHour"
       ],
-      "text": "My read right now is my solo Business inspection showed {{inspectTarget}} waking at {{inspectHours}}; that is timing information, not a role scan. I am keeping the difference between starting role and current card in mind.",
+      "text": "My read right now is my solo Business inspection showed one inspected result for {{inspectTarget}}: Hour {{inspectHour}}; that is timing information, not a role scan. I am keeping the difference between starting role and current card in mind.",
       "id": "business-004",
       "tags": [
         "ferret-frenzy",
@@ -66,9 +66,9 @@
       "category": "solo_inspect",
       "requires": [
         "inspectTarget",
-        "inspectHours"
+        "inspectHour"
       ],
-      "text": "I keep coming back to I woke alone and inspected {{inspectTarget}}'s wake schedule: {{inspectHours}}. That does not settle the whole round.",
+      "text": "I keep coming back to I woke alone and inspected one wake result belonging to {{inspectTarget}}: Hour {{inspectHour}}. That does not settle the whole round.",
       "id": "business-005",
       "tags": [
         "ferret-frenzy",
@@ -80,9 +80,9 @@
       "category": "solo_inspect",
       "requires": [
         "inspectTarget",
-        "inspectHours"
+        "inspectHour"
       ],
-      "text": "The piece I trust most is my solo Business inspection showed {{inspectTarget}} waking at {{inspectHours}}; that is timing information, not a role scan. A swap could still change what the cards mean.",
+      "text": "The piece I trust most is my solo Business inspection showed one inspected result for {{inspectTarget}}: Hour {{inspectHour}}; that is timing information, not a role scan. A swap could still change what the cards mean.",
       "id": "business-006",
       "tags": [
         "ferret-frenzy",
@@ -94,9 +94,9 @@
       "category": "solo_inspect",
       "requires": [
         "inspectTarget",
-        "inspectHours"
+        "inspectHour"
       ],
-      "text": "Before we Paw Point, I woke alone and inspected {{inspectTarget}}'s wake schedule: {{inspectHours}}. I am comparing who was awake before and after the treats vanished.",
+      "text": "Before we Paw Point, I woke alone and inspected one wake result belonging to {{inspectTarget}}: Hour {{inspectHour}}. I am comparing who was awake before and after the treats vanished.",
       "id": "business-007",
       "tags": [
         "ferret-frenzy",
@@ -108,9 +108,9 @@
       "category": "solo_inspect",
       "requires": [
         "inspectTarget",
-        "inspectHours"
+        "inspectHour"
       ],
-      "text": "I am comparing notes and my solo Business inspection showed {{inspectTarget}} waking at {{inspectHours}}; that is timing information, not a role scan. I would rather be precise than loud.",
+      "text": "I am comparing notes and my solo Business inspection showed one inspected result for {{inspectTarget}}: Hour {{inspectHour}}; that is timing information, not a role scan. I would rather be precise than loud.",
       "id": "business-008",
       "tags": [
         "ferret-frenzy",
@@ -122,9 +122,9 @@
       "category": "solo_inspect",
       "requires": [
         "inspectTarget",
-        "inspectHours"
+        "inspectHour"
       ],
-      "text": "One thing I do not want to lose is I woke alone and inspected {{inspectTarget}}'s wake schedule: {{inspectHours}}. I am keeping my Paw Point open for now.",
+      "text": "One thing I do not want to lose is I woke alone and inspected one wake result belonging to {{inspectTarget}}: Hour {{inspectHour}}. I am keeping my Paw Point open for now.",
       "id": "business-009",
       "tags": [
         "ferret-frenzy",
@@ -136,9 +136,9 @@
       "category": "solo_inspect",
       "requires": [
         "inspectTarget",
-        "inspectHours"
+        "inspectHour"
       ],
-      "text": "The useful detail for me is my solo Business inspection showed {{inspectTarget}} waking at {{inspectHours}}; that is timing information, not a role scan. I want the sequence to make sense first.",
+      "text": "The useful detail for me is my solo Business inspection showed one inspected result for {{inspectTarget}}: Hour {{inspectHour}}; that is timing information, not a role scan. I want the sequence to make sense first.",
       "id": "business-010",
       "tags": [
         "ferret-frenzy",
@@ -150,9 +150,9 @@
       "category": "solo_inspect",
       "requires": [
         "inspectTarget",
-        "inspectHours"
+        "inspectHour"
       ],
-      "text": "I am sticking to the facts: I woke alone and inspected {{inspectTarget}}'s wake schedule: {{inspectHours}}. The app-confirmed pieces come first.",
+      "text": "I am sticking to the facts: I woke alone and inspected one wake result belonging to {{inspectTarget}}: Hour {{inspectHour}}. The app-confirmed pieces come first.",
       "id": "business-011",
       "tags": [
         "ferret-frenzy",
@@ -164,9 +164,9 @@
       "category": "solo_inspect",
       "requires": [
         "inspectTarget",
-        "inspectHours"
+        "inspectHour"
       ],
-      "text": "The night makes more sense if my solo Business inspection showed {{inspectTarget}} waking at {{inspectHours}}; that is timing information, not a role scan. I am leaving room for card movement.",
+      "text": "The night makes more sense if my solo Business inspection showed one inspected result for {{inspectTarget}}: Hour {{inspectHour}}; that is timing information, not a role scan. I am leaving room for card movement.",
       "id": "business-012",
       "tags": [
         "ferret-frenzy",
@@ -178,9 +178,9 @@
       "category": "solo_inspect",
       "requires": [
         "inspectTarget",
-        "inspectHours"
+        "inspectHour"
       ],
-      "text": "I want to separate fact from guess: I woke alone and inspected {{inspectTarget}}'s wake schedule: {{inspectHours}}. I am checking it against the treat state.",
+      "text": "I want to separate fact from guess: I woke alone and inspected one wake result belonging to {{inspectTarget}}: Hour {{inspectHour}}. I am checking it against the treat state.",
       "id": "business-013",
       "tags": [
         "ferret-frenzy",
@@ -192,9 +192,9 @@
       "category": "solo_inspect",
       "requires": [
         "inspectTarget",
-        "inspectHours"
+        "inspectHour"
       ],
-      "text": "My private notes say my solo Business inspection showed {{inspectTarget}} waking at {{inspectHours}}; that is timing information, not a role scan. I need the wake windows to line up.",
+      "text": "My private notes say my solo Business inspection showed one inspected result for {{inspectTarget}}: Hour {{inspectHour}}; that is timing information, not a role scan. I need the wake windows to line up.",
       "id": "business-014",
       "tags": [
         "ferret-frenzy",
@@ -206,9 +206,9 @@
       "category": "solo_inspect",
       "requires": [
         "inspectTarget",
-        "inspectHours"
+        "inspectHour"
       ],
-      "text": "I am not treating this as proof, but I woke alone and inspected {{inspectTarget}}'s wake schedule: {{inspectHours}}. I am still weighing the same evidence.",
+      "text": "I am not treating this as proof, but I woke alone and inspected one wake result belonging to {{inspectTarget}}: Hour {{inspectHour}}. I am still weighing the same evidence.",
       "id": "business-015",
       "tags": [
         "ferret-frenzy",
@@ -220,9 +220,9 @@
       "category": "solo_inspect",
       "requires": [
         "inspectTarget",
-        "inspectHours"
+        "inspectHour"
       ],
-      "text": "For Morning Business, my solo Business inspection showed {{inspectTarget}} waking at {{inspectHours}}; that is timing information, not a role scan. The timing still matters more than vibes.",
+      "text": "For Morning Business, my solo Business inspection showed one inspected result for {{inspectTarget}}: Hour {{inspectHour}}; that is timing information, not a role scan. The timing still matters more than vibes.",
       "id": "business-016",
       "tags": [
         "ferret-frenzy",
@@ -234,9 +234,9 @@
       "category": "solo_inspect",
       "requires": [
         "inspectTarget",
-        "inspectHours"
+        "inspectHour"
       ],
-      "text": "The clue I am weighing is I woke alone and inspected {{inspectTarget}}'s wake schedule: {{inspectHours}}. I am not treating a role claim as verified.",
+      "text": "The clue I am weighing is I woke alone and inspected one wake result belonging to {{inspectTarget}}: Hour {{inspectHour}}. I am not treating a role claim as verified.",
       "id": "business-017",
       "tags": [
         "ferret-frenzy",
@@ -248,9 +248,9 @@
       "category": "solo_inspect",
       "requires": [
         "inspectTarget",
-        "inspectHours"
+        "inspectHour"
       ],
-      "text": "I am watching the order of events: my solo Business inspection showed {{inspectTarget}} waking at {{inspectHours}}; that is timing information, not a role scan. I am not adding facts I did not actually receive.",
+      "text": "I am watching the order of events: my solo Business inspection showed one inspected result for {{inspectTarget}}: Hour {{inspectHour}}; that is timing information, not a role scan. I am not adding facts I did not actually receive.",
       "id": "business-018",
       "tags": [
         "ferret-frenzy",
@@ -262,9 +262,9 @@
       "category": "solo_inspect",
       "requires": [
         "inspectTarget",
-        "inspectHours"
+        "inspectHour"
       ],
-      "text": "The safest thing I can say is I woke alone and inspected {{inspectTarget}}'s wake schedule: {{inspectHours}}. I want to hear how that fits everyone else.",
+      "text": "The safest thing I can say is I woke alone and inspected one wake result belonging to {{inspectTarget}}: Hour {{inspectHour}}. I want to hear how that fits everyone else.",
       "id": "business-019",
       "tags": [
         "ferret-frenzy",
@@ -276,9 +276,9 @@
       "category": "solo_inspect",
       "requires": [
         "inspectTarget",
-        "inspectHours"
+        "inspectHour"
       ],
-      "text": "My current timeline says my solo Business inspection showed {{inspectTarget}} waking at {{inspectHours}}; that is timing information, not a role scan. I want another claim against that timeline.",
+      "text": "My current timeline says my solo Business inspection showed one inspected result for {{inspectTarget}}: Hour {{inspectHour}}; that is timing information, not a role scan. I want another claim against that timeline.",
       "id": "business-020",
       "tags": [
         "ferret-frenzy",
@@ -290,9 +290,9 @@
       "category": "solo_inspect",
       "requires": [
         "inspectTarget",
-        "inspectHours"
+        "inspectHour"
       ],
-      "text": "I am cross-checking claims: I woke alone and inspected {{inspectTarget}}'s wake schedule: {{inspectHours}}. I am watching for contradictions, not just confidence.",
+      "text": "I am cross-checking claims: I woke alone and inspected one wake result belonging to {{inspectTarget}}: Hour {{inspectHour}}. I am watching for contradictions, not just confidence.",
       "id": "business-021",
       "tags": [
         "ferret-frenzy",
@@ -304,9 +304,9 @@
       "category": "solo_inspect",
       "requires": [
         "inspectTarget",
-        "inspectHours"
+        "inspectHour"
       ],
-      "text": "The strongest detail I have is my solo Business inspection showed {{inspectTarget}} waking at {{inspectHours}}; that is timing information, not a role scan. I want a timeline that survives the swap possibilities.",
+      "text": "The strongest detail I have is my solo Business inspection showed one inspected result for {{inspectTarget}}: Hour {{inspectHour}}; that is timing information, not a role scan. I want a timeline that survives the swap possibilities.",
       "id": "business-022",
       "tags": [
         "ferret-frenzy",
@@ -318,9 +318,9 @@
       "category": "solo_inspect",
       "requires": [
         "inspectTarget",
-        "inspectHours"
+        "inspectHour"
       ],
-      "text": "I am keeping this narrow: I woke alone and inspected {{inspectTarget}}'s wake schedule: {{inspectHours}}. I am not calling that automatic guilt.",
+      "text": "I am keeping this narrow: I woke alone and inspected one wake result belonging to {{inspectTarget}}: Hour {{inspectHour}}. I am not calling that automatic guilt.",
       "id": "business-023",
       "tags": [
         "ferret-frenzy",
@@ -332,9 +332,9 @@
       "category": "solo_inspect",
       "requires": [
         "inspectTarget",
-        "inspectHours"
+        "inspectHour"
       ],
-      "text": "I do not want to overstate it: my solo Business inspection showed {{inspectTarget}} waking at {{inspectHours}}; that is timing information, not a role scan. The Raider is still the primary target.",
+      "text": "I do not want to overstate it: my solo Business inspection showed one inspected result for {{inspectTarget}}: Hour {{inspectHour}}; that is timing information, not a role scan. The Raider is still the primary target.",
       "id": "business-024",
       "tags": [
         "ferret-frenzy",
@@ -346,9 +346,9 @@
       "category": "solo_inspect",
       "requires": [
         "inspectTarget",
-        "inspectHours"
+        "inspectHour"
       ],
-      "text": "Here is the part I can actually use: I woke alone and inspected {{inspectTarget}}'s wake schedule: {{inspectHours}}. That is the part I can defend if challenged.",
+      "text": "Here is the part I can actually use: I woke alone and inspected one wake result belonging to {{inspectTarget}}: Hour {{inspectHour}}. That is the part I can defend if challenged.",
       "id": "business-025",
       "tags": [
         "ferret-frenzy",
@@ -3082,5 +3082,5 @@
       ]
     }
   ],
-  "brainVersion": "3.0.0"
+  "brainVersion": "3.1.0"
 }

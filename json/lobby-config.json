@@ -32,7 +32,7 @@
     "labels": "Player <seat> \u00b7 <displayName>"
   },
   "bots": {
-    "engine": "Ferret Frenzy Bots v3.0.0",
+    "engine": "Ferret Frenzy Bots v3.1.0",
     "autoFillOnStart": true,
     "serverAutoFillForNewRooms": false,
     "manifest": "bot-manifest.json",
@@ -43,5 +43,8 @@
     "authority": "tested backend only",
     "clientReservations": false,
     "note": "Frontend does not preassign or reserve roles. Each bot loads its specialized brain after the backend deals startingRole."
+  },
+  "gameplay": {
+    "channels": true
   }
 }

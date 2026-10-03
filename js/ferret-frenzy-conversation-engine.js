@@ -1,17 +1,98 @@
-const arr=v=>Array.isArray(v)?v:[];const upper=v=>String(v??'').trim().toUpperCase();const clean=v=>String(v??'').replace(/\s+/g,' ').trim();
+const arr=v=>Array.isArray(v)?v:[];
+const upper=v=>String(v??'').trim().toUpperCase();
+const clean=v=>String(v??'').replace(/\s+/g,' ').trim();
 const nameOf=(state,id)=>arr(state?.participants).find(p=>p.id===id)?.displayName||'that ferret';
+
 export class FerretFrenzyConversationEngine {
   constructor({rng=Math.random}={}){this.rng=rng;}
   hostile(state){return upper(state?.me?.allegiance)==='BANDIT'||state?.me?.isRaider===true||state?.me?.troubleAccomplice===true||state?.me?.hunterConverted===true;}
-  facts(state,type){return arr(state?.me?.privateFacts).filter(f=>!type||f.type===type);} obs(state){return arr(state?.me?.observations);}
-  coverStory(state,memory){if(memory.coverStory)return memory.coverStory;const first=this.obs(state)[0]||{},hours=arr(state?.me?.wakeHours).slice();let claimedRole=upper(state?.me?.startingRole)||'BUSINESS',treat=upper(first.treatStateBefore),cowakers=arr(first.coWakers).map(x=>x.displayName),mode='TRUTHFUL';if(claimedRole==='BANDIT')claimedRole='BUSINESS';if(this.hostile(state)){const r=this.rng();if(r<.28&&hours.length){mode='SHIFT_HOUR';hours[0]=Math.max(1,Math.min(12,hours[0]+(this.rng()<.5?-1:1)));}else if(r<.48&&treat){mode='FLIP_TREAT';treat=treat==='PRESENT'?'MISSING':'PRESENT';}else if(r<.68){mode='HIDE_COWAKERS';cowakers=[];}else mode='MOSTLY_TRUE';}memory.coverStory={claimedRole,wakeHours:hours,treatState:treat,cowakers,mode,createdAt:Date.now()};return memory.coverStory;}
-  variables(state,memory,deduction){const c=this.coverStory(state,memory),ranked=deduction.rankedTargets(state,memory),v={claimedRole:c.claimedRole,hour:c.wakeHours?.[0],hours:c.wakeHours?.join(' and Hour '),treatState:c.treatState,cowakers:c.cowakers?.join(' and ')||'nobody'};if(ranked[0]){v.target=ranked[0].participant.displayName;v.targetId=ranked[0].participant.id;v.reason=deduction.bestReason(state,memory,v.targetId);}if(ranked[1])v.target2=ranked[1].participant.displayName;
-    const f=this.facts(state);const g=f.filter(x=>x.type==='DOOKER_GLIMPSE').slice(-1)[0];if(g){v.glimpseTarget=g.displayName||nameOf(state,g.participantId);v.glimpseResult=g.result;}const hp=f.filter(x=>x.type==='DOOKER_HAMMOCK_PEEK').slice(-1)[0];if(hp){v.hammockRole=hp.role;v.hammockSlot=Number(hp.hammockIndex)+1;}const trip=f.filter(x=>x.type==='DOOKER_TRIP').slice(-1)[0];if(trip)v.tripTarget=trip.displayName||nameOf(state,trip.targetId);const clue=f.filter(x=>x.type==='ITCHY_PARTIAL_CLUE').slice(-1)[0];if(clue){v.clueA=clue.candidates?.[0]?.displayName;v.clueB=clue.candidates?.[1]?.displayName;}const timing=f.filter(x=>x.type==='ITCHY_TIMING_CLUE').slice(-1)[0];if(timing)v.range=timing.range==='HOURS_1_6'?'Hours 1-6':'Hours 7-12';const inspect=f.filter(x=>x.type==='BUSINESS_WAKE_INSPECTION').slice(-1)[0];if(inspect){v.inspectTarget=inspect.displayName||nameOf(state,inspect.participantId);v.inspectHours=arr(inspect.wakeHours).join(', ');}const rec=f.find(x=>['HUNTER_RECOGNITION','GUARDIAN_RECOGNITION'].includes(x.type));if(rec)v.partner=rec.displayName||nameOf(state,rec.participantId);const sw=f.filter(x=>x.type==='TROUBLE_SWAP').slice(-1)[0];if(sw){v.swapA=nameOf(state,sw.targetAId);v.swapB=nameOf(state,sw.targetBId);}const actionBond=arr(memory.actions).filter(a=>a.type==='SNUGGLER_BOND').slice(-1)[0];if(actionBond){v.bondA=nameOf(state,actionBond.targetIds?.[0]);v.bondB=nameOf(state,actionBond.targetIds?.[1]);}return v;}
+  facts(state,type){return arr(state?.me?.privateFacts).filter(f=>!type||f.type===type);}
+  obs(state){return arr(state?.me?.observations);}
+
+  coverStory(state,memory){
+    if(memory.coverStory)return memory.coverStory;
+    const first=this.obs(state)[0]||{},hours=arr(state?.me?.wakeHours).slice();
+    let claimedRole=upper(state?.me?.startingRole)||'BUSINESS',treat=upper(first.treatStateBefore),cowakers=arr(first.coWakers).map(x=>x.displayName),mode='TRUTHFUL';
+    if(claimedRole==='BANDIT')claimedRole='BUSINESS';
+    if(this.hostile(state)){
+      const r=this.rng();
+      if(r<.28&&hours.length){mode='SHIFT_HOUR';hours[0]=Math.max(1,Math.min(12,hours[0]+(this.rng()<.5?-1:1)));}
+      else if(r<.48&&treat){mode='FLIP_TREAT';treat=treat==='PRESENT'?'MISSING':'PRESENT';}
+      else if(r<.68){mode='HIDE_COWAKERS';cowakers=[];}
+      else mode='MOSTLY_TRUE';
+    }
+    memory.coverStory={claimedRole,wakeHours:hours,treatState:treat,cowakers,mode,createdAt:Date.now()};
+    return memory.coverStory;
+  }
+
+  variables(state,memory,deduction){
+    const c=this.coverStory(state,memory),ranked=deduction.rankedTargets(state,memory),v={claimedRole:c.claimedRole,hour:c.wakeHours?.[0],hours:c.wakeHours?.join(' and Hour '),treatState:c.treatState,cowakers:c.cowakers?.join(' and ')||'nobody'};
+    if(ranked[0]){v.target=ranked[0].participant.displayName;v.targetId=ranked[0].participant.id;v.reason=deduction.bestReason(state,memory,v.targetId);}
+    if(ranked[1])v.target2=ranked[1].participant.displayName;
+    const f=this.facts(state);
+    const g=f.filter(x=>x.type==='DOOKER_GLIMPSE').slice(-1)[0];if(g){v.glimpseTarget=g.displayName||nameOf(state,g.participantId);v.glimpseResult=g.result;v.glimpseHour=g.observedAtHour||g.hour;}
+    const hp=f.filter(x=>x.type==='DOOKER_HAMMOCK_PEEK').slice(-1)[0];if(hp){v.hammockRole=hp.role;v.hammockSlot=Number(hp.hammockIndex)+1;}
+    const trip=f.filter(x=>x.type==='DOOKER_TRIP').slice(-1)[0];if(trip)v.tripTarget=trip.displayName||nameOf(state,trip.targetId);
+    const clue=f.filter(x=>x.type==='ITCHY_PARTIAL_CLUE').slice(-1)[0];if(clue){v.clueA=clue.candidates?.[0]?.displayName;v.clueB=clue.candidates?.[1]?.displayName;}
+    const timing=f.filter(x=>x.type==='ITCHY_TIMING_CLUE').slice(-1)[0];if(timing)v.range=timing.range==='HOURS_1_6'?'Hours 1-6':'Hours 7-12';
+    const inspect=f.filter(x=>x.type==='BUSINESS_WAKE_INSPECTION').slice(-1)[0];if(inspect){v.inspectTarget=inspect.displayName||nameOf(state,inspect.participantId);v.inspectHour=Number(inspect.inspectedWakeHour||inspect.wakeHour||inspect.resultHour||inspect.result||0)||undefined;}
+    const rec=f.find(x=>['HUNTER_RECOGNITION','GUARDIAN_RECOGNITION'].includes(x.type));if(rec)v.partner=rec.displayName||nameOf(state,rec.participantId);
+    const sw=f.filter(x=>x.type==='TROUBLE_SWAP').slice(-1)[0];if(sw){v.swapA=nameOf(state,sw.targetAId);v.swapB=nameOf(state,sw.targetBId);}
+    const actionBond=arr(memory.actions).filter(a=>a.type==='SNUGGLER_BOND').slice(-1)[0];if(actionBond){v.bondA=nameOf(state,actionBond.targetIds?.[0]);v.bondB=nameOf(state,actionBond.targetIds?.[1]);}
+    return v;
+  }
+
   render(text,vars){return clean(String(text||'').replace(/\{\{([A-Za-z0-9_]+)\}\}/g,(_,k)=>String(vars[k]??'')));}
-  categories(state){const role=upper(state?.me?.startingRole),cats=[];if(role==='DOOKER')cats.push('glimpse_bandit','glimpse_clean','trip','observation');if(role==='ITCHY')cats.push('partial_clue','timing_clue','no_clue');if(role==='TROUBLE')cats.push('swap_claim');if(role==='BUSINESS')cats.push('solo_inspect');if(role==='SNUGGLER')cats.push('bond_claim','bond_caution');if(role==='HUNTER')cats.push('guardian_trust','hunt_caution');if(role==='GUARDIAN')cats.push('hunter_trust','protection_caution');if(role==='BANDIT')cats.push('cover','raider_pressure');return [...cats,'timeline','question','reaction','suspicion','defense','uncertainty','vote','observation'];}
-  directReply(state,memory,deduction,unseen){const me=state?.me?.displayName||'',latest=arr(unseen).slice().reverse().find(m=>m.senderParticipantId!==state?.me?.id);if(!latest)return'';const t=clean(latest.text),mentioned=me&&new RegExp('\\b'+me.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+'\\b','i').test(t);if(!mentioned&&!t.includes('?'))return'';const v=this.variables(state,memory,deduction);if(/\b(?:what|which).*\brole\b|\bwhat\s+are\s+you\b/i.test(t))return `My role claim is ${v.claimedRole}. I am keeping starting role, current card, and allegiance separate.`;if(/\bwhen\b|\bwhat\s+hour\b|\bwake\b/i.test(t)&&v.hours)return `My wake claim is Hour ${v.hours}. ${v.cowakers==='nobody'?'I am not claiming a co-waker.':`I had ${v.cowakers} awake with me.`}`;if(/\b(?:present|missing|treat|minnow)\b/i.test(t)&&v.treatState)return `At my claimed first wake, the Minnow Treats were ${v.treatState.toLowerCase()}.`;if(/\b(?:who|vote|paw|suspect|watch)\b/i.test(t)&&v.target)return `I am watching ${v.target}${v.reason?` because ${v.reason}`:''}. That is a deduction, not a confirmed fact.`;return'';}
+
+  rolePublic(state,memory){
+    const actual=upper(state?.me?.startingRole),claim=upper(memory?.publicRoleClaim),phase=upper(state?.game?.phase);
+    const caught=state?.me?.caught===true||state?.me?.revealed===true||arr(state?.results?.caughtParticipantIds).includes(state?.me?.id);
+    return caught||phase==='RESULTS'||(!!claim&&claim===actual);
+  }
+
+  categories(state,memory){
+    const role=upper(state?.me?.startingRole),cats=[];
+    if(this.rolePublic(state,memory)){
+      if(role==='DOOKER')cats.push('glimpse_bandit','glimpse_clean','trip','observation');
+      if(role==='ITCHY')cats.push('partial_clue','timing_clue','no_clue');
+      if(role==='TROUBLE')cats.push('swap_claim');
+      if(role==='BUSINESS')cats.push('solo_inspect');
+      if(role==='SNUGGLER')cats.push('bond_claim','bond_caution');
+      if(role==='HUNTER')cats.push('guardian_trust','hunt_caution');
+      if(role==='GUARDIAN')cats.push('hunter_trust','protection_caution');
+      if(role==='BANDIT')cats.push('cover','raider_pressure');
+    }
+    return [...cats,'timeline','question','reaction','suspicion','defense','uncertainty','vote','observation'];
+  }
+
+  maybeVolunteerRoleClaim(state,memory,unseen){
+    if(memory.publicRoleClaim)return'';
+    const phase=upper(state?.game?.phase),me=state?.me?.displayName||'';
+    const latest=arr(unseen).slice().reverse().find(m=>m.senderParticipantId!==state?.me?.id),text=clean(latest?.text);
+    const roleQuestion=!!latest&&(/\b(?:what|which).*\brole\b|\bwhat\s+are\s+you\b/i.test(text));
+    const addressed=!me||!latest||new RegExp('\\b'+me.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+'\\b','i').test(text)||text.includes('?');
+    const asked=roleQuestion&&addressed;
+    const chance=asked ? .62 : (phase==='VOTE' ? .48 : ((memory.sentMorning||0)>=1 ? .24 : 0));
+    if(this.rng()>=chance)return asked?'I am not volunteering my role claim yet. I want the wake and Treat State timeline on the table first.':'';
+    const claim=this.coverStory(state,memory).claimedRole;
+    memory.publicRoleClaim=claim;
+    memory.roleClaimVolunteeredAt=Date.now();
+    return `I am volunteering my role claim: ${claim}. Starting role, current card, and allegiance can still be different after card movement.`;
+  }
+
+  directReply(state,memory,deduction,unseen){
+    const me=state?.me?.displayName||'',latest=arr(unseen).slice().reverse().find(m=>m.senderParticipantId!==state?.me?.id);if(!latest)return'';
+    const t=clean(latest.text),mentioned=me&&new RegExp('\\b'+me.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+'\\b','i').test(t);if(!mentioned&&!t.includes('?'))return'';
+    const v=this.variables(state,memory,deduction);
+    if(/\b(?:what|which).*\brole\b|\bwhat\s+are\s+you\b/i.test(t))return memory.publicRoleClaim?`My public role claim is ${memory.publicRoleClaim}. I am keeping starting role, current card, and allegiance separate.`:'I am not volunteering my role claim yet. I want the wake and Treat State timeline on the table first.';
+    if(/\bwhen\b|\bwhat\s+hour\b|\bwake\b/i.test(t)&&v.hours)return `My wake claim is Hour ${v.hours}. ${v.cowakers==='nobody'?'I am not claiming a co-waker.':`I had ${v.cowakers} awake with me.`}`;
+    if(/\b(?:present|missing|treat|minnow)\b/i.test(t)&&v.treatState)return `At my claimed first wake, the Minnow Treats were ${v.treatState.toLowerCase()}.`;
+    if(/\b(?:who|vote|paw|suspect|watch)\b/i.test(t)&&v.target)return `I am watching ${v.target}${v.reason?` because ${v.reason}`:''}. That is a deduction, not a confirmed fact.`;
+    return'';
+  }
+
   challenge(state,memory,deduction,unseen){const latest=arr(unseen).slice().reverse().find(m=>m.senderParticipantId!==state?.me?.id);if(!latest)return'';const c=memory.claims?.[latest.senderParticipantId];if(!c?.contradictionCount)return'';const who=latest.senderName||nameOf(state,latest.senderParticipantId),reason=c.contradictionReasons?.slice(-1)[0]||'their public story changed';return `${who}, I have a consistency problem with that: ${reason}. Can you pin down your final wake claim and Treat State?`;}
   proactiveQuestion(state,memory,deduction){memory.questionsAsked=memory.questionsAsked||{};for(const row of deduction.rankedTargets(state,memory)){const id=row.participant.id,c=memory.claims?.[id]||{},asked=memory.questionsAsked[id]||{};if(!c.role&&!asked.role){asked.role=true;memory.questionsAsked[id]=asked;return `${row.participant.displayName}, what role are you claiming for the night?`;}if(!arr(c.wakeHours).length&&!asked.wake){asked.wake=true;memory.questionsAsked[id]=asked;return `${row.participant.displayName}, which Burrow Hour or Hours are you claiming?`;}if(!c.treatState&&!asked.treat){asked.treat=true;memory.questionsAsked[id]=asked;return `${row.participant.displayName}, were the Minnow Treats present or missing when you woke?`;}}return'';}
-  line(state,memory,deduction,library){const vars=this.variables(state,memory,deduction),used=new Set(arr(memory.usedResponseIds));let pool=arr(library).filter(r=>!used.has(r.id)&&arr(r.requires).every(k=>vars[k]!==undefined&&vars[k]!==''));if(!pool.length){memory.usedResponseIds=[];pool=arr(library).filter(r=>arr(r.requires).every(k=>vars[k]!==undefined&&vars[k]!==''));}for(const cat of this.categories(state)){const rows=pool.filter(r=>r.category===cat);if(rows.length){const row=rows[Math.floor(this.rng()*rows.length)];memory.usedResponseIds.push(row.id);return this.render(row.text,vars);}}const row=pool[Math.floor(this.rng()*Math.max(1,pool.length))];if(row){memory.usedResponseIds.push(row.id);return this.render(row.text,vars);}return this.fallback(state,memory,deduction);}
+  line(state,memory,deduction,library){const vars=this.variables(state,memory,deduction),used=new Set(arr(memory.usedResponseIds));let pool=arr(library).filter(r=>!used.has(r.id)&&arr(r.requires).every(k=>vars[k]!==undefined&&vars[k]!==''));if(!pool.length){memory.usedResponseIds=[];pool=arr(library).filter(r=>arr(r.requires).every(k=>vars[k]!==undefined&&vars[k]!==''));}for(const cat of this.categories(state,memory)){const rows=pool.filter(r=>r.category===cat);if(rows.length){const row=rows[Math.floor(this.rng()*rows.length)];memory.usedResponseIds.push(row.id);return this.render(row.text,vars);}}const row=pool[Math.floor(this.rng()*Math.max(1,pool.length))];if(row){memory.usedResponseIds.push(row.id);return this.render(row.text,vars);}return this.fallback(state,memory,deduction);}
   fallback(state,memory,deduction){const v=this.variables(state,memory,deduction);return v.hours?`My wake claim is Hour ${v.hours}; the treats were ${String(v.treatState||'unknown').toLowerCase()}. I am comparing that with the other claims before I Paw Point.`:'I am comparing wake windows, Treat State, card movement, and claims before I Paw Point.';}
 }

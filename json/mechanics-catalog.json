@@ -1,17 +1,61 @@
 {
-  "version": "dossier-r2-aligned",
+  "version": "dossier-r3.3-pass5-2026-10-03",
   "mechanics": [
-    {"id":"random_active_set","use":"Build player-count + 3 active cards from the dossier recipe and let the tested backend shuffle/deal."},
-    {"id":"starting_vs_current_card","use":"Starting Role drives scheduled night action; Current Card may move without rewriting historical events."},
-    {"id":"player_bound_status","use":"Raider, Trouble accomplice, Hunter conversion and Snuggle Bond stay attached to players across card movement."},
-    {"id":"private_dice","use":"/1/ d6 and /2/ d12 are committed by joystick flick; online animation lands on the backend-approved private result."},
-    {"id":"twelve_hour_night","use":"Advance twelve Burrow Hours; only scheduled clients wake while sleeping clients remain in Night Lock."},
-    {"id":"geojson_raid","use":"Historical Raider clicks the packaged Minnow Treat GeoJSON polygon during the theft window to transition the private scene."},
-    {"id":"card_tampering","use":"Trouble blind-swaps two player cards; Dooker can move a viewed Hammock card onto a player."},
-    {"id":"morning_business","use":"Shared discussion combines verified personal facts with explicitly unverified public claims."},
-    {"id":"simultaneous_paw_point","use":"Each active player locks one private vote; Guardian protection resolves before top-vote capture; eligible ties catch all top players."},
-    {"id":"secondary_reveal","use":"Snuggle Bond and loyal Hunter Hunt Mark can add reveals after the primary vote capture."},
-    {"id":"bot_seat_autofill","use":"Frontend creates ordinary ready guest seats for empty target seats; bots receive random roles only from game.state after backend deal."},
-    {"id":"reconnect_private_view","use":"Reconnect rebuilds only the authorized current state; hidden history is never replayed to unauthorized clients."}
+    {
+      "id": "random_active_set",
+      "use": "Build player-count + 3 active cards from the dossier recipe and let the tested backend shuffle/deal."
+    },
+    {
+      "id": "starting_vs_current_card",
+      "use": "Starting Role drives scheduled night action; Current Card may move without rewriting historical events."
+    },
+    {
+      "id": "player_bound_status",
+      "use": "Raider, Trouble accomplice, Hunter conversion and Snuggle Bond stay attached to players across card movement."
+    },
+    {
+      "id": "private_dice",
+      "use": "/1/ d6 and /2/ d12 are committed by joystick flick; online animation lands on the backend-approved private result."
+    },
+    {
+      "id": "twelve_hour_night",
+      "use": "Advance twelve Burrow Hours; only scheduled clients wake while sleeping clients remain in Night Lock."
+    },
+    {
+      "id": "geojson_raid",
+      "use": "Historical Raider clicks the packaged Minnow Treat GeoJSON polygon during the theft window to transition the private scene."
+    },
+    {
+      "id": "card_tampering",
+      "use": "Trouble blind-swaps two player cards; Dooker can move a viewed Hammock card onto a player."
+    },
+    {
+      "id": "morning_business",
+      "use": "Shared discussion combines verified personal facts with explicitly unverified public claims."
+    },
+    {
+      "id": "simultaneous_paw_point",
+      "use": "Each active player locks one private vote for another player; Guardian protection resolves before capture eligibility; all unprotected positive top ties are caught, and no positive eligible total means no Paw Point capture."
+    },
+    {
+      "id": "secondary_resolution",
+      "use": "Resolve Paw Point catches, then valid loyal-Hunter Hunt Mark catches, then Snuggle Bond result reveals; Bond-Reveal is never itself a catch."
+    },
+    {
+      "id": "bot_seat_autofill",
+      "use": "Frontend creates ordinary ready guest seats for empty target seats; bots receive random roles only from game.state after backend deal."
+    },
+    {
+      "id": "reconnect_private_view",
+      "use": "Reconnect rebuilds only the authorized current state; hidden history is never replayed to unauthorized clients."
+    },
+    {
+      "id": "result_provenance",
+      "use": "CAUGHT is a capture state from Paw Point or a valid loyal-Hunter Hunt Mark; BOND-REVEALED is a separate results-only reveal and never itself a catch."
+    },
+    {
+      "id": "secondary_dependency_order",
+      "use": "Resolve Paw Point catches, then a valid loyal-Hunter Hunt Mark catch, then Snuggle Bond result reveals, then the historical-Raider primary-win check."
+    }
   ]
 }

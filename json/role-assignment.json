@@ -1,21 +1,94 @@
 {
-  "version": 4,
+  "version": 6,
   "liveDeal": "backend-random-and-authoritative",
-  "purpose": "Documents random active-set/deal rules. Browser guest bots fill empty seats but never reserve or pre-claim roles.",
-  "roles": ["BANDIT","DOOKER","ITCHY","TROUBLE","BUSINESS","SNUGGLER","HUNTER","GUARDIAN"],
-  "deck": {"BANDIT":4,"BUSINESS":14,"DOOKER":1,"ITCHY":1,"TROUBLE":1,"SNUGGLER":1,"HUNTER":1,"GUARDIAN":1},
+  "purpose": "Revision 3.3 seat/deal policy: lobby seats, including local fallback and bot seats, are role-neutral; roles are assigned only by the authoritative shuffled game deal at start.",
+  "roles": [
+    "BANDIT",
+    "DOOKER",
+    "ITCHY",
+    "TROUBLE",
+    "BUSINESS",
+    "SNUGGLER",
+    "HUNTER",
+    "GUARDIAN"
+  ],
+  "deck": {
+    "BANDIT": 4,
+    "BUSINESS": 14,
+    "DOOKER": 1,
+    "ITCHY": 1,
+    "TROUBLE": 1,
+    "SNUGGLER": 1,
+    "HUNTER": 1,
+    "GUARDIAN": 1
+  },
   "hammockCards": 3,
   "activeSetRecipes": {
-    "4": {"BANDIT":1,"BUSINESS":3,"DOOKER":1,"HUNTER":1,"GUARDIAN":1},
-    "5": {"BANDIT":1,"BUSINESS":3,"DOOKER":1,"ITCHY":1,"TROUBLE":1,"SNUGGLER":1},
-    "6": {"BANDIT":1,"BUSINESS":3,"DOOKER":1,"ITCHY":1,"TROUBLE":1,"HUNTER":1,"GUARDIAN":1},
-    "7": {"BANDIT":2,"BUSINESS":3,"DOOKER":1,"TROUBLE":1,"SNUGGLER":1,"HUNTER":1,"GUARDIAN":1},
-    "8": {"BANDIT":2,"BUSINESS":4,"DOOKER":1,"ITCHY":1,"TROUBLE":1,"HUNTER":1,"GUARDIAN":1},
-    "9": {"BANDIT":2,"BUSINESS":4,"DOOKER":1,"ITCHY":1,"TROUBLE":1,"SNUGGLER":1,"HUNTER":1,"GUARDIAN":1},
-    "10": {"BANDIT":2,"BUSINESS":5,"DOOKER":1,"ITCHY":1,"TROUBLE":1,"SNUGGLER":1,"HUNTER":1,"GUARDIAN":1}
+    "4": {
+      "BANDIT": 1,
+      "BUSINESS": 3,
+      "DOOKER": 1,
+      "HUNTER": 1,
+      "GUARDIAN": 1
+    },
+    "5": {
+      "BANDIT": 1,
+      "BUSINESS": 3,
+      "DOOKER": 1,
+      "ITCHY": 1,
+      "TROUBLE": 1,
+      "SNUGGLER": 1
+    },
+    "6": {
+      "BANDIT": 1,
+      "BUSINESS": 3,
+      "DOOKER": 1,
+      "ITCHY": 1,
+      "TROUBLE": 1,
+      "HUNTER": 1,
+      "GUARDIAN": 1
+    },
+    "7": {
+      "BANDIT": 2,
+      "BUSINESS": 3,
+      "DOOKER": 1,
+      "TROUBLE": 1,
+      "SNUGGLER": 1,
+      "HUNTER": 1,
+      "GUARDIAN": 1
+    },
+    "8": {
+      "BANDIT": 2,
+      "BUSINESS": 4,
+      "DOOKER": 1,
+      "ITCHY": 1,
+      "TROUBLE": 1,
+      "HUNTER": 1,
+      "GUARDIAN": 1
+    },
+    "9": {
+      "BANDIT": 2,
+      "BUSINESS": 4,
+      "DOOKER": 1,
+      "ITCHY": 1,
+      "TROUBLE": 1,
+      "SNUGGLER": 1,
+      "HUNTER": 1,
+      "GUARDIAN": 1
+    },
+    "10": {
+      "BANDIT": 2,
+      "BUSINESS": 5,
+      "DOOKER": 1,
+      "ITCHY": 1,
+      "TROUBLE": 1,
+      "SNUGGLER": 1,
+      "HUNTER": 1,
+      "GUARDIAN": 1
+    }
   },
   "flow": {
-    "lobby": "Humans and optional frontend guest bots occupy seats only.",
+    "lobby": "All occupied seats remain role-neutral before the game deal; no human or bot reserves a role.",
     "start": "The tested backend builds and shuffles the active set, deals one Starting Card per player, and keeps three Hammock cards.",
     "bots": "After game.start, each bot reads only its own authoritative startingRole and loads the matching specialized role brain.",
     "cardMovement": "Starting Role never mutates; Current Card and player-bound statuses remain separate."

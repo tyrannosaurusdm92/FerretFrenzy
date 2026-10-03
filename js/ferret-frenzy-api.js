@@ -1,3 +1,4 @@
+import {normalizeRevision3Envelope} from './revision3-normalizer.js';
 import {FF_BACKEND_URL,FF_BACKEND_ID,FF_SAFE_BOT_ACTIONS,FF_HOST_ACTIONS} from './ferret-frenzy-constants.js';
 
 export class FerretFrenzyApiError extends Error {
@@ -29,7 +30,7 @@ export class FerretFrenzyApi {
     let body; try{body=await res.json();}catch{throw new FerretFrenzyApiError('INVALID_JSON','Ferret Frenzy backend returned invalid JSON.',res.status);}
     if(body?.backendId && body.backendId!==FF_BACKEND_ID) throw new FerretFrenzyApiError('WRONG_BACKEND','Response was not from Ferret Frenzy.');
     if(body?.ok===false){const e=body.error||{};throw new FerretFrenzyApiError(e.code,e.message,e.status,e.details);}
-    return body?.data ?? body;
+    return normalizeRevision3Envelope(body?.data ?? body);
   }
   health(){return this.post('health',{});} guestCreate(displayName,avatarKey=''){return this.post('guest.create',{displayName,avatarKey});}
   guestResume(guestToken){return this.post('guest.resume',{guestToken});} lobbyJoin(guestToken,code){return this.post('lobby.join',{guestToken,code});}
